@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SurveyQuestion matches the snapshot 1`] = `
+<div
+  className="surveyquestion"
+>
+  <div
+    className="surveyquestion-date-div"
+  >
+    <span
+      data-testid="surveyquestion-content-answeredOn-01/01/2020"
+    >
+      Answered on 
+      01/01/2020
+    </span>
+  </div>
+  <div
+    className="surveyquestion-questiontext"
+    data-testid="surveyquestion-content-questiontext-Test question text"
+  >
+    Test question text
+  </div>
+  <div
+    className="surveyquestion-answerwrap"
+  >
+    <IconFlag
+      color="var(--misc_negative_bg)"
+      data-testid="surveyquestion-iconflag-Test question text"
+      height="26"
+      width="25"
+    />
+     
+    <span
+      className="surveyquestion-answertext"
+      data-testid="surveyquestion-answertext-Test answer"
+    >
+      Test answer
+    </span>
+  </div>
+  <div
+    className="surveyquestion-buttonswrap"
+  >
+    <ButtonGhost
+      className=""
+      data-testid="surveyquestion-resolve-Test question text"
+      fluid={false}
+      onClick={[MockFunction]}
+      red={false}
+      style={Object {}}
+    >
+      Resolve
+    </ButtonGhost>
+    <Button
+      data-testid="surveyquestion-sendmessage-Test question text"
+      fluid={false}
+      onClick={[MockFunction]}
+      style={Object {}}
+      type="submit"
+    >
+      Send Message
+    </Button>
+  </div>
+</div>
+`;
+
+exports[`SurveyQuestion matches the snapshot with canMessage set to false 1`] = `
+<div
+  className="surveyquestion"
+>
+  <div
+    className="surveyquestion-date-div"
+  >
+    <span
+      data-testid="surveyquestion-content-answeredOn-01/01/2020"
+    >
+      Answered on 
+      01/01/2020
+    </span>
+  </div>
+  <div
+    className="surveyquestion-questiontext"
+    data-testid="surveyquestion-content-questiontext-Test question text"
+  >
+    Test question text
+  </div>
+  <div
+    className="surveyquestion-answerwrap"
+  >
+    <IconFlag
+      color="var(--misc_negative_bg)"
+      data-testid="surveyquestion-iconflag-Test question text"
+      height="26"
+      width="25"
+    />
+     
+    <span
+      className="surveyquestion-answertext"
+      data-testid="surveyquestion-answertext-Test answer"
+    >
+      Test answer
+    </span>
+  </div>
+  <div
+    className="surveyquestion-buttonswrap"
+  >
+    <ButtonGhost
+      className="fullwidth"
+      data-testid="surveyquestion-resolve-Test question text"
+      fluid={false}
+      onClick={[MockFunction]}
+      red={false}
+      style={Object {}}
+    >
+      Resolve
+    </ButtonGhost>
+  </div>
+</div>
+`;

@@ -1,0 +1,472 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EnrollProgramToast matches the snapshot 1`] = `
+<EnrollProgramToast
+  onClose={[MockFunction]}
+  onEnroll={[MockFunction]}
+  program={
+    Object {
+      "id": "1",
+      "name": "New program",
+    }
+  }
+  show={true}
+>
+  <ModalToast
+    show={true}
+  >
+    <div
+      className="modaltoast-dimmer"
+    />
+    <div
+      className="modaltoast-wrap modaltoast--show"
+      data-testid="modaltoast"
+    >
+      <div
+        className="modaltoast"
+      >
+        <div
+          className="enrollprogramtoast-container"
+        >
+          <div>
+            <span
+              className="enrollprogramtoast-header"
+            >
+              Add patient to 
+              New program
+            </span>
+          </div>
+          <div
+            className="enrollprogramtoast-content"
+          >
+            <span
+              className="enrollprogramtoast-title"
+            >
+              When will the Program start?
+            </span>
+            <RadioLabel
+              isChecked={true}
+              onClick={[Function]}
+              wrapperClass="enrollprogramtoast-nowwrapper"
+            >
+              <div
+                className="radiolabel-container enrollprogramtoast-nowwrapper"
+                onClick={[Function]}
+              >
+                <Radio
+                  isChecked={true}
+                  onClick={[Function]}
+                >
+                  <div
+                    className="radio-container"
+                    onClick={[Function]}
+                  >
+                    <div
+                      className="radio-content"
+                    >
+                      <div
+                        className="radio-checked"
+                      />
+                    </div>
+                  </div>
+                </Radio>
+                <div
+                  className="radiolabel-content"
+                >
+                  <span
+                    className="enrollprogramtoast-now"
+                  >
+                    Now
+                  </span>
+                </div>
+              </div>
+            </RadioLabel>
+            <RadioLabel
+              isChecked={false}
+              onClick={[Function]}
+              wrapperClass=""
+            >
+              <div
+                className="radiolabel-container"
+                onClick={[Function]}
+              >
+                <Radio
+                  isChecked={false}
+                  onClick={[Function]}
+                >
+                  <div
+                    className="radio-container"
+                    onClick={[Function]}
+                  >
+                    <div
+                      className="radio-content"
+                    />
+                  </div>
+                </Radio>
+                <div
+                  className="radiolabel-content"
+                >
+                  <div
+                    className="enrollprogramtoast-datepickercontainer"
+                  >
+                    <DateInput
+                      className=""
+                      displayOnly={false}
+                      errorMessage=""
+                      hasError={false}
+                      hintText=""
+                      isClearable={true}
+                      label=""
+                      minDate={2021-02-18T13:50:00.000Z}
+                      name="enroll-date"
+                      onChange={[Function]}
+                      placeholder=""
+                      style={Object {}}
+                      value={null}
+                    >
+                      <div
+                        className="dateinput-wrapper "
+                        style={Object {}}
+                      >
+                        <r
+                          allowSameDay={false}
+                          aria-labelledby="enroll-date-label"
+                          customInput={
+                            <DateInputControl
+                              hasError={false}
+                              id="enroll-date-input"
+                              inputPlaceholder=""
+                              name="enroll-date"
+                              style={
+                                Object {
+                                  "width": "100%",
+                                }
+                              }
+                            />
+                          }
+                          customTimeInput={null}
+                          dateFormat="MM/dd/yyyy"
+                          dateFormatCalendar="LLLL yyyy"
+                          disabled={false}
+                          disabledKeyboardNavigation={false}
+                          dropdownMode="select"
+                          enableTabLoop={true}
+                          excludeScrollbar={true}
+                          focusSelectedMonth={false}
+                          id="enroll-date-input"
+                          isClearable={true}
+                          minDate={2021-02-18T13:50:00.000Z}
+                          monthsShown={1}
+                          name="enroll-date"
+                          nextMonthButtonLabel="Next Month"
+                          nextYearButtonLabel="Next Year"
+                          onBlur={[Function]}
+                          onCalendarClose={[Function]}
+                          onCalendarOpen={[Function]}
+                          onChange={[Function]}
+                          onClickOutside={[Function]}
+                          onFocus={[Function]}
+                          onInputClick={[Function]}
+                          onInputError={[Function]}
+                          onKeyDown={[Function]}
+                          onMonthChange={[Function]}
+                          onSelect={[Function]}
+                          onYearChange={[Function]}
+                          preventOpenOnFocus={false}
+                          previousMonthButtonLabel="Previous Month"
+                          previousYearButtonLabel="Previous Year"
+                          readOnly={false}
+                          renderDayContents={[Function]}
+                          selected={null}
+                          shouldCloseOnSelect={true}
+                          showFourColumnMonthYearPicker={false}
+                          showFullMonthYearPicker={false}
+                          showMonthDropdown={true}
+                          showMonthYearPicker={false}
+                          showPopperArrow={true}
+                          showPreviousMonths={false}
+                          showQuarterYearPicker={false}
+                          showTimeInput={false}
+                          showTimeSelect={false}
+                          showTwoColumnMonthYearPicker={false}
+                          showYearDropdown={true}
+                          showYearPicker={false}
+                          strictParsing={false}
+                          timeCaption="Time"
+                          timeInputLabel="Time"
+                          timeIntervals={30}
+                          withPortal={false}
+                          yearItemNumber={12}
+                        >
+                          <r
+                            enableTabLoop={true}
+                            hidePopper={true}
+                            popperComponent={null}
+                            popperModifiers={
+                              Object {
+                                "preventOverflow": Object {
+                                  "boundariesElement": "viewport",
+                                  "enabled": true,
+                                  "escapeWithReference": true,
+                                },
+                              }
+                            }
+                            popperOnKeyDown={[Function]}
+                            popperPlacement="bottom-start"
+                            popperProps={Object {}}
+                            targetComponent={
+                              <div
+                                className="react-datepicker__input-container"
+                              >
+                                <DateInputControl
+                                  className=""
+                                  disabled={false}
+                                  hasError={false}
+                                  id="enroll-date-input"
+                                  inputPlaceholder=""
+                                  name="enroll-date"
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  onClick={[Function]}
+                                  onFocus={[Function]}
+                                  onKeyDown={[Function]}
+                                  readOnly={false}
+                                  style={
+                                    Object {
+                                      "width": "100%",
+                                    }
+                                  }
+                                  value=""
+                                />
+                              </div>
+                            }
+                          >
+                            <Manager
+                              className="react-datepicker-manager"
+                            >
+                              <Reference>
+                                <InnerReference
+                                  setReferenceNode={[Function]}
+                                >
+                                  <div
+                                    className="react-datepicker-wrapper"
+                                  >
+                                    <div
+                                      className="react-datepicker__input-container"
+                                    >
+                                      <DateInputControl
+                                        className=""
+                                        disabled={false}
+                                        hasError={false}
+                                        id="enroll-date-input"
+                                        inputPlaceholder=""
+                                        name="enroll-date"
+                                        onBlur={[Function]}
+                                        onChange={[Function]}
+                                        onClick={[Function]}
+                                        onFocus={[Function]}
+                                        onKeyDown={[Function]}
+                                        readOnly={false}
+                                        style={
+                                          Object {
+                                            "width": "100%",
+                                          }
+                                        }
+                                        value=""
+                                      >
+                                        <input
+                                          className="dateinput "
+                                          data-testid="enroll-date-input"
+                                          id="enroll-date-input"
+                                          onBlur={[Function]}
+                                          onChange={[Function]}
+                                          onClick={[Function]}
+                                          onFocus={[Function]}
+                                          onKeyDown={[Function]}
+                                          placeholder=""
+                                          type="text"
+                                          value=""
+                                        />
+                                      </DateInputControl>
+                                    </div>
+                                  </div>
+                                </InnerReference>
+                              </Reference>
+                            </Manager>
+                          </r>
+                        </r>
+                        <InputMessage
+                          message=""
+                          show={false}
+                        />
+                      </div>
+                    </DateInput>
+                  </div>
+                </div>
+              </div>
+            </RadioLabel>
+          </div>
+          <div
+            className="enrollprogramtoast-footer"
+          >
+            <div
+              className="enrollprogramtoast-buttonwrapper"
+            >
+              <ButtonGhost
+                className=""
+                data-testid="button-cancel"
+                fluid={true}
+                onClick={[Function]}
+                red={false}
+                style={
+                  Object {
+                    "height": "100%",
+                  }
+                }
+              >
+                <Button
+                  as="button"
+                  className="buttonghost  "
+                  data-testid="button-cancel"
+                  fluid={true}
+                  inverted={true}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "height": "100%",
+                    }
+                  }
+                >
+                  <Ref
+                    innerRef={
+                      Object {
+                        "current": <button
+                          class="ui fluid inverted button buttonghost  "
+                          data-testid="button-cancel"
+                          style="height: 100%;"
+                        >
+                          Cancel
+                        </button>,
+                      }
+                    }
+                  >
+                    <RefFindNode
+                      innerRef={
+                        Object {
+                          "current": <button
+                            class="ui fluid inverted button buttonghost  "
+                            data-testid="button-cancel"
+                            style="height: 100%;"
+                          >
+                            Cancel
+                          </button>,
+                        }
+                      }
+                    >
+                      <button
+                        className="ui fluid inverted button buttonghost  "
+                        data-testid="button-cancel"
+                        onClick={[Function]}
+                        style={
+                          Object {
+                            "height": "100%",
+                          }
+                        }
+                      >
+                        Cancel
+                      </button>
+                    </RefFindNode>
+                  </Ref>
+                </Button>
+              </ButtonGhost>
+            </div>
+            <div
+              className="enrollprogramtoast-buttonwrapper enrollprogramtoast-save"
+            >
+              <Button
+                data-testid="button-enroll"
+                disabled={false}
+                fluid={true}
+                onClick={[Function]}
+                style={Object {}}
+                type="submit"
+              >
+                <Button
+                  as="button"
+                  className="button-custom"
+                  data-testid="button-enroll"
+                  disabled={false}
+                  fluid={true}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "var(--button_color)",
+                      "color": "var(--dark_black)",
+                    }
+                  }
+                  type="submit"
+                >
+                  <Ref
+                    innerRef={
+                      Object {
+                        "current": <button
+                          class="ui fluid button button-custom"
+                          data-testid="button-enroll"
+                          type="submit"
+                        >
+                          Enroll
+                        </button>,
+                      }
+                    }
+                  >
+                    <RefFindNode
+                      innerRef={
+                        Object {
+                          "current": <button
+                            class="ui fluid button button-custom"
+                            data-testid="button-enroll"
+                            type="submit"
+                          >
+                            Enroll
+                          </button>,
+                        }
+                      }
+                    >
+                      <button
+                        className="ui fluid button button-custom"
+                        data-testid="button-enroll"
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseEnter={[Function]}
+                        onMouseLeave={[Function]}
+                        onMouseUp={[Function]}
+                        style={
+                          Object {
+                            "backgroundColor": "var(--button_color)",
+                            "color": "var(--dark_black)",
+                          }
+                        }
+                        type="submit"
+                      >
+                        Enroll
+                      </button>
+                    </RefFindNode>
+                  </Ref>
+                </Button>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ModalToast>
+</EnrollProgramToast>
+`;

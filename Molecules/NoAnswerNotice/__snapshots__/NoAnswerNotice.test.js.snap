@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NoAnswerNotice matches the snapshot w/o a profile image 1`] = `
+<div
+  className="noanswernotice-wrap"
+>
+  <div
+    className="noanswernotice-dimmer"
+  />
+  <div
+    className="noanswernotice-content"
+    data-testid="no-answer-notice"
+  >
+    <UserCardLarge
+      actionText=""
+      onClick={[Function]}
+      profileImage=""
+      style={
+        Object {
+          "marginBottom": -50,
+        }
+      }
+      title=""
+      userName=""
+    />
+    <div>
+      <span
+        className="noanswernotice-notice"
+      >
+        Korben
+         didn't answer.
+      </span>
+      <span
+        className="noanswernotice-notice"
+      >
+        Would you like to retry?
+      </span>
+    </div>
+    <div
+      className="noanswernotice-buttons noanswernotice-buttons-center"
+    >
+      <CancelCallButton
+        ghost={true}
+        onClick={[MockFunction]}
+      />
+      <RetryCallButton
+        onClick={[MockFunction]}
+        showLabel={true}
+        wrapStyle={Object {}}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NoAnswerNotice matches the snapshot with a profile image 1`] = `
+<div
+  className="noanswernotice-wrap"
+>
+  <div
+    className="noanswernotice-dimmer"
+  />
+  <div
+    className="noanswernotice-content"
+    data-testid="no-answer-notice"
+  >
+    <UserCardLarge
+      actionText=""
+      onClick={[Function]}
+      profileImage="ent-placeholder.png"
+      style={
+        Object {
+          "marginBottom": -50,
+        }
+      }
+      title=""
+      userName=""
+    />
+    <div>
+      <span
+        className="noanswernotice-notice"
+      >
+        Korben
+         didn't answer.
+      </span>
+      <span
+        className="noanswernotice-notice"
+      >
+        Would you like to retry?
+      </span>
+    </div>
+    <div
+      className="noanswernotice-buttons noanswernotice-buttons-center"
+    >
+      <CancelCallButton
+        ghost={true}
+        onClick={[MockFunction]}
+      />
+      <RetryCallButton
+        onClick={[MockFunction]}
+        showLabel={true}
+        wrapStyle={Object {}}
+      />
+    </div>
+  </div>
+</div>
+`;

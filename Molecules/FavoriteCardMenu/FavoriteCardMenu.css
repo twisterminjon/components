@@ -1,0 +1,72 @@
+/* Note: See UserCardFavorite.css for how the visibility of the menu is controlled.
+We are using the hover of the fav button to control the favoritecardmenu width. */
+.favoritecardmenu {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  top: 0;
+  left: 0;
+
+  width: 0;
+  height: 76px;
+
+  background-color: var(--favcard__menu_bg);
+  border: none;
+  border-radius: 4px;
+  outline: none;
+
+  overflow: hidden;
+  z-index: 1;
+}
+
+.favoritecardmenu-button {
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  max-width: 100px;
+  height: 30px;
+
+  padding: 4px 6px;
+  margin: 6px 8px;
+
+  background-color: var(--button_color);
+
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  text-align: left;
+}
+
+.favoritecardmenu-icon {
+  height: 16px;
+  margin-right: 6px;
+  flex-shrink: 0;
+}
+
+.favoritecardmenu-button-text {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.favoritecardmenu-button:hover {
+  background-color: var(--button_color_hover);
+}
+
+.favoritecardmenu-button:focus {
+  background-color: var(--button_color_hover);
+}
+
+.favoritecardmenu-button:active {
+  background-color: var(--button_color_pressed);
+}
+
+.favoritecardmenu-button:disabled,
+.favoritecardmenu-button[disabled] {
+  background-color: var(--favcard__menu__button_bg);
+  color: var(--favcard__menu__button_fg);
+  pointer-events: none;
+}

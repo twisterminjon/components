@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Meter matches the snapshot 1`] = `
+<div
+  className="meter"
+>
+  <span
+    data-testid="meter-bp-value"
+  >
+    100/7
+  </span>
+  <span
+    data-testid="meter-bp-label"
+  >
+    bp
+  </span>
+</div>
+`;

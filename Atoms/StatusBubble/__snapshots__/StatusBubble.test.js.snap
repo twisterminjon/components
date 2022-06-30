@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatusBubble matches the snapshot - available 1`] = `
+<div
+  className="statusbubble statusbubble--available"
+  style={Object {}}
+/>
+`;
+
+exports[`StatusBubble matches the snapshot - busy 1`] = `
+<div
+  className="statusbubble statusbubble--busy"
+  style={Object {}}
+/>
+`;
+
+exports[`StatusBubble matches the snapshot - offline 1`] = `
+<div
+  className="statusbubble statusbubble--offline"
+  style={Object {}}
+/>
+`;

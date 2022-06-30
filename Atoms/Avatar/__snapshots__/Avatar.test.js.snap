@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar matches the snapshot 1`] = `
+<Fragment>
+  <div
+    className="avatar"
+    style={
+      Object {
+        "height": "24px",
+        "lineHeight": "24px",
+        "width": "24px",
+      }
+    }
+  >
+    <img
+      alt="user avatar"
+      src="https://www.fillmurray.com/60/60"
+      style={
+        Object {
+          "height": "24px",
+          "lineHeight": "24px",
+          "width": "24px",
+        }
+      }
+    />
+  </div>
+</Fragment>
+`;

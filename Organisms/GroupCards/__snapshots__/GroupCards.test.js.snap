@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GroupCards matches the snapshot 1`] = `
+<div
+  className="groupcards-grid"
+  data-testid="group-cards"
+>
+  <GroupButton
+    data-testid="group-button-beating heart"
+    key="1"
+    label="beating heart"
+    name="beating heart"
+    onClick={[Function]}
+  />
+  <GroupButton
+    data-testid="group-button-black crow"
+    key="2"
+    label="black crow"
+    name="black crow"
+    onClick={[Function]}
+  />
+  <div
+    style={
+      Object {
+        "height": "var(--bottom-whitespace-v1)",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`GroupCards renders with no groups passed in 1`] = `
+<div
+  className="groupcards-grid"
+  data-testid="group-cards"
+>
+  <div
+    style={
+      Object {
+        "height": "var(--bottom-whitespace-v1)",
+      }
+    }
+  />
+</div>
+`;

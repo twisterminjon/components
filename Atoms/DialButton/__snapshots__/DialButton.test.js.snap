@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DialButton matches the snapshot if does not have mic and cam 1`] = `
+<button
+  aria-label="dial"
+  className="dialbutton dialbutton--disabled"
+  data-testid="button-start-call"
+  disabled={true}
+  onClick={[MockFunction]}
+  style={Object {}}
+>
+  <IconAnswerCall
+    className=""
+    color="var(--statusbubble_offline)"
+    style={
+      Object {
+        "transform": "scale(0.7)",
+      }
+    }
+  />
+</button>
+`;

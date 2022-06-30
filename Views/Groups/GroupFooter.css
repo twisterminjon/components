@@ -1,0 +1,41 @@
+.groupfooter-container {
+  position: fixed;
+  bottom: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 86px;
+  background-color: var(--grouppage__footer_bg);
+}
+
+.groupfooter-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 221px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: var(--grouppage__button_bg);
+  border: none;
+  outline: none;
+}
+
+.groupfooter-button-label {
+  color: var(--grouppage__button_fg);
+  margin-left: 8px;
+  width: 152px;
+  height: 21px;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.groupfooter-button:disabled {
+  background-color: var(--grouppage__button_disabled);
+}

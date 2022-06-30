@@ -1,0 +1,22 @@
+.assessment-text-answer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.assessment-text {
+  padding: 12px;
+  border: 1px solid var(--assessment__bg_extra_light);
+
+  color: var(--base__body_fg);
+  background: var(--assessment__bg_light);
+
+  font-weight: var(--font-base--regular);
+  font-size: var(--font-base-body--size-medium);
+
+  width: 100%;
+}
+
+.assessment-text::selection {
+  background-color: var(--semantic__selection_bg);
+}

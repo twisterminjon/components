@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeleteButtonIcon DeleteButtonIcon matches the snapshot 1`] = `
+<div
+  className="deletebuttonicon-wrap"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={Object {}}
+>
+  <button
+    aria-label="Delete"
+    className="deletebuttonicon-button"
+    data-testid="delete-button"
+    disabled={false}
+    onClick={[MockFunction]}
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "2px solid var(--button_color_danger)",
+        "height": 25,
+        "width": 25,
+      }
+    }
+  >
+    <IconTrashcan
+      color="var(--button_color_danger)"
+      size={10}
+    />
+  </button>
+</div>
+`;

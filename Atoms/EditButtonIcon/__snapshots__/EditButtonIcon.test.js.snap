@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditButtonIcon EditButtonIcon matches the snapshot 1`] = `
+<div
+  className="editbuttonicon "
+  style={Object {}}
+>
+  <IconPencil
+    color="var(--button__edit_settings_fg)"
+    size={8}
+  />
+</div>
+`;

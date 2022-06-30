@@ -1,0 +1,45 @@
+.dashboard-container {
+  overflow-y: auto;
+  height: 100%;
+  padding-top: var(--favbar-height);
+}
+
+.dashboard-assessment-button {
+  position: relative;
+  height: 57px;
+  width: 100%;
+
+  font-size: var(--font-base-body--size-medium);
+  font-weight: var(--font-base--regular);
+
+  color: var(--button_negative_fg);
+  background-color: var(--misc_negative_bg);
+
+  /* remove button styles */
+  text-transform: none;
+  text-shadow: none;
+  line-height: 1em;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+.dashboard-assessment-button:hover {
+  color: var(--button_negative_hover_fg);
+  background-color: var(--button_negative_hover_bg);
+}
+
+.dashboard-assessment-button:focus {
+  color: var(--button_negative_hover_fg);
+  background-color: var(--button_negative_hover_bg);
+
+  outline: 1px solid var(--button_negative_hover_fg);
+  outline-offset: -4px;
+}
+
+.dashboard-assessment-button:active {
+  color: var(--button_negative_active_fg);
+  background-color: var(--button_negative_active_bg);
+}

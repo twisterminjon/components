@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FavButton matches the snapshot 1`] = `
+<button
+  aria-label="Favorite"
+  className="favbutton-button"
+  color="red"
+  name="test"
+  onClick={[MockFunction]}
+>
+  <svg
+    hieght="24"
+    viewBox="0 0 25 24"
+    width="25"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M12.16,1.82,9.11,7.88l-6.83,1a1.46,1.46,0,0,0-.83,2.5l4.94,4.72L5.22,22.73a1.49,1.49,0,0,0,2.17,1.55l6.11-3.15,6.11,3.15a1.5,1.5,0,0,0,2.17-1.55l-1.17-6.66,4.94-4.72a1.46,1.46,0,0,0-.83-2.5l-6.83-1L14.84,1.82A1.5,1.5,0,0,0,12.16,1.82Z"
+      fill="none"
+      isolation="isolate"
+      opacity="0.5"
+      stroke="#979797"
+      strokeWidth="1.5px"
+      transform="translate(-0.25 -0.25)"
+    />
+  </svg>
+</button>
+`;

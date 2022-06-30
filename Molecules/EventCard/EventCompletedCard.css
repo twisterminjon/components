@@ -1,0 +1,8 @@
+.eventcompletedcard-wrapper {
+  background-color: var(--transparent);
+  cursor: default;
+}
+
+.eventcompletedcard-text {
+  color: var(--program_events_completed_text);
+}

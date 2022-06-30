@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Radio matches the snapshot 1`] = `
+<Radio
+  isChecked={true}
+  onClick={[MockFunction]}
+>
+  <div
+    className="radio-container"
+    onClick={[Function]}
+  >
+    <div
+      className="radio-content"
+    >
+      <div
+        className="radio-checked"
+      />
+    </div>
+  </div>
+</Radio>
+`;

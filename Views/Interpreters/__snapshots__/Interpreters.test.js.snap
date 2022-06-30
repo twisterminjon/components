@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Interpreters matches the snapshot 1`] = `
+<div
+  className="interpreters-wrap"
+  data-testid="languages-page"
+>
+  <SearchBar
+    className=""
+    focusOnMount={true}
+    onChange={[Function]}
+    style={Object {}}
+    value=""
+  />
+  <InterpreterCard
+    disabled={false}
+    key="spanish"
+    name="Spanish"
+    onClick={[Function]}
+  />
+  <InterpreterCard
+    disabled={false}
+    key="arabic"
+    name="Arabic"
+    onClick={[Function]}
+  />
+</div>
+`;

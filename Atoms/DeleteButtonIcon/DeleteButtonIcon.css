@@ -1,0 +1,33 @@
+.deletebuttonicon-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 68px;
+  height: 68px;
+  background-color: transparent;
+}
+
+.deletebuttonicon-wrap:hover {
+  background-color: var(--button_color_danger);
+}
+
+.deletebuttonicon-wrap:hover .deletebuttonicon-button {
+  transform: scale(1.5);
+}
+
+.deletebuttonicon-button {
+  border-radius: 100%;
+  outline: none;
+}
+
+.deletebuttonicon-button:focus {
+  box-shadow: 0 0 10px rgba(198, 11, 11, 0.75), 0 0 16px rgba(198, 11, 11, 0.75);
+}
+
+.deletebuttonicon-button:disabled {
+  opacity: 0.5;
+}
+
+.deletebuttonicon-down {
+  transform: scale(0.65);
+}

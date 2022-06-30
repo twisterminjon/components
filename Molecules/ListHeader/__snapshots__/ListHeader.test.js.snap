@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListHeader matches the snapshot 1`] = `
+<ListHeader
+  label="Title"
+>
+  <div
+    className="listheader-container"
+  >
+    <div
+      className="listheader-titlecontainer"
+    >
+      <span
+        className="listheader-title"
+      >
+        Title
+      </span>
+    </div>
+    <div>
+      <EventCompletedCard
+        event={
+          Object {
+            "date": "2019-12-26",
+            "type": "CONTACT_CARE_TEAM",
+          }
+        }
+      >
+        <EventCard
+          date="12/26/2019"
+          label="Care Team"
+          loading={false}
+          renderIcon={[Function]}
+          textClassName="eventcompletedcard-text"
+          wrapperClassName="eventcompletedcard-wrapper"
+        >
+          <div
+            className="eventcard-container eventcompletedcard-wrapper"
+          >
+            <div
+              className="eventcard-content"
+            >
+              <div
+                className="eventcard-label"
+              >
+                <div
+                  className="eventcard-icon"
+                >
+                  <IconCheckSmall
+                    color="var(--program_events_completed_text)"
+                    size={25}
+                    style={Object {}}
+                  >
+                    <svg
+                      height={25}
+                      style={Object {}}
+                      viewBox="0 0 15 13"
+                      width={25}
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M5.095 11.976L.22 7.008a.775.775 0 0 1 0-1.081l1.06-1.081a.74.74 0 0 1 1.061 0l3.284 3.347 7.034-7.17a.74.74 0 0 1 1.06 0l1.061 1.082a.775.775 0 0 1 0 1.08l-8.625 8.791a.74.74 0 0 1-1.06 0z"
+                        fill="var(--program_events_completed_text)"
+                        fillRule="evenodd"
+                      />
+                    </svg>
+                  </IconCheckSmall>
+                </div>
+                <span
+                  className="eventcard-text eventcompletedcard-text"
+                >
+                  Care Team
+                </span>
+              </div>
+              <span
+                className="eventcard-text eventcompletedcard-text"
+              >
+                12/26/2019
+              </span>
+            </div>
+          </div>
+        </EventCard>
+      </EventCompletedCard>
+    </div>
+  </div>
+</ListHeader>
+`;

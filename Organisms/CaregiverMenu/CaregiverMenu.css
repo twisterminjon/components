@@ -1,0 +1,103 @@
+.caregivermenu {
+  padding: 24;
+}
+
+.caregivermenu h3 {
+  color: var(--white);
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0 0 16px 0;
+  width: 412px;
+}
+
+.caregivermenu hr {
+  border-top: 1px solid var(--brandcolor_muted);
+  border-bottom: none;
+  margin-left: -16px;
+  margin-right: -16px;
+}
+
+.caregivermenu hr {
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.caregivermenu hr:first-of-type {
+  margin-top: 16px;
+  margin-bottom: 18px;
+}
+
+.caregivermenu hr:last-of-type {
+  margin-top: 18px;
+  margin-bottom: 36px;
+}
+
+.caregivermenu--extra-margin {
+  margin-bottom: 18px !important;
+}
+
+.caregivermenu--message-button-left {
+  display: inline-block !important;
+  width: 50% !important;
+  margin: 10px 0 0 0 !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.caregivermenu--message-button-right {
+  display: inline-block !important;
+  width: 50% !important;
+  margin: 10px 0 0 0 !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+/* Login key */
+.caregiveraccesscode {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  width: 100%;
+  height: 48px;
+
+  color: var(--white);
+}
+
+.caregiveraccesscode p {
+  font-size: 16px;
+  font-weight: 300;
+
+  margin-bottom: 6px;
+}
+
+.caregiveraccesscode--col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.caregiveraccesscode-code {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.caregiveraccesscode-code > span:first-of-type {
+  font-size: 24px;
+  font-weight: 700;
+
+  letter-spacing: 8px;
+  color: var(--font-color);
+}
+
+.caregiveraccesscode--strike {
+  text-decoration: line-through;
+}
+
+.caregiveraccesscode-expired {
+  font-size: 16px;
+  font-weight: 300;
+
+  margin-left: 16px;
+}

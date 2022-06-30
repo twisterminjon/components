@@ -1,0 +1,17 @@
+.dropdown-button {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  flex: 1;
+  border: none;
+  background-color: transparent;
+}
+
+.dropdown-button p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 200px;
+}

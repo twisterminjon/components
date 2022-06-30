@@ -1,0 +1,13 @@
+.phonecountryselector--selected {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.phonecountryselector--trigger {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: space-between;
+}

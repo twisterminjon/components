@@ -1,0 +1,36 @@
+.selectpane-wrapper {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  background-color: var(--selectpane_bg);
+  z-index: 100;
+  top: 78px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.selectpane-items {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+.selectpane-close-button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  align-self: flex-end;
+  color: var(--selectpane-fg);
+  position: absolute;
+  right: 0;
+}
+
+.selectpane-close-button:hover {
+  cursor: pointer;
+}
+
+.selectpane-loader > div > div {
+  background-color: transparent !important;
+}

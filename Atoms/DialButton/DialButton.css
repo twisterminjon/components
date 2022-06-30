@@ -1,0 +1,42 @@
+.dialbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 100%;
+  border: none;
+
+  outline: none;
+
+  width: 39px;
+  height: 39px;
+}
+
+.dialbutton:hover {
+  opacity: 0.9;
+}
+
+.dialbutton:focus {
+  opacity: 0.9;
+}
+
+.dialbutton:active {
+  transform: scale(0.95);
+}
+
+.dialbutton--enabled {
+  color: var(--black);
+  background-color: var(--statusbubble_available);
+}
+
+.dialbutton--disabled {
+  background-color: transparent;
+}
+
+.dialbutton--disabled:hover {
+  opacity: 1;
+}
+
+.dialbutton--dimmed {
+  opacity: 0.5;
+}

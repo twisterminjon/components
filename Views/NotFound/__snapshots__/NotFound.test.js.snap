@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotFound matches the snapshot 1`] = `
+<div
+  className="notfound-wrap"
+>
+  <DocTitle
+    title=""
+  />
+  <Dimmer
+    backgroundColor="positive"
+    className=""
+    show={true}
+    style={Object {}}
+  />
+  <div
+    className="notfound-content"
+  >
+    <h1
+      className="notfound-title"
+    >
+      We couldn't find that page.
+    </h1>
+    <h3
+      className="notfound-text"
+    >
+      In the meantime, you can...
+    </h3>
+    <ul
+      className="notfound-list"
+    >
+      <li
+        className="notfound-list-item"
+      >
+        Go to the 
+        <Link
+          to="/app/dashboard"
+        >
+          dashboard
+        </Link>
+      </li>
+      <li
+        className="notfound-list-item"
+      >
+        Go to our 
+        <a
+          href="https://projectified/support/"
+        >
+          support
+        </a>
+         page
+      </li>
+    </ul>
+  </div>
+  <ProjectPowered
+    className="projectpowered-logo"
+    logoColor="#fff"
+    taglineColor="#9c9c9c"
+  />
+</div>
+`;

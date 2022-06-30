@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextAreaInput matches the snapshot 1`] = `
+<div
+  className="taguserinput"
+  style={Object {}}
+>
+  <Input
+    className="taguserinput-input"
+    data-testid="find-user-input"
+    error={false}
+    onChange={[MockFunction]}
+    placeholder="Find someone to add..."
+    type="text"
+    value="Dave"
+  />
+  <TagUsers
+    className=""
+    onRemove={[MockFunction]}
+    style={Object {}}
+    users={
+      Array [
+        Object {
+          "displayName": "Agnes Rogers, MD",
+          "id": "3",
+          "overallStatus": "available",
+          "profileImage": "https://www.fillmurray.com/200/200",
+        },
+        Object {
+          "displayName": "David McGinnis, MD",
+          "id": "9",
+          "overallStatus": "offline",
+          "profileImage": "https://www.fillmurray.com/400/400",
+        },
+        Object {
+          "displayName": "David Smith, MD",
+          "id": "4",
+          "overallStatus": "available",
+          "profileImage": "https://www.fillmurray.com/600/600",
+        },
+        Object {
+          "displayName": "Jennifer Reyes",
+          "id": "8",
+          "overallStatus": "away",
+          "profileImage": "https://www.fillmurray.com/500/500",
+        },
+        Object {
+          "displayName": "Paul Jason, RN",
+          "id": "6",
+          "overallStatus": "busy",
+          "profileImage": "https://www.fillmurray.com/700/700",
+        },
+        Object {
+          "displayName": "Rosalyn Stratton, RN",
+          "id": "5",
+          "overallStatus": "offline",
+          "profileImage": "https://www.fillmurray.com/800/800",
+        },
+        Object {
+          "displayName": "Sherry Jackson, MD",
+          "id": "10",
+          "overallStatus": "offline",
+          "profileImage": "https://www.fillmurray.com/200/200",
+        },
+        Object {
+          "displayName": "Tony Hunter",
+          "id": "7",
+          "overallStatus": "available",
+          "profileImage": "https://www.fillmurray.com/450/450",
+        },
+      ]
+    }
+  />
+  <InputMessage
+    message=""
+    show={false}
+  />
+</div>
+`;

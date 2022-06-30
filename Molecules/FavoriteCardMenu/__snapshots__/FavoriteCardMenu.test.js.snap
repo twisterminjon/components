@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FavoriteCardMenu matches the snapshot 1`] = `
+<div
+  className="favoritecardmenu "
+  data-testid="fav-menu-"
+  style={Object {}}
+>
+  <button
+    className="favoritecardmenu-button"
+    data-testid="fav-call-"
+    disabled={false}
+    onClick={[MockFunction]}
+  >
+    <IconAnswerCall
+      className="favoritecardmenu-icon"
+      color="var(--black)"
+      size={16}
+      style={
+        Object {
+          "width": 16,
+        }
+      }
+    />
+    <span
+      className="favoritecardmenu-button-text"
+    >
+      Call
+    </span>
+  </button>
+  <button
+    className="favoritecardmenu-button"
+    data-testid="fav-message-"
+    onClick={[MockFunction]}
+  >
+    <IconMessage
+      className="favoritecardmenu-icon"
+      color="black"
+      size={16}
+    />
+    <span
+      className="favoritecardmenu-button-text"
+    >
+      Message
+    </span>
+  </button>
+</div>
+`;
+
+exports[`FavoriteCardMenu matches the snapshot when calling is disabled 1`] = `
+<div
+  className="favoritecardmenu "
+  data-testid="fav-menu-"
+  style={Object {}}
+>
+  <button
+    className="favoritecardmenu-button"
+    data-testid="fav-call-"
+    disabled={true}
+    onClick={[MockFunction]}
+  >
+    <IconAnswerCall
+      className="favoritecardmenu-icon"
+      color="rgba(0, 0, 0, 0.2)"
+      size={16}
+      style={
+        Object {
+          "width": 16,
+        }
+      }
+    />
+    <span
+      className="favoritecardmenu-button-text"
+    >
+      Call
+    </span>
+  </button>
+  <button
+    className="favoritecardmenu-button"
+    data-testid="fav-message-"
+    onClick={[MockFunction]}
+  >
+    <IconMessage
+      className="favoritecardmenu-icon"
+      color="black"
+      size={16}
+    />
+    <span
+      className="favoritecardmenu-button-text"
+    >
+      Message
+    </span>
+  </button>
+</div>
+`;

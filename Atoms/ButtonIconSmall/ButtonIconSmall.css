@@ -1,0 +1,31 @@
+.buttoniconsmall {
+  width: 30px;
+  height: 30px;
+  display: inline-flex !important;
+  justify-content: center;
+  align-items: center;
+  padding: 0px !important;
+  background-color: transparent !important;
+  border: none;
+  outline: none;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.buttoniconsmall:hover {
+  background-color: var(--button_color_hover) !important;
+}
+
+.buttoniconsmall:focus {
+  background-color: var(--button_color_hover) !important;
+}
+
+.buttoniconsmall:active {
+  background-color: var(--button_color_pressed) !important;
+}
+
+.buttoniconsmall:disabled,
+.buttoniconsmall[disabled] {
+  color: var(--button_color_disabled) !important;
+  background-color: transparent !important;
+}

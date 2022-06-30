@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonIconSmall matches the snapshot 1`] = `
+<button
+  className="buttoniconsmall"
+>
+  <IconArrowRight
+    className=""
+    color="var(--button_negative_fg)"
+    size={14}
+    style={Object {}}
+  />
+</button>
+`;
+
+exports[`ButtonIconSmall matches the snapshot with custon icom props 1`] = `
+<button
+  className="buttoniconsmall"
+>
+  <IconArrowRight
+    className=""
+    color="red"
+    size={10}
+    style={Object {}}
+  />
+</button>
+`;

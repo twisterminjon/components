@@ -1,0 +1,747 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessageBanner matches the snapshot to allow calling 1`] = `
+<MessageBanner
+  avatarInteractive={true}
+  canAddUser={true}
+  canCall={true}
+  onAddUser={[MockFunction]}
+  onCall={[MockFunction]}
+  onSelectAvatar={[MockFunction]}
+  userInBanner={
+    Object {
+      "displayName": "test name",
+      "id": "1",
+      "isPatient": true,
+      "overallStatus": "available",
+      "profileImage": "https://www.fillmurray.com/200/200",
+    }
+  }
+>
+  <div
+    className="messagebanner "
+    data-testid="message-banner"
+    style={Object {}}
+  >
+    <div
+      className="messagebanner-avatar-wrap"
+    >
+      <button
+        className="messagebanner-button messagebanner-avatar-button"
+        onClick={[Function]}
+        title="Return to profile"
+      >
+        <UserAvatar
+          profileImage="https://www.fillmurray.com/200/200"
+          size="medium"
+          status="available"
+        >
+          <div
+            className="useravatar-container"
+          >
+            <Avatar
+              className=""
+              dimmed={false}
+              displayName={null}
+              imgUrl="https://www.fillmurray.com/200/200"
+              loading={false}
+              size="medium"
+              style={Object {}}
+            >
+              <div
+                className="avatar"
+                style={
+                  Object {
+                    "height": "32px",
+                    "lineHeight": "32px",
+                    "width": "32px",
+                  }
+                }
+              >
+                <img
+                  alt="user avatar"
+                  src="https://www.fillmurray.com/200/200"
+                  style={
+                    Object {
+                      "height": "32px",
+                      "lineHeight": "32px",
+                      "width": "32px",
+                    }
+                  }
+                />
+              </div>
+            </Avatar>
+            <StatusBubble
+              className="useravatar-statusbubble"
+              status="available"
+              style={Object {}}
+            >
+              <div
+                className="statusbubble statusbubble--available useravatar-statusbubble"
+                style={Object {}}
+              />
+            </StatusBubble>
+          </div>
+        </UserAvatar>
+      </button>
+    </div>
+    <button
+      className="messagebanner-button messagebanner-call-button"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <span
+        className="messagebanner-label"
+      >
+        test name
+      </span>
+      <IconPhoneSmall
+        className="messagebanner-call-icon"
+        color="var(--button_dial_available_bg)"
+        data-testid="button-call"
+        size="18"
+      >
+        <svg
+          height="18"
+          viewBox="0 0 18 18"
+          width="18"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          className=
+          messagebanner-call-icon
+          <path
+            d="M1.444 7.27C.398 5.375 0 3.847 0 2.816c0-1.032.253-1.328.51-1.567C.769 1.009 1.929.295 2.127.16 2.323.028 3.077-.23 3.55.45c.473.68 1.364 2.047 1.978 2.955.964 1.285.196 1.85-.052 2.188-.456.622-.719.776-.719 1.54s2.136 2.935 2.647 3.47c.507.531 2.635 2.397 3.294 2.497.665.1 1.554-.603 1.743-.781.961-.738 1.504-.179 1.947.065.443.243 2.444 1.49 3.064 1.91.584.42.548 1.07.548 1.07l-1.35 2.14c-.183.268-.62.497-1.605.497s-2.038-.18-4.539-1.555c-2.046-1.126-3.997-2.888-5.019-3.92-1.057-1.032-2.85-3.09-4.043-5.255z"
+            fill="var(--button_dial_available_bg)"
+            fillRule="evenodd"
+          />
+        </svg>
+      </IconPhoneSmall>
+    </button>
+    <button
+      className="messagebanner-button messagebanner-adduser-button"
+      data-testid="add-user"
+      onClick={[MockFunction]}
+    >
+      <IconAddUser
+        className=""
+        color="var(--button_primary_bg)"
+        size="34"
+        style={Object {}}
+      >
+        <svg
+          className=""
+          height="34"
+          style={Object {}}
+          viewBox="0 0 34 34"
+          width="34"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            fill="var(--button_primary_bg)"
+            fillRule="evenodd"
+          >
+            <circle
+              cx="17"
+              cy="17"
+              r="17"
+            />
+            <path
+              d="M13.083 18.076c.734.213 1.429.39 2.2.39a6.45 6.45 0 0 0 1.269-.125 8.067 8.067 0 0 0 7.298 6.984c-.063.867-.728 1.562-1.561 1.636l-.149.007H8.41c-.9 0-1.639-.72-1.71-1.633l-.006-.146.003-2.025c0-2.646 1.858-4.82 4.294-5.245.654-.11 1.351-.057 2.092.157zm11.465-7.237a6.452 6.452 0 1 1 0 12.903 6.452 6.452 0 0 1 0-12.903zm.613 1.613h-1.226a1 1 0 0 0-.993.883l-.007.117v2.225h-2.226a1 1 0 0 0-.993.884l-.007.116v1.226a1 1 0 0 0 .884.993l.116.007h2.225l.001 2.226a1 1 0 0 0 .884.993l.116.007h1.226a1 1 0 0 0 .993-.883l.007-.117v-2.226h2.226a1 1 0 0 0 .993-.883l.007-.117v-1.226a1 1 0 0 0-.884-.993l-.116-.007H26.16l.001-2.225a1 1 0 0 0-1-1zM15.278 6c2.482 0 4.533 1.975 4.858 4.54a8.058 8.058 0 0 0-3.596 5.795 4.557 4.557 0 0 1-1.262.177c-2.708 0-4.903-2.352-4.903-5.256C10.375 8.352 12.57 6 15.278 6z"
+              fill="#111"
+            />
+          </g>
+        </svg>
+      </IconAddUser>
+    </button>
+  </div>
+</MessageBanner>
+`;
+
+exports[`MessageBanner matches the snapshot w/ calling off 1`] = `
+<MessageBanner
+  avatarInteractive={true}
+  canAddUser={true}
+  canCall={false}
+  onAddUser={[MockFunction]}
+  onCall={[MockFunction]}
+  onSelectAvatar={[MockFunction]}
+  userInBanner={
+    Object {
+      "displayName": "test name",
+      "id": "1",
+      "isPatient": true,
+      "overallStatus": "available",
+      "profileImage": "https://www.fillmurray.com/200/200",
+    }
+  }
+>
+  <div
+    className="messagebanner "
+    data-testid="message-banner"
+    style={Object {}}
+  >
+    <div
+      className="messagebanner-avatar-wrap"
+    >
+      <button
+        className="messagebanner-button messagebanner-avatar-button"
+        onClick={[Function]}
+        title="Return to profile"
+      >
+        <UserAvatar
+          profileImage="https://www.fillmurray.com/200/200"
+          size="medium"
+          status="available"
+        >
+          <div
+            className="useravatar-container"
+          >
+            <Avatar
+              className=""
+              dimmed={false}
+              displayName={null}
+              imgUrl="https://www.fillmurray.com/200/200"
+              loading={false}
+              size="medium"
+              style={Object {}}
+            >
+              <div
+                className="avatar"
+                style={
+                  Object {
+                    "height": "32px",
+                    "lineHeight": "32px",
+                    "width": "32px",
+                  }
+                }
+              >
+                <img
+                  alt="user avatar"
+                  src="https://www.fillmurray.com/200/200"
+                  style={
+                    Object {
+                      "height": "32px",
+                      "lineHeight": "32px",
+                      "width": "32px",
+                    }
+                  }
+                />
+              </div>
+            </Avatar>
+            <StatusBubble
+              className="useravatar-statusbubble"
+              status="available"
+              style={Object {}}
+            >
+              <div
+                className="statusbubble statusbubble--available useravatar-statusbubble"
+                style={Object {}}
+              />
+            </StatusBubble>
+          </div>
+        </UserAvatar>
+      </button>
+    </div>
+    <button
+      className="messagebanner-button messagebanner-call-button"
+      disabled={true}
+      onClick={[Function]}
+    >
+      <span
+        className="messagebanner-label"
+      >
+        test name
+      </span>
+    </button>
+    <button
+      className="messagebanner-button messagebanner-adduser-button"
+      data-testid="add-user"
+      onClick={[MockFunction]}
+    >
+      <IconAddUser
+        className=""
+        color="var(--button_primary_bg)"
+        size="34"
+        style={Object {}}
+      >
+        <svg
+          className=""
+          height="34"
+          style={Object {}}
+          viewBox="0 0 34 34"
+          width="34"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            fill="var(--button_primary_bg)"
+            fillRule="evenodd"
+          >
+            <circle
+              cx="17"
+              cy="17"
+              r="17"
+            />
+            <path
+              d="M13.083 18.076c.734.213 1.429.39 2.2.39a6.45 6.45 0 0 0 1.269-.125 8.067 8.067 0 0 0 7.298 6.984c-.063.867-.728 1.562-1.561 1.636l-.149.007H8.41c-.9 0-1.639-.72-1.71-1.633l-.006-.146.003-2.025c0-2.646 1.858-4.82 4.294-5.245.654-.11 1.351-.057 2.092.157zm11.465-7.237a6.452 6.452 0 1 1 0 12.903 6.452 6.452 0 0 1 0-12.903zm.613 1.613h-1.226a1 1 0 0 0-.993.883l-.007.117v2.225h-2.226a1 1 0 0 0-.993.884l-.007.116v1.226a1 1 0 0 0 .884.993l.116.007h2.225l.001 2.226a1 1 0 0 0 .884.993l.116.007h1.226a1 1 0 0 0 .993-.883l.007-.117v-2.226h2.226a1 1 0 0 0 .993-.883l.007-.117v-1.226a1 1 0 0 0-.884-.993l-.116-.007H26.16l.001-2.225a1 1 0 0 0-1-1zM15.278 6c2.482 0 4.533 1.975 4.858 4.54a8.058 8.058 0 0 0-3.596 5.795 4.557 4.557 0 0 1-1.262.177c-2.708 0-4.903-2.352-4.903-5.256C10.375 8.352 12.57 6 15.278 6z"
+              fill="#111"
+            />
+          </g>
+        </svg>
+      </IconAddUser>
+    </button>
+  </div>
+</MessageBanner>
+`;
+
+exports[`MessageBanner matches the snapshot when avatar not interactive 1`] = `
+<MessageBanner
+  avatarInteractive={false}
+  canAddUser={true}
+  canCall={true}
+  onAddUser={[MockFunction]}
+  onCall={[MockFunction]}
+  onSelectAvatar={[MockFunction]}
+  userInBanner={
+    Object {
+      "displayName": "test name",
+      "id": "1",
+      "isPatient": true,
+      "overallStatus": "available",
+      "profileImage": "https://www.fillmurray.com/200/200",
+    }
+  }
+>
+  <div
+    className="messagebanner "
+    data-testid="message-banner"
+    style={Object {}}
+  >
+    <div
+      className="messagebanner-avatar-wrap"
+    >
+      <UserAvatar
+        profileImage="https://www.fillmurray.com/200/200"
+        size="medium"
+        status="available"
+      >
+        <div
+          className="useravatar-container"
+        >
+          <Avatar
+            className=""
+            dimmed={false}
+            displayName={null}
+            imgUrl="https://www.fillmurray.com/200/200"
+            loading={false}
+            size="medium"
+            style={Object {}}
+          >
+            <div
+              className="avatar"
+              style={
+                Object {
+                  "height": "32px",
+                  "lineHeight": "32px",
+                  "width": "32px",
+                }
+              }
+            >
+              <img
+                alt="user avatar"
+                src="https://www.fillmurray.com/200/200"
+                style={
+                  Object {
+                    "height": "32px",
+                    "lineHeight": "32px",
+                    "width": "32px",
+                  }
+                }
+              />
+            </div>
+          </Avatar>
+          <StatusBubble
+            className="useravatar-statusbubble"
+            status="available"
+            style={Object {}}
+          >
+            <div
+              className="statusbubble statusbubble--available useravatar-statusbubble"
+              style={Object {}}
+            />
+          </StatusBubble>
+        </div>
+      </UserAvatar>
+    </div>
+    <button
+      className="messagebanner-button messagebanner-call-button"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <span
+        className="messagebanner-label"
+      >
+        test name
+      </span>
+      <IconPhoneSmall
+        className="messagebanner-call-icon"
+        color="var(--button_dial_available_bg)"
+        data-testid="button-call"
+        size="18"
+      >
+        <svg
+          height="18"
+          viewBox="0 0 18 18"
+          width="18"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          className=
+          messagebanner-call-icon
+          <path
+            d="M1.444 7.27C.398 5.375 0 3.847 0 2.816c0-1.032.253-1.328.51-1.567C.769 1.009 1.929.295 2.127.16 2.323.028 3.077-.23 3.55.45c.473.68 1.364 2.047 1.978 2.955.964 1.285.196 1.85-.052 2.188-.456.622-.719.776-.719 1.54s2.136 2.935 2.647 3.47c.507.531 2.635 2.397 3.294 2.497.665.1 1.554-.603 1.743-.781.961-.738 1.504-.179 1.947.065.443.243 2.444 1.49 3.064 1.91.584.42.548 1.07.548 1.07l-1.35 2.14c-.183.268-.62.497-1.605.497s-2.038-.18-4.539-1.555c-2.046-1.126-3.997-2.888-5.019-3.92-1.057-1.032-2.85-3.09-4.043-5.255z"
+            fill="var(--button_dial_available_bg)"
+            fillRule="evenodd"
+          />
+        </svg>
+      </IconPhoneSmall>
+    </button>
+    <button
+      className="messagebanner-button messagebanner-adduser-button"
+      data-testid="add-user"
+      onClick={[MockFunction]}
+    >
+      <IconAddUser
+        className=""
+        color="var(--button_primary_bg)"
+        size="34"
+        style={Object {}}
+      >
+        <svg
+          className=""
+          height="34"
+          style={Object {}}
+          viewBox="0 0 34 34"
+          width="34"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            fill="var(--button_primary_bg)"
+            fillRule="evenodd"
+          >
+            <circle
+              cx="17"
+              cy="17"
+              r="17"
+            />
+            <path
+              d="M13.083 18.076c.734.213 1.429.39 2.2.39a6.45 6.45 0 0 0 1.269-.125 8.067 8.067 0 0 0 7.298 6.984c-.063.867-.728 1.562-1.561 1.636l-.149.007H8.41c-.9 0-1.639-.72-1.71-1.633l-.006-.146.003-2.025c0-2.646 1.858-4.82 4.294-5.245.654-.11 1.351-.057 2.092.157zm11.465-7.237a6.452 6.452 0 1 1 0 12.903 6.452 6.452 0 0 1 0-12.903zm.613 1.613h-1.226a1 1 0 0 0-.993.883l-.007.117v2.225h-2.226a1 1 0 0 0-.993.884l-.007.116v1.226a1 1 0 0 0 .884.993l.116.007h2.225l.001 2.226a1 1 0 0 0 .884.993l.116.007h1.226a1 1 0 0 0 .993-.883l.007-.117v-2.226h2.226a1 1 0 0 0 .993-.883l.007-.117v-1.226a1 1 0 0 0-.884-.993l-.116-.007H26.16l.001-2.225a1 1 0 0 0-1-1zM15.278 6c2.482 0 4.533 1.975 4.858 4.54a8.058 8.058 0 0 0-3.596 5.795 4.557 4.557 0 0 1-1.262.177c-2.708 0-4.903-2.352-4.903-5.256C10.375 8.352 12.57 6 15.278 6z"
+              fill="#111"
+            />
+          </g>
+        </svg>
+      </IconAddUser>
+    </button>
+  </div>
+</MessageBanner>
+`;
+
+exports[`MessageBanner matches the snapshot when user cannot access patient information 1`] = `
+<MessageBanner
+  avatarInteractive={false}
+  canAddUser={false}
+  canCall={true}
+  onAddUser={[MockFunction]}
+  onCall={[MockFunction]}
+  onSelectAvatar={[MockFunction]}
+  userInBanner={
+    Object {
+      "displayName": "test name",
+      "id": "1",
+      "isPatient": true,
+      "overallStatus": "available",
+      "profileImage": "https://www.fillmurray.com/200/200",
+    }
+  }
+>
+  <div
+    className="messagebanner "
+    data-testid="message-banner"
+    style={Object {}}
+  >
+    <div
+      className="messagebanner-avatar-wrap"
+    >
+      <UserAvatar
+        profileImage="https://www.fillmurray.com/200/200"
+        size="medium"
+        status="available"
+      >
+        <div
+          className="useravatar-container"
+        >
+          <Avatar
+            className=""
+            dimmed={false}
+            displayName={null}
+            imgUrl="https://www.fillmurray.com/200/200"
+            loading={false}
+            size="medium"
+            style={Object {}}
+          >
+            <div
+              className="avatar"
+              style={
+                Object {
+                  "height": "32px",
+                  "lineHeight": "32px",
+                  "width": "32px",
+                }
+              }
+            >
+              <img
+                alt="user avatar"
+                src="https://www.fillmurray.com/200/200"
+                style={
+                  Object {
+                    "height": "32px",
+                    "lineHeight": "32px",
+                    "width": "32px",
+                  }
+                }
+              />
+            </div>
+          </Avatar>
+          <StatusBubble
+            className="useravatar-statusbubble"
+            status="available"
+            style={Object {}}
+          >
+            <div
+              className="statusbubble statusbubble--available useravatar-statusbubble"
+              style={Object {}}
+            />
+          </StatusBubble>
+        </div>
+      </UserAvatar>
+    </div>
+    <button
+      className="messagebanner-button messagebanner-call-button"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <span
+        className="messagebanner-label"
+      >
+        test name
+      </span>
+      <IconPhoneSmall
+        className="messagebanner-call-icon"
+        color="var(--button_dial_available_bg)"
+        data-testid="button-call"
+        size="18"
+      >
+        <svg
+          height="18"
+          viewBox="0 0 18 18"
+          width="18"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          className=
+          messagebanner-call-icon
+          <path
+            d="M1.444 7.27C.398 5.375 0 3.847 0 2.816c0-1.032.253-1.328.51-1.567C.769 1.009 1.929.295 2.127.16 2.323.028 3.077-.23 3.55.45c.473.68 1.364 2.047 1.978 2.955.964 1.285.196 1.85-.052 2.188-.456.622-.719.776-.719 1.54s2.136 2.935 2.647 3.47c.507.531 2.635 2.397 3.294 2.497.665.1 1.554-.603 1.743-.781.961-.738 1.504-.179 1.947.065.443.243 2.444 1.49 3.064 1.91.584.42.548 1.07.548 1.07l-1.35 2.14c-.183.268-.62.497-1.605.497s-2.038-.18-4.539-1.555c-2.046-1.126-3.997-2.888-5.019-3.92-1.057-1.032-2.85-3.09-4.043-5.255z"
+            fill="var(--button_dial_available_bg)"
+            fillRule="evenodd"
+          />
+        </svg>
+      </IconPhoneSmall>
+    </button>
+    <button
+      className="messagebanner-button messagebanner-adduser-button"
+      data-testid="add-user"
+      onClick={[MockFunction]}
+    >
+      <IconAddUser
+        className=""
+        color="var(--button_primary_bg)"
+        size="34"
+        style={Object {}}
+      >
+        <svg
+          className=""
+          height="34"
+          style={Object {}}
+          viewBox="0 0 34 34"
+          width="34"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            fill="var(--button_primary_bg)"
+            fillRule="evenodd"
+          >
+            <circle
+              cx="17"
+              cy="17"
+              r="17"
+            />
+            <path
+              d="M13.083 18.076c.734.213 1.429.39 2.2.39a6.45 6.45 0 0 0 1.269-.125 8.067 8.067 0 0 0 7.298 6.984c-.063.867-.728 1.562-1.561 1.636l-.149.007H8.41c-.9 0-1.639-.72-1.71-1.633l-.006-.146.003-2.025c0-2.646 1.858-4.82 4.294-5.245.654-.11 1.351-.057 2.092.157zm11.465-7.237a6.452 6.452 0 1 1 0 12.903 6.452 6.452 0 0 1 0-12.903zm.613 1.613h-1.226a1 1 0 0 0-.993.883l-.007.117v2.225h-2.226a1 1 0 0 0-.993.884l-.007.116v1.226a1 1 0 0 0 .884.993l.116.007h2.225l.001 2.226a1 1 0 0 0 .884.993l.116.007h1.226a1 1 0 0 0 .993-.883l.007-.117v-2.226h2.226a1 1 0 0 0 .993-.883l.007-.117v-1.226a1 1 0 0 0-.884-.993l-.116-.007H26.16l.001-2.225a1 1 0 0 0-1-1zM15.278 6c2.482 0 4.533 1.975 4.858 4.54a8.058 8.058 0 0 0-3.596 5.795 4.557 4.557 0 0 1-1.262.177c-2.708 0-4.903-2.352-4.903-5.256C10.375 8.352 12.57 6 15.278 6z"
+              fill="#111"
+            />
+          </g>
+        </svg>
+      </IconAddUser>
+    </button>
+  </div>
+</MessageBanner>
+`;
+
+exports[`MessageBanner matches the snapshot when users can not be added 1`] = `
+<MessageBanner
+  avatarInteractive={false}
+  canAddUser={false}
+  canCall={true}
+  onAddUser={[MockFunction]}
+  onCall={[MockFunction]}
+  onSelectAvatar={[MockFunction]}
+  userInBanner={
+    Object {
+      "displayName": "test name",
+      "id": "1",
+      "isPatient": true,
+      "overallStatus": "available",
+      "profileImage": "https://www.fillmurray.com/200/200",
+    }
+  }
+>
+  <div
+    className="messagebanner "
+    data-testid="message-banner"
+    style={Object {}}
+  >
+    <div
+      className="messagebanner-avatar-wrap"
+    >
+      <UserAvatar
+        profileImage="https://www.fillmurray.com/200/200"
+        size="medium"
+        status="available"
+      >
+        <div
+          className="useravatar-container"
+        >
+          <Avatar
+            className=""
+            dimmed={false}
+            displayName={null}
+            imgUrl="https://www.fillmurray.com/200/200"
+            loading={false}
+            size="medium"
+            style={Object {}}
+          >
+            <div
+              className="avatar"
+              style={
+                Object {
+                  "height": "32px",
+                  "lineHeight": "32px",
+                  "width": "32px",
+                }
+              }
+            >
+              <img
+                alt="user avatar"
+                src="https://www.fillmurray.com/200/200"
+                style={
+                  Object {
+                    "height": "32px",
+                    "lineHeight": "32px",
+                    "width": "32px",
+                  }
+                }
+              />
+            </div>
+          </Avatar>
+          <StatusBubble
+            className="useravatar-statusbubble"
+            status="available"
+            style={Object {}}
+          >
+            <div
+              className="statusbubble statusbubble--available useravatar-statusbubble"
+              style={Object {}}
+            />
+          </StatusBubble>
+        </div>
+      </UserAvatar>
+    </div>
+    <button
+      className="messagebanner-button messagebanner-call-button"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <span
+        className="messagebanner-label"
+      >
+        test name
+      </span>
+      <IconPhoneSmall
+        className="messagebanner-call-icon"
+        color="var(--button_dial_available_bg)"
+        data-testid="button-call"
+        size="18"
+      >
+        <svg
+          height="18"
+          viewBox="0 0 18 18"
+          width="18"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          className=
+          messagebanner-call-icon
+          <path
+            d="M1.444 7.27C.398 5.375 0 3.847 0 2.816c0-1.032.253-1.328.51-1.567C.769 1.009 1.929.295 2.127.16 2.323.028 3.077-.23 3.55.45c.473.68 1.364 2.047 1.978 2.955.964 1.285.196 1.85-.052 2.188-.456.622-.719.776-.719 1.54s2.136 2.935 2.647 3.47c.507.531 2.635 2.397 3.294 2.497.665.1 1.554-.603 1.743-.781.961-.738 1.504-.179 1.947.065.443.243 2.444 1.49 3.064 1.91.584.42.548 1.07.548 1.07l-1.35 2.14c-.183.268-.62.497-1.605.497s-2.038-.18-4.539-1.555c-2.046-1.126-3.997-2.888-5.019-3.92-1.057-1.032-2.85-3.09-4.043-5.255z"
+            fill="var(--button_dial_available_bg)"
+            fillRule="evenodd"
+          />
+        </svg>
+      </IconPhoneSmall>
+    </button>
+    <button
+      className="messagebanner-button messagebanner-adduser-button"
+      data-testid="add-user"
+      onClick={[MockFunction]}
+    >
+      <IconAddUser
+        className=""
+        color="var(--button_primary_bg)"
+        size="34"
+        style={Object {}}
+      >
+        <svg
+          className=""
+          height="34"
+          style={Object {}}
+          viewBox="0 0 34 34"
+          width="34"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            fill="var(--button_primary_bg)"
+            fillRule="evenodd"
+          >
+            <circle
+              cx="17"
+              cy="17"
+              r="17"
+            />
+            <path
+              d="M13.083 18.076c.734.213 1.429.39 2.2.39a6.45 6.45 0 0 0 1.269-.125 8.067 8.067 0 0 0 7.298 6.984c-.063.867-.728 1.562-1.561 1.636l-.149.007H8.41c-.9 0-1.639-.72-1.71-1.633l-.006-.146.003-2.025c0-2.646 1.858-4.82 4.294-5.245.654-.11 1.351-.057 2.092.157zm11.465-7.237a6.452 6.452 0 1 1 0 12.903 6.452 6.452 0 0 1 0-12.903zm.613 1.613h-1.226a1 1 0 0 0-.993.883l-.007.117v2.225h-2.226a1 1 0 0 0-.993.884l-.007.116v1.226a1 1 0 0 0 .884.993l.116.007h2.225l.001 2.226a1 1 0 0 0 .884.993l.116.007h1.226a1 1 0 0 0 .993-.883l.007-.117v-2.226h2.226a1 1 0 0 0 .993-.883l.007-.117v-1.226a1 1 0 0 0-.884-.993l-.116-.007H26.16l.001-2.225a1 1 0 0 0-1-1zM15.278 6c2.482 0 4.533 1.975 4.858 4.54a8.058 8.058 0 0 0-3.596 5.795 4.557 4.557 0 0 1-1.262.177c-2.708 0-4.903-2.352-4.903-5.256C10.375 8.352 12.57 6 15.278 6z"
+              fill="#111"
+            />
+          </g>
+        </svg>
+      </IconAddUser>
+    </button>
+  </div>
+</MessageBanner>
+`;

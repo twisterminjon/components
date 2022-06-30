@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalRequestReadingToast matches the snapshot when not shown 1`] = `
+<ModalToast
+  className="modaltoast--request-reading"
+  show={false}
+>
+  <div
+    className="modal-request-reading-toast"
+  >
+    <h3
+      data-testid="confirm-title"
+    >
+      Request a Remote Reading
+    </h3>
+    <p
+      data-testid="confirm-message"
+    >
+      The patient will receive a notification to take the reading.
+    </p>
+    <div>
+      <Button
+        className="modal-request-reading-toast--button"
+        data-testid="request-Temperature"
+        fluid={true}
+        key="Temperature"
+        onClick={[Function]}
+        style={Object {}}
+        type="submit"
+      >
+        Temperature
+      </Button>
+      <Button
+        className="modal-request-reading-toast--button"
+        data-testid="request-Blood Pressure"
+        fluid={true}
+        key="Blood Pressure"
+        onClick={[Function]}
+        style={Object {}}
+        type="submit"
+      >
+        Blood Pressure
+      </Button>
+      <Button
+        className="modal-request-reading-toast--button"
+        data-testid="request-Heart Rate"
+        fluid={true}
+        key="Heart Rate"
+        onClick={[Function]}
+        style={Object {}}
+        type="submit"
+      >
+        Heart Rate
+      </Button>
+      <Button
+        className="modal-request-reading-toast--button"
+        data-testid="request-Sp02"
+        fluid={true}
+        key="Sp02"
+        onClick={[Function]}
+        style={Object {}}
+        type="submit"
+      >
+        Sp02
+      </Button>
+      <Button
+        className="modal-request-reading-toast--button"
+        data-testid="request-Weight"
+        fluid={true}
+        key="Weight"
+        onClick={[Function]}
+        style={Object {}}
+        type="submit"
+      >
+        Weight
+      </Button>
+      <Button
+        className="modal-request-reading-toast--button"
+        data-testid="request-Glucose"
+        fluid={true}
+        key="Glucose"
+        onClick={[Function]}
+        style={Object {}}
+        type="submit"
+      >
+        Glucose
+      </Button>
+      <ButtonGhost
+        className="modal-request-reading-toast--button-cancel"
+        data-testid="button-cancel"
+        fluid={true}
+        onClick={[MockFunction]}
+        red={false}
+        style={Object {}}
+      >
+        Cancel
+      </ButtonGhost>
+    </div>
+  </div>
+</ModalToast>
+`;
+
+exports[`ModalRequestReadingToast matches the snapshot when shown 1`] = `
+<ModalToast
+  className="modaltoast--request-reading"
+  show={true}
+>
+  <div
+    className="modal-request-reading-toast"
+  >
+    <h3
+      data-testid="confirm-title"
+    >
+      Request a Remote Reading
+    </h3>
+    <p
+      data-testid="confirm-message"
+    >
+      The patient will receive a notification to take the reading.
+    </p>
+    <div>
+      <Button
+        className="modal-request-reading-toast--button"
+        data-testid="request-Temperature"
+        fluid={true}
+        key="Temperature"
+        onClick={[Function]}
+        style={Object {}}
+        type="submit"
+      >
+        Temperature
+      </Button>
+      <Button
+        className="modal-request-reading-toast--button"
+        data-testid="request-Blood Pressure"
+        fluid={true}
+        key="Blood Pressure"
+        onClick={[Function]}
+        style={Object {}}
+        type="submit"
+      >
+        Blood Pressure
+      </Button>
+      <Button
+        className="modal-request-reading-toast--button"
+        data-testid="request-Heart Rate"
+        fluid={true}
+        key="Heart Rate"
+        onClick={[Function]}
+        style={Object {}}
+        type="submit"
+      >
+        Heart Rate
+      </Button>
+      <Button
+        className="modal-request-reading-toast--button"
+        data-testid="request-Sp02"
+        fluid={true}
+        key="Sp02"
+        onClick={[Function]}
+        style={Object {}}
+        type="submit"
+      >
+        Sp02
+      </Button>
+      <Button
+        className="modal-request-reading-toast--button"
+        data-testid="request-Weight"
+        fluid={true}
+        key="Weight"
+        onClick={[Function]}
+        style={Object {}}
+        type="submit"
+      >
+        Weight
+      </Button>
+      <Button
+        className="modal-request-reading-toast--button"
+        data-testid="request-Glucose"
+        fluid={true}
+        key="Glucose"
+        onClick={[Function]}
+        style={Object {}}
+        type="submit"
+      >
+        Glucose
+      </Button>
+      <ButtonGhost
+        className="modal-request-reading-toast--button-cancel"
+        data-testid="button-cancel"
+        fluid={true}
+        onClick={[MockFunction]}
+        red={false}
+        style={Object {}}
+      >
+        Cancel
+      </ButtonGhost>
+    </div>
+  </div>
+</ModalToast>
+`;

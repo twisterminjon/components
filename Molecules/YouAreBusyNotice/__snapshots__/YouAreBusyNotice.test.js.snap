@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`YouAreBusyNotice matches the snapshot 1`] = `
+<div
+  className="youarebusynotice-wrap"
+>
+  <div
+    className="youarebusynotice-dimmer"
+  />
+  <div
+    className="youarebusynotice-content"
+  >
+    <div
+      className="youarebusynotice-message"
+    >
+      <span>
+        You are already on a call on another device.
+      </span>
+      <span>
+        Please end your other calls before starting a new one.
+      </span>
+    </div>
+    <div
+      className="youarebusynotice-buttons youarebusynotice-buttons-center"
+    >
+      <CancelCallButton
+        ghost={true}
+        onClick={[MockFunction]}
+      />
+    </div>
+  </div>
+</div>
+`;

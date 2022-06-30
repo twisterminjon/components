@@ -1,0 +1,28 @@
+.assessment-banner {
+  display: flex;
+  flex-shrink: 0;
+  width: 100%;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  color: var(--base__body_fg);
+  background: var(--assessment__bg);
+
+  font-weight: var(--font-base--regular);
+  font-size: var(--font-base-body--size);
+}
+
+.assessment-banner-icon {
+  margin-right: 16px;
+}
+
+.assessment-banner-title {
+  margin: 0 !important;
+  padding: 0 !important;
+
+  font-weight: var(--font-base--bold);
+  font-size: var(--font-base-body--size);
+
+  color: var(--base__body_fg);
+}

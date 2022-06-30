@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessageAttachmentView matches the snapshot 1`] = `
+<div
+  className="messageattachmentview"
+  onClick={[MockFunction]}
+  style={Object {}}
+>
+  <img
+    alt="attachment"
+    src="https://www.fillmurray.com/800/1200"
+  />
+</div>
+`;

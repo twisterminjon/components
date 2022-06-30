@@ -1,0 +1,23 @@
+.updatephoneform {
+  padding: 16px;
+  background-color: var(--menu__bg);
+}
+
+.updatephoneform h1 {
+  font-size: var(--font-base-headline--size);
+  font-weight: var(--font-base--bold);
+}
+
+.updatephoneform-input {
+  padding: 0 0 160px 0;
+}
+
+.updatephoneform-loader {
+  width: 100%;
+  padding: 80px 0 80px 0;
+}
+
+.ui.modal .actions > .button.updatephoneform-button {
+  width: 100%;
+  margin: 0 0 10px 0;
+}

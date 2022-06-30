@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConfirmButtons matches the snapshot 1`] = `
+<div
+  className="confirm-buttons"
+  style={Object {}}
+>
+  <TextButton
+    className=""
+    content="CANCEL"
+    data-testid="cancel-button"
+    fluid={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "marginRight": 16,
+      }
+    }
+    type="button"
+  />
+  <Button
+    content="SAVE"
+    data-testid="submit-button"
+    disabled={false}
+    fluid={false}
+    loading={false}
+    primary={true}
+    style={Object {}}
+    type="submit"
+  />
+  <ModalYesNo
+    defaultIsConfirm={false}
+    icon="question"
+    message="You have unsaved changes, click 'Yes' to discard the changes or 'No' to continue editing."
+    onNo={[Function]}
+    onYes={[Function]}
+    show={false}
+    title="Do you want to discard your changes?"
+  />
+</div>
+`;

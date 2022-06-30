@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThreadAddUserConfirm matches the snapshot 1`] = `
+<ModalToast
+  show={true}
+>
+  <p
+    className="messagethreadadduserconfirm-title"
+    style={
+      Object {
+        "marginBottom": 54,
+        "marginTop": 24,
+      }
+    }
+  >
+    Adding 
+    Lou Reed
+  </p>
+  <RadioInput
+    checked={false}
+    className=""
+    fluid={false}
+    label="Don’t include previous messages"
+    name="radios"
+    onChange={[Function]}
+    style={
+      Object {
+        "marginBottom": 16,
+      }
+    }
+    value="include-false"
+  />
+  <RadioInput
+    checked={true}
+    className=""
+    fluid={false}
+    label="Include all messages"
+    name="radios"
+    onChange={[Function]}
+    style={
+      Object {
+        "marginBottom": 60,
+      }
+    }
+    value="include-true"
+  />
+  <div
+    className="row"
+  >
+    <ButtonGhost
+      className=""
+      fluid={true}
+      onClick={[MockFunction]}
+      red={false}
+      style={Object {}}
+    >
+      Cancel
+    </ButtonGhost>
+    <Button
+      fluid={true}
+      onClick={[Function]}
+      style={Object {}}
+      type="submit"
+    >
+      Add
+    </Button>
+  </div>
+</ModalToast>
+`;

@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TagCloud matches the snapshot 1`] = `
+<ul
+  className="tagcloud"
+>
+  <TagView
+    key="1"
+    onTagDelete={[MockFunction]}
+    tagObject={
+      Object {
+        "id": "1",
+        "name": "Fantastic Four",
+      }
+    }
+    vertical={true}
+  />
+  <TagView
+    key="2"
+    onTagDelete={[MockFunction]}
+    tagObject={
+      Object {
+        "id": "2",
+        "name": "X-Men",
+      }
+    }
+    vertical={true}
+  />
+</ul>
+`;

@@ -1,0 +1,86 @@
+.namedgroupeditor {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  background-color: var(--misc__dimmer_bg);
+
+  z-index: var(--z-named-group-modal);
+}
+
+.namedgroupeditor-window {
+  display: flex;
+  flex-direction: column;
+
+  width: 80%;
+  max-width: 800px;
+  height: 95%;
+
+  margin: 0 auto;
+  margin-top: 32px;
+  overflow: hidden;
+
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+
+  background-color: #050505;
+
+  position: relative;
+}
+
+.namedgroupeditor-header {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  max-height: 60%;
+  padding: 16px;
+  background-color: var(--brandcolor_verydark);
+}
+
+.namedgroupeditor-header h3 {
+  flex: 1;
+  color: var(--white);
+  font-weight: var(--font-base--regular);
+
+  margin: 0 !important;
+  margin-bottom: 8px;
+}
+
+.namedgroupeditor--row {
+  display: flex;
+  flex-direction: row;
+}
+
+.namedgroupeditor--align-top {
+  align-items: flex-start;
+}
+
+.namedgroupeditor--align-center {
+  align-items: center;
+}
+
+.namedgroupeditor-list {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1;
+  overflow-y: scroll;
+  padding-bottom: 40px;
+}
+
+.namedgroupeditor-button {
+  /* This is keep the button aligned with the input when the input shows an error message */
+  padding-top: 40px;
+}
+
+.namedgroupeditor-spinner-container {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.namedgroupeditor-spinner {
+  display: inline-block;
+}

@@ -1,0 +1,24 @@
+.profileimageuploadbutton {
+  width: 30px;
+  height: 30px;
+  background-color: var(--brandcolor);
+  color: var(--brandcolor_dark);
+
+  border-radius: 50%;
+
+  border: 2px solid var(--white);
+
+  outline: none;
+}
+
+.profileimageuploadbutton:focus {
+  background-color: var(--button_color_hover);
+}
+
+.profileimageuploadbutton:hover {
+  background-color: var(--button_color_hover);
+}
+
+.profileimageuploadbutton:disabled {
+  background-color: var(--button_color_disabled);
+}

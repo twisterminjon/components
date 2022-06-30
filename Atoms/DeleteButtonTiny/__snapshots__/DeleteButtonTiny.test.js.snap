@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeleteButtonTiny DeleteButtonTiny matches the snapshot 1`] = `
+<button
+  className="deletebuttontiny-button "
+  disabled={false}
+  onClick={[MockFunction]}
+  style={Object {}}
+>
+  <Icon
+    as="i"
+    fitted={true}
+    name="delete"
+  />
+</button>
+`;

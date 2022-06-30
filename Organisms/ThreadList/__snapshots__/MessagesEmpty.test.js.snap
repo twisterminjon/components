@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessagesEmpty matches the snapshot 1`] = `
+<div
+  className="messagelist-messagesempty"
+>
+  <Icon
+    as="i"
+    name="comments"
+    size="massive"
+  />
+  <h4
+    className="messagelist-messagesempty-title"
+  >
+    You don't have any messages yet.
+  </h4>
+  <p
+    className="messagelist-messagesempty-text"
+  >
+    To send a message, click the message button 
+    <Icon
+      as="i"
+      name="comment"
+    />
+    next to a patient or staff member in the Staff or Patients tab.
+  </p>
+</div>
+`;

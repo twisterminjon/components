@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DropdownList matches the snapshot 1`] = `
+<div
+  className="dropdown-list undefined"
+>
+  <div
+    className="dropdown-list-wrapper"
+  >
+    <InputLabel
+      htmlFor="dropdown-input"
+      id="dropdown-label"
+      label="Klingon"
+    />
+  </div>
+  <Dropdown
+    additionLabel="Add "
+    additionPosition="top"
+    aria-describedby="dropdown-hint"
+    aria-labelledby="dropdown-label"
+    closeOnBlur={true}
+    closeOnEscape={true}
+    deburr={false}
+    error={false}
+    fluid={true}
+    icon="dropdown"
+    id="dropdown-input"
+    list="list detail"
+    listData={
+      Array [
+        "Worf",
+        "Picard",
+        "Data",
+      ]
+    }
+    minCharacters={1}
+    noResultsMessage="No results found."
+    openOnFocus={true}
+    placeholder="Star Trek"
+    renderLabel={[Function]}
+    searchInput="text"
+    selectOnBlur={true}
+    selectOnNavigation={true}
+    value="Worf"
+    wrapSelection={true}
+  />
+  <InputMessage
+    message="It is busted"
+    show={false}
+  />
+</div>
+`;

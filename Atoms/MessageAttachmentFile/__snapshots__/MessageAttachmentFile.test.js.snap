@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessageAttachmentFile matches the snapshot for received 1`] = `
+<Fragment>
+  <div
+    className="messageatt messageatt--received "
+    onClick={[MockFunction]}
+    style={Object {}}
+  >
+    <div
+      className="messageatt-timestamp messageatt-timestamp--show"
+    >
+      <span
+        className="messageatt-timestamp-text"
+      >
+        1:30 PM
+      </span>
+      <Loader
+        className="messageatt-loader"
+        inline={true}
+        inverted={true}
+        size="mini"
+      />
+    </div>
+    <p
+      className="messageatt-content"
+    >
+      <span>
+        Tap to download file
+      </span>
+      <IconChevronRight
+        color="var(--white)"
+        style={
+          Object {
+            "float": "right",
+          }
+        }
+      />
+    </p>
+  </div>
+  <div
+    className="messageatt-filename"
+  >
+    <p>
+      filename.pdf
+    </p>
+  </div>
+</Fragment>
+`;
+
+exports[`MessageAttachmentFile matches the snapshot for sending 1`] = `
+<Fragment>
+  <div
+    className="messageatt messageatt--sent "
+    onClick={[MockFunction]}
+    style={Object {}}
+  >
+    <div
+      className="messageatt-timestamp messageatt-timestamp--show"
+    >
+      <span
+        className="messageatt-timestamp-text"
+      >
+        1:30 PM
+      </span>
+      <Loader
+        active={true}
+        className="messageatt-loader"
+        inline={true}
+        inverted={true}
+        size="mini"
+      />
+    </div>
+    <p
+      className="messageatt-content"
+    >
+      <span>
+        Tap to download file
+      </span>
+      <IconChevronRight
+        color="var(--white)"
+        style={
+          Object {
+            "float": "right",
+          }
+        }
+      />
+    </p>
+  </div>
+  <div
+    className="messageatt-filename"
+  >
+    <p>
+      filename.pdf
+    </p>
+  </div>
+</Fragment>
+`;
+
+exports[`MessageAttachmentFile matches the snapshot for sent 1`] = `
+<Fragment>
+  <div
+    className="messageatt messageatt--sent "
+    onClick={[MockFunction]}
+    style={Object {}}
+  >
+    <div
+      className="messageatt-timestamp messageatt-timestamp--show"
+    >
+      <span
+        className="messageatt-timestamp-text"
+      >
+        1:30 PM
+      </span>
+      <Loader
+        className="messageatt-loader"
+        inline={true}
+        inverted={true}
+        size="mini"
+      />
+    </div>
+    <p
+      className="messageatt-content"
+    >
+      <span>
+        Tap to download file
+      </span>
+      <IconChevronRight
+        color="var(--white)"
+        style={
+          Object {
+            "float": "right",
+          }
+        }
+      />
+    </p>
+  </div>
+  <div
+    className="messageatt-filename"
+  >
+    <p>
+      filename.pdf
+    </p>
+  </div>
+</Fragment>
+`;

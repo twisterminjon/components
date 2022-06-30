@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProfilePicEdit ProfilePicEdit matches the snapshot 1`] = `
+<button
+  className="button-reset profilepicedit-button"
+  data-testid="edit-profile-pic"
+  disabled={false}
+  onClick={[MockFunction]}
+  style={Object {}}
+>
+  <div
+    className="profilepicedit"
+  >
+    <Avatar
+      className=""
+      dimmed={false}
+      displayName={null}
+      imgUrl="https://www.fillmurray.com/300/300"
+      loading={false}
+      size="medium"
+      style={Object {}}
+    />
+    <EditButtonIcon
+      className="profilepicedit-icon"
+      style={Object {}}
+    />
+  </div>
+</button>
+`;

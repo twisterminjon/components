@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OutgoingCallNotice matches the snapshot when seeking 1`] = `
+<div
+  className="outgoingcallnotice-wrap"
+>
+  <div
+    className="outgoingcallnotice-dimmer"
+  />
+  <div
+    className="outgoingcallnotice-content"
+    data-testid="outgoing-call-notice"
+  >
+    <div
+      className="outgoingcallnotice-placeholder"
+    >
+      <p>
+        Finding next available...
+      </p>
+    </div>
+    <div
+      className="outgoingcallnotice-buttons outgoingcallnotice-buttons-center"
+    >
+      <CancelCallButton
+        ghost={true}
+        onClick={[MockFunction]}
+      />
+    </div>
+    <audio
+      autoPlay="autoplay"
+      loop="loop"
+    >
+      <source
+        src="ringtone-out.mp3"
+        type="audio/mpeg"
+      />
+      Sorry, your browser does audio for playing ringtones.
+    </audio>
+  </div>
+</div>
+`;
+
+exports[`OutgoingCallNotice matches the snapshot with skip call hidden 1`] = `
+<div
+  className="outgoingcallnotice-wrap"
+>
+  <div
+    className="outgoingcallnotice-dimmer"
+  />
+  <div
+    className="outgoingcallnotice-content"
+    data-testid="outgoing-call-notice"
+  >
+    <UserCardLarge
+      actionText="Calling..."
+      onClick={[Function]}
+      profileImage=""
+      style={
+        Object {
+          "marginBottom": 60,
+        }
+      }
+      title="title"
+      userName="Korben"
+    />
+    <div
+      className="outgoingcallnotice-buttons outgoingcallnotice-buttons-center"
+    >
+      <CancelCallButton
+        ghost={true}
+        onClick={[MockFunction]}
+      />
+    </div>
+    <audio
+      autoPlay="autoplay"
+      loop="loop"
+    >
+      <source
+        src="ringtone-out.mp3"
+        type="audio/mpeg"
+      />
+      Sorry, your browser does audio for playing ringtones.
+    </audio>
+  </div>
+</div>
+`;
+
+exports[`OutgoingCallNotice matches the snapshot with skip call showing 1`] = `
+<div
+  className="outgoingcallnotice-wrap"
+>
+  <div
+    className="outgoingcallnotice-dimmer"
+  />
+  <div
+    className="outgoingcallnotice-content"
+    data-testid="outgoing-call-notice"
+  >
+    <UserCardLarge
+      actionText="Calling..."
+      onClick={[Function]}
+      profileImage=""
+      style={
+        Object {
+          "marginBottom": 60,
+        }
+      }
+      title="title"
+      userName="Korben"
+    />
+    <div
+      className="outgoingcallnotice-buttons outgoingcallnotice-buttons-spaced"
+    >
+      <CancelCallButton
+        ghost={true}
+        onClick={[MockFunction]}
+      />
+      <SkipCallButton
+        ghost={false}
+        onClick={[MockFunction]}
+      />
+    </div>
+    <audio
+      autoPlay="autoplay"
+      loop="loop"
+    >
+      <source
+        src="ringtone-out.mp3"
+        type="audio/mpeg"
+      />
+      Sorry, your browser does audio for playing ringtones.
+    </audio>
+  </div>
+</div>
+`;

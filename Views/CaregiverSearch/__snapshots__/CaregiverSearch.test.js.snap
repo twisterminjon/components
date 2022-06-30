@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CaregiverSearch matches the snapshot 1`] = `
+<div>
+  <DocTitle
+    title="Caregiver Search"
+  />
+  <div
+    className="caregiversearch"
+  >
+    <SectionTitle
+      buttonClassName=""
+      className=""
+      hint=""
+      label="CLOSE"
+      onButtonClick={[MockFunction]}
+      style={Object {}}
+      title="Find a Caregiver"
+    />
+    <div
+      style={
+        Object {
+          "height": 10,
+        }
+      }
+    />
+    <AddButton
+      data-testid="add-caregiver"
+      onClick={[MockFunction]}
+      style={
+        Object {
+          "position": "absolute",
+          "right": 20,
+          "top": 64,
+          "zIndex": 1,
+        }
+      }
+    />
+    <PhoneInput
+      alertMessage=""
+      data-testid="caregiver-search"
+      disabled={false}
+      displayOnly={false}
+      errorMessage=""
+      hasError={false}
+      hintMessage=""
+      hintText=""
+      label=""
+      name="phone"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onKeyPress={[Function]}
+      onValueInit={[Function]}
+      placeholder="Enter phone number..."
+      required={false}
+      style={
+        Object {
+          "marginTop": -12,
+        }
+      }
+      value=""
+    />
+    <div
+      style={
+        Object {
+          "height": 10,
+        }
+      }
+    />
+  </div>
+</div>
+`;

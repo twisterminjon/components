@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchCloseButton matches the snapshot 1`] = `
+<button
+  className="searchclosebutton"
+  onClick={[MockFunction]}
+>
+  <IconDeclineCall
+    color="rgba(0,0,0,0.75)"
+    size={26}
+  />
+</button>
+`;

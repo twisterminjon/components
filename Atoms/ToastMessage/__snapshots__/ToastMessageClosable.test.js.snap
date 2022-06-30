@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToastMessageClosable matches the snapshot for type="error" 1`] = `
+<Fragment>
+  <div
+    className="toastmessage toastmessage--show toastmessage--error"
+  >
+    <span
+      className="toastmessage-text"
+    >
+      Its all gone Pete Tong
+    </span>
+    <button
+      className="toastmessage-button-wrap"
+      data-testid="message-close-button"
+      onClick={[Function]}
+    >
+      <IconDeclineCall
+        className="toastmessage-close-icon"
+        color="rgba(0,0,0,0.75)"
+        size={26}
+      />
+    </button>
+  </div>
+</Fragment>
+`;
+
+exports[`ToastMessageClosable matches the snapshot for type="info" 1`] = `
+<Fragment>
+  <div
+    className="toastmessage toastmessage--show toastmessage--info"
+  >
+    <span
+      className="toastmessage-text"
+    >
+      Its all gone Pete Tong
+    </span>
+    <button
+      className="toastmessage-button-wrap"
+      data-testid="message-close-button"
+      onClick={[Function]}
+    >
+      <IconDeclineCall
+        className="toastmessage-close-icon"
+        color="rgba(0,0,0,0.75)"
+        size={26}
+      />
+    </button>
+  </div>
+</Fragment>
+`;
+
+exports[`ToastMessageClosable matches the snapshot for type="warning" 1`] = `
+<Fragment>
+  <div
+    className="toastmessage toastmessage--show toastmessage--warning"
+  >
+    <span
+      className="toastmessage-text"
+    >
+      Its all gone Pete Tong
+    </span>
+    <button
+      className="toastmessage-button-wrap"
+      data-testid="message-close-button"
+      onClick={[Function]}
+    >
+      <IconDeclineCall
+        className="toastmessage-close-icon"
+        color="rgba(0,0,0,0.75)"
+        size={26}
+      />
+    </button>
+  </div>
+</Fragment>
+`;

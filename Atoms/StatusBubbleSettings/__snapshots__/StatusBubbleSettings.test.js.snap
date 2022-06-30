@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatusBubbleSettings matches the snapshot for available 1`] = `
+<div
+  className="statusbubblesettings statusbubble--available"
+  style={Object {}}
+>
+  <IconHamburger
+    className=""
+    color="var(--white)"
+    size={9}
+    style={Object {}}
+  />
+</div>
+`;
+
+exports[`StatusBubbleSettings matches the snapshot for away 1`] = `
+<div
+  className="statusbubblesettings statusbubble--away"
+  style={Object {}}
+>
+  <IconHamburger
+    className=""
+    color="var(--white)"
+    size={9}
+    style={Object {}}
+  />
+</div>
+`;
+
+exports[`StatusBubbleSettings matches the snapshot for busy 1`] = `
+<div
+  className="statusbubblesettings statusbubble--busy"
+  style={Object {}}
+>
+  <IconHamburger
+    className=""
+    color="var(--white)"
+    size={9}
+    style={Object {}}
+  />
+</div>
+`;
+
+exports[`StatusBubbleSettings matches the snapshot for offline 1`] = `
+<div
+  className="statusbubblesettings statusbubble--offline"
+  style={Object {}}
+>
+  <IconHamburger
+    className=""
+    color="var(--white)"
+    size={9}
+    style={Object {}}
+  />
+</div>
+`;

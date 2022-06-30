@@ -1,0 +1,153 @@
+.patientdetails-wrap {
+  position: relative;
+  width: 100%;
+  border: 1px solid var(--misc__card__border_color);
+  overflow-y: scroll;
+}
+
+.patientdetails-patient-header {
+  position: relative;
+}
+
+.patientdetails-row {
+  display: flex;
+  flex-direction: row;
+
+  margin: 28px 0 28px 0;
+  max-width: 600px;
+}
+
+.patientdetails-row--full-width {
+  max-width: 640px;
+}
+
+.patientdetails-row--editing {
+  margin: 0 0 0 0;
+}
+
+.patientdetails-donotcontact {
+  color: var(--color_warn);
+}
+
+.patientdetails-column {
+  margin: 28px 0 28px 0;
+}
+
+.patientdetails-display-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  padding-bottom: var(--bottom-whitespace-v1);
+}
+
+.patientdetails-section-wrap {
+  flex-shrink: 0;
+  min-width: 400px;
+  width: 100%;
+  margin-bottom: 64px;
+}
+
+.patientdetails-section {
+  margin: 18px 44px 0 44px;
+}
+
+.patientdetails-section--full-width {
+  margin: 18px 0 0 0;
+}
+
+.patientdetails-data {
+  margin-bottom: 0;
+  width: 360px;
+}
+
+.patientdetails-not-found {
+  margin: 50px 0 0 50px;
+  color: var(--patientpage__patientdetails_not_found);
+}
+
+.patientdetails-row-dupe-id {
+  background: var(--error);
+  color: var(--black);
+  padding: 20px 10px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.patientdetails-section-contact {
+  order: 2;
+}
+
+.patientdetails-section-programs {
+  order: 3;
+}
+
+.patientdetails-section-info {
+  order: 1;
+}
+
+.patientdetails-section-careteams {
+  order: 4;
+}
+
+.patientdetails-section-caregivers {
+  position: relative;
+  order: 5;
+}
+
+.patientdetails-section-export {
+  position: relative;
+  order: 6;
+}
+
+.patientdetailsempty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+
+  color: var(--brandcolor);
+  font-weight: 300;
+}
+
+.patientdetailsempty-text {
+  margin: 20px 10px 0 10px;
+  text-align: center;
+  max-width: 510px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 900px) {
+  .patientdetails-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .patientdetails-data {
+    margin-bottom: 28px;
+  }
+}
+
+@media screen and (min-width: 1324px) {
+  .patientdetails-section-wrap {
+    width: 500px;
+  }
+
+  .patientdetails-section-contact {
+    order: 3;
+  }
+
+  .patientdetails-section-programs {
+    order: 2;
+  }
+
+  .patientdetails-section-info {
+    order: 1;
+  }
+
+  .patientdetails-section-careteams {
+    order: 4;
+  }
+}

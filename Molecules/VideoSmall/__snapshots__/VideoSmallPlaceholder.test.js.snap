@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoSmallPlaceholder matches the base snapshot 1`] = `
+<div
+  className="videosmall-placeholder-wrap"
+>
+  <Avatar
+    className=""
+    dimmed={false}
+    displayName={null}
+    imgUrl=""
+    loading={false}
+    size="large"
+    style={Object {}}
+  />
+</div>
+`;
+
+exports[`VideoSmallPlaceholder matches the snapshot with loading 1`] = `
+<div
+  className="videosmall-placeholder-wrap"
+>
+  <Avatar
+    className=""
+    dimmed={false}
+    displayName={null}
+    imgUrl=""
+    loading={true}
+    size="large"
+    style={Object {}}
+  />
+</div>
+`;
+
+exports[`VideoSmallPlaceholder matches the snapshot with profile image 1`] = `
+<div
+  className="videosmall-placeholder-wrap"
+>
+  <Avatar
+    className=""
+    dimmed={false}
+    displayName={null}
+    imgUrl="https://www.fillmurray.com/400/400"
+    loading={false}
+    size="large"
+    style={Object {}}
+  />
+</div>
+`;

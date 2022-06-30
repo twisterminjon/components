@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactTypes matches the snapshot 1`] = `
+<div>
+  <InputLabel
+    label="Message Type"
+  />
+  <FormField>
+    <Radio
+      checked={false}
+      data-testid="fix me"
+      label="E-Mail"
+      name="contactGroup"
+      onChange={[Function]}
+      style={
+        Object {
+          "marginRight": 25,
+        }
+      }
+      type="radio"
+      value="EMAIL"
+    />
+    <Radio
+      checked={false}
+      data-testid="fix me"
+      label="Mobile (SMS)"
+      name="contactGroup"
+      onChange={[Function]}
+      style={
+        Object {
+          "marginRight": 25,
+        }
+      }
+      type="radio"
+      value="SMS"
+    />
+    <Radio
+      checked={true}
+      data-testid="fix me"
+      label="Both"
+      name="contactGroup"
+      onChange={[Function]}
+      style={
+        Object {
+          "marginRight": 25,
+        }
+      }
+      type="radio"
+      value="BOTH"
+    />
+  </FormField>
+</div>
+`;
+
+exports[`ContactTypes matches the snapshot when display only 1`] = `
+<PatientData
+  alertMessage=""
+  data="Both"
+  title="Message Type"
+  wrapClass=""
+  wrapStyle={Object {}}
+/>
+`;

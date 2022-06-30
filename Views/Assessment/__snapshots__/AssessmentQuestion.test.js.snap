@@ -1,0 +1,277 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AssessmentQuestion checkbox question matches the snapshot 1`] = `
+<div
+  className="assessment-wrap"
+  data-testid="assessment-Title"
+>
+  <div
+    className="assessment-column"
+  >
+    <AssessmentBanner
+      title="Title"
+    />
+    <QuestionWrapper
+      id={1}
+      text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis dui ac dolor luctus, nec volutpat neque accumsan. Quisque nec lacinia purus, ut faucibus dolor"
+    >
+      <CheckboxQuestion
+        data={
+          Array [
+            Object {
+              "text": "Suspendisse convallis dui ac dolor luctus, nec volutpat neque accumsan",
+              "value": false,
+            },
+            Object {
+              "text": "Quisque nec lacinia purus, ut faucibus dolor",
+              "value": false,
+            },
+            Object {
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+              "value": false,
+            },
+          ]
+        }
+        key="1"
+        onChange={[Function]}
+      />
+    </QuestionWrapper>
+    <AssessmentButtons
+      allowNext={false}
+      onNext={[Function]}
+      onPrevious={[MockFunction]}
+      status={
+        Object {
+          "loadingBack": false,
+          "loadingForward": true,
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`AssessmentQuestion flag question matches the snapshot 1`] = `
+<div
+  className="assessment-wrap"
+  data-testid="assessment-Title"
+>
+  <div
+    className="assessment-column"
+  >
+    <AssessmentBanner
+      title="Title"
+    />
+    <QuestionWrapper
+      id={3}
+      text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis dui ac dolor luctus, nec volutpat neque accumsan. Quisque nec lacinia purus, ut faucibus dolor"
+    >
+      <FlagQuestion
+        data={
+          Array [
+            Object {
+              "text": "First Option",
+              "value": false,
+            },
+            Object {
+              "text": "Second Option",
+              "value": false,
+            },
+          ]
+        }
+        key="3"
+        onChange={[Function]}
+      />
+    </QuestionWrapper>
+    <AssessmentButtons
+      allowNext={false}
+      onNext={[Function]}
+      onPrevious={[MockFunction]}
+      status={
+        Object {
+          "loadingBack": false,
+          "loadingForward": true,
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`AssessmentQuestion photo question matches the snapshot 1`] = `
+<div
+  className="assessment-wrap"
+  data-testid="assessment-Title"
+>
+  <div
+    className="assessment-column"
+  >
+    <AssessmentBanner
+      title="Title"
+    />
+    <QuestionWrapper
+      id={6}
+      text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis dui ac dolor luctus, nec volutpat neque accumsan. Quisque nec lacinia purus, ut faucibus dolor"
+    >
+      <PhotoQuestion
+        data={
+          Object {
+            "attachment": Object {
+              "id": 1,
+              "thumbnail": "https://www.fillmurray.com/400/400",
+              "url": "https://www.fillmurray.com/400/400",
+            },
+          }
+        }
+        key="6"
+        onChange={[Function]}
+      />
+    </QuestionWrapper>
+    <AssessmentButtons
+      allowNext={true}
+      onNext={[Function]}
+      onPrevious={[MockFunction]}
+      status={
+        Object {
+          "loadingBack": false,
+          "loadingForward": true,
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`AssessmentQuestion radio question matches the snapshot 1`] = `
+<div
+  className="assessment-wrap"
+  data-testid="assessment-Title"
+>
+  <div
+    className="assessment-column"
+  >
+    <AssessmentBanner
+      title="Title"
+    />
+    <QuestionWrapper
+      id={2}
+      text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis dui ac dolor luctus, nec volutpat neque accumsan. Quisque nec lacinia purus, ut faucibus dolor"
+    >
+      <RadioQuestion
+        data={
+          Array [
+            Object {
+              "text": "Suspendisse convallis dui ac dolor luctus, nec volutpat neque accumsan",
+              "value": false,
+            },
+            Object {
+              "text": "Quisque nec lacinia purus, ut faucibus dolor",
+              "value": false,
+            },
+            Object {
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+              "value": false,
+            },
+          ]
+        }
+        key="2"
+        onChange={[Function]}
+      />
+    </QuestionWrapper>
+    <AssessmentButtons
+      allowNext={false}
+      onNext={[Function]}
+      onPrevious={[MockFunction]}
+      status={
+        Object {
+          "loadingBack": false,
+          "loadingForward": true,
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`AssessmentQuestion scale question matches the snapshot 1`] = `
+<div
+  className="assessment-wrap"
+  data-testid="assessment-Title"
+>
+  <div
+    className="assessment-column"
+  >
+    <AssessmentBanner
+      title="Title"
+    />
+    <QuestionWrapper
+      id={4}
+      text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis dui ac dolor luctus, nec volutpat neque accumsan. Quisque nec lacinia purus, ut faucibus dolor"
+    >
+      <ScaleQuestion
+        data={
+          Object {
+            "end": "End Label",
+            "scale": 10,
+            "start": "Start Label",
+            "value": "",
+          }
+        }
+        key="4"
+        onChange={[Function]}
+      />
+    </QuestionWrapper>
+    <AssessmentButtons
+      allowNext={false}
+      onNext={[Function]}
+      onPrevious={[MockFunction]}
+      status={
+        Object {
+          "loadingBack": false,
+          "loadingForward": true,
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`AssessmentQuestion text question matches the snapshot 1`] = `
+<div
+  className="assessment-wrap"
+  data-testid="assessment-Title"
+>
+  <div
+    className="assessment-column"
+  >
+    <AssessmentBanner
+      title="Title"
+    />
+    <QuestionWrapper
+      id={5}
+      text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis dui ac dolor luctus, nec volutpat neque accumsan. Quisque nec lacinia purus, ut faucibus dolor"
+    >
+      <TextQuestion
+        data={
+          Object {
+            "value": "",
+          }
+        }
+        key="5"
+        onChange={[Function]}
+      />
+    </QuestionWrapper>
+    <AssessmentButtons
+      allowNext={false}
+      onNext={[Function]}
+      onPrevious={[MockFunction]}
+      status={
+        Object {
+          "loadingBack": false,
+          "loadingForward": true,
+        }
+      }
+    />
+  </div>
+</div>
+`;

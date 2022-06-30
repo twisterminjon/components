@@ -1,0 +1,38 @@
+.notificationsform {
+  display: flex;
+  flex-direction: column;
+
+  color: var(--menu__fg);
+  background-color: var(--menu__bg);
+
+  width: 100%;
+  height: 100%;
+}
+
+.notificationsform-title {
+  font-size: 22px;
+  font-weight: bold;
+
+  margin: 23px 0px 0 0px;
+}
+
+.notificationsform-section {
+  padding: 26px 16px;
+}
+
+.notificationsform-section--last {
+  /* Fill the remaining space */
+  flex: 1;
+
+  /* push content to bottom */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.notificationsform hr {
+  border-top: 1px solid var(--brandcolor_muted);
+  border-bottom: none;
+  margin-left: -16px;
+  margin-right: -16px;
+}

@@ -1,0 +1,106 @@
+.slider-label {
+  font-size: 16px;
+  font-weight: normal;
+  padding-bottom: 1rem;
+  color: var(--white);
+  overflow: hidden;
+}
+
+.slider--full-width {
+  width: 100%;
+}
+
+/** For Chrome, Firefox, IE the same appearance */
+
+input[type='range'].slider-input {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 2px;
+  margin: 8.6px 0;
+}
+input[type='range'].slider-input:focus {
+  outline: none;
+}
+input[type='range'].slider-input::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 20px;
+  cursor: pointer;
+  box-shadow: 0.5px 0.5px 1.5px rgba(0, 0, 0, 0.1), 0px 0px 0.5px rgba(13, 13, 13, 0.1);
+  background-color: transparent;
+  border-radius: 0px;
+  border: 0px solid var(--grays_2);
+}
+input[type='range'].slider-input::-webkit-slider-thumb {
+  border: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  background: var(--grays_4);
+  cursor: pointer;
+  -webkit-appearance: none;
+  box-shadow: 2px 2px 2.9px rgba(0, 0, 0, 0.27), 0px 0px 2px rgba(13, 13, 13, 0.27);
+}
+
+input[type='range'].slider-input:focus::-webkit-slider-runnable-track {
+  background: transparent;
+}
+input[type='range'].slider-input::-moz-range-progress {
+  background-color: var(--brandcolor-medium);
+}
+
+input[type='range'].slider-input::-moz-range-track {
+  width: 100%;
+  height: 2px;
+  cursor: pointer;
+  box-shadow: 0.5px 0.5px 1.5px rgba(0, 0, 0, 0.1), 0px 0px 0.5px rgba(13, 13, 13, 0.1);
+  background: var(--grays_2);
+  border-radius: 0px;
+  border: 0px solid rgba(1, 1, 1, 0);
+}
+input[type='range'].slider-input::-moz-range-thumb {
+  box-shadow: 2px 2px 2.9px rgba(0, 0, 0, 0.27), 0px 0px 2px rgba(13, 13, 13, 0.27);
+  border: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  background: var(--grays_4);
+  cursor: pointer;
+}
+
+input[type='range'].slider-input:focus::-moz-range-track {
+  background: var(--grays_2);
+}
+input[type='range'].slider-input::-moz-focus-outer {
+  border: 0;
+}
+
+input[type='range'].slider-input::-ms-track {
+  width: 100%;
+  height: 2px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type='range'].slider-input::-ms-fill-lower {
+  background: var(--brandcolor_medium);
+  border: 0px solid rgba(1, 1, 1, 0);
+  border-radius: 0px;
+  box-shadow: 0.5px 0.5px 1.5px rgba(0, 0, 0, 0.1), 0px 0px 0.5px rgba(13, 13, 13, 0.1);
+}
+input[type='range'].slider-input::-ms-fill-upper {
+  background: var(--grays_2);
+  border: 0px solid rgba(1, 1, 1, 0);
+  border-radius: 0px;
+  box-shadow: 0.5px 0.5px 1.5px rgba(0, 0, 0, 0.1), 0px 0px 0.5px rgba(13, 13, 13, 0.1);
+}
+input[type='range'].slider-input::-ms-thumb {
+  box-shadow: 2px 2px 2.9px rgba(0, 0, 0, 0.27), 0px 0px 2px rgba(13, 13, 13, 0.27);
+  border: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  background: var(--grays_4);
+  cursor: pointer;
+  height: 2.8px;
+}

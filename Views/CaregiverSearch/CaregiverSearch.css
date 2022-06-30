@@ -1,0 +1,86 @@
+.caregiversearch {
+  position: fixed;
+  background-color: var(--brandcolor_verydark);
+  top: 0;
+  right: 0;
+  left: 0;
+
+  padding: 10px;
+
+  z-index: var(--z-callnotice);
+}
+
+.caregiversearch-panel {
+  position: fixed;
+  top: 120px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  background-color: black;
+
+  overflow-y: scroll;
+
+  z-index: calc(var(--z-callnotice) + 1);
+}
+
+/* ************************ */
+/* NOT FOUND PAGE */
+/* ************************ */
+.caregiversearchnotfound {
+  position: relative;
+  width: 345px;
+  margin: auto;
+  color: var(--brandcolor);
+}
+
+.caregiversearchnotfound p {
+  margin-bottom: 96px;
+  font-size: 20px;
+}
+
+/* ************************ */
+/* CAREGIVER RESULTS */
+/* ************************ */
+.caregiverresults {
+  position: relative;
+  margin-top: 40px;
+  background: black;
+  color: var(--brandcolor);
+
+  z-index: calc(var(--z-callnotice) + 2);
+}
+
+.caregiverresults-not-found {
+  margin-top: 150px;
+  z-index: calc(var(--z-callnotice) + 2);
+}
+
+.caregiverresults-loader {
+  position: relative;
+  flex-direction: column;
+
+  margin-top: 150px;
+  width: 100%;
+  z-index: calc(var(--z-callnotice) + 2);
+}
+
+.caregiverresults-loader p {
+  color: var(--white);
+  margin-top: 20px;
+}
+
+/* Semantic overrides */
+.ui.fluid.input.caregiversearch-input input {
+  background: var(--brandcolor_verydark);
+  border: 1px solid var(--brandcolor_trans_25);
+  color: var(--white);
+}
+.ui.fluid.input.caregiversearch-input input::selection {
+  background: var(--brandcolor);
+  color: var(--brandcolor_trans_75);
+}
+
+.ui.fluid.input.caregiversearch-input input::placeholder {
+  color: var(--brandcolor_trans_25);
+}

@@ -1,0 +1,44 @@
+.eventactiontoast-container {
+  padding: 20px 30px;
+  width: 100%;
+}
+
+.eventactiontoast-title {
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 300;
+  color: var(--toastmodal_text_primary_fg);
+}
+
+.eventactiontoast-content {
+  padding-top: 40px;
+}
+
+.eventactiontoast-datecontainer {
+  padding-top: 20px;
+}
+
+.eventactiontoast-datecontainer .input {
+  width: 100%;
+}
+
+.eventactiontoast-actions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.eventactiontoast-buttonwrapper {
+  flex: 1;
+  width: 100%;
+}
+
+.eventactiontoast-save {
+  padding-left: 16px;
+}
+
+.eventactiontoast-cancel {
+  margin-top: 10px !important;
+}

@@ -1,0 +1,12 @@
+.charactercounter {
+  color: var(--base__body_fg);
+  font-weight: 300;
+}
+
+.charactercounter-75 {
+  color: var(--misc_warn_bg);
+}
+
+.charactercounter-overMax {
+  color: var(--misc_negative_bg);
+}

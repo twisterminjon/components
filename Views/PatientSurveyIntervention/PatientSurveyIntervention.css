@@ -1,0 +1,102 @@
+.patientsurveyintervention-wrap {
+  height: calc(100vh - (var(--header-height) + var(--searchbar-height)));
+  overflow: auto;
+  width: 100%;
+  color: var(--font_color_light);
+  text-align: center;
+}
+
+.patientsurveyintervention {
+  background-color: var(--patientsurveyintervention_bg);
+  width: 375px;
+  max-width: 375px;
+  height: 100%;
+  display: inline-block;
+  text-align: left;
+}
+
+.patientsurveyintervention-noremaining {
+  text-align: center;
+}
+
+.patientsurveyintervention-date {
+  color: var(--brandcolor);
+  margin-left: 16px;
+}
+
+.patientsurveyintervention-title {
+  width: 214px;
+  height: 25px;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--font_color_light);
+  margin: 16px 0px;
+}
+
+.patientsurveyintervention-header,
+.patientsurveyintervention-sectionheader {
+  height: 213px;
+  background-color: var(--patientsuveryintervention_section_bg);
+  margin-bottom: 20px;
+  padding: 16px;
+}
+
+.patientsurveyintervention-header {
+  height: auto;
+}
+
+.patientsurveyintervention-sectionheader-title {
+  width: 64px;
+  height: 19px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--font_color_light);
+  margin: 32px 16px 16px 16px;
+}
+
+.patientsurveyintervention-patientavatar {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.patientsurveyintervention-patientname {
+  vertical-align: middle;
+  margin-left: 16px;
+}
+
+.patientsurveyintervention-questiontext {
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #f3f3f3;
+  padding-top: 38px;
+}
+
+.patientsurveyintervention-iconflagwrap {
+  margin: 32px 0px;
+}
+
+.patientsurveyintervention-buttonswrap {
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.patientsurveyintervention-buttonswrap > button {
+  width: 157px !important;
+  height: 44px !important;
+  display: inline-block !important;
+  border-radius: 4px !important;
+  vertical-align: middle !important;
+}

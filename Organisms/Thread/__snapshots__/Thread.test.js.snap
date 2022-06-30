@@ -1,0 +1,4681 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Thread matches the loading snapshot 1`] = `
+<Thread
+  loading={true}
+  message=""
+  onDownloadAttachment={[MockFunction]}
+  onFetchMore={[MockFunction]}
+  onRetry={[MockFunction]}
+  onSeen={[MockFunction]}
+  onSend={[MockFunction]}
+  openAttachment={[MockFunction]}
+  setMessage={[MockFunction]}
+  thread={
+    Object {
+      "addGroupUsers": Array [
+        Object {
+          "displayName": "Sherry Jackson, MD",
+          "id": "10",
+          "overallStatus": "offline",
+          "profileImage": "https://www.fillmurray.com/1000/1000",
+        },
+        Object {
+          "displayName": "Olivia Lopez, MD",
+          "id": "2",
+          "overallStatus": "available",
+          "profileImage": "https://www.fillmurray.com/800/800",
+        },
+        Object {
+          "displayName": "Paul Jason, RN",
+          "id": "6",
+          "overallStatus": "offline",
+          "profileImage": "https://www.fillmurray.com/600/600",
+        },
+        Object {
+          "displayName": "Rosalyn Stratton, RN",
+          "id": "5",
+          "overallStatus": "offline",
+          "profileImage": "https://www.fillmurray.com/100/100",
+        },
+        Object {
+          "displayName": "Jennifer Reyes",
+          "id": "8",
+          "overallStatus": "offline",
+          "profileImage": "https://www.fillmurray.com/200/200",
+        },
+        Object {
+          "displayName": "Tony Hunter",
+          "id": "7",
+          "overallStatus": "offline",
+          "profileImage": "",
+        },
+      ],
+      "addGroups": Array [
+        Object {
+          "id": "6",
+          "isActive": true,
+          "name": "Cardiology",
+        },
+        Object {
+          "id": "4",
+          "isActive": true,
+          "name": "ED Charge Nurses",
+        },
+        Object {
+          "id": "5",
+          "isActive": true,
+          "name": "ED Technicians",
+        },
+      ],
+      "addMembers": Array [
+        Object {
+          "displayName": "David McGinnis, MD",
+          "id": "9",
+          "overallStatus": "offline",
+          "profileImage": "https://www.fillmurray.com/1000/1000",
+        },
+        Object {
+          "displayName": "David Smith, MD",
+          "id": "4",
+          "overallStatus": "available",
+          "profileImage": "https://www.fillmurray.com/800/800",
+        },
+        Object {
+          "displayName": "Jennifer Reyes",
+          "id": "8",
+          "overallStatus": "offline",
+          "profileImage": "https://www.fillmurray.com/100/100",
+        },
+        Object {
+          "displayName": "Paul Jason, RN",
+          "id": "6",
+          "overallStatus": "offline",
+          "profileImage": "https://www.fillmurray.com/600/600",
+        },
+        Object {
+          "displayName": "Rosalyn Stratton, RN",
+          "id": "5",
+          "overallStatus": "offline",
+          "profileImage": "https://www.fillmurray.com/200/200",
+        },
+        Object {
+          "displayName": "Sherry Jackson, MD",
+          "id": "10",
+          "overallStatus": "offline",
+          "profileImage": "",
+        },
+        Object {
+          "displayName": "Tony Hunter",
+          "id": "7",
+          "overallStatus": "away",
+          "profileImage": "https://www.fillmurray.com/400/400",
+        },
+      ],
+      "firstUnreadMessage": Object {
+        "id": "message1",
+      },
+      "id": "74ac5fc501a34f2da8167fa06569e7c3",
+      "isGroup": false,
+      "members": Array [
+        Object {
+          "displayName": "Olivia Lopez, MD",
+          "id": "2",
+          "isCaregiver": false,
+          "isPatient": false,
+          "isStaff": true,
+          "overallStatus": "available",
+          "patient": null,
+          "profileImage": "https://www.fillmurray.com/400/400",
+        },
+        Object {
+          "displayName": "Agnes Rogers, MD",
+          "id": "3",
+          "isCaregiver": false,
+          "isPatient": false,
+          "isStaff": true,
+          "overallStatus": "offline",
+          "patient": null,
+          "profileImage": "https://www.fillmurray.com/600/600",
+        },
+      ],
+      "messages": Array [
+        Object {
+          "attachments": Array [],
+          "id": "message1",
+          "isOwn": true,
+          "isSystemMessage": false,
+          "seen": true,
+          "sender": Object {
+            "displayName": "me",
+            "id": "1111",
+            "profileImage": "",
+          },
+          "systemMessageType": null,
+          "text": "That new mole looks like this 🙍‍",
+          "timestamp": "2018-12-01T10:30:15",
+        },
+        Object {
+          "attachments": Array [
+            Object {
+              "expired": false,
+              "file": "image.png",
+              "id": "1",
+              "msgtype": "image/jpg",
+              "thumbnail": "https://www.fillmurray.com/800/1200",
+              "timestamp": "2018-12-06T02:30:15",
+              "type": "image/jpg",
+              "url": "https://www.fillmurray.com/800/1200",
+            },
+          ],
+          "id": "message1a",
+          "isOwn": true,
+          "isSystemMessage": false,
+          "seen": true,
+          "sender": Object {
+            "displayName": "me",
+            "id": "1111",
+            "profileImage": "",
+          },
+          "systemMessageType": null,
+          "text": "",
+          "timestamp": "2018-12-01T11:25:15",
+        },
+        Object {
+          "attachments": Array [],
+          "id": "message2",
+          "isOwn": false,
+          "isSystemMessage": false,
+          "seen": true,
+          "sender": Object {
+            "displayName": "Dr. Stephen Strange",
+            "id": "1",
+            "profileImage": "https://www.fillmurray.com/60/60",
+          },
+          "systemMessageType": null,
+          "text": "I see, was expecting it to look like something else",
+          "timestamp": "2018-12-02T12:30:15",
+        },
+        Object {
+          "attachments": Array [
+            Object {
+              "expired": false,
+              "id": "2",
+              "msgtype": "image/jpg",
+              "thumbnail": "https://www.fillmurray.com/600/900",
+              "timestamp": "2018-12-06T02:30:15",
+              "type": "image/jpg",
+              "url": "https://www.fillmurray.com/600/900",
+            },
+          ],
+          "id": "message2a",
+          "isOwn": false,
+          "isSystemMessage": false,
+          "seen": true,
+          "sender": Object {
+            "displayName": "Dr. Stephen Strange",
+            "id": "1",
+            "profileImage": "https://www.fillmurray.com/60/60",
+          },
+          "systemMessageType": null,
+          "text": "",
+          "timestamp": "2018-12-02T12:30:15",
+        },
+        Object {
+          "attachments": Array [
+            Object {
+              "expired": false,
+              "id": "2",
+              "msgtype": "image/jpg",
+              "thumbnail": "https://www.missingfillmurray.com/600/900",
+              "timestamp": "2018-12-06T02:30:15",
+              "type": "image/jpg",
+              "url": "https://www.missingfillmurray.com/600/900",
+            },
+          ],
+          "id": "message2b",
+          "isOwn": false,
+          "isSystemMessage": false,
+          "seen": true,
+          "sender": Object {
+            "displayName": "Dr. Stephen Strange",
+            "id": "1",
+            "profileImage": "https://www.fillmurray.com/60/60",
+          },
+          "systemMessageType": null,
+          "text": "",
+          "timestamp": "2018-12-02T12:30:15",
+        },
+        Object {
+          "attachments": Array [],
+          "id": "message2-1",
+          "isOwn": false,
+          "isSystemMessage": true,
+          "seen": false,
+          "sender": Object {
+            "displayName": "System",
+            "id": "fake-system-user-id",
+            "profileImage": "",
+          },
+          "systemMessageType": "USER_ADDED",
+          "text": "Dr. Kranky has been added",
+          "timestamp": "2018-12-06T02:33:15",
+        },
+        Object {
+          "attachments": Array [],
+          "id": "message3",
+          "isOwn": true,
+          "isSystemMessage": false,
+          "seen": true,
+          "sender": Object {
+            "displayName": "me",
+            "id": "1111",
+            "profileImage": "",
+          },
+          "systemMessageType": null,
+          "text": "But I want a mole that looks like the one you posted",
+          "timestamp": "2018-12-03T12:30:15",
+        },
+        Object {
+          "attachments": Array [],
+          "id": "message4",
+          "isOwn": true,
+          "isSystemMessage": false,
+          "seen": false,
+          "sender": Object {
+            "displayName": "me",
+            "id": "1111",
+            "profileImage": "",
+          },
+          "systemMessageType": null,
+          "text": "Mine isn't very nice to look at",
+          "timestamp": "2018-12-04T12:30:15",
+        },
+        Object {
+          "attachments": Array [],
+          "id": "message5",
+          "isOwn": true,
+          "isSystemMessage": false,
+          "seen": false,
+          "sender": Object {
+            "displayName": "me",
+            "id": "1111",
+            "profileImage": "",
+          },
+          "systemMessageType": null,
+          "text": "That's what my sister says",
+          "timestamp": "2018-12-04T12:30:15",
+        },
+        Object {
+          "attachments": Array [],
+          "id": "message6",
+          "isOwn": false,
+          "isSystemMessage": false,
+          "seen": false,
+          "sender": Object {
+            "displayName": "Dr. Stephen Strange",
+            "id": "1",
+            "profileImage": "https://www.fillmurray.com/60/60",
+          },
+          "systemMessageType": null,
+          "text": "Let me check",
+          "timestamp": "2018-12-05T02:30:15",
+        },
+        Object {
+          "attachments": Array [],
+          "id": "message7",
+          "isOwn": false,
+          "isSystemMessage": false,
+          "seen": false,
+          "sender": Object {
+            "displayName": "Dr. Stephen Strange",
+            "id": "1",
+            "profileImage": "https://www.fillmurray.com/60/60",
+          },
+          "systemMessageType": null,
+          "text": "Yes, I think we can make it look that way
+
+But I have to say, most people want their moles removed, not changed to look like Bill Murray",
+          "timestamp": "2018-12-05T02:30:19",
+        },
+        Object {
+          "attachments": Array [],
+          "id": "message8",
+          "isOwn": true,
+          "isSystemMessage": false,
+          "seen": false,
+          "sender": Object {
+            "displayName": "me",
+            "id": "1111",
+            "profileImage": "",
+          },
+          "systemMessageType": null,
+          "text": "...Bill for the win!  😆",
+          "timestamp": "2018-12-06T02:30:15",
+        },
+        Object {
+          "attachments": Array [],
+          "id": "message9",
+          "isOwn": true,
+          "isSystemMessage": false,
+          "seen": false,
+          "sender": Object {
+            "displayName": "me",
+            "id": "1111",
+            "profileImage": "",
+          },
+          "systemMessageType": null,
+          "text": "Link test
+https://google.com",
+          "timestamp": "2018-12-06T02:30:15",
+        },
+      ],
+      "name": "Olivia Lopez, MD",
+      "profileImage": "https://www.fillmurray.com/200/200",
+    }
+  }
+>
+  <div
+    className="messagethread-wrap"
+  >
+    <NewMessagesPopup
+      loading={false}
+      onClick={[Function]}
+      visible={true}
+    >
+      <button
+        className="newmessages-popup newmessages-popup-shown"
+        data-testid="button-new-messages-visible"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <span
+          className="newmessages-text"
+        >
+          New Messages
+        </span>
+        <IconArrowUp
+          color="black"
+        >
+          <svg
+            height="15"
+            style={Object {}}
+            viewBox="0 0 15 15"
+            width="15"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1.005 8.622L.242 7.88c-.323-.315-.323-.823 0-1.135L6.918.236c.323-.315.845-.315 1.164 0l6.676 6.505c.323.315.323.823 0 1.135l-.763.743c-.326.318-.859.311-1.178-.013L8.876 4.575v9.622c0 .445-.368.803-.825.803H6.952c-.457 0-.825-.358-.825-.803V4.575L2.183 8.609c-.32.328-.852.335-1.178.013z"
+              fill="black"
+              fillRule="evenodd"
+            />
+          </svg>
+        </IconArrowUp>
+      </button>
+    </NewMessagesPopup>
+    <ThreadScroller
+      isStartOfThread={false}
+      lastMessageKey="message1"
+      loading={true}
+      loadingComponent={
+        <PlaceholderMessages
+          show={true}
+        />
+      }
+      messagesCount={21}
+      newThreadMessage={<NewThreadMessage />}
+      onFetchMore={[MockFunction]}
+      startOfThreadMessage={<FirstMessage />}
+    >
+      <div
+        className="container"
+      >
+        <div
+          className="content"
+          id="scroll-target-49999.5"
+        >
+          <InfiniteScroll
+            className="scroll"
+            dataLength={21}
+            hasMore={false}
+            inverse={true}
+            next={[MockFunction]}
+            scrollableTarget="scroll-target-49999.5"
+          >
+            <div
+              className="infinite-scroll-component__outerdiv"
+              style={Object {}}
+            >
+              <div
+                className="infinite-scroll-component scroll"
+                style={
+                  Object {
+                    "WebkitOverflowScrolling": "touch",
+                    "height": "auto",
+                    "overflow": "auto",
+                  }
+                }
+              >
+                <Message
+                  className=""
+                  data-testid="sent-message"
+                  displayName="me"
+                  isOwn={true}
+                  key="message1"
+                  onRetry={[Function]}
+                  profileImage=""
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  timestamp="2018-12-01T10:30:15"
+                >
+                  <div
+                    className="message message--own"
+                    data-testid="sent-message"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="message-flex-container"
+                    >
+                      <div
+                        className="message-content message--sent"
+                      >
+                        <div
+                          className="message-flex-container-column"
+                        >
+                          <MessageText
+                            className=""
+                            isOwn={true}
+                            style={Object {}}
+                            timestamp="2018-12-01T10:30:15"
+                          >
+                            <div
+                              className="messagetext messagetext--sent "
+                              onClick={[Function]}
+                              style={Object {}}
+                            >
+                              <p
+                                className="messagetext-content"
+                              >
+                                <Linkify
+                                  disabled={false}
+                                  text="That new mole looks like this 🙍‍"
+                                >
+                                  That new mole looks like this 🙍‍
+                                </Linkify>
+                              </p>
+                              <div
+                                className="messagetext-timestamp"
+                              >
+                                <span
+                                  className="messagetext-timestamp-text"
+                                >
+                                  10:30 AM
+                                </span>
+                              </div>
+                            </div>
+                          </MessageText>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="message-retry"
+                    >
+                      <button
+                        className="message-retry-button"
+                        disabled={false}
+                        onClick={[Function]}
+                      >
+                        Send Failed. Retry?
+                      </button>
+                    </div>
+                  </div>
+                </Message>
+                <div
+                  className="newmessages-line"
+                  key="UNREAD_LINE"
+                >
+                  <MessageSystem
+                    text="New"
+                    type="UNREAD_LINE"
+                  >
+                    <div
+                      className="messagesystem"
+                      data-testid="system-message-user-added"
+                      style={Object {}}
+                    >
+                      <div
+                        className="messagesystem-common messagesystem-right"
+                      >
+                        <span
+                          className="messagesystem-message"
+                        >
+                          New
+                        </span>
+                      </div>
+                    </div>
+                  </MessageSystem>
+                </div>
+                <Message
+                  className=""
+                  data-testid="sent-message"
+                  displayName="me"
+                  isOwn={true}
+                  key="message1a"
+                  onRetry={[Function]}
+                  profileImage=""
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  timestamp="2018-12-01T11:25:15"
+                >
+                  <div
+                    className="message message--own"
+                    data-testid="sent-message"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="message-flex-container"
+                    >
+                      <div
+                        className="message-content message--sent"
+                      >
+                        <div
+                          className="message-flex-container-column"
+                        >
+                          <MessageAttachmentThumbnail
+                            className=""
+                            isOwn={true}
+                            onClick={[Function]}
+                            sending={false}
+                            style={Object {}}
+                            timestamp="2018-12-01T11:25:15"
+                          >
+                            <div
+                              className="messageattachmentthumbnail"
+                              onClick={[Function]}
+                              style={Object {}}
+                            >
+                              <img
+                                alt="attachment"
+                                onError={[Function]}
+                              />
+                              <div
+                                className="messagethumbnail-timestamp"
+                              >
+                                <span
+                                  className="messagethumbnail-timestamp-text"
+                                >
+                                  11:25 AM
+                                </span>
+                                <Loader
+                                  active={false}
+                                  className="messagethumbnail-loader"
+                                  inline={true}
+                                  inverted={true}
+                                  size="mini"
+                                >
+                                  <div
+                                    className="ui mini inverted inline loader messagethumbnail-loader"
+                                  />
+                                </Loader>
+                              </div>
+                            </div>
+                          </MessageAttachmentThumbnail>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="message-retry"
+                    >
+                      <button
+                        className="message-retry-button"
+                        disabled={false}
+                        onClick={[Function]}
+                      >
+                        Send Failed. Retry?
+                      </button>
+                    </div>
+                  </div>
+                </Message>
+                <MessageSystem
+                  key="currentMessageDate_2018-12-01T11:25:15"
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  text="Saturday, December 1st"
+                >
+                  <div
+                    className="messagesystem"
+                    data-testid="system-message-user-added"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="messagesystem-common messagesystem-bubble"
+                    >
+                      <span
+                        className="messagesystem-message"
+                      >
+                        Saturday, December 1st
+                      </span>
+                    </div>
+                  </div>
+                </MessageSystem>
+                <Message
+                  className=""
+                  data-testid="received-message"
+                  displayName="Dr. Stephen Strange"
+                  isOwn={false}
+                  key="message2"
+                  onRetry={[Function]}
+                  profileImage="https://www.fillmurray.com/60/60"
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  timestamp="2018-12-02T12:30:15"
+                >
+                  <div
+                    className="message"
+                    data-testid="received-message"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="message-flex-container"
+                    >
+                      <div
+                        className="message-content message--received"
+                      >
+                        <div
+                          className="message-avatar"
+                        >
+                          <Avatar
+                            className=""
+                            dimmed={false}
+                            displayName="Dr. Stephen Strange"
+                            imgUrl="https://www.fillmurray.com/60/60"
+                            loading={false}
+                            size={24}
+                            style={Object {}}
+                          >
+                            <div
+                              className="avatar"
+                              style={
+                                Object {
+                                  "height": "24px",
+                                  "lineHeight": "24px",
+                                  "width": "24px",
+                                }
+                              }
+                            >
+                              <img
+                                alt="user avatar"
+                                src="https://www.fillmurray.com/60/60"
+                                style={
+                                  Object {
+                                    "height": "24px",
+                                    "lineHeight": "24px",
+                                    "width": "24px",
+                                  }
+                                }
+                              />
+                            </div>
+                          </Avatar>
+                          <span
+                            className="message-author"
+                          >
+                            Dr. Stephen Strange
+                          </span>
+                        </div>
+                        <div
+                          className="message-flex-container-column"
+                        >
+                          <MessageText
+                            className=""
+                            isOwn={false}
+                            style={Object {}}
+                            timestamp="2018-12-02T12:30:15"
+                          >
+                            <div
+                              className="messagetext messagetext--received "
+                              onClick={[Function]}
+                              style={Object {}}
+                            >
+                              <p
+                                className="messagetext-content"
+                              >
+                                <Linkify
+                                  disabled={false}
+                                  text="I see, was expecting it to look like something else"
+                                >
+                                  I see, was expecting it to look like something else
+                                </Linkify>
+                              </p>
+                              <div
+                                className="messagetext-timestamp"
+                              >
+                                <span
+                                  className="messagetext-timestamp-text"
+                                >
+                                  12:30 PM
+                                </span>
+                              </div>
+                            </div>
+                          </MessageText>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="message-retry"
+                    >
+                      <button
+                        className="message-retry-button"
+                        disabled={false}
+                        onClick={[Function]}
+                      >
+                        Send Failed. Retry?
+                      </button>
+                    </div>
+                  </div>
+                </Message>
+                <Message
+                  className=""
+                  data-testid="received-message"
+                  displayName="Dr. Stephen Strange"
+                  isOwn={false}
+                  key="message2a"
+                  onRetry={[Function]}
+                  profileImage="https://www.fillmurray.com/60/60"
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  timestamp="2018-12-02T12:30:15"
+                >
+                  <div
+                    className="message"
+                    data-testid="received-message"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="message-flex-container"
+                    >
+                      <div
+                        className="message-content message--received"
+                      >
+                        <div
+                          className="message-avatar"
+                        >
+                          <Avatar
+                            className=""
+                            dimmed={false}
+                            displayName="Dr. Stephen Strange"
+                            imgUrl="https://www.fillmurray.com/60/60"
+                            loading={false}
+                            size={24}
+                            style={Object {}}
+                          >
+                            <div
+                              className="avatar"
+                              style={
+                                Object {
+                                  "height": "24px",
+                                  "lineHeight": "24px",
+                                  "width": "24px",
+                                }
+                              }
+                            >
+                              <img
+                                alt="user avatar"
+                                src="https://www.fillmurray.com/60/60"
+                                style={
+                                  Object {
+                                    "height": "24px",
+                                    "lineHeight": "24px",
+                                    "width": "24px",
+                                  }
+                                }
+                              />
+                            </div>
+                          </Avatar>
+                          <span
+                            className="message-author"
+                          >
+                            Dr. Stephen Strange
+                          </span>
+                        </div>
+                        <div
+                          className="message-flex-container-column"
+                        >
+                          <MessageAttachmentThumbnail
+                            className="messageattachmentthumbnail--received"
+                            isOwn={false}
+                            onClick={[Function]}
+                            sending={false}
+                            style={Object {}}
+                            timestamp="2018-12-02T12:30:15"
+                          >
+                            <div
+                              className="messageattachmentthumbnail messageattachmentthumbnail--received messageattachmentthumbnail--received"
+                              onClick={[Function]}
+                              style={Object {}}
+                            >
+                              <img
+                                alt="attachment"
+                                onError={[Function]}
+                                src="https://www.fillmurray.com/600/900"
+                              />
+                              <div
+                                className="messagethumbnail-timestamp"
+                              >
+                                <span
+                                  className="messagethumbnail-timestamp-text"
+                                >
+                                  12:30 PM
+                                </span>
+                                <Loader
+                                  active={false}
+                                  className="messagethumbnail-loader"
+                                  inline={true}
+                                  inverted={true}
+                                  size="mini"
+                                >
+                                  <div
+                                    className="ui mini inverted inline loader messagethumbnail-loader"
+                                  />
+                                </Loader>
+                              </div>
+                            </div>
+                          </MessageAttachmentThumbnail>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="message-retry"
+                    >
+                      <button
+                        className="message-retry-button"
+                        disabled={false}
+                        onClick={[Function]}
+                      >
+                        Send Failed. Retry?
+                      </button>
+                    </div>
+                  </div>
+                </Message>
+                <Message
+                  className=""
+                  data-testid="received-message"
+                  displayName="Dr. Stephen Strange"
+                  isOwn={false}
+                  key="message2b"
+                  onRetry={[Function]}
+                  profileImage="https://www.fillmurray.com/60/60"
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  timestamp="2018-12-02T12:30:15"
+                >
+                  <div
+                    className="message"
+                    data-testid="received-message"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="message-flex-container"
+                    >
+                      <div
+                        className="message-content message--received"
+                      >
+                        <div
+                          className="message-avatar"
+                        >
+                          <Avatar
+                            className=""
+                            dimmed={false}
+                            displayName="Dr. Stephen Strange"
+                            imgUrl="https://www.fillmurray.com/60/60"
+                            loading={false}
+                            size={24}
+                            style={Object {}}
+                          >
+                            <div
+                              className="avatar"
+                              style={
+                                Object {
+                                  "height": "24px",
+                                  "lineHeight": "24px",
+                                  "width": "24px",
+                                }
+                              }
+                            >
+                              <img
+                                alt="user avatar"
+                                src="https://www.fillmurray.com/60/60"
+                                style={
+                                  Object {
+                                    "height": "24px",
+                                    "lineHeight": "24px",
+                                    "width": "24px",
+                                  }
+                                }
+                              />
+                            </div>
+                          </Avatar>
+                          <span
+                            className="message-author"
+                          >
+                            Dr. Stephen Strange
+                          </span>
+                        </div>
+                        <div
+                          className="message-flex-container-column"
+                        >
+                          <MessageAttachmentThumbnail
+                            className="messageattachmentthumbnail--received"
+                            isOwn={false}
+                            onClick={[Function]}
+                            sending={false}
+                            style={Object {}}
+                            timestamp="2018-12-02T12:30:15"
+                          >
+                            <div
+                              className="messageattachmentthumbnail messageattachmentthumbnail--received messageattachmentthumbnail--received"
+                              onClick={[Function]}
+                              style={Object {}}
+                            >
+                              <img
+                                alt="attachment"
+                                onError={[Function]}
+                                src="https://www.missingfillmurray.com/600/900"
+                              />
+                              <div
+                                className="messagethumbnail-timestamp"
+                              >
+                                <span
+                                  className="messagethumbnail-timestamp-text"
+                                >
+                                  12:30 PM
+                                </span>
+                                <Loader
+                                  active={false}
+                                  className="messagethumbnail-loader"
+                                  inline={true}
+                                  inverted={true}
+                                  size="mini"
+                                >
+                                  <div
+                                    className="ui mini inverted inline loader messagethumbnail-loader"
+                                  />
+                                </Loader>
+                              </div>
+                            </div>
+                          </MessageAttachmentThumbnail>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="message-retry"
+                    >
+                      <button
+                        className="message-retry-button"
+                        disabled={false}
+                        onClick={[Function]}
+                      >
+                        Send Failed. Retry?
+                      </button>
+                    </div>
+                  </div>
+                </Message>
+                <MessageSystem
+                  key="currentMessageDate_2018-12-02T12:30:15"
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  text="Sunday, December 2nd"
+                >
+                  <div
+                    className="messagesystem"
+                    data-testid="system-message-user-added"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="messagesystem-common messagesystem-bubble"
+                    >
+                      <span
+                        className="messagesystem-message"
+                      >
+                        Sunday, December 2nd
+                      </span>
+                    </div>
+                  </div>
+                </MessageSystem>
+                <MessageSystem
+                  key="message2-1"
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  text="Dr. Kranky has been added"
+                  type="USER_ADDED"
+                >
+                  <div
+                    className="messagesystem"
+                    data-testid="system-message-user-added"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="messagesystem-common messagesystem-left-bubble messagesystem-bubble--bright"
+                    >
+                      <span
+                        className="messagesystem-message"
+                      >
+                        Dr. Kranky has been added
+                      </span>
+                    </div>
+                  </div>
+                </MessageSystem>
+                <MessageSystem
+                  key="currentMessageDate_2018-12-06T02:33:15"
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  text="Thursday, December 6th"
+                >
+                  <div
+                    className="messagesystem"
+                    data-testid="system-message-user-added"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="messagesystem-common messagesystem-bubble"
+                    >
+                      <span
+                        className="messagesystem-message"
+                      >
+                        Thursday, December 6th
+                      </span>
+                    </div>
+                  </div>
+                </MessageSystem>
+                <Message
+                  className=""
+                  data-testid="sent-message"
+                  displayName="me"
+                  isOwn={true}
+                  key="message3"
+                  onRetry={[Function]}
+                  profileImage=""
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  timestamp="2018-12-03T12:30:15"
+                >
+                  <div
+                    className="message message--own"
+                    data-testid="sent-message"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="message-flex-container"
+                    >
+                      <div
+                        className="message-content message--sent"
+                      >
+                        <div
+                          className="message-flex-container-column"
+                        >
+                          <MessageText
+                            className=""
+                            isOwn={true}
+                            style={Object {}}
+                            timestamp="2018-12-03T12:30:15"
+                          >
+                            <div
+                              className="messagetext messagetext--sent "
+                              onClick={[Function]}
+                              style={Object {}}
+                            >
+                              <p
+                                className="messagetext-content"
+                              >
+                                <Linkify
+                                  disabled={false}
+                                  text="But I want a mole that looks like the one you posted"
+                                >
+                                  But I want a mole that looks like the one you posted
+                                </Linkify>
+                              </p>
+                              <div
+                                className="messagetext-timestamp"
+                              >
+                                <span
+                                  className="messagetext-timestamp-text"
+                                >
+                                  12:30 PM
+                                </span>
+                              </div>
+                            </div>
+                          </MessageText>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="message-retry"
+                    >
+                      <button
+                        className="message-retry-button"
+                        disabled={false}
+                        onClick={[Function]}
+                      >
+                        Send Failed. Retry?
+                      </button>
+                    </div>
+                  </div>
+                </Message>
+                <MessageSystem
+                  key="currentMessageDate_2018-12-03T12:30:15"
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  text="Monday, December 3rd"
+                >
+                  <div
+                    className="messagesystem"
+                    data-testid="system-message-user-added"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="messagesystem-common messagesystem-bubble"
+                    >
+                      <span
+                        className="messagesystem-message"
+                      >
+                        Monday, December 3rd
+                      </span>
+                    </div>
+                  </div>
+                </MessageSystem>
+                <Message
+                  className=""
+                  data-testid="sent-message"
+                  displayName="me"
+                  isOwn={true}
+                  key="message4"
+                  onRetry={[Function]}
+                  profileImage=""
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  timestamp="2018-12-04T12:30:15"
+                >
+                  <div
+                    className="message message--own"
+                    data-testid="sent-message"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="message-flex-container"
+                    >
+                      <div
+                        className="message-content message--sent"
+                      >
+                        <div
+                          className="message-flex-container-column"
+                        >
+                          <MessageText
+                            className=""
+                            isOwn={true}
+                            style={Object {}}
+                            timestamp="2018-12-04T12:30:15"
+                          >
+                            <div
+                              className="messagetext messagetext--sent "
+                              onClick={[Function]}
+                              style={Object {}}
+                            >
+                              <p
+                                className="messagetext-content"
+                              >
+                                <Linkify
+                                  disabled={false}
+                                  text="Mine isn't very nice to look at"
+                                >
+                                  Mine isn't very nice to look at
+                                </Linkify>
+                              </p>
+                              <div
+                                className="messagetext-timestamp"
+                              >
+                                <span
+                                  className="messagetext-timestamp-text"
+                                >
+                                  12:30 PM
+                                </span>
+                              </div>
+                            </div>
+                          </MessageText>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="message-retry"
+                    >
+                      <button
+                        className="message-retry-button"
+                        disabled={false}
+                        onClick={[Function]}
+                      >
+                        Send Failed. Retry?
+                      </button>
+                    </div>
+                  </div>
+                </Message>
+                <Message
+                  className=""
+                  data-testid="sent-message"
+                  displayName="me"
+                  isOwn={true}
+                  key="message5"
+                  onRetry={[Function]}
+                  profileImage=""
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  timestamp="2018-12-04T12:30:15"
+                >
+                  <div
+                    className="message message--own"
+                    data-testid="sent-message"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="message-flex-container"
+                    >
+                      <div
+                        className="message-content message--sent"
+                      >
+                        <div
+                          className="message-flex-container-column"
+                        >
+                          <MessageText
+                            className=""
+                            isOwn={true}
+                            style={Object {}}
+                            timestamp="2018-12-04T12:30:15"
+                          >
+                            <div
+                              className="messagetext messagetext--sent "
+                              onClick={[Function]}
+                              style={Object {}}
+                            >
+                              <p
+                                className="messagetext-content"
+                              >
+                                <Linkify
+                                  disabled={false}
+                                  text="That's what my sister says"
+                                >
+                                  That's what my sister says
+                                </Linkify>
+                              </p>
+                              <div
+                                className="messagetext-timestamp"
+                              >
+                                <span
+                                  className="messagetext-timestamp-text"
+                                >
+                                  12:30 PM
+                                </span>
+                              </div>
+                            </div>
+                          </MessageText>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="message-retry"
+                    >
+                      <button
+                        className="message-retry-button"
+                        disabled={false}
+                        onClick={[Function]}
+                      >
+                        Send Failed. Retry?
+                      </button>
+                    </div>
+                  </div>
+                </Message>
+                <MessageSystem
+                  key="currentMessageDate_2018-12-04T12:30:15"
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  text="Tuesday, December 4th"
+                >
+                  <div
+                    className="messagesystem"
+                    data-testid="system-message-user-added"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="messagesystem-common messagesystem-bubble"
+                    >
+                      <span
+                        className="messagesystem-message"
+                      >
+                        Tuesday, December 4th
+                      </span>
+                    </div>
+                  </div>
+                </MessageSystem>
+                <Message
+                  className=""
+                  data-testid="received-message"
+                  displayName="Dr. Stephen Strange"
+                  isOwn={false}
+                  key="message6"
+                  onRetry={[Function]}
+                  profileImage="https://www.fillmurray.com/60/60"
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  timestamp="2018-12-05T02:30:15"
+                >
+                  <div
+                    className="message"
+                    data-testid="received-message"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="message-flex-container"
+                    >
+                      <div
+                        className="message-content message--received"
+                      >
+                        <div
+                          className="message-avatar"
+                        >
+                          <Avatar
+                            className=""
+                            dimmed={false}
+                            displayName="Dr. Stephen Strange"
+                            imgUrl="https://www.fillmurray.com/60/60"
+                            loading={false}
+                            size={24}
+                            style={Object {}}
+                          >
+                            <div
+                              className="avatar"
+                              style={
+                                Object {
+                                  "height": "24px",
+                                  "lineHeight": "24px",
+                                  "width": "24px",
+                                }
+                              }
+                            >
+                              <img
+                                alt="user avatar"
+                                src="https://www.fillmurray.com/60/60"
+                                style={
+                                  Object {
+                                    "height": "24px",
+                                    "lineHeight": "24px",
+                                    "width": "24px",
+                                  }
+                                }
+                              />
+                            </div>
+                          </Avatar>
+                          <span
+                            className="message-author"
+                          >
+                            Dr. Stephen Strange
+                          </span>
+                        </div>
+                        <div
+                          className="message-flex-container-column"
+                        >
+                          <MessageText
+                            className=""
+                            isOwn={false}
+                            style={Object {}}
+                            timestamp="2018-12-05T02:30:15"
+                          >
+                            <div
+                              className="messagetext messagetext--received "
+                              onClick={[Function]}
+                              style={Object {}}
+                            >
+                              <p
+                                className="messagetext-content"
+                              >
+                                <Linkify
+                                  disabled={false}
+                                  text="Let me check"
+                                >
+                                  Let me check
+                                </Linkify>
+                              </p>
+                              <div
+                                className="messagetext-timestamp"
+                              >
+                                <span
+                                  className="messagetext-timestamp-text"
+                                >
+                                  2:30 AM
+                                </span>
+                              </div>
+                            </div>
+                          </MessageText>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="message-retry"
+                    >
+                      <button
+                        className="message-retry-button"
+                        disabled={false}
+                        onClick={[Function]}
+                      >
+                        Send Failed. Retry?
+                      </button>
+                    </div>
+                  </div>
+                </Message>
+                <Message
+                  className=""
+                  data-testid="received-message"
+                  displayName="Dr. Stephen Strange"
+                  isOwn={false}
+                  key="message7"
+                  onRetry={[Function]}
+                  profileImage="https://www.fillmurray.com/60/60"
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  timestamp="2018-12-05T02:30:19"
+                >
+                  <div
+                    className="message"
+                    data-testid="received-message"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="message-flex-container"
+                    >
+                      <div
+                        className="message-content message--received"
+                      >
+                        <div
+                          className="message-avatar"
+                        >
+                          <Avatar
+                            className=""
+                            dimmed={false}
+                            displayName="Dr. Stephen Strange"
+                            imgUrl="https://www.fillmurray.com/60/60"
+                            loading={false}
+                            size={24}
+                            style={Object {}}
+                          >
+                            <div
+                              className="avatar"
+                              style={
+                                Object {
+                                  "height": "24px",
+                                  "lineHeight": "24px",
+                                  "width": "24px",
+                                }
+                              }
+                            >
+                              <img
+                                alt="user avatar"
+                                src="https://www.fillmurray.com/60/60"
+                                style={
+                                  Object {
+                                    "height": "24px",
+                                    "lineHeight": "24px",
+                                    "width": "24px",
+                                  }
+                                }
+                              />
+                            </div>
+                          </Avatar>
+                          <span
+                            className="message-author"
+                          >
+                            Dr. Stephen Strange
+                          </span>
+                        </div>
+                        <div
+                          className="message-flex-container-column"
+                        >
+                          <MessageText
+                            className=""
+                            isOwn={false}
+                            style={Object {}}
+                            timestamp="2018-12-05T02:30:19"
+                          >
+                            <div
+                              className="messagetext messagetext--received "
+                              onClick={[Function]}
+                              style={Object {}}
+                            >
+                              <p
+                                className="messagetext-content"
+                              >
+                                <Linkify
+                                  disabled={false}
+                                  text="Yes, I think we can make it look that way
+
+But I have to say, most people want their moles removed, not changed to look like Bill Murray"
+                                >
+                                  Yes, I think we can make it look that way
+
+But I have to say, most people want their moles removed, not changed to look like Bill Murray
+                                </Linkify>
+                              </p>
+                              <div
+                                className="messagetext-timestamp"
+                              >
+                                <span
+                                  className="messagetext-timestamp-text"
+                                >
+                                  2:30 AM
+                                </span>
+                              </div>
+                            </div>
+                          </MessageText>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="message-retry"
+                    >
+                      <button
+                        className="message-retry-button"
+                        disabled={false}
+                        onClick={[Function]}
+                      >
+                        Send Failed. Retry?
+                      </button>
+                    </div>
+                  </div>
+                </Message>
+                <MessageSystem
+                  key="currentMessageDate_2018-12-05T02:30:19"
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  text="Wednesday, December 5th"
+                >
+                  <div
+                    className="messagesystem"
+                    data-testid="system-message-user-added"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="messagesystem-common messagesystem-bubble"
+                    >
+                      <span
+                        className="messagesystem-message"
+                      >
+                        Wednesday, December 5th
+                      </span>
+                    </div>
+                  </div>
+                </MessageSystem>
+                <Message
+                  className=""
+                  data-testid="sent-message"
+                  displayName="me"
+                  isOwn={true}
+                  key="message8"
+                  onRetry={[Function]}
+                  profileImage=""
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  timestamp="2018-12-06T02:30:15"
+                >
+                  <div
+                    className="message message--own"
+                    data-testid="sent-message"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="message-flex-container"
+                    >
+                      <div
+                        className="message-content message--sent"
+                      >
+                        <div
+                          className="message-flex-container-column"
+                        >
+                          <MessageText
+                            className=""
+                            isOwn={true}
+                            style={Object {}}
+                            timestamp="2018-12-06T02:30:15"
+                          >
+                            <div
+                              className="messagetext messagetext--sent "
+                              onClick={[Function]}
+                              style={Object {}}
+                            >
+                              <p
+                                className="messagetext-content"
+                              >
+                                <Linkify
+                                  disabled={false}
+                                  text="...Bill for the win!  😆"
+                                >
+                                  ...Bill for the win!  😆
+                                </Linkify>
+                              </p>
+                              <div
+                                className="messagetext-timestamp"
+                              >
+                                <span
+                                  className="messagetext-timestamp-text"
+                                >
+                                  2:30 AM
+                                </span>
+                              </div>
+                            </div>
+                          </MessageText>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="message-retry"
+                    >
+                      <button
+                        className="message-retry-button"
+                        disabled={false}
+                        onClick={[Function]}
+                      >
+                        Send Failed. Retry?
+                      </button>
+                    </div>
+                  </div>
+                </Message>
+                <Message
+                  className=""
+                  data-testid="sent-message"
+                  displayName="me"
+                  isOwn={true}
+                  key="message9"
+                  onRetry={[Function]}
+                  profileImage=""
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  timestamp="2018-12-06T02:30:15"
+                >
+                  <div
+                    className="message message--own"
+                    data-testid="sent-message"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="message-flex-container"
+                    >
+                      <div
+                        className="message-content message--sent"
+                      >
+                        <div
+                          className="message-flex-container-column"
+                        >
+                          <MessageText
+                            className=""
+                            isOwn={true}
+                            style={Object {}}
+                            timestamp="2018-12-06T02:30:15"
+                          >
+                            <div
+                              className="messagetext messagetext--sent "
+                              onClick={[Function]}
+                              style={Object {}}
+                            >
+                              <p
+                                className="messagetext-content"
+                              >
+                                <Linkify
+                                  disabled={false}
+                                  text="Link test
+https://google.com"
+                                >
+                                  Link test
+
+                                  <a
+                                    className="linkify_link"
+                                    href="https://google.com"
+                                    key="10"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                  >
+                                    google.com
+                                  </a>
+                                </Linkify>
+                              </p>
+                              <div
+                                className="messagetext-timestamp"
+                              >
+                                <span
+                                  className="messagetext-timestamp-text"
+                                >
+                                  2:30 AM
+                                </span>
+                              </div>
+                            </div>
+                          </MessageText>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="message-retry"
+                    >
+                      <button
+                        className="message-retry-button"
+                        disabled={false}
+                        onClick={[Function]}
+                      >
+                        Send Failed. Retry?
+                      </button>
+                    </div>
+                  </div>
+                </Message>
+                <MessageSystem
+                  key="currentMessageDate_2018-12-06T02:30:15"
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  text="Thursday, December 6th"
+                >
+                  <div
+                    className="messagesystem"
+                    data-testid="system-message-user-added"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="messagesystem-common messagesystem-bubble"
+                    >
+                      <span
+                        className="messagesystem-message"
+                      >
+                        Thursday, December 6th
+                      </span>
+                    </div>
+                  </div>
+                </MessageSystem>
+                <PlaceholderMessages
+                  show={true}
+                >
+                  <div
+                    className="messagethread-ph-messages"
+                  >
+                    <div
+                      className="messagethread-ph-received"
+                    >
+                      <div
+                        className="messagethread-ph-avatar"
+                      />
+                      <div
+                        className="messagethread-ph-received-message"
+                      >
+                        <div
+                          className="messagethread-ph-received-text"
+                        />
+                        <div
+                          className="messagethread-ph-received-time"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="messagethread-ph-sent"
+                    >
+                      <div
+                        className="messagethread-ph-sent-text"
+                      />
+                      <div
+                        className="messagethread-ph-sent-time"
+                      />
+                    </div>
+                    <div
+                      className="messagethread-ph-sent"
+                      style={
+                        Object {
+                          "width": 100,
+                        }
+                      }
+                    >
+                      <div
+                        className="messagethread-ph-sent-text"
+                      />
+                      <div
+                        className="messagethread-ph-sent-time"
+                      />
+                    </div>
+                    <div
+                      className="messagethread-ph-received"
+                    >
+                      <div
+                        className="messagethread-ph-avatar"
+                      />
+                      <div
+                        className="messagethread-ph-received-message"
+                      >
+                        <div
+                          className="messagethread-ph-received-text"
+                          style={
+                            Object {
+                              "width": 500,
+                            }
+                          }
+                        />
+                        <div
+                          className="messagethread-ph-received-time"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="messagethread-ph-received"
+                    >
+                      <div
+                        className="messagethread-ph-avatar"
+                      />
+                      <div
+                        className="messagethread-ph-received-message"
+                      >
+                        <div
+                          className="messagethread-ph-received-text"
+                          style={
+                            Object {
+                              "width": 200,
+                            }
+                          }
+                        />
+                        <div
+                          className="messagethread-ph-received-time"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="messagethread-ph-sent"
+                    >
+                      <div
+                        className="messagethread-ph-sent-text"
+                      />
+                      <div
+                        className="messagethread-ph-sent-time"
+                      />
+                    </div>
+                  </div>
+                </PlaceholderMessages>
+              </div>
+            </div>
+          </InfiniteScroll>
+        </div>
+      </div>
+    </ThreadScroller>
+    <MessageTyper
+      className="messagethread-typer"
+      generalMessage=""
+      message=""
+      onSend={[MockFunction]}
+      setMessage={[MockFunction]}
+      style={Object {}}
+    >
+      <div
+        className="messagetyper-wrap messagethread-typer"
+        style={Object {}}
+      >
+        <DragAndDrop
+          allowedExtensions={
+            Array [
+              "jpg",
+              "jpeg",
+              "png",
+              "pdf",
+            ]
+          }
+          handleDrop={[Function]}
+          maxSize={10000000}
+          onValidationFailed={[Function]}
+        >
+          <div>
+            <span
+              className="messagetyper-hint"
+            >
+              Press Enter to send
+            </span>
+            <div
+              className="messagetyper"
+            >
+              <MessageAttachmentButton
+                allowedExtensions={
+                  Array [
+                    "jpg",
+                    "jpeg",
+                    "png",
+                    "pdf",
+                  ]
+                }
+                className="messagetyper-button-attach"
+                data-testid="add-attachment-button"
+                hiddenInput={
+                  Object {
+                    "current": <input
+                      id="myInput"
+                      style="display: none;"
+                      type="file"
+                    />,
+                  }
+                }
+                maxSize={10000000}
+                onClick={[Function]}
+                onValidationFailed={[Function]}
+                style={Object {}}
+              >
+                <div
+                  className="messageattachmentbutton messagetyper-button-attach"
+                  style={Object {}}
+                >
+                  <input
+                    id="myInput"
+                    onChange={[Function]}
+                    style={
+                      Object {
+                        "display": "none",
+                      }
+                    }
+                    type="file"
+                  />
+                  <button
+                    className="messageattachmentbutton-button messageattachmentbutton-button-attach"
+                    data-testid="add-attachment-button"
+                    onClick={[Function]}
+                  >
+                    <IconPlus
+                      className=""
+                      color="var(--brandcolor_dark)"
+                      size={20}
+                      style={Object {}}
+                    >
+                      <svg
+                        className=""
+                        fillRule="evenodd"
+                        height={20}
+                        style={Object {}}
+                        viewBox="0 0 25 25"
+                        width={20}
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g
+                          fill="var(--brandcolor_dark)"
+                        >
+                          <path
+                            d="M88,593.160714 L88,595.839286 C88,596.575893 87.3973214,597.178571 86.6607143,597.178571 L78.1785714,597.178571 L78.1785714,605.660714 C78.1785714,606.397321 77.5758929,607 76.8392857,607 L74.1607143,607 C73.4241071,607 72.8214286,606.397321 72.8214286,605.660714 L72.8214286,597.178571 L64.3392857,597.178571 C63.6026786,597.178571 63,596.575893 63,595.839286 L63,593.160714 C63,592.424107 63.6026786,591.821429 64.3392857,591.821429 L72.8214286,591.821429 L72.8214286,583.339286 C72.8214286,582.602679 73.4241071,582 74.1607143,582 L76.8392857,582 C77.5758929,582 78.1785714,582.602679 78.1785714,583.339286 L78.1785714,591.821429 L86.6607143,591.821429 C87.3973214,591.821429 88,592.424107 88,593.160714 Z"
+                            transform="translate(-63 -582)"
+                          />
+                        </g>
+                      </svg>
+                    </IconPlus>
+                  </button>
+                </div>
+              </MessageAttachmentButton>
+              <ForwardRef
+                className="messagetyper-input"
+                data-testid="send-message-input"
+                maxLength={5000}
+                onChange={[Function]}
+                onKeyPress={[Function]}
+                placeholder="Type a new message"
+                rows={1}
+                style={
+                  Object {
+                    "resize": "none",
+                  }
+                }
+                value=""
+              >
+                <TextareaAutosizeClass
+                  async={false}
+                  className="messagetyper-input"
+                  data-testid="send-message-input"
+                  innerRef={
+                    Object {
+                      "current": <textarea
+                        class="messagetyper-input"
+                        data-testid="send-message-input"
+                        maxlength="5000"
+                        placeholder="Type a new message"
+                        rows="1"
+                        style="resize: none; overflow-x: hidden; word-wrap: break-word; overflow-y: hidden;"
+                      />,
+                    }
+                  }
+                  maxLength={5000}
+                  onChange={[Function]}
+                  onKeyPress={[Function]}
+                  placeholder="Type a new message"
+                  rows={1}
+                  style={
+                    Object {
+                      "resize": "none",
+                    }
+                  }
+                  value=""
+                >
+                  <textarea
+                    async={false}
+                    className="messagetyper-input"
+                    data-testid="send-message-input"
+                    maxLength={5000}
+                    onChange={[Function]}
+                    onKeyPress={[Function]}
+                    placeholder="Type a new message"
+                    rows={1}
+                    style={
+                      Object {
+                        "resize": "none",
+                      }
+                    }
+                    value=""
+                  />
+                </TextareaAutosizeClass>
+              </ForwardRef>
+              <button
+                className="messagetyper-button"
+                data-testid="send-message-button"
+                onClick={[Function]}
+              >
+                <IconAirplaneTop
+                  color="var(--brandcolor_dark)"
+                  size={20}
+                >
+                  <svg
+                    fillRule="evenodd"
+                    height={20}
+                    style={Object {}}
+                    viewBox="0 0 24 22"
+                    width={20}
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g
+                      fill="var(--brandcolor_dark)"
+                    >
+                      <path
+                        d="M0,21.79V13.47c0-.66.39-1.21.86-1.21H24v.05L1.13,22.94C.58,23.2,0,22.62,0,21.79Z"
+                        transform="translate(0 -1.06)"
+                      />
+                      <path
+                        d="M0,2.15V9.59a1,1,0,0,0,.86,1.07H24v0L1.13,1.12C.58.89,0,1.41,0,2.15Z"
+                        transform="translate(0 -1.06)"
+                      />
+                    </g>
+                  </svg>
+                </IconAirplaneTop>
+              </button>
+            </div>
+          </div>
+        </DragAndDrop>
+        <SendImageModal
+          file={null}
+          onClose={[Function]}
+          onSend={[Function]}
+          show={false}
+        >
+          <div
+            className="sendimagemodal-dimmer-screen"
+            data-testid="send-image-modal"
+          >
+            <div
+              className="sendimagemodal-wrap"
+            >
+              <div
+                className="sendimagemodal-header"
+              >
+                <span
+                  className="sendimagemodal-text"
+                >
+                  Crop Image
+                </span>
+                <button
+                  className="button-reset sendimagemodal-close"
+                  data-testid="button-close-send-image"
+                  onClick={[Function]}
+                >
+                  <IconTimes
+                    color="var(--base__body_fg)"
+                    size={20}
+                  >
+                    <svg
+                      height={20}
+                      style={Object {}}
+                      viewBox="0 0 25 25"
+                      width={20}
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M3.492 24.998l-2.197-2.197c-.604-.604-.604-1.593 0-2.197l6.957-6.958L1.295 6.69c-.604-.604-.604-1.593 0-2.197l2.197-2.197c.604-.604 1.593-.604 2.197 0l6.957 6.957 6.958-6.957c.604-.604 1.593-.604 2.197 0l2.197 2.197c.604.604.604 1.593 0 2.197l-6.957 6.957 6.957 6.958c.604.604.604 1.593 0 2.197l-2.197 2.197c-.604.604-1.593.604-2.197 0l-6.958-6.957-6.957 6.957c-.604.604-1.593.604-2.197 0z"
+                        fill="var(--base__body_fg)"
+                        fillRule="evenodd"
+                      />
+                    </svg>
+                  </IconTimes>
+                </button>
+              </div>
+              <div
+                className="sendimagemodal-content"
+              />
+              <div
+                className="sendimagemodal-footer"
+              >
+                <Button
+                  data-testid="send-image"
+                  disabled={true}
+                  fluid={true}
+                  onClick={[Function]}
+                  style={Object {}}
+                  type="submit"
+                >
+                  <Button
+                    as="button"
+                    className="button-custom"
+                    data-testid="send-image"
+                    disabled={true}
+                    fluid={true}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "var(--button_color)",
+                        "color": "var(--dark_black)",
+                      }
+                    }
+                    type="submit"
+                  >
+                    <Ref
+                      innerRef={
+                        Object {
+                          "current": <button
+                            class="ui fluid disabled button button-custom"
+                            data-testid="send-image"
+                            disabled=""
+                            tabindex="-1"
+                            type="submit"
+                          >
+                            Send
+                          </button>,
+                        }
+                      }
+                    >
+                      <RefFindNode
+                        innerRef={
+                          Object {
+                            "current": <button
+                              class="ui fluid disabled button button-custom"
+                              data-testid="send-image"
+                              disabled=""
+                              tabindex="-1"
+                              type="submit"
+                            >
+                              Send
+                            </button>,
+                          }
+                        }
+                      >
+                        <button
+                          className="ui fluid disabled button button-custom"
+                          data-testid="send-image"
+                          disabled={true}
+                          onBlur={[Function]}
+                          onClick={[Function]}
+                          onFocus={[Function]}
+                          onMouseDown={[Function]}
+                          onMouseEnter={[Function]}
+                          onMouseLeave={[Function]}
+                          onMouseUp={[Function]}
+                          style={
+                            Object {
+                              "backgroundColor": "var(--button_color)",
+                              "color": "var(--dark_black)",
+                            }
+                          }
+                          tabIndex={-1}
+                          type="submit"
+                        >
+                          Send
+                        </button>
+                      </RefFindNode>
+                    </Ref>
+                  </Button>
+                </Button>
+              </div>
+            </div>
+          </div>
+        </SendImageModal>
+      </div>
+    </MessageTyper>
+  </div>
+</Thread>
+`;
+
+exports[`Thread matches the sending snapshot 1`] = `
+<Thread
+  loading={false}
+  message=""
+  onDownloadAttachment={[MockFunction]}
+  onFetchMore={[MockFunction]}
+  onRetry={[MockFunction]}
+  onSeen={[MockFunction]}
+  onSend={[MockFunction]}
+  openAttachment={[MockFunction]}
+  setMessage={[MockFunction]}
+  thread={
+    Object {
+      "addGroupUsers": Array [
+        Object {
+          "displayName": "Sherry Jackson, MD",
+          "id": "10",
+          "overallStatus": "offline",
+          "profileImage": "https://www.fillmurray.com/1000/1000",
+        },
+        Object {
+          "displayName": "Olivia Lopez, MD",
+          "id": "2",
+          "overallStatus": "available",
+          "profileImage": "https://www.fillmurray.com/800/800",
+        },
+        Object {
+          "displayName": "Paul Jason, RN",
+          "id": "6",
+          "overallStatus": "offline",
+          "profileImage": "https://www.fillmurray.com/600/600",
+        },
+        Object {
+          "displayName": "Rosalyn Stratton, RN",
+          "id": "5",
+          "overallStatus": "offline",
+          "profileImage": "https://www.fillmurray.com/100/100",
+        },
+        Object {
+          "displayName": "Jennifer Reyes",
+          "id": "8",
+          "overallStatus": "offline",
+          "profileImage": "https://www.fillmurray.com/200/200",
+        },
+        Object {
+          "displayName": "Tony Hunter",
+          "id": "7",
+          "overallStatus": "offline",
+          "profileImage": "",
+        },
+      ],
+      "addGroups": Array [
+        Object {
+          "id": "6",
+          "isActive": true,
+          "name": "Cardiology",
+        },
+        Object {
+          "id": "4",
+          "isActive": true,
+          "name": "ED Charge Nurses",
+        },
+        Object {
+          "id": "5",
+          "isActive": true,
+          "name": "ED Technicians",
+        },
+      ],
+      "addMembers": Array [
+        Object {
+          "displayName": "David McGinnis, MD",
+          "id": "9",
+          "overallStatus": "offline",
+          "profileImage": "https://www.fillmurray.com/1000/1000",
+        },
+        Object {
+          "displayName": "David Smith, MD",
+          "id": "4",
+          "overallStatus": "available",
+          "profileImage": "https://www.fillmurray.com/800/800",
+        },
+        Object {
+          "displayName": "Jennifer Reyes",
+          "id": "8",
+          "overallStatus": "offline",
+          "profileImage": "https://www.fillmurray.com/100/100",
+        },
+        Object {
+          "displayName": "Paul Jason, RN",
+          "id": "6",
+          "overallStatus": "offline",
+          "profileImage": "https://www.fillmurray.com/600/600",
+        },
+        Object {
+          "displayName": "Rosalyn Stratton, RN",
+          "id": "5",
+          "overallStatus": "offline",
+          "profileImage": "https://www.fillmurray.com/200/200",
+        },
+        Object {
+          "displayName": "Sherry Jackson, MD",
+          "id": "10",
+          "overallStatus": "offline",
+          "profileImage": "",
+        },
+        Object {
+          "displayName": "Tony Hunter",
+          "id": "7",
+          "overallStatus": "away",
+          "profileImage": "https://www.fillmurray.com/400/400",
+        },
+      ],
+      "firstUnreadMessage": Object {
+        "id": "message1",
+      },
+      "id": "74ac5fc501a34f2da8167fa06569e7c3",
+      "isGroup": false,
+      "members": Array [
+        Object {
+          "displayName": "Olivia Lopez, MD",
+          "id": "2",
+          "isCaregiver": false,
+          "isPatient": false,
+          "isStaff": true,
+          "overallStatus": "available",
+          "patient": null,
+          "profileImage": "https://www.fillmurray.com/400/400",
+        },
+        Object {
+          "displayName": "Agnes Rogers, MD",
+          "id": "3",
+          "isCaregiver": false,
+          "isPatient": false,
+          "isStaff": true,
+          "overallStatus": "offline",
+          "patient": null,
+          "profileImage": "https://www.fillmurray.com/600/600",
+        },
+      ],
+      "messages": Array [
+        Object {
+          "attachments": Array [],
+          "id": "message1",
+          "isOwn": true,
+          "isSystemMessage": false,
+          "seen": true,
+          "sender": Object {
+            "displayName": "me",
+            "id": "1111",
+            "profileImage": "",
+          },
+          "systemMessageType": null,
+          "text": "That new mole looks like this 🙍‍",
+          "timestamp": "2018-12-01T10:30:15",
+        },
+        Object {
+          "attachments": Array [
+            Object {
+              "expired": false,
+              "file": "image.png",
+              "id": "1",
+              "msgtype": "image/jpg",
+              "thumbnail": "https://www.fillmurray.com/800/1200",
+              "timestamp": "2018-12-06T02:30:15",
+              "type": "image/jpg",
+              "url": "https://www.fillmurray.com/800/1200",
+            },
+          ],
+          "id": "message1a",
+          "isOwn": true,
+          "isSystemMessage": false,
+          "seen": true,
+          "sender": Object {
+            "displayName": "me",
+            "id": "1111",
+            "profileImage": "",
+          },
+          "systemMessageType": null,
+          "text": "",
+          "timestamp": "2018-12-01T11:25:15",
+        },
+        Object {
+          "attachments": Array [],
+          "id": "message2",
+          "isOwn": false,
+          "isSystemMessage": false,
+          "seen": true,
+          "sender": Object {
+            "displayName": "Dr. Stephen Strange",
+            "id": "1",
+            "profileImage": "https://www.fillmurray.com/60/60",
+          },
+          "systemMessageType": null,
+          "text": "I see, was expecting it to look like something else",
+          "timestamp": "2018-12-02T12:30:15",
+        },
+        Object {
+          "attachments": Array [
+            Object {
+              "expired": false,
+              "id": "2",
+              "msgtype": "image/jpg",
+              "thumbnail": "https://www.fillmurray.com/600/900",
+              "timestamp": "2018-12-06T02:30:15",
+              "type": "image/jpg",
+              "url": "https://www.fillmurray.com/600/900",
+            },
+          ],
+          "id": "message2a",
+          "isOwn": false,
+          "isSystemMessage": false,
+          "seen": true,
+          "sender": Object {
+            "displayName": "Dr. Stephen Strange",
+            "id": "1",
+            "profileImage": "https://www.fillmurray.com/60/60",
+          },
+          "systemMessageType": null,
+          "text": "",
+          "timestamp": "2018-12-02T12:30:15",
+        },
+        Object {
+          "attachments": Array [
+            Object {
+              "expired": false,
+              "id": "2",
+              "msgtype": "image/jpg",
+              "thumbnail": "https://www.missingfillmurray.com/600/900",
+              "timestamp": "2018-12-06T02:30:15",
+              "type": "image/jpg",
+              "url": "https://www.missingfillmurray.com/600/900",
+            },
+          ],
+          "id": "message2b",
+          "isOwn": false,
+          "isSystemMessage": false,
+          "seen": true,
+          "sender": Object {
+            "displayName": "Dr. Stephen Strange",
+            "id": "1",
+            "profileImage": "https://www.fillmurray.com/60/60",
+          },
+          "systemMessageType": null,
+          "text": "",
+          "timestamp": "2018-12-02T12:30:15",
+        },
+        Object {
+          "attachments": Array [],
+          "id": "message2-1",
+          "isOwn": false,
+          "isSystemMessage": true,
+          "seen": false,
+          "sender": Object {
+            "displayName": "System",
+            "id": "fake-system-user-id",
+            "profileImage": "",
+          },
+          "systemMessageType": "USER_ADDED",
+          "text": "Dr. Kranky has been added",
+          "timestamp": "2018-12-06T02:33:15",
+        },
+        Object {
+          "attachments": Array [],
+          "id": "message3",
+          "isOwn": true,
+          "isSystemMessage": false,
+          "seen": true,
+          "sender": Object {
+            "displayName": "me",
+            "id": "1111",
+            "profileImage": "",
+          },
+          "systemMessageType": null,
+          "text": "But I want a mole that looks like the one you posted",
+          "timestamp": "2018-12-03T12:30:15",
+        },
+        Object {
+          "attachments": Array [],
+          "id": "message4",
+          "isOwn": true,
+          "isSystemMessage": false,
+          "seen": false,
+          "sender": Object {
+            "displayName": "me",
+            "id": "1111",
+            "profileImage": "",
+          },
+          "systemMessageType": null,
+          "text": "Mine isn't very nice to look at",
+          "timestamp": "2018-12-04T12:30:15",
+        },
+        Object {
+          "attachments": Array [],
+          "id": "message5",
+          "isOwn": true,
+          "isSystemMessage": false,
+          "seen": false,
+          "sender": Object {
+            "displayName": "me",
+            "id": "1111",
+            "profileImage": "",
+          },
+          "systemMessageType": null,
+          "text": "That's what my sister says",
+          "timestamp": "2018-12-04T12:30:15",
+        },
+        Object {
+          "attachments": Array [],
+          "id": "message6",
+          "isOwn": false,
+          "isSystemMessage": false,
+          "seen": false,
+          "sender": Object {
+            "displayName": "Dr. Stephen Strange",
+            "id": "1",
+            "profileImage": "https://www.fillmurray.com/60/60",
+          },
+          "systemMessageType": null,
+          "text": "Let me check",
+          "timestamp": "2018-12-05T02:30:15",
+        },
+        Object {
+          "attachments": Array [],
+          "id": "message7",
+          "isOwn": false,
+          "isSystemMessage": false,
+          "seen": false,
+          "sender": Object {
+            "displayName": "Dr. Stephen Strange",
+            "id": "1",
+            "profileImage": "https://www.fillmurray.com/60/60",
+          },
+          "systemMessageType": null,
+          "text": "Yes, I think we can make it look that way
+
+But I have to say, most people want their moles removed, not changed to look like Bill Murray",
+          "timestamp": "2018-12-05T02:30:19",
+        },
+        Object {
+          "attachments": Array [],
+          "id": "message8",
+          "isOwn": true,
+          "isSystemMessage": false,
+          "seen": false,
+          "sender": Object {
+            "displayName": "me",
+            "id": "1111",
+            "profileImage": "",
+          },
+          "systemMessageType": null,
+          "text": "...Bill for the win!  😆",
+          "timestamp": "2018-12-06T02:30:15",
+        },
+        Object {
+          "attachments": Array [],
+          "id": "message9",
+          "isOwn": true,
+          "isSystemMessage": false,
+          "seen": false,
+          "sender": Object {
+            "displayName": "me",
+            "id": "1111",
+            "profileImage": "",
+          },
+          "systemMessageType": null,
+          "text": "Link test
+https://google.com",
+          "timestamp": "2018-12-06T02:30:15",
+        },
+      ],
+      "name": "Olivia Lopez, MD",
+      "profileImage": "https://www.fillmurray.com/200/200",
+    }
+  }
+>
+  <div
+    className="messagethread-wrap"
+  >
+    <NewMessagesPopup
+      loading={false}
+      onClick={[Function]}
+      visible={true}
+    >
+      <button
+        className="newmessages-popup newmessages-popup-shown"
+        data-testid="button-new-messages-visible"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <span
+          className="newmessages-text"
+        >
+          New Messages
+        </span>
+        <IconArrowUp
+          color="black"
+        >
+          <svg
+            height="15"
+            style={Object {}}
+            viewBox="0 0 15 15"
+            width="15"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1.005 8.622L.242 7.88c-.323-.315-.323-.823 0-1.135L6.918.236c.323-.315.845-.315 1.164 0l6.676 6.505c.323.315.323.823 0 1.135l-.763.743c-.326.318-.859.311-1.178-.013L8.876 4.575v9.622c0 .445-.368.803-.825.803H6.952c-.457 0-.825-.358-.825-.803V4.575L2.183 8.609c-.32.328-.852.335-1.178.013z"
+              fill="black"
+              fillRule="evenodd"
+            />
+          </svg>
+        </IconArrowUp>
+      </button>
+    </NewMessagesPopup>
+    <ThreadScroller
+      isStartOfThread={false}
+      lastMessageKey="message1"
+      loading={false}
+      loadingComponent={
+        <PlaceholderMessages
+          show={false}
+        />
+      }
+      messagesCount={21}
+      newThreadMessage={<NewThreadMessage />}
+      onFetchMore={[MockFunction]}
+      startOfThreadMessage={<FirstMessage />}
+    >
+      <div
+        className="container"
+      >
+        <div
+          className="content"
+          id="scroll-target-49999.5"
+        >
+          <InfiniteScroll
+            className="scroll"
+            dataLength={21}
+            hasMore={true}
+            inverse={true}
+            next={[MockFunction]}
+            scrollableTarget="scroll-target-49999.5"
+          >
+            <div
+              className="infinite-scroll-component__outerdiv"
+              style={Object {}}
+            >
+              <div
+                className="infinite-scroll-component scroll"
+                style={
+                  Object {
+                    "WebkitOverflowScrolling": "touch",
+                    "height": "auto",
+                    "overflow": "auto",
+                  }
+                }
+              >
+                <Message
+                  className=""
+                  data-testid="sent-message"
+                  displayName="me"
+                  isOwn={true}
+                  key="message1"
+                  onRetry={[Function]}
+                  profileImage=""
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  timestamp="2018-12-01T10:30:15"
+                >
+                  <div
+                    className="message message--own"
+                    data-testid="sent-message"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="message-flex-container"
+                    >
+                      <div
+                        className="message-content message--sent"
+                      >
+                        <div
+                          className="message-flex-container-column"
+                        >
+                          <MessageText
+                            className=""
+                            isOwn={true}
+                            style={Object {}}
+                            timestamp="2018-12-01T10:30:15"
+                          >
+                            <div
+                              className="messagetext messagetext--sent "
+                              onClick={[Function]}
+                              style={Object {}}
+                            >
+                              <p
+                                className="messagetext-content"
+                              >
+                                <Linkify
+                                  disabled={false}
+                                  text="That new mole looks like this 🙍‍"
+                                >
+                                  That new mole looks like this 🙍‍
+                                </Linkify>
+                              </p>
+                              <div
+                                className="messagetext-timestamp"
+                              >
+                                <span
+                                  className="messagetext-timestamp-text"
+                                >
+                                  10:30 AM
+                                </span>
+                              </div>
+                            </div>
+                          </MessageText>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="message-retry"
+                    >
+                      <button
+                        className="message-retry-button"
+                        disabled={false}
+                        onClick={[Function]}
+                      >
+                        Send Failed. Retry?
+                      </button>
+                    </div>
+                  </div>
+                </Message>
+                <div
+                  className="newmessages-line"
+                  key="UNREAD_LINE"
+                >
+                  <MessageSystem
+                    text="New"
+                    type="UNREAD_LINE"
+                  >
+                    <div
+                      className="messagesystem"
+                      data-testid="system-message-user-added"
+                      style={Object {}}
+                    >
+                      <div
+                        className="messagesystem-common messagesystem-right"
+                      >
+                        <span
+                          className="messagesystem-message"
+                        >
+                          New
+                        </span>
+                      </div>
+                    </div>
+                  </MessageSystem>
+                </div>
+                <Message
+                  className=""
+                  data-testid="sent-message"
+                  displayName="me"
+                  isOwn={true}
+                  key="message1a"
+                  onRetry={[Function]}
+                  profileImage=""
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  timestamp="2018-12-01T11:25:15"
+                >
+                  <div
+                    className="message message--own"
+                    data-testid="sent-message"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="message-flex-container"
+                    >
+                      <div
+                        className="message-content message--sent"
+                      >
+                        <div
+                          className="message-flex-container-column"
+                        >
+                          <MessageAttachmentThumbnail
+                            className=""
+                            isOwn={true}
+                            onClick={[Function]}
+                            sending={false}
+                            style={Object {}}
+                            timestamp="2018-12-01T11:25:15"
+                          >
+                            <div
+                              className="messageattachmentthumbnail"
+                              onClick={[Function]}
+                              style={Object {}}
+                            >
+                              <img
+                                alt="attachment"
+                                onError={[Function]}
+                              />
+                              <div
+                                className="messagethumbnail-timestamp"
+                              >
+                                <span
+                                  className="messagethumbnail-timestamp-text"
+                                >
+                                  11:25 AM
+                                </span>
+                                <Loader
+                                  active={false}
+                                  className="messagethumbnail-loader"
+                                  inline={true}
+                                  inverted={true}
+                                  size="mini"
+                                >
+                                  <div
+                                    className="ui mini inverted inline loader messagethumbnail-loader"
+                                  />
+                                </Loader>
+                              </div>
+                            </div>
+                          </MessageAttachmentThumbnail>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="message-retry"
+                    >
+                      <button
+                        className="message-retry-button"
+                        disabled={false}
+                        onClick={[Function]}
+                      >
+                        Send Failed. Retry?
+                      </button>
+                    </div>
+                  </div>
+                </Message>
+                <MessageSystem
+                  key="currentMessageDate_2018-12-01T11:25:15"
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  text="Saturday, December 1st"
+                >
+                  <div
+                    className="messagesystem"
+                    data-testid="system-message-user-added"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="messagesystem-common messagesystem-bubble"
+                    >
+                      <span
+                        className="messagesystem-message"
+                      >
+                        Saturday, December 1st
+                      </span>
+                    </div>
+                  </div>
+                </MessageSystem>
+                <Message
+                  className=""
+                  data-testid="received-message"
+                  displayName="Dr. Stephen Strange"
+                  isOwn={false}
+                  key="message2"
+                  onRetry={[Function]}
+                  profileImage="https://www.fillmurray.com/60/60"
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  timestamp="2018-12-02T12:30:15"
+                >
+                  <div
+                    className="message"
+                    data-testid="received-message"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="message-flex-container"
+                    >
+                      <div
+                        className="message-content message--received"
+                      >
+                        <div
+                          className="message-avatar"
+                        >
+                          <Avatar
+                            className=""
+                            dimmed={false}
+                            displayName="Dr. Stephen Strange"
+                            imgUrl="https://www.fillmurray.com/60/60"
+                            loading={false}
+                            size={24}
+                            style={Object {}}
+                          >
+                            <div
+                              className="avatar"
+                              style={
+                                Object {
+                                  "height": "24px",
+                                  "lineHeight": "24px",
+                                  "width": "24px",
+                                }
+                              }
+                            >
+                              <img
+                                alt="user avatar"
+                                src="https://www.fillmurray.com/60/60"
+                                style={
+                                  Object {
+                                    "height": "24px",
+                                    "lineHeight": "24px",
+                                    "width": "24px",
+                                  }
+                                }
+                              />
+                            </div>
+                          </Avatar>
+                          <span
+                            className="message-author"
+                          >
+                            Dr. Stephen Strange
+                          </span>
+                        </div>
+                        <div
+                          className="message-flex-container-column"
+                        >
+                          <MessageText
+                            className=""
+                            isOwn={false}
+                            style={Object {}}
+                            timestamp="2018-12-02T12:30:15"
+                          >
+                            <div
+                              className="messagetext messagetext--received "
+                              onClick={[Function]}
+                              style={Object {}}
+                            >
+                              <p
+                                className="messagetext-content"
+                              >
+                                <Linkify
+                                  disabled={false}
+                                  text="I see, was expecting it to look like something else"
+                                >
+                                  I see, was expecting it to look like something else
+                                </Linkify>
+                              </p>
+                              <div
+                                className="messagetext-timestamp"
+                              >
+                                <span
+                                  className="messagetext-timestamp-text"
+                                >
+                                  12:30 PM
+                                </span>
+                              </div>
+                            </div>
+                          </MessageText>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="message-retry"
+                    >
+                      <button
+                        className="message-retry-button"
+                        disabled={false}
+                        onClick={[Function]}
+                      >
+                        Send Failed. Retry?
+                      </button>
+                    </div>
+                  </div>
+                </Message>
+                <Message
+                  className=""
+                  data-testid="received-message"
+                  displayName="Dr. Stephen Strange"
+                  isOwn={false}
+                  key="message2a"
+                  onRetry={[Function]}
+                  profileImage="https://www.fillmurray.com/60/60"
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  timestamp="2018-12-02T12:30:15"
+                >
+                  <div
+                    className="message"
+                    data-testid="received-message"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="message-flex-container"
+                    >
+                      <div
+                        className="message-content message--received"
+                      >
+                        <div
+                          className="message-avatar"
+                        >
+                          <Avatar
+                            className=""
+                            dimmed={false}
+                            displayName="Dr. Stephen Strange"
+                            imgUrl="https://www.fillmurray.com/60/60"
+                            loading={false}
+                            size={24}
+                            style={Object {}}
+                          >
+                            <div
+                              className="avatar"
+                              style={
+                                Object {
+                                  "height": "24px",
+                                  "lineHeight": "24px",
+                                  "width": "24px",
+                                }
+                              }
+                            >
+                              <img
+                                alt="user avatar"
+                                src="https://www.fillmurray.com/60/60"
+                                style={
+                                  Object {
+                                    "height": "24px",
+                                    "lineHeight": "24px",
+                                    "width": "24px",
+                                  }
+                                }
+                              />
+                            </div>
+                          </Avatar>
+                          <span
+                            className="message-author"
+                          >
+                            Dr. Stephen Strange
+                          </span>
+                        </div>
+                        <div
+                          className="message-flex-container-column"
+                        >
+                          <MessageAttachmentThumbnail
+                            className="messageattachmentthumbnail--received"
+                            isOwn={false}
+                            onClick={[Function]}
+                            sending={false}
+                            style={Object {}}
+                            timestamp="2018-12-02T12:30:15"
+                          >
+                            <div
+                              className="messageattachmentthumbnail messageattachmentthumbnail--received messageattachmentthumbnail--received"
+                              onClick={[Function]}
+                              style={Object {}}
+                            >
+                              <img
+                                alt="attachment"
+                                onError={[Function]}
+                                src="https://www.fillmurray.com/600/900"
+                              />
+                              <div
+                                className="messagethumbnail-timestamp"
+                              >
+                                <span
+                                  className="messagethumbnail-timestamp-text"
+                                >
+                                  12:30 PM
+                                </span>
+                                <Loader
+                                  active={false}
+                                  className="messagethumbnail-loader"
+                                  inline={true}
+                                  inverted={true}
+                                  size="mini"
+                                >
+                                  <div
+                                    className="ui mini inverted inline loader messagethumbnail-loader"
+                                  />
+                                </Loader>
+                              </div>
+                            </div>
+                          </MessageAttachmentThumbnail>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="message-retry"
+                    >
+                      <button
+                        className="message-retry-button"
+                        disabled={false}
+                        onClick={[Function]}
+                      >
+                        Send Failed. Retry?
+                      </button>
+                    </div>
+                  </div>
+                </Message>
+                <Message
+                  className=""
+                  data-testid="received-message"
+                  displayName="Dr. Stephen Strange"
+                  isOwn={false}
+                  key="message2b"
+                  onRetry={[Function]}
+                  profileImage="https://www.fillmurray.com/60/60"
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  timestamp="2018-12-02T12:30:15"
+                >
+                  <div
+                    className="message"
+                    data-testid="received-message"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="message-flex-container"
+                    >
+                      <div
+                        className="message-content message--received"
+                      >
+                        <div
+                          className="message-avatar"
+                        >
+                          <Avatar
+                            className=""
+                            dimmed={false}
+                            displayName="Dr. Stephen Strange"
+                            imgUrl="https://www.fillmurray.com/60/60"
+                            loading={false}
+                            size={24}
+                            style={Object {}}
+                          >
+                            <div
+                              className="avatar"
+                              style={
+                                Object {
+                                  "height": "24px",
+                                  "lineHeight": "24px",
+                                  "width": "24px",
+                                }
+                              }
+                            >
+                              <img
+                                alt="user avatar"
+                                src="https://www.fillmurray.com/60/60"
+                                style={
+                                  Object {
+                                    "height": "24px",
+                                    "lineHeight": "24px",
+                                    "width": "24px",
+                                  }
+                                }
+                              />
+                            </div>
+                          </Avatar>
+                          <span
+                            className="message-author"
+                          >
+                            Dr. Stephen Strange
+                          </span>
+                        </div>
+                        <div
+                          className="message-flex-container-column"
+                        >
+                          <MessageAttachmentThumbnail
+                            className="messageattachmentthumbnail--received"
+                            isOwn={false}
+                            onClick={[Function]}
+                            sending={false}
+                            style={Object {}}
+                            timestamp="2018-12-02T12:30:15"
+                          >
+                            <div
+                              className="messageattachmentthumbnail messageattachmentthumbnail--received messageattachmentthumbnail--received"
+                              onClick={[Function]}
+                              style={Object {}}
+                            >
+                              <img
+                                alt="attachment"
+                                onError={[Function]}
+                                src="https://www.missingfillmurray.com/600/900"
+                              />
+                              <div
+                                className="messagethumbnail-timestamp"
+                              >
+                                <span
+                                  className="messagethumbnail-timestamp-text"
+                                >
+                                  12:30 PM
+                                </span>
+                                <Loader
+                                  active={false}
+                                  className="messagethumbnail-loader"
+                                  inline={true}
+                                  inverted={true}
+                                  size="mini"
+                                >
+                                  <div
+                                    className="ui mini inverted inline loader messagethumbnail-loader"
+                                  />
+                                </Loader>
+                              </div>
+                            </div>
+                          </MessageAttachmentThumbnail>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="message-retry"
+                    >
+                      <button
+                        className="message-retry-button"
+                        disabled={false}
+                        onClick={[Function]}
+                      >
+                        Send Failed. Retry?
+                      </button>
+                    </div>
+                  </div>
+                </Message>
+                <MessageSystem
+                  key="currentMessageDate_2018-12-02T12:30:15"
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  text="Sunday, December 2nd"
+                >
+                  <div
+                    className="messagesystem"
+                    data-testid="system-message-user-added"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="messagesystem-common messagesystem-bubble"
+                    >
+                      <span
+                        className="messagesystem-message"
+                      >
+                        Sunday, December 2nd
+                      </span>
+                    </div>
+                  </div>
+                </MessageSystem>
+                <MessageSystem
+                  key="message2-1"
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  text="Dr. Kranky has been added"
+                  type="USER_ADDED"
+                >
+                  <div
+                    className="messagesystem"
+                    data-testid="system-message-user-added"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="messagesystem-common messagesystem-left-bubble messagesystem-bubble--bright"
+                    >
+                      <span
+                        className="messagesystem-message"
+                      >
+                        Dr. Kranky has been added
+                      </span>
+                    </div>
+                  </div>
+                </MessageSystem>
+                <MessageSystem
+                  key="currentMessageDate_2018-12-06T02:33:15"
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  text="Thursday, December 6th"
+                >
+                  <div
+                    className="messagesystem"
+                    data-testid="system-message-user-added"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="messagesystem-common messagesystem-bubble"
+                    >
+                      <span
+                        className="messagesystem-message"
+                      >
+                        Thursday, December 6th
+                      </span>
+                    </div>
+                  </div>
+                </MessageSystem>
+                <Message
+                  className=""
+                  data-testid="sent-message"
+                  displayName="me"
+                  isOwn={true}
+                  key="message3"
+                  onRetry={[Function]}
+                  profileImage=""
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  timestamp="2018-12-03T12:30:15"
+                >
+                  <div
+                    className="message message--own"
+                    data-testid="sent-message"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="message-flex-container"
+                    >
+                      <div
+                        className="message-content message--sent"
+                      >
+                        <div
+                          className="message-flex-container-column"
+                        >
+                          <MessageText
+                            className=""
+                            isOwn={true}
+                            style={Object {}}
+                            timestamp="2018-12-03T12:30:15"
+                          >
+                            <div
+                              className="messagetext messagetext--sent "
+                              onClick={[Function]}
+                              style={Object {}}
+                            >
+                              <p
+                                className="messagetext-content"
+                              >
+                                <Linkify
+                                  disabled={false}
+                                  text="But I want a mole that looks like the one you posted"
+                                >
+                                  But I want a mole that looks like the one you posted
+                                </Linkify>
+                              </p>
+                              <div
+                                className="messagetext-timestamp"
+                              >
+                                <span
+                                  className="messagetext-timestamp-text"
+                                >
+                                  12:30 PM
+                                </span>
+                              </div>
+                            </div>
+                          </MessageText>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="message-retry"
+                    >
+                      <button
+                        className="message-retry-button"
+                        disabled={false}
+                        onClick={[Function]}
+                      >
+                        Send Failed. Retry?
+                      </button>
+                    </div>
+                  </div>
+                </Message>
+                <MessageSystem
+                  key="currentMessageDate_2018-12-03T12:30:15"
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  text="Monday, December 3rd"
+                >
+                  <div
+                    className="messagesystem"
+                    data-testid="system-message-user-added"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="messagesystem-common messagesystem-bubble"
+                    >
+                      <span
+                        className="messagesystem-message"
+                      >
+                        Monday, December 3rd
+                      </span>
+                    </div>
+                  </div>
+                </MessageSystem>
+                <Message
+                  className=""
+                  data-testid="sent-message"
+                  displayName="me"
+                  isOwn={true}
+                  key="message4"
+                  onRetry={[Function]}
+                  profileImage=""
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  timestamp="2018-12-04T12:30:15"
+                >
+                  <div
+                    className="message message--own"
+                    data-testid="sent-message"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="message-flex-container"
+                    >
+                      <div
+                        className="message-content message--sent"
+                      >
+                        <div
+                          className="message-flex-container-column"
+                        >
+                          <MessageText
+                            className=""
+                            isOwn={true}
+                            style={Object {}}
+                            timestamp="2018-12-04T12:30:15"
+                          >
+                            <div
+                              className="messagetext messagetext--sent "
+                              onClick={[Function]}
+                              style={Object {}}
+                            >
+                              <p
+                                className="messagetext-content"
+                              >
+                                <Linkify
+                                  disabled={false}
+                                  text="Mine isn't very nice to look at"
+                                >
+                                  Mine isn't very nice to look at
+                                </Linkify>
+                              </p>
+                              <div
+                                className="messagetext-timestamp"
+                              >
+                                <span
+                                  className="messagetext-timestamp-text"
+                                >
+                                  12:30 PM
+                                </span>
+                              </div>
+                            </div>
+                          </MessageText>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="message-retry"
+                    >
+                      <button
+                        className="message-retry-button"
+                        disabled={false}
+                        onClick={[Function]}
+                      >
+                        Send Failed. Retry?
+                      </button>
+                    </div>
+                  </div>
+                </Message>
+                <Message
+                  className=""
+                  data-testid="sent-message"
+                  displayName="me"
+                  isOwn={true}
+                  key="message5"
+                  onRetry={[Function]}
+                  profileImage=""
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  timestamp="2018-12-04T12:30:15"
+                >
+                  <div
+                    className="message message--own"
+                    data-testid="sent-message"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="message-flex-container"
+                    >
+                      <div
+                        className="message-content message--sent"
+                      >
+                        <div
+                          className="message-flex-container-column"
+                        >
+                          <MessageText
+                            className=""
+                            isOwn={true}
+                            style={Object {}}
+                            timestamp="2018-12-04T12:30:15"
+                          >
+                            <div
+                              className="messagetext messagetext--sent "
+                              onClick={[Function]}
+                              style={Object {}}
+                            >
+                              <p
+                                className="messagetext-content"
+                              >
+                                <Linkify
+                                  disabled={false}
+                                  text="That's what my sister says"
+                                >
+                                  That's what my sister says
+                                </Linkify>
+                              </p>
+                              <div
+                                className="messagetext-timestamp"
+                              >
+                                <span
+                                  className="messagetext-timestamp-text"
+                                >
+                                  12:30 PM
+                                </span>
+                              </div>
+                            </div>
+                          </MessageText>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="message-retry"
+                    >
+                      <button
+                        className="message-retry-button"
+                        disabled={false}
+                        onClick={[Function]}
+                      >
+                        Send Failed. Retry?
+                      </button>
+                    </div>
+                  </div>
+                </Message>
+                <MessageSystem
+                  key="currentMessageDate_2018-12-04T12:30:15"
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  text="Tuesday, December 4th"
+                >
+                  <div
+                    className="messagesystem"
+                    data-testid="system-message-user-added"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="messagesystem-common messagesystem-bubble"
+                    >
+                      <span
+                        className="messagesystem-message"
+                      >
+                        Tuesday, December 4th
+                      </span>
+                    </div>
+                  </div>
+                </MessageSystem>
+                <Message
+                  className=""
+                  data-testid="received-message"
+                  displayName="Dr. Stephen Strange"
+                  isOwn={false}
+                  key="message6"
+                  onRetry={[Function]}
+                  profileImage="https://www.fillmurray.com/60/60"
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  timestamp="2018-12-05T02:30:15"
+                >
+                  <div
+                    className="message"
+                    data-testid="received-message"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="message-flex-container"
+                    >
+                      <div
+                        className="message-content message--received"
+                      >
+                        <div
+                          className="message-avatar"
+                        >
+                          <Avatar
+                            className=""
+                            dimmed={false}
+                            displayName="Dr. Stephen Strange"
+                            imgUrl="https://www.fillmurray.com/60/60"
+                            loading={false}
+                            size={24}
+                            style={Object {}}
+                          >
+                            <div
+                              className="avatar"
+                              style={
+                                Object {
+                                  "height": "24px",
+                                  "lineHeight": "24px",
+                                  "width": "24px",
+                                }
+                              }
+                            >
+                              <img
+                                alt="user avatar"
+                                src="https://www.fillmurray.com/60/60"
+                                style={
+                                  Object {
+                                    "height": "24px",
+                                    "lineHeight": "24px",
+                                    "width": "24px",
+                                  }
+                                }
+                              />
+                            </div>
+                          </Avatar>
+                          <span
+                            className="message-author"
+                          >
+                            Dr. Stephen Strange
+                          </span>
+                        </div>
+                        <div
+                          className="message-flex-container-column"
+                        >
+                          <MessageText
+                            className=""
+                            isOwn={false}
+                            style={Object {}}
+                            timestamp="2018-12-05T02:30:15"
+                          >
+                            <div
+                              className="messagetext messagetext--received "
+                              onClick={[Function]}
+                              style={Object {}}
+                            >
+                              <p
+                                className="messagetext-content"
+                              >
+                                <Linkify
+                                  disabled={false}
+                                  text="Let me check"
+                                >
+                                  Let me check
+                                </Linkify>
+                              </p>
+                              <div
+                                className="messagetext-timestamp"
+                              >
+                                <span
+                                  className="messagetext-timestamp-text"
+                                >
+                                  2:30 AM
+                                </span>
+                              </div>
+                            </div>
+                          </MessageText>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="message-retry"
+                    >
+                      <button
+                        className="message-retry-button"
+                        disabled={false}
+                        onClick={[Function]}
+                      >
+                        Send Failed. Retry?
+                      </button>
+                    </div>
+                  </div>
+                </Message>
+                <Message
+                  className=""
+                  data-testid="received-message"
+                  displayName="Dr. Stephen Strange"
+                  isOwn={false}
+                  key="message7"
+                  onRetry={[Function]}
+                  profileImage="https://www.fillmurray.com/60/60"
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  timestamp="2018-12-05T02:30:19"
+                >
+                  <div
+                    className="message"
+                    data-testid="received-message"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="message-flex-container"
+                    >
+                      <div
+                        className="message-content message--received"
+                      >
+                        <div
+                          className="message-avatar"
+                        >
+                          <Avatar
+                            className=""
+                            dimmed={false}
+                            displayName="Dr. Stephen Strange"
+                            imgUrl="https://www.fillmurray.com/60/60"
+                            loading={false}
+                            size={24}
+                            style={Object {}}
+                          >
+                            <div
+                              className="avatar"
+                              style={
+                                Object {
+                                  "height": "24px",
+                                  "lineHeight": "24px",
+                                  "width": "24px",
+                                }
+                              }
+                            >
+                              <img
+                                alt="user avatar"
+                                src="https://www.fillmurray.com/60/60"
+                                style={
+                                  Object {
+                                    "height": "24px",
+                                    "lineHeight": "24px",
+                                    "width": "24px",
+                                  }
+                                }
+                              />
+                            </div>
+                          </Avatar>
+                          <span
+                            className="message-author"
+                          >
+                            Dr. Stephen Strange
+                          </span>
+                        </div>
+                        <div
+                          className="message-flex-container-column"
+                        >
+                          <MessageText
+                            className=""
+                            isOwn={false}
+                            style={Object {}}
+                            timestamp="2018-12-05T02:30:19"
+                          >
+                            <div
+                              className="messagetext messagetext--received "
+                              onClick={[Function]}
+                              style={Object {}}
+                            >
+                              <p
+                                className="messagetext-content"
+                              >
+                                <Linkify
+                                  disabled={false}
+                                  text="Yes, I think we can make it look that way
+
+But I have to say, most people want their moles removed, not changed to look like Bill Murray"
+                                >
+                                  Yes, I think we can make it look that way
+
+But I have to say, most people want their moles removed, not changed to look like Bill Murray
+                                </Linkify>
+                              </p>
+                              <div
+                                className="messagetext-timestamp"
+                              >
+                                <span
+                                  className="messagetext-timestamp-text"
+                                >
+                                  2:30 AM
+                                </span>
+                              </div>
+                            </div>
+                          </MessageText>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="message-retry"
+                    >
+                      <button
+                        className="message-retry-button"
+                        disabled={false}
+                        onClick={[Function]}
+                      >
+                        Send Failed. Retry?
+                      </button>
+                    </div>
+                  </div>
+                </Message>
+                <MessageSystem
+                  key="currentMessageDate_2018-12-05T02:30:19"
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  text="Wednesday, December 5th"
+                >
+                  <div
+                    className="messagesystem"
+                    data-testid="system-message-user-added"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="messagesystem-common messagesystem-bubble"
+                    >
+                      <span
+                        className="messagesystem-message"
+                      >
+                        Wednesday, December 5th
+                      </span>
+                    </div>
+                  </div>
+                </MessageSystem>
+                <Message
+                  className=""
+                  data-testid="sent-message"
+                  displayName="me"
+                  isOwn={true}
+                  key="message8"
+                  onRetry={[Function]}
+                  profileImage=""
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  timestamp="2018-12-06T02:30:15"
+                >
+                  <div
+                    className="message message--own"
+                    data-testid="sent-message"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="message-flex-container"
+                    >
+                      <div
+                        className="message-content message--sent"
+                      >
+                        <div
+                          className="message-flex-container-column"
+                        >
+                          <MessageText
+                            className=""
+                            isOwn={true}
+                            style={Object {}}
+                            timestamp="2018-12-06T02:30:15"
+                          >
+                            <div
+                              className="messagetext messagetext--sent "
+                              onClick={[Function]}
+                              style={Object {}}
+                            >
+                              <p
+                                className="messagetext-content"
+                              >
+                                <Linkify
+                                  disabled={false}
+                                  text="...Bill for the win!  😆"
+                                >
+                                  ...Bill for the win!  😆
+                                </Linkify>
+                              </p>
+                              <div
+                                className="messagetext-timestamp"
+                              >
+                                <span
+                                  className="messagetext-timestamp-text"
+                                >
+                                  2:30 AM
+                                </span>
+                              </div>
+                            </div>
+                          </MessageText>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="message-retry"
+                    >
+                      <button
+                        className="message-retry-button"
+                        disabled={false}
+                        onClick={[Function]}
+                      >
+                        Send Failed. Retry?
+                      </button>
+                    </div>
+                  </div>
+                </Message>
+                <Message
+                  className=""
+                  data-testid="sent-message"
+                  displayName="me"
+                  isOwn={true}
+                  key="message9"
+                  onRetry={[Function]}
+                  profileImage=""
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  timestamp="2018-12-06T02:30:15"
+                >
+                  <div
+                    className="message message--own"
+                    data-testid="sent-message"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="message-flex-container"
+                    >
+                      <div
+                        className="message-content message--sent"
+                      >
+                        <div
+                          className="message-flex-container-column"
+                        >
+                          <MessageText
+                            className=""
+                            isOwn={true}
+                            style={Object {}}
+                            timestamp="2018-12-06T02:30:15"
+                          >
+                            <div
+                              className="messagetext messagetext--sent "
+                              onClick={[Function]}
+                              style={Object {}}
+                            >
+                              <p
+                                className="messagetext-content"
+                              >
+                                <Linkify
+                                  disabled={false}
+                                  text="Link test
+https://google.com"
+                                >
+                                  Link test
+
+                                  <a
+                                    className="linkify_link"
+                                    href="https://google.com"
+                                    key="10"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                  >
+                                    google.com
+                                  </a>
+                                </Linkify>
+                              </p>
+                              <div
+                                className="messagetext-timestamp"
+                              >
+                                <span
+                                  className="messagetext-timestamp-text"
+                                >
+                                  2:30 AM
+                                </span>
+                              </div>
+                            </div>
+                          </MessageText>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="message-retry"
+                    >
+                      <button
+                        className="message-retry-button"
+                        disabled={false}
+                        onClick={[Function]}
+                      >
+                        Send Failed. Retry?
+                      </button>
+                    </div>
+                  </div>
+                </Message>
+                <MessageSystem
+                  key="currentMessageDate_2018-12-06T02:30:15"
+                  style={
+                    Object {
+                      "marginBottom": 15,
+                    }
+                  }
+                  text="Thursday, December 6th"
+                >
+                  <div
+                    className="messagesystem"
+                    data-testid="system-message-user-added"
+                    style={
+                      Object {
+                        "marginBottom": 15,
+                      }
+                    }
+                  >
+                    <div
+                      className="messagesystem-common messagesystem-bubble"
+                    >
+                      <span
+                        className="messagesystem-message"
+                      >
+                        Thursday, December 6th
+                      </span>
+                    </div>
+                  </div>
+                </MessageSystem>
+                <FirstMessage>
+                  <p
+                    className="messagethread-start"
+                    key="first-message"
+                  >
+                    This is the start of your conversation
+                  </p>
+                </FirstMessage>
+              </div>
+            </div>
+          </InfiniteScroll>
+        </div>
+      </div>
+    </ThreadScroller>
+    <MessageTyper
+      className="messagethread-typer"
+      generalMessage=""
+      message=""
+      onSend={[MockFunction]}
+      setMessage={[MockFunction]}
+      style={Object {}}
+    >
+      <div
+        className="messagetyper-wrap messagethread-typer"
+        style={Object {}}
+      >
+        <DragAndDrop
+          allowedExtensions={
+            Array [
+              "jpg",
+              "jpeg",
+              "png",
+              "pdf",
+            ]
+          }
+          handleDrop={[Function]}
+          maxSize={10000000}
+          onValidationFailed={[Function]}
+        >
+          <div>
+            <span
+              className="messagetyper-hint"
+            >
+              Press Enter to send
+            </span>
+            <div
+              className="messagetyper"
+            >
+              <MessageAttachmentButton
+                allowedExtensions={
+                  Array [
+                    "jpg",
+                    "jpeg",
+                    "png",
+                    "pdf",
+                  ]
+                }
+                className="messagetyper-button-attach"
+                data-testid="add-attachment-button"
+                hiddenInput={
+                  Object {
+                    "current": <input
+                      id="myInput"
+                      style="display: none;"
+                      type="file"
+                    />,
+                  }
+                }
+                maxSize={10000000}
+                onClick={[Function]}
+                onValidationFailed={[Function]}
+                style={Object {}}
+              >
+                <div
+                  className="messageattachmentbutton messagetyper-button-attach"
+                  style={Object {}}
+                >
+                  <input
+                    id="myInput"
+                    onChange={[Function]}
+                    style={
+                      Object {
+                        "display": "none",
+                      }
+                    }
+                    type="file"
+                  />
+                  <button
+                    className="messageattachmentbutton-button messageattachmentbutton-button-attach"
+                    data-testid="add-attachment-button"
+                    onClick={[Function]}
+                  >
+                    <IconPlus
+                      className=""
+                      color="var(--brandcolor_dark)"
+                      size={20}
+                      style={Object {}}
+                    >
+                      <svg
+                        className=""
+                        fillRule="evenodd"
+                        height={20}
+                        style={Object {}}
+                        viewBox="0 0 25 25"
+                        width={20}
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g
+                          fill="var(--brandcolor_dark)"
+                        >
+                          <path
+                            d="M88,593.160714 L88,595.839286 C88,596.575893 87.3973214,597.178571 86.6607143,597.178571 L78.1785714,597.178571 L78.1785714,605.660714 C78.1785714,606.397321 77.5758929,607 76.8392857,607 L74.1607143,607 C73.4241071,607 72.8214286,606.397321 72.8214286,605.660714 L72.8214286,597.178571 L64.3392857,597.178571 C63.6026786,597.178571 63,596.575893 63,595.839286 L63,593.160714 C63,592.424107 63.6026786,591.821429 64.3392857,591.821429 L72.8214286,591.821429 L72.8214286,583.339286 C72.8214286,582.602679 73.4241071,582 74.1607143,582 L76.8392857,582 C77.5758929,582 78.1785714,582.602679 78.1785714,583.339286 L78.1785714,591.821429 L86.6607143,591.821429 C87.3973214,591.821429 88,592.424107 88,593.160714 Z"
+                            transform="translate(-63 -582)"
+                          />
+                        </g>
+                      </svg>
+                    </IconPlus>
+                  </button>
+                </div>
+              </MessageAttachmentButton>
+              <ForwardRef
+                className="messagetyper-input"
+                data-testid="send-message-input"
+                maxLength={5000}
+                onChange={[Function]}
+                onKeyPress={[Function]}
+                placeholder="Type a new message"
+                rows={1}
+                style={
+                  Object {
+                    "resize": "none",
+                  }
+                }
+                value=""
+              >
+                <TextareaAutosizeClass
+                  async={false}
+                  className="messagetyper-input"
+                  data-testid="send-message-input"
+                  innerRef={
+                    Object {
+                      "current": <textarea
+                        class="messagetyper-input"
+                        data-testid="send-message-input"
+                        maxlength="5000"
+                        placeholder="Type a new message"
+                        rows="1"
+                        style="resize: none; overflow-x: hidden; word-wrap: break-word; overflow-y: hidden;"
+                      />,
+                    }
+                  }
+                  maxLength={5000}
+                  onChange={[Function]}
+                  onKeyPress={[Function]}
+                  placeholder="Type a new message"
+                  rows={1}
+                  style={
+                    Object {
+                      "resize": "none",
+                    }
+                  }
+                  value=""
+                >
+                  <textarea
+                    async={false}
+                    className="messagetyper-input"
+                    data-testid="send-message-input"
+                    maxLength={5000}
+                    onChange={[Function]}
+                    onKeyPress={[Function]}
+                    placeholder="Type a new message"
+                    rows={1}
+                    style={
+                      Object {
+                        "resize": "none",
+                      }
+                    }
+                    value=""
+                  />
+                </TextareaAutosizeClass>
+              </ForwardRef>
+              <button
+                className="messagetyper-button"
+                data-testid="send-message-button"
+                onClick={[Function]}
+              >
+                <IconAirplaneTop
+                  color="var(--brandcolor_dark)"
+                  size={20}
+                >
+                  <svg
+                    fillRule="evenodd"
+                    height={20}
+                    style={Object {}}
+                    viewBox="0 0 24 22"
+                    width={20}
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g
+                      fill="var(--brandcolor_dark)"
+                    >
+                      <path
+                        d="M0,21.79V13.47c0-.66.39-1.21.86-1.21H24v.05L1.13,22.94C.58,23.2,0,22.62,0,21.79Z"
+                        transform="translate(0 -1.06)"
+                      />
+                      <path
+                        d="M0,2.15V9.59a1,1,0,0,0,.86,1.07H24v0L1.13,1.12C.58.89,0,1.41,0,2.15Z"
+                        transform="translate(0 -1.06)"
+                      />
+                    </g>
+                  </svg>
+                </IconAirplaneTop>
+              </button>
+            </div>
+          </div>
+        </DragAndDrop>
+        <SendImageModal
+          file={null}
+          onClose={[Function]}
+          onSend={[Function]}
+          show={false}
+        >
+          <div
+            className="sendimagemodal-dimmer-screen"
+            data-testid="send-image-modal"
+          >
+            <div
+              className="sendimagemodal-wrap"
+            >
+              <div
+                className="sendimagemodal-header"
+              >
+                <span
+                  className="sendimagemodal-text"
+                >
+                  Crop Image
+                </span>
+                <button
+                  className="button-reset sendimagemodal-close"
+                  data-testid="button-close-send-image"
+                  onClick={[Function]}
+                >
+                  <IconTimes
+                    color="var(--base__body_fg)"
+                    size={20}
+                  >
+                    <svg
+                      height={20}
+                      style={Object {}}
+                      viewBox="0 0 25 25"
+                      width={20}
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M3.492 24.998l-2.197-2.197c-.604-.604-.604-1.593 0-2.197l6.957-6.958L1.295 6.69c-.604-.604-.604-1.593 0-2.197l2.197-2.197c.604-.604 1.593-.604 2.197 0l6.957 6.957 6.958-6.957c.604-.604 1.593-.604 2.197 0l2.197 2.197c.604.604.604 1.593 0 2.197l-6.957 6.957 6.957 6.958c.604.604.604 1.593 0 2.197l-2.197 2.197c-.604.604-1.593.604-2.197 0l-6.958-6.957-6.957 6.957c-.604.604-1.593.604-2.197 0z"
+                        fill="var(--base__body_fg)"
+                        fillRule="evenodd"
+                      />
+                    </svg>
+                  </IconTimes>
+                </button>
+              </div>
+              <div
+                className="sendimagemodal-content"
+              />
+              <div
+                className="sendimagemodal-footer"
+              >
+                <Button
+                  data-testid="send-image"
+                  disabled={true}
+                  fluid={true}
+                  onClick={[Function]}
+                  style={Object {}}
+                  type="submit"
+                >
+                  <Button
+                    as="button"
+                    className="button-custom"
+                    data-testid="send-image"
+                    disabled={true}
+                    fluid={true}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "var(--button_color)",
+                        "color": "var(--dark_black)",
+                      }
+                    }
+                    type="submit"
+                  >
+                    <Ref
+                      innerRef={
+                        Object {
+                          "current": <button
+                            class="ui fluid disabled button button-custom"
+                            data-testid="send-image"
+                            disabled=""
+                            tabindex="-1"
+                            type="submit"
+                          >
+                            Send
+                          </button>,
+                        }
+                      }
+                    >
+                      <RefFindNode
+                        innerRef={
+                          Object {
+                            "current": <button
+                              class="ui fluid disabled button button-custom"
+                              data-testid="send-image"
+                              disabled=""
+                              tabindex="-1"
+                              type="submit"
+                            >
+                              Send
+                            </button>,
+                          }
+                        }
+                      >
+                        <button
+                          className="ui fluid disabled button button-custom"
+                          data-testid="send-image"
+                          disabled={true}
+                          onBlur={[Function]}
+                          onClick={[Function]}
+                          onFocus={[Function]}
+                          onMouseDown={[Function]}
+                          onMouseEnter={[Function]}
+                          onMouseLeave={[Function]}
+                          onMouseUp={[Function]}
+                          style={
+                            Object {
+                              "backgroundColor": "var(--button_color)",
+                              "color": "var(--dark_black)",
+                            }
+                          }
+                          tabIndex={-1}
+                          type="submit"
+                        >
+                          Send
+                        </button>
+                      </RefFindNode>
+                    </Ref>
+                  </Button>
+                </Button>
+              </div>
+            </div>
+          </div>
+        </SendImageModal>
+      </div>
+    </MessageTyper>
+  </div>
+</Thread>
+`;

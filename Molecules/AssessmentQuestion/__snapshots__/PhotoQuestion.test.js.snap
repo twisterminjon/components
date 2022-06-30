@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagQuestion matches the snapshot 1`] = `
+<div
+  className="assessment-photo-answer"
+>
+  <img
+    alt="temperature reading"
+    className="assessment-photo-answer-attachment"
+    onError={[Function]}
+    src="https://www.fillmurray.com/400/400"
+  />
+  <Button
+    fluid={false}
+    onClick={[Function]}
+    style={Object {}}
+    type="submit"
+  >
+    Replace File
+  </Button>
+</div>
+`;

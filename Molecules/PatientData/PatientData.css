@@ -1,0 +1,27 @@
+.patientdata-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.patientdata-title {
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--white);
+
+  margin-bottom: 12px;
+}
+
+.patientdata-data {
+  min-height: 19px;
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--brandcolor);
+}
+
+.patientdata-alert-message {
+  margin-left: 10px;
+  display: inline;
+  color: var(--color_warn);
+}

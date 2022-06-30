@@ -1,0 +1,29 @@
+.deletebuttontiny-button {
+  position: relative;
+  background-color: transparent;
+  color: white;
+
+  padding: 0 2px;
+
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+
+.deletebuttontiny-button:hover {
+  background-color: var(--button_color_hover);
+}
+
+.deletebuttontiny-button:focus {
+  background-color: var(--button_color_hover);
+}
+
+.deletebuttontiny-button:active {
+  background-color: var(--button_color_pressed);
+}
+
+.deletebuttontiny-button:disabled,
+.deletebuttontiny-button[disabled] {
+  color: var(--button_color_disabled);
+  background-color: transparent;
+}

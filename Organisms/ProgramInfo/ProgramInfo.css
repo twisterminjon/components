@@ -1,0 +1,57 @@
+.programinfo-container {
+  width: 100%;
+  background-color: var(--program_events_bg);
+  padding: 0 16px;
+}
+
+.programinfo-usercontainer {
+  position: relative;
+  display: flex;
+  background-color: var(--program_events_bg);
+  flex-direction: row;
+  align-items: center;
+  height: 60px;
+}
+
+.programinfo-usernamecontainer {
+  padding-left: 24px;
+}
+
+.programinfo-username {
+  font-size: 16px;
+  color: var(--text_default);
+}
+
+.programinfo-label {
+  font-size: 22px;
+  color: var(--text_default);
+}
+
+.programinfo-status {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.programinfo-date {
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.programinfo-enrolledtext {
+  font-size: 14px;
+  color: var(--text_default);
+  padding-right: 10px;
+}
+
+.programinfo-datetext {
+  font-size: 14px;
+  color: var(--text_alternate);
+}
+
+.programinfo-disenrollbuttoncontainer {
+  position: relative;
+}

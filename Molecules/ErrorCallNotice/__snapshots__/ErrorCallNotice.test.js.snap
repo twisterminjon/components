@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorCallNotice matches the snapshot with skip call showing 1`] = `
+<div
+  className="errorcallnotice-wrap"
+>
+  <div
+    className="errorcallnotice-dimmer"
+  />
+  <div
+    className="errorcallnotice-content"
+    data-testid="outgoing-audio-call-notice"
+  >
+    <div
+      className="errorcallnotice-calldetails"
+    >
+      <div
+        className="errorcallnotice-placeholder"
+      >
+        <p
+          className="errorcallnotice-calldetails-main"
+        >
+          Cannot complete call...
+        </p>
+        <p>
+          This is an error message
+        </p>
+      </div>
+    </div>
+    <div
+      className="errorcallnotice-buttons errorcallnotice-buttons-center"
+    >
+      <CancelCallButton
+        ghost={true}
+        onClick={[MockFunction]}
+      />
+    </div>
+  </div>
+</div>
+`;

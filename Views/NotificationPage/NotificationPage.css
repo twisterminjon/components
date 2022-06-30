@@ -1,0 +1,53 @@
+.notificationpage-wrap {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  padding-top: 20vh;
+
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+  background-image: url('../../../Images//stock-dr.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  z-index: calc(var(--z-callnotice) + 1);
+}
+
+.notificationpage-logo {
+  width: 100px;
+}
+
+.notificationpage-content {
+  letter-spacing: 1px;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  position: absolute;
+  color: var(--white);
+}
+
+.notificationpage-title {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.notificationpage-text {
+  color: #ccc;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.notificationpage-list {
+  padding-left: 20px;
+}
+
+.notificationpage-list-item {
+  font-weight: 300;
+  font-size: 12px;
+}

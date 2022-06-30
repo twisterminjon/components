@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScrollArrow matches the snapshot with the left arrow 1`] = `
+<button
+  aria-label="scroll left"
+  className="scrollarrow-button"
+  onClick={[MockFunction]}
+>
+  <svg
+    fill="#00000"
+    height="27"
+    viewBox="0 0 15 27"
+    width="15"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <polygon
+      fillRule="evenodd"
+      opacity=".5"
+      points="0 2.25 2.143 0 15 13.5 2.143 27 0 24.75 10.714 13.5"
+      transform="matrix(-1 0 0 1 15 0)"
+    />
+  </svg>
+</button>
+`;
+
+exports[`ScrollArrow matches the snapshot with the right arrow 1`] = `
+<button
+  aria-label="scroll right"
+  className="scrollarrow-button"
+  onClick={[MockFunction]}
+>
+  <svg
+    fill="#00000"
+    height="27"
+    viewBox="0 0 15 27"
+    width="15"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <polygon
+      fillRule="evenodd"
+      opacity=".5"
+      points="0 2.25 2.143 0 15 13.5 2.143 27 0 24.75 10.714 13.5"
+    />
+  </svg>
+</button>
+`;

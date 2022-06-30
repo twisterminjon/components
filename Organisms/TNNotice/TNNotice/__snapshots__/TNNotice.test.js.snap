@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TNNotice matches the snapshot when should welcome 1`] = `
+<div
+  className="tnnotice"
+  data-testid="tnnotice"
+>
+  <div
+    className="tnnotice-content"
+  >
+    <h1>
+      Welcome to Provider Portal
+    </h1>
+    <IconDocuments
+      color="white"
+      size={150}
+      style={Object {}}
+    />
+    <p
+      className="tnnotice-text"
+    >
+      Before using the app, please review the Terms & Notices.
+    </p>
+  </div>
+  <div
+    className="tnnotice-controls"
+  >
+    <Button
+      data-testid="tn-agree-button"
+      fluid={true}
+      name="continue"
+      onClick={[MockFunction]}
+      style={Object {}}
+      type="submit"
+    >
+      Continue
+    </Button>
+  </div>
+</div>
+`;
+
+exports[`TNNotice matches the snapshot when terms & notices are updated 1`] = `
+<div
+  className="tnnotice"
+  data-testid="tnnotice"
+>
+  <div
+    className="tnnotice-content"
+  >
+    <h1>
+      The Terms & Notices have been updated
+    </h1>
+    <IconDocuments
+      color="white"
+      size={150}
+      style={Object {}}
+    />
+    <p
+      className="tnnotice-text"
+    >
+      Please review to continue using the app.
+    </p>
+  </div>
+  <div
+    className="tnnotice-controls"
+  >
+    <Button
+      data-testid="tn-agree-button"
+      fluid={true}
+      name="continue"
+      onClick={[MockFunction]}
+      style={Object {}}
+      type="submit"
+    >
+      Continue
+    </Button>
+  </div>
+</div>
+`;

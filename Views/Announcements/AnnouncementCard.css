@@ -1,0 +1,121 @@
+.announcementcard {
+  position: relative;
+
+  width: 342px;
+  height: 142px;
+
+  flex-grow: 0;
+  flex-shrink: 0;
+
+  color: var(--base__body_fg);
+
+  background-color: var(--brandcolor_dark);
+  border-radius: 4px;
+
+  list-style-type: none;
+}
+
+.announcementcard-header {
+  position: relative;
+  z-index: 1;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 100%;
+  height: 48px;
+
+  padding: 0 0 0 16px;
+}
+
+.announcementcard-header span {
+  flex: 1;
+  font-size: var(--font-base-body--size-small);
+  font-weight: var(--font-base--regular) !important;
+  /* font-family: var(--font-message-page); */
+
+  color: var(--base__body__brand__muted_fg);
+}
+
+.announcementcard-close {
+  position: relative;
+  width: 48px;
+  height: 48px;
+
+  border-radius: 4px;
+
+  background-color: transparent;
+}
+
+.announcementcard-close:hover {
+  color: var(--brandcolor_dark);
+  background-color: var(--button_color_hover);
+}
+
+.announcementcard-close:active {
+  transform: scale(0.95);
+}
+
+.announcementcard-close:focus {
+  outline: 1px solid var(--brandcolor);
+  outline-offset: -4px;
+}
+
+.announcementcard-close:disabled {
+  background-color: var(--brandcolor_verydark_minus5);
+}
+
+.announcementcard-content:hover ~ .announcementcard-hover-target {
+  background-color: var(--brandcolor_dark_plus5);
+}
+
+.announcementcard-content:focus ~ .announcementcard-hover-target {
+  outline: 1px solid var(--brandcolor);
+}
+
+.announcementcard-content {
+  position: relative;
+  z-index: 1;
+
+  color: var(--base__body_fg);
+  background-color: transparent;
+  cursor: pointer;
+
+  height: 78px;
+  width: 100%;
+
+  text-align: left;
+  padding: 0 16px 16px 16px;
+
+  font-size: var(--font-base-body--size);
+  font-weight: var(--font-base--regular);
+  line-height: 20px;
+
+  overflow: hidden;
+
+  font-family: var(--font-stack);
+}
+
+.announcementcard-content:disabled {
+  pointer-events: none;
+}
+
+.announcementcard-content p {
+  text-align: left;
+}
+
+.announcementcard--read {
+  background-color: var(--brandcolor_verydark);
+}
+
+.announcementcard-hover-target {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: transparent;
+  pointer-events: none;
+  z-index: 0;
+}

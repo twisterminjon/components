@@ -1,0 +1,126 @@
+.patientcard-button {
+  height: 79px;
+  width: 100%;
+  padding-left: 26px;
+
+  border: none;
+  border-top: 1px solid var(--misc__card__border_color);
+  border-bottom: 1px solid var(--misc__card__border_color);
+
+  background-color: transparent;
+  outline: none;
+}
+
+.patientcard-button:focus {
+  outline: 1px solid var(--button_color_hover);
+  outline-offset: -4px;
+}
+
+.patientcard-flag-container {
+  position: absolute;
+  right: 0;
+  margin-right: 5px;
+}
+
+.patientcard-button:active {
+  transform: scale(1.01);
+}
+
+.patientcard-button--small {
+  height: 60px;
+}
+
+.patientcard {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  height: 100%;
+  width: 100%;
+}
+
+.patientcard-label {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: left;
+  color: var(--white);
+
+  cursor: default;
+}
+
+.patientcard-label--small {
+  font-size: 14px;
+}
+
+.patientcard-avatar {
+  height: 45px;
+  display: block;
+  position: relative;
+}
+
+.patientcard-avatar--small {
+  height: 36px;
+}
+
+.patientcard-status {
+  position: absolute;
+}
+
+.patientcard-status--medium {
+  right: 2px;
+  bottom: 2px;
+}
+
+.patientcard-status--small {
+  /* Strange, react is doing something odd w/ where it puts the selector in the
+     <style> tags so this doesn't have the correct specificty */
+  right: 0;
+  bottom: 0;
+}
+
+/* Following are for the placeholder */
+.patientcard-ph-avatar {
+  height: 45px;
+  width: 45px;
+  background-color: var(--patientpage__placeholder);
+  border-radius: 50%;
+  margin-right: 14px;
+}
+
+.patientcard-ph-text {
+  height: 18px;
+  width: 100px;
+  border-radius: 9px;
+  background-color: var(--patientpage__placeholder);
+}
+
+.patientcard-ph {
+  animation: patientcard-shimmer 2s infinite;
+}
+
+@keyframes patientcard-shimmer {
+  from {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.patientcard-container {
+  display: flex;
+  width: 100%;
+}
+
+.patientcard-dnc-flag {
+  position: absolute;
+  right: 8px;
+}

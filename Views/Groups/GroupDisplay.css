@@ -1,0 +1,35 @@
+.groupdisplay-wrap {
+  height: calc(100% - var(--header-height));
+}
+
+.groupdisplay-content {
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+  width: 100%;
+}
+
+.groupdisplay-list {
+  flex: 1;
+  /* This is the scrolling portion of the page
+     it's height is determined by the flexbox but we need to
+     account for the fixed footer
+  */
+  margin-bottom: 86px;
+
+  width: 100%;
+
+  overflow-y: auto;
+}
+
+.groupdisplay-text {
+  display: block;
+  margin-top: 25px;
+  font-size: 22px;
+  line-height: 31px;
+  width: 100%;
+  text-align: center;
+  padding: 0 20px;
+  color: var(--brandcolor);
+}

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChooseCallType matches the snapshot 1`] = `
+<div
+  className="choosecalltype-wrap"
+>
+  <div
+    className="choosecalltype-dimmer"
+  />
+  <div
+    className="choosecalltype-content"
+    data-testid="choose-call-type"
+  >
+    <div
+      className="choosecalltype-buttons"
+    >
+      <Button
+        data-testid="button-video-call"
+        fluid={true}
+        onClick={[MockFunction]}
+        style={Object {}}
+        type="submit"
+      >
+        Video Call
+      </Button>
+      <Button
+        data-testid="button-audio-call"
+        fluid={true}
+        onClick={[MockFunction]}
+        style={Object {}}
+        type="submit"
+      >
+        Audio Call
+      </Button>
+      <ButtonGhost
+        className=""
+        data-testid="button-cancel"
+        fluid={true}
+        inverted={true}
+        onClick={[Function]}
+        red={false}
+        style={Object {}}
+      >
+        Cancel
+      </ButtonGhost>
+    </div>
+  </div>
+</div>
+`;

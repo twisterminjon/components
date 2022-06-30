@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventMissedCard matches the snapshot 1`] = `null`;
+
+exports[`EventMissedCard matches the snapshot for RPM (startDate instead of date) 1`] = `
+<div
+  className="eventcard-container"
+  onClick={[Function]}
+>
+  <div
+    className="eventcard-content"
+  >
+    <div
+      className="eventcard-label"
+    >
+      <div
+        className="eventcard-icon"
+      >
+        <svg
+          height={25}
+          style={Object {}}
+          viewBox="0 0 25 25"
+          width={25}
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M3.492 24.998l-2.197-2.197c-.604-.604-.604-1.593 0-2.197l6.957-6.958L1.295 6.69c-.604-.604-.604-1.593 0-2.197l2.197-2.197c.604-.604 1.593-.604 2.197 0l6.957 6.957 6.958-6.957c.604-.604 1.593-.604 2.197 0l2.197 2.197c.604.604.604 1.593 0 2.197l-6.957 6.957 6.957 6.958c.604.604.604 1.593 0 2.197l-2.197 2.197c-.604.604-1.593.604-2.197 0l-6.958-6.957-6.957 6.957c-.604.604-1.593.604-2.197 0z"
+            fill="var(--program_events_missed_text)"
+            fillRule="evenodd"
+          />
+        </svg>
+      </div>
+      <span
+        className="eventcard-text eventmissedcard-text"
+      >
+        Take a Reading
+      </span>
+    </div>
+    <span
+      className="eventcard-text eventmissedcard-text"
+    >
+      12/26/2019
+    </span>
+  </div>
+</div>
+`;

@@ -1,0 +1,1363 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PatientHeader matches the snapshot 1`] = `
+<MockedProvider
+  addTypename={false}
+  mocks={
+    Array [
+      Object {
+        "request": Object {
+          "query": Object {
+            "definitions": Array [
+              Object {
+                "directives": Array [],
+                "kind": "OperationDefinition",
+                "name": Object {
+                  "kind": "Name",
+                  "value": "uploadProfileImageUser",
+                },
+                "operation": "mutation",
+                "selectionSet": Object {
+                  "kind": "SelectionSet",
+                  "selections": Array [
+                    Object {
+                      "alias": undefined,
+                      "arguments": Array [
+                        Object {
+                          "kind": "Argument",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "where",
+                          },
+                          "value": Object {
+                            "fields": Array [
+                              Object {
+                                "kind": "ObjectField",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "id",
+                                },
+                                "value": Object {
+                                  "kind": "Variable",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "userID",
+                                  },
+                                },
+                              },
+                            ],
+                            "kind": "ObjectValue",
+                          },
+                        },
+                        Object {
+                          "kind": "Argument",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "image",
+                          },
+                          "value": Object {
+                            "kind": "Variable",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "file",
+                            },
+                          },
+                        },
+                      ],
+                      "directives": Array [],
+                      "kind": "Field",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "uploadProfileImageUser",
+                      },
+                      "selectionSet": Object {
+                        "kind": "SelectionSet",
+                        "selections": Array [
+                          Object {
+                            "alias": undefined,
+                            "arguments": Array [],
+                            "directives": Array [],
+                            "kind": "Field",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "id",
+                            },
+                            "selectionSet": undefined,
+                          },
+                          Object {
+                            "alias": undefined,
+                            "arguments": Array [],
+                            "directives": Array [],
+                            "kind": "Field",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "profileImage",
+                            },
+                            "selectionSet": undefined,
+                          },
+                        ],
+                      },
+                    },
+                  ],
+                },
+                "variableDefinitions": Array [
+                  Object {
+                    "defaultValue": undefined,
+                    "directives": Array [],
+                    "kind": "VariableDefinition",
+                    "type": Object {
+                      "kind": "NonNullType",
+                      "type": Object {
+                        "kind": "NamedType",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "Upload",
+                        },
+                      },
+                    },
+                    "variable": Object {
+                      "kind": "Variable",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "file",
+                      },
+                    },
+                  },
+                  Object {
+                    "defaultValue": undefined,
+                    "directives": Array [],
+                    "kind": "VariableDefinition",
+                    "type": Object {
+                      "kind": "NonNullType",
+                      "type": Object {
+                        "kind": "NamedType",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "ID",
+                        },
+                      },
+                    },
+                    "variable": Object {
+                      "kind": "Variable",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "userID",
+                      },
+                    },
+                  },
+                ],
+              },
+            ],
+            "kind": "Document",
+            "loc": Object {
+              "end": 200,
+              "start": 0,
+            },
+          },
+          "variables": Object {
+            "file": "",
+            "id": "18",
+          },
+        },
+        "result": Object {
+          "data": Object {
+            "uploadProfileImageUser": Object {
+              "id": "18",
+              "profileImage": "",
+            },
+          },
+        },
+      },
+    ]
+  }
+>
+  <ApolloProvider
+    client={
+      ApolloClient {
+        "cache": InMemoryCache {
+          "addTypename": false,
+          "cacheKeyRoot": KeyTrie {
+            "weakness": true,
+          },
+          "config": Object {
+            "addTypename": false,
+            "dataIdFromObject": [Function],
+            "fragmentMatcher": HeuristicFragmentMatcher {},
+            "freezeResults": false,
+            "resultCaching": true,
+          },
+          "data": DepTrackingCache {
+            "data": Object {},
+            "depend": [Function],
+          },
+          "maybeBroadcastWatch": [Function],
+          "optimisticData": DepTrackingCache {
+            "data": Object {},
+            "depend": [Function],
+          },
+          "silenceBroadcast": false,
+          "storeReader": StoreReader {
+            "executeSelectionSet": [Function],
+            "executeStoreQuery": [Function],
+            "executeSubSelectedArray": [Function],
+            "freezeResults": false,
+          },
+          "storeWriter": StoreWriter {},
+          "typenameDocumentCache": Map {},
+          "watches": Set {},
+        },
+        "clearStoreCallbacks": Array [],
+        "defaultOptions": Object {},
+        "disableNetworkFetches": false,
+        "link": MockLink {
+          "addTypename": false,
+          "mockedResponsesByKey": Object {
+            "{\\"query\\":\\"mutation uploadProfileImageUser($file: Upload!, $userID: ID!) {\\\\n  uploadProfileImageUser(where: {id: $userID}, image: $file) {\\\\n    id\\\\n    profileImage\\\\n  }\\\\n}\\\\n\\"}": Array [
+              Object {
+                "request": Object {
+                  "query": Object {
+                    "definitions": Array [
+                      Object {
+                        "directives": Array [],
+                        "kind": "OperationDefinition",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "uploadProfileImageUser",
+                        },
+                        "operation": "mutation",
+                        "selectionSet": Object {
+                          "kind": "SelectionSet",
+                          "selections": Array [
+                            Object {
+                              "alias": undefined,
+                              "arguments": Array [
+                                Object {
+                                  "kind": "Argument",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "where",
+                                  },
+                                  "value": Object {
+                                    "fields": Array [
+                                      Object {
+                                        "kind": "ObjectField",
+                                        "name": Object {
+                                          "kind": "Name",
+                                          "value": "id",
+                                        },
+                                        "value": Object {
+                                          "kind": "Variable",
+                                          "name": Object {
+                                            "kind": "Name",
+                                            "value": "userID",
+                                          },
+                                        },
+                                      },
+                                    ],
+                                    "kind": "ObjectValue",
+                                  },
+                                },
+                                Object {
+                                  "kind": "Argument",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "image",
+                                  },
+                                  "value": Object {
+                                    "kind": "Variable",
+                                    "name": Object {
+                                      "kind": "Name",
+                                      "value": "file",
+                                    },
+                                  },
+                                },
+                              ],
+                              "directives": Array [],
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "uploadProfileImageUser",
+                              },
+                              "selectionSet": Object {
+                                "kind": "SelectionSet",
+                                "selections": Array [
+                                  Object {
+                                    "alias": undefined,
+                                    "arguments": Array [],
+                                    "directives": Array [],
+                                    "kind": "Field",
+                                    "name": Object {
+                                      "kind": "Name",
+                                      "value": "id",
+                                    },
+                                    "selectionSet": undefined,
+                                  },
+                                  Object {
+                                    "alias": undefined,
+                                    "arguments": Array [],
+                                    "directives": Array [],
+                                    "kind": "Field",
+                                    "name": Object {
+                                      "kind": "Name",
+                                      "value": "profileImage",
+                                    },
+                                    "selectionSet": undefined,
+                                  },
+                                ],
+                              },
+                            },
+                          ],
+                        },
+                        "variableDefinitions": Array [
+                          Object {
+                            "defaultValue": undefined,
+                            "directives": Array [],
+                            "kind": "VariableDefinition",
+                            "type": Object {
+                              "kind": "NonNullType",
+                              "type": Object {
+                                "kind": "NamedType",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "Upload",
+                                },
+                              },
+                            },
+                            "variable": Object {
+                              "kind": "Variable",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "file",
+                              },
+                            },
+                          },
+                          Object {
+                            "defaultValue": undefined,
+                            "directives": Array [],
+                            "kind": "VariableDefinition",
+                            "type": Object {
+                              "kind": "NonNullType",
+                              "type": Object {
+                                "kind": "NamedType",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "ID",
+                                },
+                              },
+                            },
+                            "variable": Object {
+                              "kind": "Variable",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "userID",
+                              },
+                            },
+                          },
+                        ],
+                      },
+                    ],
+                    "kind": "Document",
+                    "loc": Object {
+                      "end": 200,
+                      "start": 0,
+                    },
+                  },
+                  "variables": Object {
+                    "file": "",
+                    "id": "18",
+                  },
+                },
+                "result": Object {
+                  "data": Object {
+                    "uploadProfileImageUser": Object {
+                      "id": "18",
+                      "profileImage": "",
+                    },
+                  },
+                },
+              },
+            ],
+          },
+        },
+        "localState": LocalState {
+          "cache": InMemoryCache {
+            "addTypename": false,
+            "cacheKeyRoot": KeyTrie {
+              "weakness": true,
+            },
+            "config": Object {
+              "addTypename": false,
+              "dataIdFromObject": [Function],
+              "fragmentMatcher": HeuristicFragmentMatcher {},
+              "freezeResults": false,
+              "resultCaching": true,
+            },
+            "data": DepTrackingCache {
+              "data": Object {},
+              "depend": [Function],
+            },
+            "maybeBroadcastWatch": [Function],
+            "optimisticData": DepTrackingCache {
+              "data": Object {},
+              "depend": [Function],
+            },
+            "silenceBroadcast": false,
+            "storeReader": StoreReader {
+              "executeSelectionSet": [Function],
+              "executeStoreQuery": [Function],
+              "executeSubSelectedArray": [Function],
+              "freezeResults": false,
+            },
+            "storeWriter": StoreWriter {},
+            "typenameDocumentCache": Map {},
+            "watches": Set {},
+          },
+          "client": [Circular],
+        },
+        "mutate": [Function],
+        "query": [Function],
+        "queryDeduplication": true,
+        "queryManager": QueryManager {
+          "assumeImmutableResults": false,
+          "clientAwareness": Object {
+            "name": undefined,
+            "version": undefined,
+          },
+          "dataStore": DataStore {
+            "cache": InMemoryCache {
+              "addTypename": false,
+              "cacheKeyRoot": KeyTrie {
+                "weakness": true,
+              },
+              "config": Object {
+                "addTypename": false,
+                "dataIdFromObject": [Function],
+                "fragmentMatcher": HeuristicFragmentMatcher {},
+                "freezeResults": false,
+                "resultCaching": true,
+              },
+              "data": DepTrackingCache {
+                "data": Object {},
+                "depend": [Function],
+              },
+              "maybeBroadcastWatch": [Function],
+              "optimisticData": DepTrackingCache {
+                "data": Object {},
+                "depend": [Function],
+              },
+              "silenceBroadcast": false,
+              "storeReader": StoreReader {
+                "executeSelectionSet": [Function],
+                "executeStoreQuery": [Function],
+                "executeSubSelectedArray": [Function],
+                "freezeResults": false,
+              },
+              "storeWriter": StoreWriter {},
+              "typenameDocumentCache": Map {},
+              "watches": Set {},
+            },
+          },
+          "fetchQueryRejectFns": Map {},
+          "idCounter": 1,
+          "inFlightLinkObservables": Map {},
+          "link": MockLink {
+            "addTypename": false,
+            "mockedResponsesByKey": Object {
+              "{\\"query\\":\\"mutation uploadProfileImageUser($file: Upload!, $userID: ID!) {\\\\n  uploadProfileImageUser(where: {id: $userID}, image: $file) {\\\\n    id\\\\n    profileImage\\\\n  }\\\\n}\\\\n\\"}": Array [
+                Object {
+                  "request": Object {
+                    "query": Object {
+                      "definitions": Array [
+                        Object {
+                          "directives": Array [],
+                          "kind": "OperationDefinition",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "uploadProfileImageUser",
+                          },
+                          "operation": "mutation",
+                          "selectionSet": Object {
+                            "kind": "SelectionSet",
+                            "selections": Array [
+                              Object {
+                                "alias": undefined,
+                                "arguments": Array [
+                                  Object {
+                                    "kind": "Argument",
+                                    "name": Object {
+                                      "kind": "Name",
+                                      "value": "where",
+                                    },
+                                    "value": Object {
+                                      "fields": Array [
+                                        Object {
+                                          "kind": "ObjectField",
+                                          "name": Object {
+                                            "kind": "Name",
+                                            "value": "id",
+                                          },
+                                          "value": Object {
+                                            "kind": "Variable",
+                                            "name": Object {
+                                              "kind": "Name",
+                                              "value": "userID",
+                                            },
+                                          },
+                                        },
+                                      ],
+                                      "kind": "ObjectValue",
+                                    },
+                                  },
+                                  Object {
+                                    "kind": "Argument",
+                                    "name": Object {
+                                      "kind": "Name",
+                                      "value": "image",
+                                    },
+                                    "value": Object {
+                                      "kind": "Variable",
+                                      "name": Object {
+                                        "kind": "Name",
+                                        "value": "file",
+                                      },
+                                    },
+                                  },
+                                ],
+                                "directives": Array [],
+                                "kind": "Field",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "uploadProfileImageUser",
+                                },
+                                "selectionSet": Object {
+                                  "kind": "SelectionSet",
+                                  "selections": Array [
+                                    Object {
+                                      "alias": undefined,
+                                      "arguments": Array [],
+                                      "directives": Array [],
+                                      "kind": "Field",
+                                      "name": Object {
+                                        "kind": "Name",
+                                        "value": "id",
+                                      },
+                                      "selectionSet": undefined,
+                                    },
+                                    Object {
+                                      "alias": undefined,
+                                      "arguments": Array [],
+                                      "directives": Array [],
+                                      "kind": "Field",
+                                      "name": Object {
+                                        "kind": "Name",
+                                        "value": "profileImage",
+                                      },
+                                      "selectionSet": undefined,
+                                    },
+                                  ],
+                                },
+                              },
+                            ],
+                          },
+                          "variableDefinitions": Array [
+                            Object {
+                              "defaultValue": undefined,
+                              "directives": Array [],
+                              "kind": "VariableDefinition",
+                              "type": Object {
+                                "kind": "NonNullType",
+                                "type": Object {
+                                  "kind": "NamedType",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "Upload",
+                                  },
+                                },
+                              },
+                              "variable": Object {
+                                "kind": "Variable",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "file",
+                                },
+                              },
+                            },
+                            Object {
+                              "defaultValue": undefined,
+                              "directives": Array [],
+                              "kind": "VariableDefinition",
+                              "type": Object {
+                                "kind": "NonNullType",
+                                "type": Object {
+                                  "kind": "NamedType",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "ID",
+                                  },
+                                },
+                              },
+                              "variable": Object {
+                                "kind": "Variable",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "userID",
+                                },
+                              },
+                            },
+                          ],
+                        },
+                      ],
+                      "kind": "Document",
+                      "loc": Object {
+                        "end": 200,
+                        "start": 0,
+                      },
+                    },
+                    "variables": Object {
+                      "file": "",
+                      "id": "18",
+                    },
+                  },
+                  "result": Object {
+                    "data": Object {
+                      "uploadProfileImageUser": Object {
+                        "id": "18",
+                        "profileImage": "",
+                      },
+                    },
+                  },
+                },
+              ],
+            },
+          },
+          "localState": LocalState {
+            "cache": InMemoryCache {
+              "addTypename": false,
+              "cacheKeyRoot": KeyTrie {
+                "weakness": true,
+              },
+              "config": Object {
+                "addTypename": false,
+                "dataIdFromObject": [Function],
+                "fragmentMatcher": HeuristicFragmentMatcher {},
+                "freezeResults": false,
+                "resultCaching": true,
+              },
+              "data": DepTrackingCache {
+                "data": Object {},
+                "depend": [Function],
+              },
+              "maybeBroadcastWatch": [Function],
+              "optimisticData": DepTrackingCache {
+                "data": Object {},
+                "depend": [Function],
+              },
+              "silenceBroadcast": false,
+              "storeReader": StoreReader {
+                "executeSelectionSet": [Function],
+                "executeStoreQuery": [Function],
+                "executeSubSelectedArray": [Function],
+                "freezeResults": false,
+              },
+              "storeWriter": StoreWriter {},
+              "typenameDocumentCache": Map {},
+              "watches": Set {},
+            },
+            "client": [Circular],
+          },
+          "mutationStore": MutationStore {
+            "store": Object {},
+          },
+          "onBroadcast": [Function],
+          "pollingInfoByQueryId": Map {},
+          "queries": Map {},
+          "queryDeduplication": true,
+          "queryStore": QueryStore {
+            "store": Object {},
+          },
+          "ssrMode": false,
+          "transformCache": WeakMap {},
+        },
+        "reFetchObservableQueries": [Function],
+        "resetStore": [Function],
+        "resetStoreCallbacks": Array [],
+        "store": DataStore {
+          "cache": InMemoryCache {
+            "addTypename": false,
+            "cacheKeyRoot": KeyTrie {
+              "weakness": true,
+            },
+            "config": Object {
+              "addTypename": false,
+              "dataIdFromObject": [Function],
+              "fragmentMatcher": HeuristicFragmentMatcher {},
+              "freezeResults": false,
+              "resultCaching": true,
+            },
+            "data": DepTrackingCache {
+              "data": Object {},
+              "depend": [Function],
+            },
+            "maybeBroadcastWatch": [Function],
+            "optimisticData": DepTrackingCache {
+              "data": Object {},
+              "depend": [Function],
+            },
+            "silenceBroadcast": false,
+            "storeReader": StoreReader {
+              "executeSelectionSet": [Function],
+              "executeStoreQuery": [Function],
+              "executeSubSelectedArray": [Function],
+              "freezeResults": false,
+            },
+            "storeWriter": StoreWriter {},
+            "typenameDocumentCache": Map {},
+            "watches": Set {},
+          },
+        },
+        "typeDefs": undefined,
+        "version": "2.6.10",
+        "watchQuery": [Function],
+      }
+    }
+  >
+    <PatientHeader
+      className=""
+      loading={false}
+      onCall={[MockFunction]}
+      onMessage={[MockFunction]}
+      onOnDemandMessage={[MockFunction]}
+      onProfilePicChange={[MockFunction]}
+      style={Object {}}
+      user={
+        Object {
+          "accessCode": Object {
+            "code": "16253",
+            "id": "245",
+            "isExpired": false,
+          },
+          "careTeam": Array [
+            Object {
+              "id": "3",
+              "isActive": true,
+              "name": "Cardiology Care Team",
+            },
+            Object {
+              "id": "5",
+              "isActive": true,
+              "name": "Rickets Therapy",
+            },
+          ],
+          "displayName": "Paul Pollson",
+          "email": "ppollson@mailinator.com",
+          "enterprise": Object {
+            "id": "1",
+            "permissionsByType": Array [
+              Object {
+                "code": "language_services_integration",
+                "id": "11",
+                "isActive": true,
+              },
+              Object {
+                "code": "on_demand_contact",
+                "id": "13",
+                "isActive": true,
+              },
+              Object {
+                "code": "secure_messaging",
+                "id": "12",
+                "isActive": true,
+              },
+              Object {
+                "code": "access_codes",
+                "id": "14",
+                "isActive": true,
+              },
+            ],
+          },
+          "id": "18",
+          "isActive": true,
+          "isAdmin": false,
+          "isPatient": true,
+          "overallStatus": "offline",
+          "patient": Object {
+            "careManagerName": "Sally Supersonic",
+            "careManagerPhone": "3332225555",
+            "caregivers": Array [
+              Object {
+                "id": "2001",
+                "sendProgramEvents": true,
+                "user": Object {
+                  "displayName": "Sally Supersonic",
+                  "email": "sally@mailinator.com",
+                  "id": "19",
+                  "isActive": true,
+                  "overallStatus": "available",
+                  "phone": "5554443232",
+                  "profileImage": "https://www.fillmurray.com/100/100",
+                },
+              },
+              Object {
+                "id": "2003",
+                "sendProgramEvents": true,
+                "user": Object {
+                  "displayName": "Ursala Ursina",
+                  "email": "ursula@mailinator.com",
+                  "id": "21",
+                  "isActive": true,
+                  "overallStatus": "busy",
+                  "phone": "3332225555",
+                  "profileImage": "https://www.fillmurray.com/200/200",
+                },
+              },
+            ],
+            "contactType": "BOTH",
+            "dateOfBirth": "1972-05-22",
+            "enrollments": Array [
+              Object {
+                "id": "4",
+                "isActive": true,
+                "program": Object {
+                  "id": "1",
+                  "isActive": true,
+                  "name": "School of Rock",
+                },
+              },
+              Object {
+                "id": "124",
+                "isActive": false,
+                "program": Object {
+                  "id": "1",
+                  "isActive": true,
+                  "name": "House of Blues",
+                },
+              },
+            ],
+            "id": "3003",
+            "identifier": "1YVCA8ND2L",
+            "language": Object {
+              "code": "EN",
+              "id": "1",
+              "name": "English",
+            },
+            "pcpName": "Ursala Ursina",
+            "ssnLast4": "5342",
+            "zipCode": "15202",
+          },
+          "phone": "7273163535",
+          "profileImage": "https://www.fillmurray.com/240/240",
+        }
+      }
+    >
+      <div
+        className="patientheader-wrap"
+      >
+        <div
+          className="patientheader"
+          style={Object {}}
+        >
+          <Avatar
+            className=""
+            dimmed={false}
+            displayName={null}
+            imgUrl="https://www.fillmurray.com/240/240"
+            loading={false}
+            size={90}
+            style={
+              Object {
+                "marginLeft": 39,
+              }
+            }
+          >
+            <div
+              className="avatar"
+              style={
+                Object {
+                  "height": "90px",
+                  "lineHeight": "90px",
+                  "marginLeft": 39,
+                  "width": "90px",
+                }
+              }
+            >
+              <img
+                alt="user avatar"
+                src="https://www.fillmurray.com/240/240"
+                style={
+                  Object {
+                    "height": "90px",
+                    "lineHeight": "90px",
+                    "width": "90px",
+                  }
+                }
+              />
+            </div>
+          </Avatar>
+          <div
+            className="patientheader-label-wrap"
+          >
+            <span
+              className="patientheader-label patientheader-label--bottom-margin"
+            >
+              Paul Pollson
+            </span>
+            <span
+              className="patientheader-id"
+            >
+              1YVCA8ND2L
+            </span>
+            <p
+              className="patientheader-do-not-contact"
+            />
+          </div>
+          <StartMessageButton
+            data-testid="odm-Paul Pollson"
+            dimmed={false}
+            disabled={false}
+            ghost={false}
+            onClick={[MockFunction]}
+            style={
+              Object {
+                "marginRight": 14,
+              }
+            }
+            type="ondemand"
+          >
+            <div
+              className="startmessagebutton-wrap"
+              data-testid="odm-Paul Pollson"
+              style={
+                Object {
+                  "marginRight": 14,
+                }
+              }
+            >
+              <CallButton
+                color="var(--brandcolor)"
+                data-testid="odm-Paul Pollson"
+                dimmed={false}
+                disabled={false}
+                ghost={false}
+                ghostOpacity={0}
+                name="start-message"
+                onClick={[MockFunction]}
+                size="small"
+              >
+                <button
+                  aria-label="start-message"
+                  className="callbutton-button "
+                  data-testid="odm-Paul Pollson"
+                  disabled={false}
+                  onClick={[MockFunction]}
+                  onMouseDown={[Function]}
+                  onMouseUp={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "var(--brandcolor)",
+                      "border": "1px solid var(--brandcolor)",
+                      "height": 45,
+                      "opacity": 1,
+                      "width": 45,
+                    }
+                  }
+                >
+                  <IconMessage
+                    className=""
+                    color="black"
+                    key=".0"
+                    size={29}
+                    style={
+                      Object {
+                        "transform": "scale(0.7)",
+                      }
+                    }
+                  >
+                    <svg
+                      className=""
+                      fillRule="evenodd"
+                      height={29}
+                      style={
+                        Object {
+                          "transform": "scale(0.7)",
+                        }
+                      }
+                      viewBox="0 0 24 19"
+                      width={29}
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g
+                        fill="black"
+                      >
+                        <path
+                          d="M12,3.05c3.08,0,6.17-.11,9.24.06.89.06,2.28.78,2.46,1.46a3.43,3.43,0,0,1-.94,2.93C19.92,9.83,16.9,11.91,14,14.09a2.94,2.94,0,0,1-3.89,0c-3-2.24-6.07-4.38-9-6.75A3.16,3.16,0,0,1,.3,4.61,2.91,2.91,0,0,1,2.5,3.12C5.65,3,8.82,3.05,12,3.05Z"
+                          transform="translate(0 -3.01)"
+                        />
+                        <path
+                          d="M15.7,14.79C14,16,13,16.56,12,16.56S10,16,8.3,14.79C5.67,12.93,3,11.21,0,9c0,4,0,6,0,9.13C.06,20,.79,21,2.68,21L12,21l9.32,0c1.89,0,2.62-1,2.64-2.84C24,15,24,13,24,9,21,11.21,18.33,12.93,15.7,14.79Z"
+                          transform="translate(0 -3.01)"
+                        />
+                      </g>
+                    </svg>
+                  </IconMessage>
+                </button>
+              </CallButton>
+            </div>
+          </StartMessageButton>
+          <StartMessageButton
+            data-testid="secure-message-Paul Pollson"
+            dimmed={false}
+            disabled={false}
+            ghost={false}
+            onClick={[MockFunction]}
+            style={
+              Object {
+                "marginRight": 14,
+              }
+            }
+            type="secure"
+          >
+            <div
+              className="startmessagebutton-wrap"
+              data-testid="secure-message-Paul Pollson"
+              style={
+                Object {
+                  "marginRight": 14,
+                }
+              }
+            >
+              <CallButton
+                color="var(--brandcolor)"
+                data-testid="secure-message-Paul Pollson"
+                dimmed={false}
+                disabled={false}
+                ghost={false}
+                ghostOpacity={0}
+                name="start-message"
+                onClick={[MockFunction]}
+                size="small"
+              >
+                <button
+                  aria-label="start-message"
+                  className="callbutton-button "
+                  data-testid="secure-message-Paul Pollson"
+                  disabled={false}
+                  onClick={[MockFunction]}
+                  onMouseDown={[Function]}
+                  onMouseUp={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "var(--brandcolor)",
+                      "border": "1px solid var(--brandcolor)",
+                      "height": 45,
+                      "opacity": 1,
+                      "width": 45,
+                    }
+                  }
+                >
+                  <IconMessage
+                    className=""
+                    color="black"
+                    key=".0"
+                    size={29}
+                    style={
+                      Object {
+                        "transform": "scale(0.7)",
+                      }
+                    }
+                  >
+                    <svg
+                      className=""
+                      fillRule="evenodd"
+                      height={29}
+                      style={
+                        Object {
+                          "transform": "scale(0.7)",
+                        }
+                      }
+                      viewBox="0 0 24 19"
+                      width={29}
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g
+                        fill="black"
+                      >
+                        <path
+                          d="M24,12c0-5.1-5.37-9.23-12-9.23S0,6.9,0,12a7.83,7.83,0,0,0,2.19,5.31A13.24,13.24,0,0,1,.13,20.45.46.46,0,0,0,0,21a.45.45,0,0,0,.42.28,10.21,10.21,0,0,0,5.12-1.44A14.75,14.75,0,0,0,12,21.23C18.63,21.23,24,17.1,24,12Z"
+                          transform="translate(0 -2.77)"
+                        />
+                      </g>
+                    </svg>
+                  </IconMessage>
+                </button>
+              </CallButton>
+            </div>
+          </StartMessageButton>
+        </div>
+        <PatientPicEditor
+          className="patientheader-profile-pic-edit"
+          user={
+            Object {
+              "accessCode": Object {
+                "code": "16253",
+                "id": "245",
+                "isExpired": false,
+              },
+              "careTeam": Array [
+                Object {
+                  "id": "3",
+                  "isActive": true,
+                  "name": "Cardiology Care Team",
+                },
+                Object {
+                  "id": "5",
+                  "isActive": true,
+                  "name": "Rickets Therapy",
+                },
+              ],
+              "displayName": "Paul Pollson",
+              "email": "ppollson@mailinator.com",
+              "enterprise": Object {
+                "id": "1",
+                "permissionsByType": Array [
+                  Object {
+                    "code": "language_services_integration",
+                    "id": "11",
+                    "isActive": true,
+                  },
+                  Object {
+                    "code": "on_demand_contact",
+                    "id": "13",
+                    "isActive": true,
+                  },
+                  Object {
+                    "code": "secure_messaging",
+                    "id": "12",
+                    "isActive": true,
+                  },
+                  Object {
+                    "code": "access_codes",
+                    "id": "14",
+                    "isActive": true,
+                  },
+                ],
+              },
+              "id": "18",
+              "isActive": true,
+              "isAdmin": false,
+              "isPatient": true,
+              "overallStatus": "offline",
+              "patient": Object {
+                "careManagerName": "Sally Supersonic",
+                "careManagerPhone": "3332225555",
+                "caregivers": Array [
+                  Object {
+                    "id": "2001",
+                    "sendProgramEvents": true,
+                    "user": Object {
+                      "displayName": "Sally Supersonic",
+                      "email": "sally@mailinator.com",
+                      "id": "19",
+                      "isActive": true,
+                      "overallStatus": "available",
+                      "phone": "5554443232",
+                      "profileImage": "https://www.fillmurray.com/100/100",
+                    },
+                  },
+                  Object {
+                    "id": "2003",
+                    "sendProgramEvents": true,
+                    "user": Object {
+                      "displayName": "Ursala Ursina",
+                      "email": "ursula@mailinator.com",
+                      "id": "21",
+                      "isActive": true,
+                      "overallStatus": "busy",
+                      "phone": "3332225555",
+                      "profileImage": "https://www.fillmurray.com/200/200",
+                    },
+                  },
+                ],
+                "contactType": "BOTH",
+                "dateOfBirth": "1972-05-22",
+                "enrollments": Array [
+                  Object {
+                    "id": "4",
+                    "isActive": true,
+                    "program": Object {
+                      "id": "1",
+                      "isActive": true,
+                      "name": "School of Rock",
+                    },
+                  },
+                  Object {
+                    "id": "124",
+                    "isActive": false,
+                    "program": Object {
+                      "id": "1",
+                      "isActive": true,
+                      "name": "House of Blues",
+                    },
+                  },
+                ],
+                "id": "3003",
+                "identifier": "1YVCA8ND2L",
+                "language": Object {
+                  "code": "EN",
+                  "id": "1",
+                  "name": "English",
+                },
+                "pcpName": "Ursala Ursina",
+                "ssnLast4": "5342",
+                "zipCode": "15202",
+              },
+              "phone": "7273163535",
+              "profileImage": "https://www.fillmurray.com/240/240",
+            }
+          }
+        >
+          <ProfileImageUploadButton
+            className="patientheader-profile-pic-edit"
+            loading={false}
+            loadingRemove={false}
+            onRemove={[Function]}
+            onSave={[Function]}
+            showOptions={true}
+            style={Object {}}
+          >
+            <div
+              className="patientheader-profile-pic-edit"
+              style={Object {}}
+            >
+              <Popup
+                content="Edit profile pic"
+                disabled={false}
+                eventsEnabled={true}
+                on={
+                  Array [
+                    "click",
+                    "hover",
+                  ]
+                }
+                pinned={false}
+                popperModifiers={Array []}
+                position="bottom left"
+                trigger={
+                  <button
+                    className="profileimageuploadbutton"
+                    data-testid="button-edit-profile-image"
+                    disabled={false}
+                    onClick={[Function]}
+                  >
+                    <IconPencil
+                      color="var(--brandcolor_dark)"
+                      size={16}
+                    />
+                  </button>
+                }
+              >
+                <Portal
+                  closeOnDocumentClick={true}
+                  closeOnEscape={true}
+                  closeOnTriggerClick={true}
+                  closeOnTriggerMouseLeave={true}
+                  eventPool="default"
+                  mouseEnterDelay={50}
+                  mouseLeaveDelay={70}
+                  onClose={[Function]}
+                  onMount={[Function]}
+                  onOpen={[Function]}
+                  onUnmount={[Function]}
+                  openOnTriggerClick={true}
+                  openOnTriggerMouseEnter={true}
+                  trigger={
+                    <button
+                      className="profileimageuploadbutton"
+                      data-testid="button-edit-profile-image"
+                      disabled={false}
+                      onClick={[Function]}
+                    >
+                      <IconPencil
+                        color="var(--brandcolor_dark)"
+                        size={16}
+                      />
+                    </button>
+                  }
+                  triggerRef={
+                    Object {
+                      "current": <button
+                        class="profileimageuploadbutton"
+                        data-testid="button-edit-profile-image"
+                      >
+                        <svg
+                          height="16"
+                          viewBox="0 0 24 24"
+                          width="16"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g
+                            fill="var(--brandcolor_dark)"
+                          >
+                            <path
+                              d="M1.21,24A1.1,1.1,0,0,1,0,22.75c.12-.89.3-1.78.45-2.67s.33-1.94.51-2.91a.59.59,0,0,1,.17-.33L13.2,4.78a.62.62,0,0,1,1,0l5,5c.39.39.4.67,0,1.06l-12,12a.67.67,0,0,1-.33.18L1.42,24ZM14.14,8.37c0-.46-.33-.8-.66-.74A1,1,0,0,0,13,7.9q-3.42,3.39-6.82,6.8L5.83,15a.64.64,0,0,0,.91.91L7,15.66,13.85,8.8A2.31,2.31,0,0,0,14.14,8.37ZM2.45,17.64a.44.44,0,0,0,0,.1c-.17.92-.33,1.83-.48,2.75a.33.33,0,0,0,.11.27c.38.4.78.79,1.17,1.18a.32.32,0,0,0,.33.11l1.24-.22,1.55-.28V19.87H4.11V17.64Z"
+                            />
+                            <path
+                              d="M24,5.24a2.09,2.09,0,0,1-.61,1.38c-.72.74-1.46,1.48-2.2,2.21a.58.58,0,0,1-.8,0c-.06,0-.1-.1-.15-.15L15.3,3.78c-.41-.41-.41-.69,0-1.09.67-.67,1.33-1.35,2-2a2.25,2.25,0,0,1,3-.21l.15.12,2.91,2.92A2.25,2.25,0,0,1,24,5.24Z"
+                            />
+                          </g>
+                        </svg>
+                      </button>,
+                    }
+                  }
+                >
+                  <Ref
+                    innerRef={[Function]}
+                  >
+                    <RefFindNode
+                      innerRef={[Function]}
+                    >
+                      <button
+                        className="profileimageuploadbutton"
+                        data-testid="button-edit-profile-image"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onMouseEnter={[Function]}
+                        onMouseLeave={[Function]}
+                      >
+                        <IconPencil
+                          color="var(--brandcolor_dark)"
+                          size={16}
+                        >
+                          <svg
+                            height={16}
+                            style={Object {}}
+                            viewBox="0 0 24 24"
+                            width={16}
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g
+                              fill="var(--brandcolor_dark)"
+                            >
+                              <path
+                                d="M1.21,24A1.1,1.1,0,0,1,0,22.75c.12-.89.3-1.78.45-2.67s.33-1.94.51-2.91a.59.59,0,0,1,.17-.33L13.2,4.78a.62.62,0,0,1,1,0l5,5c.39.39.4.67,0,1.06l-12,12a.67.67,0,0,1-.33.18L1.42,24ZM14.14,8.37c0-.46-.33-.8-.66-.74A1,1,0,0,0,13,7.9q-3.42,3.39-6.82,6.8L5.83,15a.64.64,0,0,0,.91.91L7,15.66,13.85,8.8A2.31,2.31,0,0,0,14.14,8.37ZM2.45,17.64a.44.44,0,0,0,0,.1c-.17.92-.33,1.83-.48,2.75a.33.33,0,0,0,.11.27c.38.4.78.79,1.17,1.18a.32.32,0,0,0,.33.11l1.24-.22,1.55-.28V19.87H4.11V17.64Z"
+                              />
+                              <path
+                                d="M24,5.24a2.09,2.09,0,0,1-.61,1.38c-.72.74-1.46,1.48-2.2,2.21a.58.58,0,0,1-.8,0c-.06,0-.1-.1-.15-.15L15.3,3.78c-.41-.41-.41-.69,0-1.09.67-.67,1.33-1.35,2-2a2.25,2.25,0,0,1,3-.21l.15.12,2.91,2.92A2.25,2.25,0,0,1,24,5.24Z"
+                              />
+                            </g>
+                          </svg>
+                        </IconPencil>
+                      </button>
+                    </RefFindNode>
+                  </Ref>
+                </Portal>
+              </Popup>
+            </div>
+          </ProfileImageUploadButton>
+        </PatientPicEditor>
+      </div>
+    </PatientHeader>
+  </ApolloProvider>
+</MockedProvider>
+`;

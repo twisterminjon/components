@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Announcement Announcement matches the snapshot 1`] = `
+<div
+  className="announcement"
+  data-testid="announcement-view-3"
+>
+  <AnnouncementBanner
+    className=""
+    navigation="left"
+    onNavigate={[MockFunction]}
+    style={Object {}}
+    text="Announcement"
+  />
+  <div
+    className="announcement-container"
+  >
+    <div
+      className="announcement-content"
+    >
+      <span
+        data-testid="announcement-sent"
+      >
+        5hrs ago
+      </span>
+      <p
+        className="announcement-text"
+        data-testid="announcement-text"
+      >
+        <Linkify
+          disabled={false}
+          text="The colony was a research station for BioInovation, the interstellar biotechnology company. First, BioIn had studied the odd local life forms. Then it made the planet its center for gene mod testing.
+
+She’d found out some of this on her way to the planet, which had been named Grit by its first settlers. It was a silly name, but the interstellar rules for naming meant the planet was stuck with it, though BioIn had been able to change Grit City to Innovation City in honor of itself. The rest of her data came from infotainment ads in the Grit spaceport. BioIn had packed the port with holos showing its history, accomplishments, and plans for the future."
+        />
+      </p>
+      <AnnouncementImage />
+    </div>
+    <div
+      className="announcement-buttons"
+    >
+      <ButtonGhost
+        className=""
+        data-testid="button-announcement-remove"
+        disabled={false}
+        fluid={true}
+        loading={false}
+        onClick={[MockFunction]}
+        red={false}
+        style={
+          Object {
+            "height": 40,
+            "marginRight": 16,
+          }
+        }
+      >
+        Remove
+      </ButtonGhost>
+      <Button
+        data-testid="button-announcement-close"
+        fluid={true}
+        onClick={[MockFunction]}
+        style={Object {}}
+        type="submit"
+      >
+        Close
+      </Button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Announcement Announcement matches the snapshot when loading 1`] = `
+<div
+  className="announcement"
+  data-testid="announcement-view-3"
+>
+  <AnnouncementBanner
+    className=""
+    navigation="left"
+    onNavigate={[MockFunction]}
+    style={Object {}}
+    text="Announcement"
+  />
+  <div
+    className="announcement-container"
+  >
+    <SpinnerDots
+      className=""
+      style={
+        Object {
+          "width": "100%",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Announcement Announcement matches the snapshot when remove loading 1`] = `
+<div
+  className="announcement"
+  data-testid="announcement-view-3"
+>
+  <AnnouncementBanner
+    className=""
+    navigation="left"
+    onNavigate={[MockFunction]}
+    style={Object {}}
+    text="Announcement"
+  />
+  <div
+    className="announcement-container"
+  >
+    <div
+      className="announcement-content"
+    >
+      <span
+        data-testid="announcement-sent"
+      >
+        5hrs ago
+      </span>
+      <p
+        className="announcement-text"
+        data-testid="announcement-text"
+      >
+        <Linkify
+          disabled={false}
+          text="The colony was a research station for BioInovation, the interstellar biotechnology company. First, BioIn had studied the odd local life forms. Then it made the planet its center for gene mod testing.
+
+She’d found out some of this on her way to the planet, which had been named Grit by its first settlers. It was a silly name, but the interstellar rules for naming meant the planet was stuck with it, though BioIn had been able to change Grit City to Innovation City in honor of itself. The rest of her data came from infotainment ads in the Grit spaceport. BioIn had packed the port with holos showing its history, accomplishments, and plans for the future."
+        />
+      </p>
+      <AnnouncementImage />
+    </div>
+    <div
+      className="announcement-buttons"
+    >
+      <ButtonGhost
+        className=""
+        data-testid="button-announcement-remove"
+        disabled={true}
+        fluid={true}
+        loading={true}
+        onClick={[MockFunction]}
+        red={false}
+        style={
+          Object {
+            "height": 40,
+            "marginRight": 16,
+          }
+        }
+      >
+        Remove
+      </ButtonGhost>
+      <Button
+        data-testid="button-announcement-close"
+        fluid={true}
+        onClick={[MockFunction]}
+        style={Object {}}
+        type="submit"
+      >
+        Close
+      </Button>
+    </div>
+  </div>
+</div>
+`;

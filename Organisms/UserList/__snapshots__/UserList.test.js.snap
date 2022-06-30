@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserList matches the snapshot 1`] = `
+<div
+  className="userlist"
+  id="userlist"
+>
+  <InfiniteScroll
+    dataLength={3}
+    hasMore={true}
+    next={[Function]}
+    scrollableTarget="userlist"
+  >
+    <ul>
+      <li
+        key="123"
+      >
+        <UserCardCall
+          canMessage={true}
+          displayName="Dr. Stephen Strange"
+          favorite={false}
+          onCall={[Function]}
+          onMessage={[Function]}
+          profileImage="https://www.someurl.com/somepic"
+          status="available"
+          userId="123"
+        />
+      </li>
+      <li
+        key="4"
+      >
+        <UserCardCall
+          canMessage={true}
+          displayName="Nurse Jacky"
+          favorite={false}
+          onCall={[Function]}
+          onMessage={[Function]}
+          profileImage="https://www.someurl.com/someotherpic"
+          status="busy"
+          userId="4"
+        />
+      </li>
+      <li
+        key="4"
+      >
+        <UserCardCall
+          canMessage={true}
+          displayName="Dr. X"
+          favorite={true}
+          onCall={[Function]}
+          onMessage={[Function]}
+          profileImage="https://www.someurl.com/someotherpic"
+          status="offline"
+          userId="4"
+        />
+      </li>
+    </ul>
+    <div
+      style={
+        Object {
+          "height": "var(--bottom-whitespace-v1)",
+        }
+      }
+    />
+  </InfiniteScroll>
+</div>
+`;
+
+exports[`UserList matches the snapshot w/o message perms 1`] = `
+<div
+  className="userlist"
+  id="userlist"
+>
+  <InfiniteScroll
+    dataLength={3}
+    hasMore={true}
+    next={[Function]}
+    scrollableTarget="userlist"
+  >
+    <ul>
+      <li
+        key="123"
+      >
+        <UserCardCall
+          canMessage={false}
+          displayName="Dr. Stephen Strange"
+          favorite={false}
+          onCall={[Function]}
+          onMessage={[Function]}
+          profileImage="https://www.someurl.com/somepic"
+          status="available"
+          userId="123"
+        />
+      </li>
+      <li
+        key="4"
+      >
+        <UserCardCall
+          canMessage={false}
+          displayName="Nurse Jacky"
+          favorite={false}
+          onCall={[Function]}
+          onMessage={[Function]}
+          profileImage="https://www.someurl.com/someotherpic"
+          status="busy"
+          userId="4"
+        />
+      </li>
+      <li
+        key="4"
+      >
+        <UserCardCall
+          canMessage={false}
+          displayName="Dr. X"
+          favorite={true}
+          onCall={[Function]}
+          onMessage={[Function]}
+          profileImage="https://www.someurl.com/someotherpic"
+          status="offline"
+          userId="4"
+        />
+      </li>
+    </ul>
+    <div
+      style={
+        Object {
+          "height": "var(--bottom-whitespace-v1)",
+        }
+      }
+    />
+  </InfiniteScroll>
+</div>
+`;

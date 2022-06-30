@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PatientDetailsEmpty matches the snapshot for no patients 1`] = `null`;
+
+exports[`PatientDetailsEmpty matches the snapshot when showing not found 1`] = `null`;

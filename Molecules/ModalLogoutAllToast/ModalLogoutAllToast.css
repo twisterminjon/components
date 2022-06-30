@@ -1,0 +1,26 @@
+.modaltoast--logoutall {
+  width: 100%;
+  max-width: 320px;
+}
+
+.modallogoutalltoast {
+  padding: 14px 14px 0 14px;
+}
+
+.modallogoutalltoast h3 {
+  color: var(--white);
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0 0 16px 0;
+}
+
+.modallogoutalltoast p {
+  color: var(--brandcolor);
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0 0 16px 0;
+}
+
+.modallogoutalltoast .modallogoutalltoast--button:not(:first-of-type) {
+  margin-top: 10px;
+}

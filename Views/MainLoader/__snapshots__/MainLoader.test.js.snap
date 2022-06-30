@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainLoader matches the snapshot 1`] = `
+<div
+  className="mainloader-wrap"
+>
+  <DocTitle
+    title=""
+  />
+  <Dimmer
+    backgroundColor="black"
+    className=""
+    show={true}
+    style={Object {}}
+  />
+  <div
+    className="mainloader-content"
+  >
+    <p>
+      Loading Provider Portal
+    </p>
+    <SpinnerDots
+      className=""
+      style={Object {}}
+    />
+    <div
+      className="mainloader-warning"
+    >
+      <p>
+        There appears to be a connection issue, please try reloading to restart Provider Portal
+      </p>
+      <Button
+        fluid={false}
+        onClick={[Function]}
+        style={Object {}}
+        type="submit"
+      >
+        Reload
+      </Button>
+    </div>
+    <ProjectPowered
+      className="mainloader-logo"
+      logoColor="#fff"
+      taglineColor="#9c9c9c"
+    />
+  </div>
+</div>
+`;

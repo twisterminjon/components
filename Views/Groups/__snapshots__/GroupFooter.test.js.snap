@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GroupFooter matches the snapshot 1`] = `
+<div
+  className="groupfooter-container"
+>
+  <button
+    className="groupfooter-button "
+    data-testid="button-users-availability"
+    disabled={false}
+    onClick={[MockFunction]}
+    onMouseDown={[Function]}
+    onMouseUp={[Function]}
+  >
+    <IconAnswerCall
+      className=""
+      color="black"
+      style={
+        Object {
+          "transform": "scale(0.5)",
+        }
+      }
+    />
+    <span
+      className="groupfooter-button-label"
+    >
+      Call First Available
+    </span>
+  </button>
+</div>
+`;

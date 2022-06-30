@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RatingQuestion matches the snapshot 1`] = `
+<div>
+  <div
+    className="assessment-rating-top-label"
+  >
+    <span
+      data-testid="assessment-question-min-label"
+    >
+      Start label
+    </span>
+  </div>
+  <div
+    className="assessment-rating-buttons five-type-box"
+  >
+    <RatingButton
+      data-testid="assessment-data-1"
+      group="rating"
+      key="1"
+      number={1}
+      onChangeHandler={[Function]}
+    />
+    <RatingButton
+      data-testid="assessment-data-2"
+      group="rating"
+      key="2"
+      number={2}
+      onChangeHandler={[Function]}
+    />
+    <RatingButton
+      data-testid="assessment-data-3"
+      group="rating"
+      key="3"
+      number={3}
+      onChangeHandler={[Function]}
+    />
+    <RatingButton
+      data-testid="assessment-data-4"
+      group="rating"
+      key="4"
+      number={4}
+      onChangeHandler={[Function]}
+    />
+    <RatingButton
+      data-testid="assessment-data-5"
+      group="rating"
+      key="5"
+      number={5}
+      onChangeHandler={[Function]}
+    />
+  </div>
+  <div
+    className="assessment-rating-bottom-label"
+  >
+    <span
+      data-testid="assessment-question-max-label"
+    >
+      End label
+    </span>
+  </div>
+</div>
+`;

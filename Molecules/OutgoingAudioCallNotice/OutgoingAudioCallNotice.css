@@ -1,0 +1,86 @@
+.outgoingaudiocallnotice-wrap {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: var(--z-callnotice);
+}
+
+.outgoingaudiocallnotice-dimmer {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 21;
+
+  background-color: var(--call_incoming_color);
+}
+
+.outgoingaudiocallnotice-content {
+  position: absolute;
+  z-index: 22;
+}
+
+.outgoingaudiocallnotice-buttons {
+  position: relative;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.outgoingaudiocallnotice-buttons-center {
+  justify-content: space-around;
+  /* Note sure why the margin is required but it won't center without it */
+  margin: 0 auto;
+}
+
+.outgoingaudiocallnotice-buttons-spaced {
+  justify-content: space-between;
+  /* Note sure why the margin is required but it won't center without it */
+  margin: 0 auto;
+}
+
+.outgoingaudiocallnotice-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 300px;
+  height: 290px;
+}
+
+.outgoingaudiocallnotice-placeholder p {
+  font-size: var(--font-base-body--size);
+  color: var(--brandcolor);
+}
+
+.outgoingaudiocallnotice-calldetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 400px;
+  height: 400px;
+}
+
+.outgoingaudiocallnotice-calldetails p {
+  color: var(--white);
+  text-align: center;
+}
+.outgoingaudiocallnotice-calldetails-text {
+  font-size: var(--font-base-body--size-medium);
+}
+
+.outgoingaudiocallnotice-calldetails-main {
+  font-size: var(--font-base-body--size-xlarge) !important;
+}

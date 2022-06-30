@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextInputField matches the snapshot 1`] = `
+<Input
+  className="textinputfield-input"
+  error={false}
+  fluid={true}
+  placeholder="Star Trek"
+  type="text"
+  value="Worf"
+/>
+`;

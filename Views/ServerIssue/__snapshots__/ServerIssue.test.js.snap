@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ServerIssue matches the snapshot 1`] = `
+<div
+  className="serverissue-wrap"
+>
+  <Dimmer
+    backgroundColor="positive"
+    className=""
+    show={true}
+    style={Object {}}
+  />
+  <div
+    className="serverissue-content"
+  >
+    <h1
+      className="serverissue-title"
+    >
+      We're sorry but we are having connection issues at the moment.
+    </h1>
+    <p>
+      This isn't your fault and we are looking into the issue.
+    </p>
+    <h3
+      className="serverissue-text"
+    >
+      In the meantime, you can...
+    </h3>
+    <ul
+      className="serverissue-list"
+    >
+      <li
+        className="serverissue-list-item"
+      >
+        Go to our 
+        <a
+          href="https://projectified/support/"
+        >
+          support
+        </a>
+         page
+      </li>
+    </ul>
+  </div>
+  <ProjectPowered
+    className="projectpowered-logo"
+    logoColor="#fff"
+    taglineColor="#9c9c9c"
+  />
+</div>
+`;
+
+exports[`ServerIssue matches the snapshot when offline 1`] = `""`;

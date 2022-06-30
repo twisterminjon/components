@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tag matches the snapshot for "active" 1`] = `
+<Tag
+  ContentView={[Function]}
+  className=""
+  data-testid="patientsurvey-Test assessement"
+  fluid={true}
+  id={1}
+  inActive={false}
+  label="Test assessement"
+  onDelete={[Function]}
+  style={
+    Object {
+      "marginBottom": 6,
+      "marginRight": 0,
+    }
+  }
+/>
+`;
+
+exports[`Tag matches the snapshot for "active" and "started" 1`] = `
+<Tag
+  ContentView={[Function]}
+  className=""
+  data-testid="patientsurvey-Test assessement (active and started)"
+  fluid={true}
+  id={2}
+  inActive={false}
+  label="Test assessement (active and started)"
+  onDelete={[Function]}
+  style={
+    Object {
+      "marginBottom": 6,
+      "marginRight": 0,
+    }
+  }
+/>
+`;
+
+exports[`Tag matches the snapshot for "intervention required" 1`] = `
+<Tag
+  ContentView={[Function]}
+  className=""
+  data-testid="patientsurvey-Test assessement (intervention required)"
+  fluid={true}
+  id={3}
+  inActive={false}
+  label="Test assessement (intervention required)"
+  onDelete={[Function]}
+  style={
+    Object {
+      "marginBottom": 6,
+      "marginRight": 0,
+    }
+  }
+/>
+`;

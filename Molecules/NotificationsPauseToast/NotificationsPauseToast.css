@@ -1,0 +1,39 @@
+.notificationspausetoast {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.notificationspausetoast-contentwrap {
+  max-width: 311px;
+  text-align: left;
+  flex: 1;
+}
+
+.notificationspausetoast-fieldwrap {
+  margin: 20px 0px;
+}
+
+.notificationspausetoast-title {
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--text_default);
+}
+
+.notificationspausetoast-label {
+  font-weight: normal;
+}
+
+/*
+.notificationspausetoast button {
+  width: 157px !important;
+  height: 44px !important;
+  display: inline-block !important;
+  border-radius: 4px !important;
+  vertical-align: middle !important;
+}
+*/

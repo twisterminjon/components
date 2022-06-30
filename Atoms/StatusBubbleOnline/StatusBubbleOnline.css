@@ -1,0 +1,19 @@
+.statusbubbleonline {
+  position: absolute;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  border: 1px solid var(--white);
+}
+
+.statusbubbleonline--online {
+  background: var(--statusbubble_available);
+}
+
+.statusbubbleonline--offline {
+  background: var(--statusbubble_offline);
+}
+
+.statusbubbleonline--hide {
+  display: none;
+}

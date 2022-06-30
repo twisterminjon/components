@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PatientListPlaceholder matches the snapshot 1`] = `
+<div
+  className="patientlist-wrap "
+>
+  <PatientListHeader
+    loading={false}
+    title=""
+  />
+  <div
+    className="patientlist-list"
+  >
+    <UserCardSimplePlaceholder
+      className="patientlist-ph-card"
+    />
+  </div>
+</div>
+`;

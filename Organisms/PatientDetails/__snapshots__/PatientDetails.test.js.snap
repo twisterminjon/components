@@ -1,0 +1,1001 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PatientDetails matches the snapshot 1`] = `
+<div
+  className="patientdetails-wrap"
+  data-testid="patient-details"
+>
+  <DocTitle
+    title="Patient"
+  />
+  <PatientHeaderContainer
+    className=""
+    id="18"
+    onCall={[MockFunction]}
+    onStartCaregiverCall={[MockFunction]}
+    style={Object {}}
+  />
+  <div
+    className="patientdetails-display-wrap"
+  >
+    <PatientAccessCodeContainer
+      user={
+        Object {
+          "accessCode": Object {
+            "code": "16253",
+            "id": "245",
+            "isExpired": false,
+          },
+          "careTeam": Array [
+            Object {
+              "id": "3",
+              "isActive": true,
+              "name": "Cardiology Care Team",
+            },
+            Object {
+              "id": "5",
+              "isActive": true,
+              "name": "Rickets Therapy",
+            },
+          ],
+          "displayName": "Paul Pollson",
+          "email": "ppollson@mailinator.com",
+          "enterprise": Object {
+            "id": "1",
+            "permissionsByType": Array [
+              Object {
+                "code": "language_services_integration",
+                "id": "11",
+                "isActive": true,
+              },
+              Object {
+                "code": "on_demand_contact",
+                "id": "13",
+                "isActive": true,
+              },
+              Object {
+                "code": "secure_messaging",
+                "id": "12",
+                "isActive": true,
+              },
+              Object {
+                "code": "access_codes",
+                "id": "14",
+                "isActive": true,
+              },
+            ],
+          },
+          "id": "18",
+          "isActive": true,
+          "isAdmin": false,
+          "isPatient": true,
+          "overallStatus": "offline",
+          "patient": Object {
+            "careManagerName": "Sally Supersonic",
+            "careManagerPhone": "3332225555",
+            "caregivers": Array [
+              Object {
+                "id": "2001",
+                "sendProgramEvents": true,
+                "user": Object {
+                  "displayName": "Sally Supersonic",
+                  "email": "sally@mailinator.com",
+                  "id": "19",
+                  "isActive": true,
+                  "overallStatus": "available",
+                  "phone": "5554443232",
+                  "profileImage": "https://www.fillmurray.com/100/100",
+                },
+              },
+              Object {
+                "id": "2003",
+                "sendProgramEvents": true,
+                "user": Object {
+                  "displayName": "Ursala Ursina",
+                  "email": "ursula@mailinator.com",
+                  "id": "21",
+                  "isActive": true,
+                  "overallStatus": "busy",
+                  "phone": "3332225555",
+                  "profileImage": "https://www.fillmurray.com/200/200",
+                },
+              },
+            ],
+            "contactType": "BOTH",
+            "dateOfBirth": "1972-05-22",
+            "enrollments": Array [
+              Object {
+                "id": "4",
+                "isActive": true,
+                "program": Object {
+                  "id": "1",
+                  "isActive": true,
+                  "name": "School of Rock",
+                },
+              },
+              Object {
+                "id": "124",
+                "isActive": false,
+                "program": Object {
+                  "id": "1",
+                  "isActive": true,
+                  "name": "House of Blues",
+                },
+              },
+            ],
+            "id": "3003",
+            "identifier": "1YVCA8ND2L",
+            "language": Object {
+              "code": "EN",
+              "id": "1",
+              "name": "English",
+            },
+            "pcpName": "Ursala Ursina",
+            "ssnLast4": "5342",
+            "zipCode": "15202",
+          },
+          "phone": "7273163535",
+          "profileImage": "https://www.fillmurray.com/240/240",
+        }
+      }
+    />
+    <PatientInfoContainer
+      onSendInvite={[MockFunction]}
+      onStartCaregiverCall={[MockFunction]}
+      sendInviteLoading={false}
+      user={
+        Object {
+          "accessCode": Object {
+            "code": "16253",
+            "id": "245",
+            "isExpired": false,
+          },
+          "careTeam": Array [
+            Object {
+              "id": "3",
+              "isActive": true,
+              "name": "Cardiology Care Team",
+            },
+            Object {
+              "id": "5",
+              "isActive": true,
+              "name": "Rickets Therapy",
+            },
+          ],
+          "displayName": "Paul Pollson",
+          "email": "ppollson@mailinator.com",
+          "enterprise": Object {
+            "id": "1",
+            "permissionsByType": Array [
+              Object {
+                "code": "language_services_integration",
+                "id": "11",
+                "isActive": true,
+              },
+              Object {
+                "code": "on_demand_contact",
+                "id": "13",
+                "isActive": true,
+              },
+              Object {
+                "code": "secure_messaging",
+                "id": "12",
+                "isActive": true,
+              },
+              Object {
+                "code": "access_codes",
+                "id": "14",
+                "isActive": true,
+              },
+            ],
+          },
+          "id": "18",
+          "isActive": true,
+          "isAdmin": false,
+          "isPatient": true,
+          "overallStatus": "offline",
+          "patient": Object {
+            "careManagerName": "Sally Supersonic",
+            "careManagerPhone": "3332225555",
+            "caregivers": Array [
+              Object {
+                "id": "2001",
+                "sendProgramEvents": true,
+                "user": Object {
+                  "displayName": "Sally Supersonic",
+                  "email": "sally@mailinator.com",
+                  "id": "19",
+                  "isActive": true,
+                  "overallStatus": "available",
+                  "phone": "5554443232",
+                  "profileImage": "https://www.fillmurray.com/100/100",
+                },
+              },
+              Object {
+                "id": "2003",
+                "sendProgramEvents": true,
+                "user": Object {
+                  "displayName": "Ursala Ursina",
+                  "email": "ursula@mailinator.com",
+                  "id": "21",
+                  "isActive": true,
+                  "overallStatus": "busy",
+                  "phone": "3332225555",
+                  "profileImage": "https://www.fillmurray.com/200/200",
+                },
+              },
+            ],
+            "contactType": "BOTH",
+            "dateOfBirth": "1972-05-22",
+            "enrollments": Array [
+              Object {
+                "id": "4",
+                "isActive": true,
+                "program": Object {
+                  "id": "1",
+                  "isActive": true,
+                  "name": "School of Rock",
+                },
+              },
+              Object {
+                "id": "124",
+                "isActive": false,
+                "program": Object {
+                  "id": "1",
+                  "isActive": true,
+                  "name": "House of Blues",
+                },
+              },
+            ],
+            "id": "3003",
+            "identifier": "1YVCA8ND2L",
+            "language": Object {
+              "code": "EN",
+              "id": "1",
+              "name": "English",
+            },
+            "pcpName": "Ursala Ursina",
+            "ssnLast4": "5342",
+            "zipCode": "15202",
+          },
+          "phone": "7273163535",
+          "profileImage": "https://www.fillmurray.com/240/240",
+        }
+      }
+    />
+    <PatientTeamContainer
+      user={
+        Object {
+          "accessCode": Object {
+            "code": "16253",
+            "id": "245",
+            "isExpired": false,
+          },
+          "careTeam": Array [
+            Object {
+              "id": "3",
+              "isActive": true,
+              "name": "Cardiology Care Team",
+            },
+            Object {
+              "id": "5",
+              "isActive": true,
+              "name": "Rickets Therapy",
+            },
+          ],
+          "displayName": "Paul Pollson",
+          "email": "ppollson@mailinator.com",
+          "enterprise": Object {
+            "id": "1",
+            "permissionsByType": Array [
+              Object {
+                "code": "language_services_integration",
+                "id": "11",
+                "isActive": true,
+              },
+              Object {
+                "code": "on_demand_contact",
+                "id": "13",
+                "isActive": true,
+              },
+              Object {
+                "code": "secure_messaging",
+                "id": "12",
+                "isActive": true,
+              },
+              Object {
+                "code": "access_codes",
+                "id": "14",
+                "isActive": true,
+              },
+            ],
+          },
+          "id": "18",
+          "isActive": true,
+          "isAdmin": false,
+          "isPatient": true,
+          "overallStatus": "offline",
+          "patient": Object {
+            "careManagerName": "Sally Supersonic",
+            "careManagerPhone": "3332225555",
+            "caregivers": Array [
+              Object {
+                "id": "2001",
+                "sendProgramEvents": true,
+                "user": Object {
+                  "displayName": "Sally Supersonic",
+                  "email": "sally@mailinator.com",
+                  "id": "19",
+                  "isActive": true,
+                  "overallStatus": "available",
+                  "phone": "5554443232",
+                  "profileImage": "https://www.fillmurray.com/100/100",
+                },
+              },
+              Object {
+                "id": "2003",
+                "sendProgramEvents": true,
+                "user": Object {
+                  "displayName": "Ursala Ursina",
+                  "email": "ursula@mailinator.com",
+                  "id": "21",
+                  "isActive": true,
+                  "overallStatus": "busy",
+                  "phone": "3332225555",
+                  "profileImage": "https://www.fillmurray.com/200/200",
+                },
+              },
+            ],
+            "contactType": "BOTH",
+            "dateOfBirth": "1972-05-22",
+            "enrollments": Array [
+              Object {
+                "id": "4",
+                "isActive": true,
+                "program": Object {
+                  "id": "1",
+                  "isActive": true,
+                  "name": "School of Rock",
+                },
+              },
+              Object {
+                "id": "124",
+                "isActive": false,
+                "program": Object {
+                  "id": "1",
+                  "isActive": true,
+                  "name": "House of Blues",
+                },
+              },
+            ],
+            "id": "3003",
+            "identifier": "1YVCA8ND2L",
+            "language": Object {
+              "code": "EN",
+              "id": "1",
+              "name": "English",
+            },
+            "pcpName": "Ursala Ursina",
+            "ssnLast4": "5342",
+            "zipCode": "15202",
+          },
+          "phone": "7273163535",
+          "profileImage": "https://www.fillmurray.com/240/240",
+        }
+      }
+    />
+    <PatientContactContainer
+      user={
+        Object {
+          "accessCode": Object {
+            "code": "16253",
+            "id": "245",
+            "isExpired": false,
+          },
+          "careTeam": Array [
+            Object {
+              "id": "3",
+              "isActive": true,
+              "name": "Cardiology Care Team",
+            },
+            Object {
+              "id": "5",
+              "isActive": true,
+              "name": "Rickets Therapy",
+            },
+          ],
+          "displayName": "Paul Pollson",
+          "email": "ppollson@mailinator.com",
+          "enterprise": Object {
+            "id": "1",
+            "permissionsByType": Array [
+              Object {
+                "code": "language_services_integration",
+                "id": "11",
+                "isActive": true,
+              },
+              Object {
+                "code": "on_demand_contact",
+                "id": "13",
+                "isActive": true,
+              },
+              Object {
+                "code": "secure_messaging",
+                "id": "12",
+                "isActive": true,
+              },
+              Object {
+                "code": "access_codes",
+                "id": "14",
+                "isActive": true,
+              },
+            ],
+          },
+          "id": "18",
+          "isActive": true,
+          "isAdmin": false,
+          "isPatient": true,
+          "overallStatus": "offline",
+          "patient": Object {
+            "careManagerName": "Sally Supersonic",
+            "careManagerPhone": "3332225555",
+            "caregivers": Array [
+              Object {
+                "id": "2001",
+                "sendProgramEvents": true,
+                "user": Object {
+                  "displayName": "Sally Supersonic",
+                  "email": "sally@mailinator.com",
+                  "id": "19",
+                  "isActive": true,
+                  "overallStatus": "available",
+                  "phone": "5554443232",
+                  "profileImage": "https://www.fillmurray.com/100/100",
+                },
+              },
+              Object {
+                "id": "2003",
+                "sendProgramEvents": true,
+                "user": Object {
+                  "displayName": "Ursala Ursina",
+                  "email": "ursula@mailinator.com",
+                  "id": "21",
+                  "isActive": true,
+                  "overallStatus": "busy",
+                  "phone": "3332225555",
+                  "profileImage": "https://www.fillmurray.com/200/200",
+                },
+              },
+            ],
+            "contactType": "BOTH",
+            "dateOfBirth": "1972-05-22",
+            "enrollments": Array [
+              Object {
+                "id": "4",
+                "isActive": true,
+                "program": Object {
+                  "id": "1",
+                  "isActive": true,
+                  "name": "School of Rock",
+                },
+              },
+              Object {
+                "id": "124",
+                "isActive": false,
+                "program": Object {
+                  "id": "1",
+                  "isActive": true,
+                  "name": "House of Blues",
+                },
+              },
+            ],
+            "id": "3003",
+            "identifier": "1YVCA8ND2L",
+            "language": Object {
+              "code": "EN",
+              "id": "1",
+              "name": "English",
+            },
+            "pcpName": "Ursala Ursina",
+            "ssnLast4": "5342",
+            "zipCode": "15202",
+          },
+          "phone": "7273163535",
+          "profileImage": "https://www.fillmurray.com/240/240",
+        }
+      }
+    />
+    <PatientProgramsContainer
+      onStartCaregiverCall={[MockFunction]}
+      user={
+        Object {
+          "accessCode": Object {
+            "code": "16253",
+            "id": "245",
+            "isExpired": false,
+          },
+          "careTeam": Array [
+            Object {
+              "id": "3",
+              "isActive": true,
+              "name": "Cardiology Care Team",
+            },
+            Object {
+              "id": "5",
+              "isActive": true,
+              "name": "Rickets Therapy",
+            },
+          ],
+          "displayName": "Paul Pollson",
+          "email": "ppollson@mailinator.com",
+          "enterprise": Object {
+            "id": "1",
+            "permissionsByType": Array [
+              Object {
+                "code": "language_services_integration",
+                "id": "11",
+                "isActive": true,
+              },
+              Object {
+                "code": "on_demand_contact",
+                "id": "13",
+                "isActive": true,
+              },
+              Object {
+                "code": "secure_messaging",
+                "id": "12",
+                "isActive": true,
+              },
+              Object {
+                "code": "access_codes",
+                "id": "14",
+                "isActive": true,
+              },
+            ],
+          },
+          "id": "18",
+          "isActive": true,
+          "isAdmin": false,
+          "isPatient": true,
+          "overallStatus": "offline",
+          "patient": Object {
+            "careManagerName": "Sally Supersonic",
+            "careManagerPhone": "3332225555",
+            "caregivers": Array [
+              Object {
+                "id": "2001",
+                "sendProgramEvents": true,
+                "user": Object {
+                  "displayName": "Sally Supersonic",
+                  "email": "sally@mailinator.com",
+                  "id": "19",
+                  "isActive": true,
+                  "overallStatus": "available",
+                  "phone": "5554443232",
+                  "profileImage": "https://www.fillmurray.com/100/100",
+                },
+              },
+              Object {
+                "id": "2003",
+                "sendProgramEvents": true,
+                "user": Object {
+                  "displayName": "Ursala Ursina",
+                  "email": "ursula@mailinator.com",
+                  "id": "21",
+                  "isActive": true,
+                  "overallStatus": "busy",
+                  "phone": "3332225555",
+                  "profileImage": "https://www.fillmurray.com/200/200",
+                },
+              },
+            ],
+            "contactType": "BOTH",
+            "dateOfBirth": "1972-05-22",
+            "enrollments": Array [
+              Object {
+                "id": "4",
+                "isActive": true,
+                "program": Object {
+                  "id": "1",
+                  "isActive": true,
+                  "name": "School of Rock",
+                },
+              },
+              Object {
+                "id": "124",
+                "isActive": false,
+                "program": Object {
+                  "id": "1",
+                  "isActive": true,
+                  "name": "House of Blues",
+                },
+              },
+            ],
+            "id": "3003",
+            "identifier": "1YVCA8ND2L",
+            "language": Object {
+              "code": "EN",
+              "id": "1",
+              "name": "English",
+            },
+            "pcpName": "Ursala Ursina",
+            "ssnLast4": "5342",
+            "zipCode": "15202",
+          },
+          "phone": "7273163535",
+          "profileImage": "https://www.fillmurray.com/240/240",
+        }
+      }
+    />
+    <PatientCareTeamsContainer
+      user={
+        Object {
+          "accessCode": Object {
+            "code": "16253",
+            "id": "245",
+            "isExpired": false,
+          },
+          "careTeam": Array [
+            Object {
+              "id": "3",
+              "isActive": true,
+              "name": "Cardiology Care Team",
+            },
+            Object {
+              "id": "5",
+              "isActive": true,
+              "name": "Rickets Therapy",
+            },
+          ],
+          "displayName": "Paul Pollson",
+          "email": "ppollson@mailinator.com",
+          "enterprise": Object {
+            "id": "1",
+            "permissionsByType": Array [
+              Object {
+                "code": "language_services_integration",
+                "id": "11",
+                "isActive": true,
+              },
+              Object {
+                "code": "on_demand_contact",
+                "id": "13",
+                "isActive": true,
+              },
+              Object {
+                "code": "secure_messaging",
+                "id": "12",
+                "isActive": true,
+              },
+              Object {
+                "code": "access_codes",
+                "id": "14",
+                "isActive": true,
+              },
+            ],
+          },
+          "id": "18",
+          "isActive": true,
+          "isAdmin": false,
+          "isPatient": true,
+          "overallStatus": "offline",
+          "patient": Object {
+            "careManagerName": "Sally Supersonic",
+            "careManagerPhone": "3332225555",
+            "caregivers": Array [
+              Object {
+                "id": "2001",
+                "sendProgramEvents": true,
+                "user": Object {
+                  "displayName": "Sally Supersonic",
+                  "email": "sally@mailinator.com",
+                  "id": "19",
+                  "isActive": true,
+                  "overallStatus": "available",
+                  "phone": "5554443232",
+                  "profileImage": "https://www.fillmurray.com/100/100",
+                },
+              },
+              Object {
+                "id": "2003",
+                "sendProgramEvents": true,
+                "user": Object {
+                  "displayName": "Ursala Ursina",
+                  "email": "ursula@mailinator.com",
+                  "id": "21",
+                  "isActive": true,
+                  "overallStatus": "busy",
+                  "phone": "3332225555",
+                  "profileImage": "https://www.fillmurray.com/200/200",
+                },
+              },
+            ],
+            "contactType": "BOTH",
+            "dateOfBirth": "1972-05-22",
+            "enrollments": Array [
+              Object {
+                "id": "4",
+                "isActive": true,
+                "program": Object {
+                  "id": "1",
+                  "isActive": true,
+                  "name": "School of Rock",
+                },
+              },
+              Object {
+                "id": "124",
+                "isActive": false,
+                "program": Object {
+                  "id": "1",
+                  "isActive": true,
+                  "name": "House of Blues",
+                },
+              },
+            ],
+            "id": "3003",
+            "identifier": "1YVCA8ND2L",
+            "language": Object {
+              "code": "EN",
+              "id": "1",
+              "name": "English",
+            },
+            "pcpName": "Ursala Ursina",
+            "ssnLast4": "5342",
+            "zipCode": "15202",
+          },
+          "phone": "7273163535",
+          "profileImage": "https://www.fillmurray.com/240/240",
+        }
+      }
+    />
+    <PatientSurveyContainer
+      onStartCaregiverCall={[MockFunction]}
+      user={
+        Object {
+          "accessCode": Object {
+            "code": "16253",
+            "id": "245",
+            "isExpired": false,
+          },
+          "careTeam": Array [
+            Object {
+              "id": "3",
+              "isActive": true,
+              "name": "Cardiology Care Team",
+            },
+            Object {
+              "id": "5",
+              "isActive": true,
+              "name": "Rickets Therapy",
+            },
+          ],
+          "displayName": "Paul Pollson",
+          "email": "ppollson@mailinator.com",
+          "enterprise": Object {
+            "id": "1",
+            "permissionsByType": Array [
+              Object {
+                "code": "language_services_integration",
+                "id": "11",
+                "isActive": true,
+              },
+              Object {
+                "code": "on_demand_contact",
+                "id": "13",
+                "isActive": true,
+              },
+              Object {
+                "code": "secure_messaging",
+                "id": "12",
+                "isActive": true,
+              },
+              Object {
+                "code": "access_codes",
+                "id": "14",
+                "isActive": true,
+              },
+            ],
+          },
+          "id": "18",
+          "isActive": true,
+          "isAdmin": false,
+          "isPatient": true,
+          "overallStatus": "offline",
+          "patient": Object {
+            "careManagerName": "Sally Supersonic",
+            "careManagerPhone": "3332225555",
+            "caregivers": Array [
+              Object {
+                "id": "2001",
+                "sendProgramEvents": true,
+                "user": Object {
+                  "displayName": "Sally Supersonic",
+                  "email": "sally@mailinator.com",
+                  "id": "19",
+                  "isActive": true,
+                  "overallStatus": "available",
+                  "phone": "5554443232",
+                  "profileImage": "https://www.fillmurray.com/100/100",
+                },
+              },
+              Object {
+                "id": "2003",
+                "sendProgramEvents": true,
+                "user": Object {
+                  "displayName": "Ursala Ursina",
+                  "email": "ursula@mailinator.com",
+                  "id": "21",
+                  "isActive": true,
+                  "overallStatus": "busy",
+                  "phone": "3332225555",
+                  "profileImage": "https://www.fillmurray.com/200/200",
+                },
+              },
+            ],
+            "contactType": "BOTH",
+            "dateOfBirth": "1972-05-22",
+            "enrollments": Array [
+              Object {
+                "id": "4",
+                "isActive": true,
+                "program": Object {
+                  "id": "1",
+                  "isActive": true,
+                  "name": "School of Rock",
+                },
+              },
+              Object {
+                "id": "124",
+                "isActive": false,
+                "program": Object {
+                  "id": "1",
+                  "isActive": true,
+                  "name": "House of Blues",
+                },
+              },
+            ],
+            "id": "3003",
+            "identifier": "1YVCA8ND2L",
+            "language": Object {
+              "code": "EN",
+              "id": "1",
+              "name": "English",
+            },
+            "pcpName": "Ursala Ursina",
+            "ssnLast4": "5342",
+            "zipCode": "15202",
+          },
+          "phone": "7273163535",
+          "profileImage": "https://www.fillmurray.com/240/240",
+        }
+      }
+    />
+    <PatientCaregiversContainer
+      onCall={[Function]}
+      onStartCaregiverCall={[MockFunction]}
+      user={
+        Object {
+          "accessCode": Object {
+            "code": "16253",
+            "id": "245",
+            "isExpired": false,
+          },
+          "careTeam": Array [
+            Object {
+              "id": "3",
+              "isActive": true,
+              "name": "Cardiology Care Team",
+            },
+            Object {
+              "id": "5",
+              "isActive": true,
+              "name": "Rickets Therapy",
+            },
+          ],
+          "displayName": "Paul Pollson",
+          "email": "ppollson@mailinator.com",
+          "enterprise": Object {
+            "id": "1",
+            "permissionsByType": Array [
+              Object {
+                "code": "language_services_integration",
+                "id": "11",
+                "isActive": true,
+              },
+              Object {
+                "code": "on_demand_contact",
+                "id": "13",
+                "isActive": true,
+              },
+              Object {
+                "code": "secure_messaging",
+                "id": "12",
+                "isActive": true,
+              },
+              Object {
+                "code": "access_codes",
+                "id": "14",
+                "isActive": true,
+              },
+            ],
+          },
+          "id": "18",
+          "isActive": true,
+          "isAdmin": false,
+          "isPatient": true,
+          "overallStatus": "offline",
+          "patient": Object {
+            "careManagerName": "Sally Supersonic",
+            "careManagerPhone": "3332225555",
+            "caregivers": Array [
+              Object {
+                "id": "2001",
+                "sendProgramEvents": true,
+                "user": Object {
+                  "displayName": "Sally Supersonic",
+                  "email": "sally@mailinator.com",
+                  "id": "19",
+                  "isActive": true,
+                  "overallStatus": "available",
+                  "phone": "5554443232",
+                  "profileImage": "https://www.fillmurray.com/100/100",
+                },
+              },
+              Object {
+                "id": "2003",
+                "sendProgramEvents": true,
+                "user": Object {
+                  "displayName": "Ursala Ursina",
+                  "email": "ursula@mailinator.com",
+                  "id": "21",
+                  "isActive": true,
+                  "overallStatus": "busy",
+                  "phone": "3332225555",
+                  "profileImage": "https://www.fillmurray.com/200/200",
+                },
+              },
+            ],
+            "contactType": "BOTH",
+            "dateOfBirth": "1972-05-22",
+            "enrollments": Array [
+              Object {
+                "id": "4",
+                "isActive": true,
+                "program": Object {
+                  "id": "1",
+                  "isActive": true,
+                  "name": "School of Rock",
+                },
+              },
+              Object {
+                "id": "124",
+                "isActive": false,
+                "program": Object {
+                  "id": "1",
+                  "isActive": true,
+                  "name": "House of Blues",
+                },
+              },
+            ],
+            "id": "3003",
+            "identifier": "1YVCA8ND2L",
+            "language": Object {
+              "code": "EN",
+              "id": "1",
+              "name": "English",
+            },
+            "pcpName": "Ursala Ursina",
+            "ssnLast4": "5342",
+            "zipCode": "15202",
+          },
+          "phone": "7273163535",
+          "profileImage": "https://www.fillmurray.com/240/240",
+        }
+      }
+    />
+    <PatientExportMsgContainer
+      userId="18"
+    />
+  </div>
+</div>
+`;

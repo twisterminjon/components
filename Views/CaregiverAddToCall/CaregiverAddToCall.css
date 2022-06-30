@@ -1,0 +1,39 @@
+.caregiveraddtocall {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  z-index: var(--z-modal);
+}
+
+.caregiveraddtocall p {
+  color: var(--brandcolor);
+  text-align: center;
+  margin-top: 40px;
+  font-size: 22px;
+}
+
+.caregiveraddtocall-back--row {
+  padding: 46px 0 30px 13px;
+  display: flex;
+  align-items: center;
+
+  border-bottom: 1px solid #324157;
+}
+
+.caregiveraddtocall-back {
+  display: flex;
+  align-items: center;
+
+  background: transparent;
+  color: var(--white);
+
+  font-size: 23px;
+
+  border: none;
+  outline: none;
+
+  cursor: pointer;
+}

@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PatientContact matches the snapshot 1`] = `null`;
+
+exports[`PatientContact matches the snapshot when loading 1`] = `null`;

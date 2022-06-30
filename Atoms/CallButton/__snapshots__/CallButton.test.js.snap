@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CallButton matches the snapshot 1`] = `
+<button
+  aria-label="test"
+  className="callbutton-button "
+  data-testid="button-test"
+  disabled={false}
+  onClick={[MockFunction]}
+  onMouseDown={[Function]}
+  onMouseUp={[Function]}
+  style={
+    Object {
+      "backgroundColor": "red",
+      "border": "1px solid red",
+      "height": 64,
+      "opacity": 1,
+      "width": 64,
+    }
+  }
+>
+  <IconDeclineCall
+    color="black"
+    key=".0"
+  />
+</button>
+`;

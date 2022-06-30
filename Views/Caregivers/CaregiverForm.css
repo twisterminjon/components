@@ -1,0 +1,41 @@
+.caregiverform {
+  margin-top: 88px;
+  padding: 0 20px;
+}
+
+.caregiverform--row {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.caregiverform--column {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+}
+
+.caregiverform-intro > h1 {
+  color: var(--white);
+
+  font-size: 20px;
+  font-weight: 700;
+  /* override semantic margin */
+  margin: 19px 0 6px 0 !important;
+}
+
+.caregiverform-intro > p {
+  color: var(--white);
+
+  margin-bottom: 30px !important;
+}
+
+@media screen and (min-width: 992px) {
+  .caregiverform--row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+}

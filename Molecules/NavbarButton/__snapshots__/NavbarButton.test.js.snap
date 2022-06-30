@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavbarButton matches the snapshot 1`] = `
+<button
+  className="navbarbutton"
+  data-testid="button-navbar-home"
+  onClick={[MockFunction]}
+  style={Object {}}
+>
+  <div
+    className="navbarbutton-content"
+  >
+    <div
+      className="navbarbutton-icon"
+    >
+      <IconsNavbar
+        className=""
+        name="home"
+        style={Object {}}
+      />
+    </div>
+    <span>
+      Home
+    </span>
+  </div>
+</button>
+`;

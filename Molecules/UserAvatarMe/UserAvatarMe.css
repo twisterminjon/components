@@ -1,0 +1,44 @@
+.useravatarme {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.useravatarme-status {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+}
+
+.useravatarme--shadowed {
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.useravatarme--shadowed-attention {
+  box-shadow: 0 0 2px 2px rgba(6, 35, 86, 0.4);
+}
+
+.useravatarme-notification {
+  position: absolute;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+  border: 1px solid var(--statusbubble__border);
+  background-color: var(--brandcolor);
+  width: 16px;
+  height: 16px;
+
+  top: 0px;
+  left: 20px;
+
+  overflow: hidden;
+}
+
+.useravatarme-notification > svg {
+  vertical-align: top;
+  width: 10px;
+  height: 10px;
+}

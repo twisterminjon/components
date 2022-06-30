@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalYesNoToast matches the snapshot 1`] = `
+<ModalToast
+  data-testid="confirm-modal"
+  show={true}
+>
+  <div
+    className="modalyesnotoast"
+  >
+    <h3
+      data-testid="confirm-title"
+    >
+      title
+    </h3>
+    <p
+      data-testid="confirm-message"
+    >
+      message
+    </p>
+    <div
+      className="modalyesnotoast--bottom"
+    >
+      <ButtonGhost
+        autoFocus={false}
+        className=""
+        data-testid="button-reject"
+        fluid={true}
+        onClick={[MockFunction]}
+        red={false}
+        style={Object {}}
+      >
+        no
+      </ButtonGhost>
+      <Button
+        autoFocus={true}
+        data-testid="button-confirm"
+        fluid={true}
+        onClick={[MockFunction]}
+        style={Object {}}
+        type="submit"
+      >
+        yes
+      </Button>
+    </div>
+  </div>
+</ModalToast>
+`;
+
+exports[`ModalYesNoToast matches the snapshot when flipped 1`] = `
+<ModalToast
+  data-testid="confirm-modal"
+  show={true}
+>
+  <div
+    className="modalyesnotoast"
+  >
+    <h3
+      data-testid="confirm-title"
+    >
+      title
+    </h3>
+    <p
+      data-testid="confirm-message"
+    >
+      message
+    </p>
+    <div
+      className="modalyesnotoast--bottom"
+    >
+      <ButtonGhost
+        autoFocus={true}
+        className=""
+        data-testid="button-confirm"
+        fluid={true}
+        onClick={[MockFunction]}
+        red={false}
+        style={Object {}}
+      >
+        yes
+      </ButtonGhost>
+      <Button
+        autoFocus={false}
+        data-testid="button-reject"
+        fluid={true}
+        onClick={[MockFunction]}
+        style={Object {}}
+        type="submit"
+      >
+        no
+      </Button>
+    </div>
+  </div>
+</ModalToast>
+`;

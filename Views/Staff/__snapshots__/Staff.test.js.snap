@@ -1,0 +1,219 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Staff matches the snapshot 1`] = `
+<Staff
+  canMessage={true}
+  filter=""
+  loading={false}
+  onMessageUser={[Function]}
+  onPageNumberChange={[MockFunction]}
+  onStartCall={[MockFunction]}
+  pageNumber={0}
+  style={Object {}}
+  users={
+    Array [
+      Object {
+        "displayName": "Dr. Stephen Strange",
+        "favorite": false,
+        "id": "123",
+        "overallStatus": "available",
+        "profileImage": "https://www.fillmurray.com/60/60",
+      },
+      Object {
+        "displayName": "Nurse Jacky",
+        "favorite": true,
+        "id": "4",
+        "overallStatus": "busy",
+        "profileImage": "https://www.fillmurray.com/100/100",
+      },
+      Object {
+        "displayName": "Dr. Douglas Powers",
+        "favorite": false,
+        "id": "5",
+        "overallStatus": "offline",
+        "profileImage": "https://www.fillmurray.com/160/160",
+      },
+      Object {
+        "displayName": "Una Brow",
+        "favorite": true,
+        "id": "1263",
+        "overallStatus": "available",
+        "profileImage": "https://www.fillmurray.com/200/200",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`Staff matches the snapshot with a filter 1`] = `
+<Staff
+  canMessage={true}
+  filter="una"
+  loading={false}
+  onMessageUser={[Function]}
+  onPageNumberChange={[MockFunction]}
+  onStartCall={[MockFunction]}
+  pageNumber={0}
+  style={Object {}}
+  users={
+    Array [
+      Object {
+        "displayName": "Dr. Stephen Strange",
+        "favorite": false,
+        "id": "123",
+        "overallStatus": "available",
+        "profileImage": "https://www.fillmurray.com/60/60",
+      },
+      Object {
+        "displayName": "Nurse Jacky",
+        "favorite": true,
+        "id": "4",
+        "overallStatus": "busy",
+        "profileImage": "https://www.fillmurray.com/100/100",
+      },
+      Object {
+        "displayName": "Dr. Douglas Powers",
+        "favorite": false,
+        "id": "5",
+        "overallStatus": "offline",
+        "profileImage": "https://www.fillmurray.com/160/160",
+      },
+      Object {
+        "displayName": "Una Brow",
+        "favorite": true,
+        "id": "1263",
+        "overallStatus": "available",
+        "profileImage": "https://www.fillmurray.com/200/200",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`Staff matches the snapshot with messaging off 1`] = `
+<Staff
+  canMessage={false}
+  filter=""
+  loading={false}
+  onMessageUser={[Function]}
+  onPageNumberChange={[MockFunction]}
+  onStartCall={[MockFunction]}
+  pageNumber={0}
+  style={Object {}}
+  users={
+    Array [
+      Object {
+        "displayName": "Dr. Stephen Strange",
+        "favorite": false,
+        "id": "123",
+        "overallStatus": "available",
+        "profileImage": "https://www.fillmurray.com/60/60",
+      },
+      Object {
+        "displayName": "Nurse Jacky",
+        "favorite": true,
+        "id": "4",
+        "overallStatus": "busy",
+        "profileImage": "https://www.fillmurray.com/100/100",
+      },
+      Object {
+        "displayName": "Dr. Douglas Powers",
+        "favorite": false,
+        "id": "5",
+        "overallStatus": "offline",
+        "profileImage": "https://www.fillmurray.com/160/160",
+      },
+      Object {
+        "displayName": "Una Brow",
+        "favorite": true,
+        "id": "1263",
+        "overallStatus": "available",
+        "profileImage": "https://www.fillmurray.com/200/200",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`Staff matches the snapshot with no users 1`] = `
+<Staff
+  canMessage={true}
+  filter=""
+  loading={false}
+  onMessageUser={[Function]}
+  onPageNumberChange={[MockFunction]}
+  onStartCall={[MockFunction]}
+  pageNumber={0}
+  style={Object {}}
+  users={Array []}
+/>
+`;
+
+exports[`Staff matches the snapshot with one user 1`] = `
+<Staff
+  canMessage={true}
+  filter=""
+  loading={false}
+  onMessageUser={[Function]}
+  onPageNumberChange={[MockFunction]}
+  onStartCall={[MockFunction]}
+  pageNumber={0}
+  style={Object {}}
+  users={
+    Array [
+      Object {
+        "displayName": "Una Brow",
+        "favorite": true,
+        "id": "1263",
+        "overallStatus": "available",
+        "profileImage": "https://www.fillmurray.com/200/200",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`Staff matches the snapshot with when loading 1`] = `
+<Staff
+  canMessage={false}
+  filter=""
+  loading={true}
+  onMessageUser={[Function]}
+  onPageNumberChange={[MockFunction]}
+  onStartCall={[MockFunction]}
+  pageNumber={0}
+  style={Object {}}
+  users={
+    Array [
+      Object {
+        "displayName": "Dr. Stephen Strange",
+        "favorite": false,
+        "id": "123",
+        "overallStatus": "available",
+        "profileImage": "https://www.fillmurray.com/60/60",
+      },
+      Object {
+        "displayName": "Nurse Jacky",
+        "favorite": true,
+        "id": "4",
+        "overallStatus": "busy",
+        "profileImage": "https://www.fillmurray.com/100/100",
+      },
+      Object {
+        "displayName": "Dr. Douglas Powers",
+        "favorite": false,
+        "id": "5",
+        "overallStatus": "offline",
+        "profileImage": "https://www.fillmurray.com/160/160",
+      },
+      Object {
+        "displayName": "Una Brow",
+        "favorite": true,
+        "id": "1263",
+        "overallStatus": "available",
+        "profileImage": "https://www.fillmurray.com/200/200",
+      },
+    ]
+  }
+/>
+`;

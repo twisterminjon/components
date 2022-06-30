@@ -1,0 +1,249 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThreadPlaceholder matches the snapshot 1`] = `
+<div
+  className="messagethread-ph "
+  style={
+    Object {
+      "animationDelay": "0s",
+    }
+  }
+>
+  <div
+    className="messagethread-ph-received"
+  >
+    <div
+      className="messagethread-ph-avatar"
+    />
+    <div
+      className="messagethread-ph-received-message"
+    >
+      <div
+        className="messagethread-ph-received-text"
+      />
+      <div
+        className="messagethread-ph-received-time"
+      />
+    </div>
+  </div>
+  <div
+    className="messagethread-ph-sent"
+  >
+    <div
+      className="messagethread-ph-sent-text"
+    />
+    <div
+      className="messagethread-ph-sent-time"
+    />
+  </div>
+  <div
+    className="messagethread-ph-sent"
+    style={
+      Object {
+        "width": 100,
+      }
+    }
+  >
+    <div
+      className="messagethread-ph-sent-text"
+    />
+    <div
+      className="messagethread-ph-sent-time"
+    />
+  </div>
+  <div
+    className="messagethread-ph-received"
+  >
+    <div
+      className="messagethread-ph-avatar"
+    />
+    <div
+      className="messagethread-ph-received-message"
+    >
+      <div
+        className="messagethread-ph-received-text"
+        style={
+          Object {
+            "width": 500,
+          }
+        }
+      />
+      <div
+        className="messagethread-ph-received-time"
+      />
+    </div>
+  </div>
+  <div
+    className="messagethread-ph-received"
+  >
+    <div
+      className="messagethread-ph-avatar"
+    />
+    <div
+      className="messagethread-ph-received-message"
+    >
+      <div
+        className="messagethread-ph-received-text"
+        style={
+          Object {
+            "width": 200,
+          }
+        }
+      />
+      <div
+        className="messagethread-ph-received-time"
+      />
+    </div>
+  </div>
+  <div
+    className="messagethread-ph-sent"
+  >
+    <div
+      className="messagethread-ph-sent-text"
+    />
+    <div
+      className="messagethread-ph-sent-time"
+    />
+  </div>
+  <div
+    className="messagethread-ph-received"
+  >
+    <div
+      className="messagethread-ph-avatar"
+    />
+    <div
+      className="messagethread-ph-received-message"
+    >
+      <div
+        className="messagethread-ph-received-text"
+        style={
+          Object {
+            "width": 200,
+          }
+        }
+      />
+      <div
+        className="messagethread-ph-received-time"
+      />
+    </div>
+  </div>
+  <div
+    className="messagethread-ph-received"
+  >
+    <div
+      className="messagethread-ph-avatar"
+    />
+    <div
+      className="messagethread-ph-received-message"
+    >
+      <div
+        className="messagethread-ph-received-text"
+      />
+      <div
+        className="messagethread-ph-received-time"
+      />
+    </div>
+  </div>
+  <div
+    className="messagethread-ph-sent"
+  >
+    <div
+      className="messagethread-ph-sent-text"
+    />
+    <div
+      className="messagethread-ph-sent-time"
+    />
+  </div>
+  <div
+    className="messagethread-ph-sent"
+    style={
+      Object {
+        "width": 100,
+      }
+    }
+  >
+    <div
+      className="messagethread-ph-sent-text"
+    />
+    <div
+      className="messagethread-ph-sent-time"
+    />
+  </div>
+  <div
+    className="messagethread-ph-received"
+  >
+    <div
+      className="messagethread-ph-avatar"
+    />
+    <div
+      className="messagethread-ph-received-message"
+    >
+      <div
+        className="messagethread-ph-received-text"
+        style={
+          Object {
+            "width": 500,
+          }
+        }
+      />
+      <div
+        className="messagethread-ph-received-time"
+      />
+    </div>
+  </div>
+  <div
+    className="messagethread-ph-received"
+  >
+    <div
+      className="messagethread-ph-avatar"
+    />
+    <div
+      className="messagethread-ph-received-message"
+    >
+      <div
+        className="messagethread-ph-received-text"
+        style={
+          Object {
+            "width": 200,
+          }
+        }
+      />
+      <div
+        className="messagethread-ph-received-time"
+      />
+    </div>
+  </div>
+  <div
+    className="messagethread-ph-sent"
+  >
+    <div
+      className="messagethread-ph-sent-text"
+    />
+    <div
+      className="messagethread-ph-sent-time"
+    />
+  </div>
+  <div
+    className="messagethread-ph-received"
+  >
+    <div
+      className="messagethread-ph-avatar"
+    />
+    <div
+      className="messagethread-ph-received-message"
+    >
+      <div
+        className="messagethread-ph-received-text"
+        style={
+          Object {
+            "width": 200,
+          }
+        }
+      />
+      <div
+        className="messagethread-ph-received-time"
+      />
+    </div>
+  </div>
+</div>
+`;

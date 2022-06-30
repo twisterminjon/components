@@ -1,0 +1,13 @@
+.patientlistheader {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  background-color: var(--patientpage__card_selected_bg);
+  color: var(--patientpage__card_selected_fg);
+
+  height: var(--patient-header-height);
+  width: 100%;
+  padding-left: 26px;
+}

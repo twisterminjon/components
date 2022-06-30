@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HintText matches the snapshot 1`] = `
+<span
+  className="hinttext"
+  style={
+    Object {
+      "marginLeft": 8,
+    }
+  }
+>
+  I am a hint
+</span>
+`;

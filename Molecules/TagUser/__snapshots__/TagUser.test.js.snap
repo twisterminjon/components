@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextAreaInput matches the snapshot 1`] = `
+<button
+  className="button-reset taguser taguser-button"
+  data-testid="tag-user-Check"
+  onClick={[MockFunction]}
+  style={Object {}}
+>
+  <Avatar
+    className=""
+    dimmed={false}
+    displayName="Check"
+    imgUrl="https://www.fillmurray.com/100/100"
+    loading={false}
+    size="medium"
+    style={Object {}}
+  />
+  <span
+    className="taguser-name"
+  >
+    Check
+  </span>
+  <Icon
+    as="i"
+    name="delete"
+    style={
+      Object {
+        "color": "var(--font_color_light)",
+        "margin": "0 6px 0 12px",
+      }
+    }
+  />
+</button>
+`;

@@ -1,0 +1,62 @@
+.assessment-scale-min-label {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 0;
+}
+
+.assessment-scale-max-label {
+  display: flex;
+  justify-content: flex-end;
+
+  margin-top: 10px;
+}
+
+.assessment-scale-buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.assessment-scale-buttons label {
+  margin: 0;
+  padding: 0;
+}
+
+.assessment-scale-buttons input[type='radio'] {
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+.assessment-scale-buttons input[type='radio']:checked + .box {
+  background-color: var(--brandcolor);
+  border: solid 1px var(--brandcolor);
+}
+
+.assessment-scale-buttons input[type='radio']:checked + .box span {
+  color: white;
+}
+
+.assessment-scale-buttons .box {
+  display: flex;
+  width: 54px;
+  height: 54px;
+  background-color: var(--assessment__input_bg);
+  transition: all 250ms ease;
+  will-change: transition;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  font-weight: 900;
+  border: solid 1px var(--assessment__input_border_color);
+}
+
+.assessment-scale-buttons .box span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  transition: all 300ms ease;
+  font-size: 18px;
+  user-select: none;
+  color: #fff;
+}

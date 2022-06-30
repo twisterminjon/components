@@ -1,0 +1,40 @@
+.messagetext {
+  display: inline-block;
+  font-family: var(--font-message-page--message-bubble-family);
+  font-size: var(--font-message-page--message-bubble-size);
+  font-weight: var(--font-message-page--message-bubble-weight);
+
+  border-radius: var(--message-border-radius);
+  padding: 5px 8px;
+
+  white-space: pre-wrap;
+}
+
+.messagetext--sent {
+  color: var(--messagepage__sent_fg);
+}
+
+.messagetext--received {
+  color: var(--messagepage__received_fg);
+}
+
+.messagetext-content {
+  word-break: break-word;
+  margin-bottom: 0;
+}
+
+.messagetext-timestamp {
+  transition: max-height 0.4s ease-out;
+  max-height: 0;
+}
+
+.messagetext-timestamp--show {
+  max-height: 50px;
+}
+
+.messagetext-timestamp-text {
+  font-size: 12px;
+  color: var(--messagepage__timestamp_fg);
+  white-space: nowrap;
+  pointer-events: none;
+}

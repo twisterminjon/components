@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddButton AddButton matches the snapshot 1`] = `
+<Button
+  as="button"
+  circular={true}
+  data-testid="button-add"
+  icon="plus"
+  onClick={[MockFunction]}
+  primary={true}
+  size="big"
+/>
+`;

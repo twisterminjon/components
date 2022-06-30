@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EnterpriseLogo matches the snapshot 1`] = `
+<div
+  className="enterpriselogo"
+>
+  <Image
+    as="img"
+    className="enterpriselogo-image"
+    src="logo_placeholder.png"
+    ui={true}
+  />
+</div>
+`;

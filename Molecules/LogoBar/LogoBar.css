@@ -1,0 +1,11 @@
+.logobar-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  height: var(--searchbar-height);
+  width: 100%;
+  z-index: var(--z-logobar);
+
+  background-color: var(--white);
+}

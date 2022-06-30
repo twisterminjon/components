@@ -1,0 +1,21 @@
+.textinputfieldarea {
+  border-radius: 3px;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  white-space: pre-wrap;
+  padding: 3px 6px;
+  height: 115px;
+  overflow-y: scroll;
+  width: 100%;
+}
+
+.textinputfieldarea-hasError {
+  background-color: #fff6f6;
+  border-color: #e0b4b4;
+  color: #9f3a38;
+  border-radius: 3px;
+  white-space: pre-wrap;
+  padding: 3px 6px;
+  height: 115px;
+  overflow-y: scroll;
+  width: 100%;
+}

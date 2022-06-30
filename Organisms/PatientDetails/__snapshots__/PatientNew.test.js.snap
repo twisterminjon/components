@@ -1,0 +1,939 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PatientNew matches the snapshot 1`] = `
+<Formik
+  enableReinitialize={false}
+  initialValues={
+    Object {
+      "careManagerName": "",
+      "careManagerPhone": "",
+      "contactType": "BOTH",
+      "dateOfBirth": null,
+      "displayName": "",
+      "email": "",
+      "enterpriseId": "1",
+      "id": "newId",
+      "identifier": "",
+      "language": "1",
+      "password": "HasNotBeenSet2018!",
+      "pcpName": "",
+      "phone": "",
+      "ssnLast4": "",
+      "teamRequired": false,
+      "username": "new_patient_fixed_val",
+      "zipCode": "",
+    }
+  }
+  isInitialValid={false}
+  onSubmit={[Function]}
+  render={[Function]}
+  validateOnBlur={false}
+  validateOnChange={true}
+  validationSchema={
+    ObjectSchema {
+      "_blacklist": RefSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_conditions": Array [],
+      "_defaultDefault": [Function],
+      "_deps": Array [],
+      "_excludedEdges": Array [],
+      "_exclusive": Object {},
+      "_mutate": false,
+      "_nodes": Array [
+        "teamRequired",
+        "careManagerPhone",
+        "careManagerName",
+        "pcpName",
+        "contactType",
+        "phone",
+        "email",
+        "zipCode",
+        "ssnLast4",
+        "dateOfBirth",
+        "displayName",
+        "identifier",
+      ],
+      "_options": Object {
+        "abortEarly": true,
+        "recursive": true,
+      },
+      "_type": "object",
+      "_typeError": [Function],
+      "_whitelist": RefSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "fields": Object {
+        "careManagerName": StringSchema {
+          "_blacklist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_conditions": Array [
+            Conditional {
+              "fn": [Function],
+              "refs": Array [
+                Reference {
+                  "_get": [Function],
+                  "isContext": false,
+                  "isSelf": false,
+                  "key": "teamRequired",
+                  "map": [Function],
+                  "path": "teamRequired",
+                  "prefix": "$",
+                },
+              ],
+            },
+          ],
+          "_deps": Array [
+            "teamRequired",
+          ],
+          "_exclusive": Object {
+            "max": true,
+          },
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "tests": Array [
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "careManagerPhone": StringSchema {
+          "_blacklist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_conditions": Array [
+            Conditional {
+              "fn": [Function],
+              "refs": Array [
+                Reference {
+                  "_get": [Function],
+                  "isContext": false,
+                  "isSelf": false,
+                  "key": "teamRequired",
+                  "map": [Function],
+                  "path": "teamRequired",
+                  "prefix": "$",
+                },
+              ],
+            },
+          ],
+          "_deps": Array [
+            "teamRequired",
+          ],
+          "_exclusive": Object {
+            "isManagerPhoneValid": false,
+          },
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "tests": Array [
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "contactType": StringSchema {
+          "_blacklist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {},
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "tests": Array [],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "dateOfBirth": DateSchema {
+          "_blacklist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "required": false,
+          },
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "date",
+          "_typeError": [Function],
+          "_whitelist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "tests": Array [
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "displayName": StringSchema {
+          "_blacklist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "required": false,
+            "undefined": false,
+          },
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "email": StringSchema {
+          "_blacklist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_conditions": Array [
+            Conditional {
+              "fn": [Function],
+              "refs": Array [
+                Reference {
+                  "_get": [Function],
+                  "isContext": false,
+                  "isSelf": false,
+                  "key": "contactType",
+                  "map": [Function],
+                  "path": "contactType",
+                  "prefix": "$",
+                },
+              ],
+            },
+          ],
+          "_deps": Array [
+            "contactType",
+          ],
+          "_exclusive": Object {
+            "undefined": false,
+          },
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "tests": Array [
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "identifier": StringSchema {
+          "_blacklist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "required": false,
+          },
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "pcpName": StringSchema {
+          "_blacklist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_conditions": Array [
+            Conditional {
+              "fn": [Function],
+              "refs": Array [
+                Reference {
+                  "_get": [Function],
+                  "isContext": false,
+                  "isSelf": false,
+                  "key": "teamRequired",
+                  "map": [Function],
+                  "path": "teamRequired",
+                  "prefix": "$",
+                },
+              ],
+            },
+          ],
+          "_deps": Array [
+            "teamRequired",
+          ],
+          "_exclusive": Object {
+            "max": true,
+          },
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "tests": Array [
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "phone": StringSchema {
+          "_blacklist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_conditions": Array [
+            Conditional {
+              "fn": [Function],
+              "refs": Array [
+                Reference {
+                  "_get": [Function],
+                  "isContext": false,
+                  "isSelf": false,
+                  "key": "contactType",
+                  "map": [Function],
+                  "path": "contactType",
+                  "prefix": "$",
+                },
+              ],
+            },
+          ],
+          "_deps": Array [
+            "contactType",
+          ],
+          "_exclusive": Object {
+            "isValid": false,
+          },
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "tests": Array [
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "ssnLast4": StringSchema {
+          "_blacklist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "undefined": false,
+          },
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "tests": Array [
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "zipCode": StringSchema {
+          "_blacklist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "undefined": false,
+          },
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "tests": Array [
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+      },
+      "tests": Array [],
+      "transforms": Array [
+        [Function],
+      ],
+    }
+  }
+/>
+`;
+
+exports[`PatientNew matches the snapshot when loading 1`] = `
+<Formik
+  enableReinitialize={false}
+  initialValues={
+    Object {
+      "careManagerName": "",
+      "careManagerPhone": "",
+      "contactType": "BOTH",
+      "dateOfBirth": null,
+      "displayName": "",
+      "email": "",
+      "enterpriseId": "1",
+      "id": "newId",
+      "identifier": "",
+      "language": "1",
+      "password": "HasNotBeenSet2018!",
+      "pcpName": "",
+      "phone": "",
+      "ssnLast4": "",
+      "teamRequired": false,
+      "username": "new_patient_fixed_val",
+      "zipCode": "",
+    }
+  }
+  isInitialValid={false}
+  onSubmit={[Function]}
+  render={[Function]}
+  validateOnBlur={false}
+  validateOnChange={true}
+  validationSchema={
+    ObjectSchema {
+      "_blacklist": RefSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_conditions": Array [],
+      "_defaultDefault": [Function],
+      "_deps": Array [],
+      "_excludedEdges": Array [],
+      "_exclusive": Object {},
+      "_mutate": false,
+      "_nodes": Array [
+        "teamRequired",
+        "careManagerPhone",
+        "careManagerName",
+        "pcpName",
+        "contactType",
+        "phone",
+        "email",
+        "zipCode",
+        "ssnLast4",
+        "dateOfBirth",
+        "displayName",
+        "identifier",
+      ],
+      "_options": Object {
+        "abortEarly": true,
+        "recursive": true,
+      },
+      "_type": "object",
+      "_typeError": [Function],
+      "_whitelist": RefSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "fields": Object {
+        "careManagerName": StringSchema {
+          "_blacklist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_conditions": Array [
+            Conditional {
+              "fn": [Function],
+              "refs": Array [
+                Reference {
+                  "_get": [Function],
+                  "isContext": false,
+                  "isSelf": false,
+                  "key": "teamRequired",
+                  "map": [Function],
+                  "path": "teamRequired",
+                  "prefix": "$",
+                },
+              ],
+            },
+          ],
+          "_deps": Array [
+            "teamRequired",
+          ],
+          "_exclusive": Object {
+            "max": true,
+          },
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "tests": Array [
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "careManagerPhone": StringSchema {
+          "_blacklist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_conditions": Array [
+            Conditional {
+              "fn": [Function],
+              "refs": Array [
+                Reference {
+                  "_get": [Function],
+                  "isContext": false,
+                  "isSelf": false,
+                  "key": "teamRequired",
+                  "map": [Function],
+                  "path": "teamRequired",
+                  "prefix": "$",
+                },
+              ],
+            },
+          ],
+          "_deps": Array [
+            "teamRequired",
+          ],
+          "_exclusive": Object {
+            "isManagerPhoneValid": false,
+          },
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "tests": Array [
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "contactType": StringSchema {
+          "_blacklist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {},
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "tests": Array [],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "dateOfBirth": DateSchema {
+          "_blacklist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "required": false,
+          },
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "date",
+          "_typeError": [Function],
+          "_whitelist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "tests": Array [
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "displayName": StringSchema {
+          "_blacklist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "required": false,
+            "undefined": false,
+          },
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "email": StringSchema {
+          "_blacklist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_conditions": Array [
+            Conditional {
+              "fn": [Function],
+              "refs": Array [
+                Reference {
+                  "_get": [Function],
+                  "isContext": false,
+                  "isSelf": false,
+                  "key": "contactType",
+                  "map": [Function],
+                  "path": "contactType",
+                  "prefix": "$",
+                },
+              ],
+            },
+          ],
+          "_deps": Array [
+            "contactType",
+          ],
+          "_exclusive": Object {
+            "undefined": false,
+          },
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "tests": Array [
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "identifier": StringSchema {
+          "_blacklist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "required": false,
+          },
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "pcpName": StringSchema {
+          "_blacklist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_conditions": Array [
+            Conditional {
+              "fn": [Function],
+              "refs": Array [
+                Reference {
+                  "_get": [Function],
+                  "isContext": false,
+                  "isSelf": false,
+                  "key": "teamRequired",
+                  "map": [Function],
+                  "path": "teamRequired",
+                  "prefix": "$",
+                },
+              ],
+            },
+          ],
+          "_deps": Array [
+            "teamRequired",
+          ],
+          "_exclusive": Object {
+            "max": true,
+          },
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "tests": Array [
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "phone": StringSchema {
+          "_blacklist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_conditions": Array [
+            Conditional {
+              "fn": [Function],
+              "refs": Array [
+                Reference {
+                  "_get": [Function],
+                  "isContext": false,
+                  "isSelf": false,
+                  "key": "contactType",
+                  "map": [Function],
+                  "path": "contactType",
+                  "prefix": "$",
+                },
+              ],
+            },
+          ],
+          "_deps": Array [
+            "contactType",
+          ],
+          "_exclusive": Object {
+            "isValid": false,
+          },
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "tests": Array [
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "ssnLast4": StringSchema {
+          "_blacklist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "undefined": false,
+          },
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "tests": Array [
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "zipCode": StringSchema {
+          "_blacklist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "undefined": false,
+          },
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "tests": Array [
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+      },
+      "tests": Array [],
+      "transforms": Array [
+        [Function],
+      ],
+    }
+  }
+/>
+`;

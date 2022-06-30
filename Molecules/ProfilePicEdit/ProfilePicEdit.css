@@ -1,0 +1,33 @@
+.profilepicedit {
+  position: relative;
+
+  width: 36px;
+}
+
+.profilepicedit-button {
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.profilepicedit-button:hover {
+  background-color: var(--button_color_hover);
+}
+
+.profilepicedit-button:focus {
+  outline: 1px dotted var(--button_color_hover);
+  outline-offset: -2px;
+}
+
+.profilepicedit-button:active {
+  background-color: var(--button_color_pressed);
+}
+
+.profilepicedit-button:disabled .editbuttonicon {
+  background-color: var(--button_color_disabled);
+}
+
+.profilepicedit-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

@@ -1,0 +1,12 @@
+.timeampminput-wrapper {
+  display: block;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+
+.timeampminput-label-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}

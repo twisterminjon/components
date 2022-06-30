@@ -1,0 +1,43 @@
+.interpreters-wrap {
+  position: relative;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.interpreters-wrap::-webkit-scrollbar {
+  width: 0;
+}
+
+.interpreters-empty {
+  position: relative;
+
+  color: var(--white);
+  font-size: 24px;
+  font-weight: 500;
+
+  width: 100%;
+  text-align: center;
+
+  margin-top: 40px;
+}
+
+.interpreter-card {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: transparent;
+  padding: 16px;
+  height: 66px;
+  border-bottom: 1px solid var(--usercard_border) !important;
+  color: var(--white);
+  font-weight: var(--font-base--normal) !important;
+  font-size: var(--font-base-body--size-medium);
+}
+
+.interpreter-card:hover {
+  background-color: var(--brandcolor_dark);
+}
+.interpreter-card:disabled {
+  color: var(--button_color_pressed);
+}

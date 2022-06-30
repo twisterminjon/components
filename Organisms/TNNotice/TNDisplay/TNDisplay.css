@@ -1,0 +1,49 @@
+.tndisplay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: var(--termsandnotices_bg);
+  z-index: var(--z-terms-and-notices);
+}
+
+.tndisplay h1 {
+  max-width: 400px;
+  padding: 40px 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  color: var(--termsandnotices_fg);
+  font-size: var(--font-base-headline--size);
+  font-weight: var(--font-base--bold);
+}
+
+.tndisplay p {
+  width: 100%;
+  max-width: 400px;
+  flex: 1;
+  overflow-y: auto;
+  padding: 0 20px;
+  white-space: pre-wrap;
+  color: var(--termsandnotices_fg);
+  font-size: var(--font-base-body--size);
+}
+
+.tndisplay-controls {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  justify-content: stretch;
+  padding: 20px;
+}
+
+.tndisplay-btn {
+  flex: 1;
+  padding: 0 5px;
+}

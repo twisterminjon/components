@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BackToCallHeader matches the snapshot 1`] = `
+<div
+  className="backToCallHeader-container"
+>
+  <span
+    className="backToCallHeader-title"
+  >
+    Title
+  </span>
+  <BackToCallButton
+    data-testid="back-to-call"
+    onClick={[MockFunction]}
+  />
+</div>
+`;

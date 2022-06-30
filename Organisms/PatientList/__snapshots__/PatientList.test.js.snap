@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PatientList matches the snapshot when a patient is selected 1`] = `
+<div
+  className="patientlist-wrap"
+>
+  <div
+    className="patientlist-list"
+    data-testid="patient-list"
+    id="patient-list"
+  >
+    <InfiniteScroll
+      dataLength={4}
+      hasMore={true}
+      loading={false}
+      next={[Function]}
+      scrollableTarget="patient-list"
+    >
+      <PatientCard
+        className=""
+        key="1"
+        onClick={[Function]}
+        profileImage=""
+        selected={false}
+        size="medium"
+        status="available"
+        style={Object {}}
+        userName="Louis Lane"
+      />
+      <PatientCard
+        className=""
+        key="2"
+        onClick={[Function]}
+        profileImage=""
+        selected={false}
+        size="medium"
+        status="away"
+        style={Object {}}
+        userName="Julio Rodriguez"
+      />
+      <PatientCard
+        className=""
+        key="3"
+        onClick={[Function]}
+        profileImage=""
+        selected={false}
+        size="medium"
+        status="offline"
+        style={Object {}}
+        userName="Kate Thomas"
+      />
+      <PatientCard
+        className=""
+        key="4"
+        onClick={[Function]}
+        profileImage=""
+        selected={false}
+        showDnc={true}
+        size="medium"
+        status="busy"
+        style={Object {}}
+        userName="Barbara Joe"
+      />
+    </InfiniteScroll>
+    <div
+      className="patientlist-loader"
+    >
+      <Loader
+        label="Loading"
+        show={false}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PatientList matches the snapshot when no patient is selected 1`] = `
+<div
+  className="patientlist-wrap"
+>
+  <div
+    className="patientlist-list"
+    data-testid="patient-list"
+    id="patient-list"
+  >
+    <InfiniteScroll
+      dataLength={4}
+      hasMore={true}
+      loading={false}
+      next={[Function]}
+      scrollableTarget="patient-list"
+    >
+      <PatientCard
+        className=""
+        key="1"
+        onClick={[Function]}
+        profileImage=""
+        selected={false}
+        size="medium"
+        status="available"
+        style={Object {}}
+        userName="Louis Lane"
+      />
+      <PatientCard
+        className=""
+        key="2"
+        onClick={[Function]}
+        profileImage=""
+        selected={false}
+        size="medium"
+        status="away"
+        style={Object {}}
+        userName="Julio Rodriguez"
+      />
+      <PatientCard
+        className=""
+        key="3"
+        onClick={[Function]}
+        profileImage=""
+        selected={false}
+        size="medium"
+        status="offline"
+        style={Object {}}
+        userName="Kate Thomas"
+      />
+      <PatientCard
+        className=""
+        key="4"
+        onClick={[Function]}
+        profileImage=""
+        selected={false}
+        showDnc={true}
+        size="medium"
+        status="busy"
+        style={Object {}}
+        userName="Barbara Joe"
+      />
+    </InfiniteScroll>
+    <div
+      className="patientlist-loader"
+    >
+      <Loader
+        label="Loading"
+        show={false}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PatientList renders with no users passed in 1`] = `null`;

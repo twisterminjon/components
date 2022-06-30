@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slider matches the snapshot 1`] = `
+<div
+  className="slider"
+  style={Object {}}
+>
+  <input
+    className="slider-input"
+    max={100}
+    min={0}
+    name="slider"
+    onChange={[MockFunction]}
+    type="range"
+  />
+</div>
+`;

@@ -1,0 +1,39 @@
+.messageattachmentbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.messageattachmentbutton-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+
+  background-color: var(--brandcolor);
+  border: none;
+
+  border-radius: 50%;
+  outline: none;
+
+  height: 36px;
+  width: 36px;
+}
+
+.messageattachmentbutton-button:disabled,
+.messageattachmentbutton-button:disabled:hover {
+  background-color: var(--button_color_disabled_bg);
+  color: var(--button_color_disabled);
+}
+
+.messageattachmentbutton-button:hover {
+  background-color: var(--button_color_hover);
+}
+
+.messageattachmentbutton-button:focus {
+  background-color: var(--button_color_hover);
+}
+
+.messageattachmentbutton-button:active {
+  background-color: var(--button_color_pressed);
+}

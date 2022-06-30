@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToastMessage matches the snapshot for type="error" 1`] = `
+<Fragment>
+  <div
+    className="toastmessage toastmessage--show toastmessage--error"
+  >
+    <span
+      className="toastmessage-text"
+    >
+      Its all gone Pete Tong
+    </span>
+  </div>
+  <div
+    className="toastmessage-dimmer toastmessage-dimmer--hide "
+  />
+</Fragment>
+`;
+
+exports[`ToastMessage matches the snapshot for type="info" 1`] = `
+<Fragment>
+  <div
+    className="toastmessage toastmessage--show toastmessage--info"
+  >
+    <span
+      className="toastmessage-text"
+    >
+      Its all gone Pete Tong
+    </span>
+  </div>
+  <div
+    className="toastmessage-dimmer toastmessage-dimmer--hide "
+  />
+</Fragment>
+`;
+
+exports[`ToastMessage matches the snapshot for type="warning" 1`] = `
+<Fragment>
+  <div
+    className="toastmessage toastmessage--show toastmessage--warning"
+  >
+    <span
+      className="toastmessage-text"
+    >
+      Its all gone Pete Tong
+    </span>
+  </div>
+  <div
+    className="toastmessage-dimmer toastmessage-dimmer--hide "
+  />
+</Fragment>
+`;
+
+exports[`ToastMessage matches the snapshot when hidden 1`] = `
+<Fragment>
+  <div
+    className="toastmessage toastmessage--hide toastmessage--error"
+  >
+    <span
+      className="toastmessage-text"
+    >
+      Its all gone Pete Tong
+    </span>
+  </div>
+  <div
+    className="toastmessage-dimmer toastmessage-dimmer--hide "
+  />
+</Fragment>
+`;

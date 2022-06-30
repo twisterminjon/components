@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessageAttachmentBanner matches the snapshot 1`] = `
+<div
+  className="messageattachmentbanner"
+  onClick={[Function]}
+  style={Object {}}
+>
+  <ButtonIcon
+    className=""
+    data-testid="attachment-close"
+    onClick={[MockFunction]}
+    style={Object {}}
+  >
+    <IconChevronLeft
+      color="var(--messagepage__sent_fg)"
+      style={
+        Object {
+          "height": 21,
+          "width": 12,
+        }
+      }
+    />
+  </ButtonIcon>
+  <ButtonIcon
+    className=""
+    data-testid="attachment-download"
+    onClick={[MockFunction]}
+    style={Object {}}
+  >
+    <IconDownload
+      color="var(--messagepage__sent_fg)"
+    />
+  </ButtonIcon>
+</div>
+`;

@@ -1,0 +1,465 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorPage matches the snapshot when shown 1`] = `
+<div
+  className="errorpage-wrap"
+>
+  <Dimmer
+    backgroundColor="positive"
+    className=""
+    show={true}
+    style={Object {}}
+  />
+  <div
+    className="errorpage-content"
+  >
+    <h1
+      className="errorpage-title"
+    >
+      Sorry, something has gone wrong.
+    </h1>
+    <h2
+      className="errorpage-message"
+    >
+      It's not your fault and thanks for your patience while we work on the issue.
+    </h2>
+    <h3
+      className="errorpage-text"
+    >
+      In the meantime, you can...
+    </h3>
+    <ul
+      className="errorpage-list"
+    >
+      <li
+        className="errorpage-list-item"
+      >
+        Go to the 
+        <Link
+          to="/app/dashboard"
+        >
+          dashboard
+        </Link>
+      </li>
+      <li
+        className="errorpage-list-item"
+      >
+        Go to our 
+        <a
+          href="https://projectified/support/"
+        >
+          support
+        </a>
+         page
+      </li>
+    </ul>
+    <button
+      className="errorpage-error-button"
+      onClick={[Function]}
+    >
+      Display Error
+    </button>
+    <div
+      className="errorpage-error-message errorpage-error--hide"
+    >
+      <pre>
+        <em>
+          Code:
+        </em>
+         
+        server_error
+      </pre>
+      <p
+        style={
+          Object {
+            "whiteSpace": "pre-wrap",
+          }
+        }
+      >
+        <em>
+          Message:
+        </em>
+         
+        TypeError: Cannot read property 'name' of undefined
+      </p>
+    </div>
+    <ProjectPowered
+      className="projectpowered-logo"
+      logoColor="#fff"
+      taglineColor="#9c9c9c"
+    />
+  </div>
+</div>
+`;
+
+exports[`ErrorPage matches the snapshot with a graphQl error object 1`] = `
+<div
+  className="errorpage-wrap"
+>
+  <Dimmer
+    backgroundColor="positive"
+    className=""
+    show={true}
+    style={Object {}}
+  />
+  <div
+    className="errorpage-content"
+  >
+    <h1
+      className="errorpage-title"
+    >
+      Sorry, something has gone wrong.
+    </h1>
+    <h2
+      className="errorpage-message"
+    >
+      It's not your fault and thanks for your patience while we work on the issue.
+    </h2>
+    <h3
+      className="errorpage-text"
+    >
+      In the meantime, you can...
+    </h3>
+    <ul
+      className="errorpage-list"
+    >
+      <li
+        className="errorpage-list-item"
+      >
+        Go to the 
+        <Link
+          to="/app/dashboard"
+        >
+          dashboard
+        </Link>
+      </li>
+      <li
+        className="errorpage-list-item"
+      >
+        Go to our 
+        <a
+          href="https://projectified/support/"
+        >
+          support
+        </a>
+         page
+      </li>
+    </ul>
+    <button
+      className="errorpage-error-button"
+      onClick={[Function]}
+    >
+      Display Error
+    </button>
+    <div
+      className="errorpage-error-message errorpage-error--hide"
+    >
+      <pre>
+        <em>
+          Code:
+        </em>
+         
+        GraphQl Error
+      </pre>
+      <p
+        style={
+          Object {
+            "whiteSpace": "pre-wrap",
+          }
+        }
+      >
+        <em>
+          Message:
+        </em>
+         
+        GraphQL error: You must be logged in
+      </p>
+    </div>
+    <ProjectPowered
+      className="projectpowered-logo"
+      logoColor="#fff"
+      taglineColor="#9c9c9c"
+    />
+  </div>
+</div>
+`;
+
+exports[`ErrorPage matches the snapshot with a network error object 1`] = `
+<div
+  className="errorpage-wrap"
+>
+  <Dimmer
+    backgroundColor="positive"
+    className=""
+    show={true}
+    style={Object {}}
+  />
+  <div
+    className="errorpage-content"
+  >
+    <h1
+      className="errorpage-title"
+    >
+      Sorry, something has gone wrong.
+    </h1>
+    <h2
+      className="errorpage-message"
+    >
+      It's not your fault and thanks for your patience while we work on the issue.
+    </h2>
+    <h3
+      className="errorpage-text"
+    >
+      In the meantime, you can...
+    </h3>
+    <ul
+      className="errorpage-list"
+    >
+      <li
+        className="errorpage-list-item"
+      >
+        Go to the 
+        <Link
+          to="/app/dashboard"
+        >
+          dashboard
+        </Link>
+      </li>
+      <li
+        className="errorpage-list-item"
+      >
+        Go to our 
+        <a
+          href="https://projectified/support/"
+        >
+          support
+        </a>
+         page
+      </li>
+    </ul>
+    <button
+      className="errorpage-error-button"
+      onClick={[Function]}
+    >
+      Display Error
+    </button>
+    <div
+      className="errorpage-error-message errorpage-error--hide"
+    >
+      <pre>
+        <em>
+          Code:
+        </em>
+         
+        Network Error
+      </pre>
+      <p
+        style={
+          Object {
+            "whiteSpace": "pre-wrap",
+          }
+        }
+      >
+        <em>
+          Message:
+        </em>
+         
+        good
+
+
+      </p>
+    </div>
+    <ProjectPowered
+      className="projectpowered-logo"
+      logoColor="#fff"
+      taglineColor="#9c9c9c"
+    />
+  </div>
+</div>
+`;
+
+exports[`ErrorPage matches the snapshot with no code 1`] = `
+<div
+  className="errorpage-wrap"
+>
+  <Dimmer
+    backgroundColor="positive"
+    className=""
+    show={true}
+    style={Object {}}
+  />
+  <div
+    className="errorpage-content"
+  >
+    <h1
+      className="errorpage-title"
+    >
+      Sorry, something has gone wrong.
+    </h1>
+    <h2
+      className="errorpage-message"
+    >
+      It's not your fault and thanks for your patience while we work on the issue.
+    </h2>
+    <h3
+      className="errorpage-text"
+    >
+      In the meantime, you can...
+    </h3>
+    <ul
+      className="errorpage-list"
+    >
+      <li
+        className="errorpage-list-item"
+      >
+        Go to the 
+        <Link
+          to="/app/dashboard"
+        >
+          dashboard
+        </Link>
+      </li>
+      <li
+        className="errorpage-list-item"
+      >
+        Go to our 
+        <a
+          href="https://projectified/support/"
+        >
+          support
+        </a>
+         page
+      </li>
+    </ul>
+    <button
+      className="errorpage-error-button"
+      onClick={[Function]}
+    >
+      Display Error
+    </button>
+    <div
+      className="errorpage-error-message errorpage-error--hide"
+    >
+      <pre>
+        <em>
+          Code:
+        </em>
+         
+        Not provided
+      </pre>
+      <p
+        style={
+          Object {
+            "whiteSpace": "pre-wrap",
+          }
+        }
+      >
+        <em>
+          Message:
+        </em>
+         
+        TypeError: Cannot read property 'name' of undefined
+      </p>
+    </div>
+    <ProjectPowered
+      className="projectpowered-logo"
+      logoColor="#fff"
+      taglineColor="#9c9c9c"
+    />
+  </div>
+</div>
+`;
+
+exports[`ErrorPage matches the snapshot with no message 1`] = `
+<div
+  className="errorpage-wrap"
+>
+  <Dimmer
+    backgroundColor="positive"
+    className=""
+    show={true}
+    style={Object {}}
+  />
+  <div
+    className="errorpage-content"
+  >
+    <h1
+      className="errorpage-title"
+    >
+      Sorry, something has gone wrong.
+    </h1>
+    <h2
+      className="errorpage-message"
+    >
+      It's not your fault and thanks for your patience while we work on the issue.
+    </h2>
+    <h3
+      className="errorpage-text"
+    >
+      In the meantime, you can...
+    </h3>
+    <ul
+      className="errorpage-list"
+    >
+      <li
+        className="errorpage-list-item"
+      >
+        Go to the 
+        <Link
+          to="/app/dashboard"
+        >
+          dashboard
+        </Link>
+      </li>
+      <li
+        className="errorpage-list-item"
+      >
+        Go to our 
+        <a
+          href="https://projectified/support/"
+        >
+          support
+        </a>
+         page
+      </li>
+    </ul>
+    <button
+      className="errorpage-error-button"
+      onClick={[Function]}
+    >
+      Display Error
+    </button>
+    <div
+      className="errorpage-error-message errorpage-error--hide"
+    >
+      <pre>
+        <em>
+          Code:
+        </em>
+         
+        server_error
+      </pre>
+      <p
+        style={
+          Object {
+            "whiteSpace": "pre-wrap",
+          }
+        }
+      >
+        <em>
+          Message:
+        </em>
+         
+        An unhandled error was encountered with no message
+
+Check the console for more details.
+      </p>
+    </div>
+    <ProjectPowered
+      className="projectpowered-logo"
+      logoColor="#fff"
+      taglineColor="#9c9c9c"
+    />
+  </div>
+</div>
+`;

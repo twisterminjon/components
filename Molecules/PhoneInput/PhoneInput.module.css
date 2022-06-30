@@ -1,0 +1,19 @@
+.container {
+  display: block;
+  width: 100%;
+}
+
+.label {
+  display: flex;
+  align-items: baseline;
+}
+
+.content {
+  height: 34px;
+}
+
+.input {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-left-color: transparent !important;
+}

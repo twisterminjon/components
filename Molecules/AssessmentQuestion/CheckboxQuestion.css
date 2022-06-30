@@ -1,0 +1,43 @@
+.assessment-checkbox {
+  color: var(--base__body_fg);
+  cursor: pointer;
+  padding: 20px 0 20px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.assessment-checkbox input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.assessment-checkbox input + .assessment-checkbox-label:before {
+  content: '';
+  background: var(--assessment__input_bg);
+  border: solid 1px var(--assessment__input_border_color);
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  position: relative;
+  top: -0.2em;
+  margin-right: 1em;
+  vertical-align: top;
+  cursor: pointer;
+  text-align: center;
+  transition: all 250ms ease;
+}
+
+.assessment-checkbox input:checked ~ .assessment-checkbox-label:before {
+  background-color: var(--brandcolor);
+}
+
+.assessment-checkbox input + .assessment-checkbox-label:empty:before {
+  margin-right: 0;
+}
+
+.assessment-checkbox-label {
+  font-weight: var(--font-base--regular);
+  font-size: var(--font-base-body--size-medium);
+  cursor: pointer;
+}

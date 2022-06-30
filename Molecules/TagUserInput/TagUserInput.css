@@ -1,0 +1,13 @@
+.taguserinput {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  padding: 8px;
+  background-color: var(--inputs_bg);
+  border-radius: 8px;
+}
+
+.taguserinput-input > input {
+  border: none !important;
+  margin-bottom: 10px !important;
+}

@@ -1,0 +1,192 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserCardCaregiver matches the snapshot with all hidden 1`] = `
+<li
+  className="usercardcaregiver"
+  data-testid="caregiver-card-Mung Bean"
+  onClick={[Function]}
+>
+  <div
+    className="usercardcaregiver-avatar"
+    style={
+      Object {
+        "marginLeft": 12,
+        "marginRight": 14,
+      }
+    }
+  >
+    <Avatar
+      className=""
+      dimmed={false}
+      displayName={null}
+      imgUrl="http://some.url.com/picture"
+      loading={false}
+      size={45}
+      style={Object {}}
+    />
+    <StatusBubble
+      className="usercardcaregiver-status"
+      status="available"
+      style={Object {}}
+    />
+  </div>
+  <div
+    className="usercardcaregiver-name column"
+  >
+    <span
+      data-testid="name-Mung Bean"
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      Mung Bean
+    </span>
+    <span
+      data-testid="phone-Mung Bean"
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    />
+  </div>
+  <div
+    className="usercardcaregiver-flag"
+  >
+    <span
+      data-testid="send-mssage-event-Mung Bean"
+    >
+      <IconFlagOutline
+        color="var(--brandcolor)"
+        height="28"
+        width="27"
+      />
+    </span>
+  </div>
+</li>
+`;
+
+exports[`UserCardCaregiver matches the snapshot with all showing 1`] = `
+<li
+  className="usercardcaregiver"
+  data-testid="caregiver-card-Mung Bean"
+  onClick={[Function]}
+>
+  <ButtonIcon
+    className=""
+    data-testid="menu-Mung Bean"
+    onClick={[MockFunction]}
+    style={
+      Object {
+        "marginLeft": 6,
+      }
+    }
+  >
+    <IconEllipsisV
+      className=""
+      color="white"
+      size={25}
+      style={Object {}}
+    />
+  </ButtonIcon>
+  <div
+    className="usercardcaregiver-avatar"
+    style={
+      Object {
+        "marginLeft": 3,
+        "marginRight": 14,
+      }
+    }
+  >
+    <Avatar
+      className=""
+      dimmed={false}
+      displayName={null}
+      imgUrl="http://some.url.com/picture"
+      loading={false}
+      size={45}
+      style={Object {}}
+    />
+    <StatusBubble
+      className="usercardcaregiver-status"
+      status="available"
+      style={Object {}}
+    />
+  </div>
+  <div
+    className="usercardcaregiver-name column"
+  >
+    <span
+      data-testid="name-Mung Bean"
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      Mung Bean
+    </span>
+    <span
+      data-testid="phone-Mung Bean"
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    />
+  </div>
+  <div
+    className="usercardcaregiver-flag"
+  >
+    <span
+      data-testid="send-mssage-event-Mung Bean"
+    >
+      <IconFlagOutline
+        color="var(--brandcolor)"
+        height="28"
+        width="27"
+      />
+    </span>
+  </div>
+  <StartMessageButton
+    data-testid="odm-Mung Bean"
+    dimmed={false}
+    disabled={false}
+    ghost={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "marginRight": 14,
+      }
+    }
+    type="ondemand"
+  />
+  <DialButton
+    data-testid="call-Mung Bean"
+    disabled={false}
+    ghost={false}
+    onClick={[Function]}
+    status="offline"
+    style={
+      Object {
+        "marginRight": 14,
+      }
+    }
+  />
+  <StartMessageButton
+    data-testid="secure-message-Mung Bean"
+    dimmed={false}
+    disabled={false}
+    ghost={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "marginRight": 14,
+      }
+    }
+    type="secure"
+  />
+</li>
+`;

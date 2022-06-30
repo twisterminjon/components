@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoControls matches the snapshot 1`] = `
+<div
+  className="videocontrols videocontrols-show"
+>
+  <MuteAudioButton
+    muted={false}
+    onClick={[MockFunction]}
+    showLabel={false}
+    wrapStyle={
+      Object {
+        "margin": "10px 36px 0 0",
+      }
+    }
+  />
+  <DeclineCallButton
+    ghost={false}
+    onClick={[MockFunction]}
+    showLabel={false}
+    wrapStyle={
+      Object {
+        "margin": "10px 36px 0 0",
+      }
+    }
+  />
+  <MuteVideoButton
+    muted={false}
+    onClick={[MockFunction]}
+    showLabel={false}
+    wrapStyle={
+      Object {
+        "margin": "10px 0 0 0",
+      }
+    }
+  />
+</div>
+`;

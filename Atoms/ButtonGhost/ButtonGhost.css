@@ -1,0 +1,31 @@
+/* Override semantic styles */
+.ui.inverted.button.buttonghost {
+  color: var(--brandcolor) !important;
+  background: none !important;
+  box-shadow: 0 0 0 2px var(--brandcolor) inset !important;
+}
+
+.ui.inverted.button.buttonghost:hover {
+  background: var(--brandcolor_trans_25) !important;
+  box-shadow: 0 0 0 2px var(--brandcolor) inset !important;
+}
+
+.ui.inverted.button.buttonghost:focus {
+  background: var(--brandcolor_trans_25) !important;
+  box-shadow: 0 0 0 2px var(--brandcolor) inset !important;
+}
+
+.ui.inverted.button.buttonghost:hover:active {
+  background: var(--brandcolor_trans_50) !important;
+}
+
+.ui.inverted.button.buttonghost--red {
+  color: var(--callnotice__button_negative_bg) !important;
+  background: none !important;
+  box-shadow: 0 0 0 2px var(--callnotice__button_negative_bg) inset !important;
+}
+
+.ui.inverted.button.buttonghost--red:hover {
+  background: var(--brandcolor_trans_25) !important;
+  box-shadow: 0 0 0 2px var(--callnotice__button_negative_bg) inset !important;
+}

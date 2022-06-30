@@ -1,0 +1,95 @@
+.messagesystem {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+}
+
+.messagesystem-common {
+  display: inline-block;
+  border: 1px solid var(--messagesystem__default);
+  border-radius: var(--message-border-radius);
+}
+
+.messagesystem-bubble {
+  text-align: center;
+  vertical-align: middle;
+  margin: 0 auto;
+}
+
+.messagesystem-left-bubble {
+  margin: 0 12px;
+  text-align: left;
+  float: left;
+  border-bottom-left-radius: 0;
+}
+
+.messagesystem-bubble:before,
+.messagesystem-bubble:after {
+  content: ' ';
+  position: absolute;
+  top: 50%;
+  margin-left: -99em;
+  height: 1px;
+  width: 999em;
+  border-top: 1px solid var(--messagesystem__default);
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.messagesystem-bubble:before {
+  margin: 0 0 0 -999em;
+}
+
+.messagesystem-bubble:after {
+  left: auto;
+  width: 999em;
+  margin: 0 0 0 0;
+}
+
+.messagesystem-message {
+  font-size: 12px;
+  font-family: var(--font-message-page--message-bubble-family);
+  font-weight: 300;
+
+  padding: 8px 12px;
+
+  white-space: pre-wrap;
+  color: var(--messagepage__sent_fg);
+}
+
+/* "bright" bubble/message */
+.messagesystem-bubble--bright {
+  border: 1px solid var(--messagesystem__bright);
+}
+.messagesystem-bubble--bright .messagesystem-message {
+  color: var(--messagesystem__bright);
+}
+
+/* "accent" bubble/message */
+.messagesystem-bubble--accent {
+  border: 1px solid var(--messagesystem__accent);
+}
+.messagesystem-bubble--accent .messagesystem-message {
+  color: var(--messagesystem__accent);
+}
+
+.messagesystem-right {
+  border: none;
+  float: right;
+}
+
+.messagesystem-right:before {
+  content: ' ';
+  position: absolute;
+  top: 50%;
+  height: 1px;
+  width: 999em;
+  border-top: 1px solid var(--messagepage__newmessages_bg);
+  background: rgba(0, 0, 0, 0.2);
+  margin: 0 0 0 -999em;
+}
+
+.messagesystem-right .messagesystem-message {
+  padding: 8px;
+  color: var(--messagepage__newmessages_bg);
+}

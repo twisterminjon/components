@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IncomingCallNotice matches the snapshot w/ a profile image 1`] = `
+<div
+  className="incomingcallnotice-wrap"
+>
+  <div
+    className="incomingcallnotice-dimmer"
+  />
+  <div
+    className="incomingcallnotice-content"
+    data-testid="incoming-call-notice"
+  >
+    <UserCardLarge
+      actionText="Incoming Call"
+      onClick={[Function]}
+      profileImage="ent-placeholder.png"
+      style={
+        Object {
+          "marginBottom": 60,
+        }
+      }
+      title=""
+      userName="Korben"
+    />
+    <div
+      className="incomingcallnotice-buttons"
+    >
+      <AnswerCallButton
+        ghost={false}
+        onClick={[MockFunction]}
+        size="medium"
+      />
+      <DeclineCallButton
+        ghost={true}
+        onClick={[MockFunction]}
+        showLabel={true}
+      />
+    </div>
+    <audio
+      autoPlay="autoplay"
+      loop="loop"
+    >
+      <source
+        src="ringtone.mp3"
+        type="audio/mpeg"
+      />
+      Sorry, your browser does audio for playing ringtones.
+    </audio>
+  </div>
+</div>
+`;
+
+exports[`IncomingCallNotice matches the snapshot w/ a related user 1`] = `
+<div
+  className="incomingcallnotice-wrap"
+>
+  <div
+    className="incomingcallnotice-dimmer"
+  />
+  <div
+    className="incomingcallnotice-content"
+    data-testid="incoming-call-notice"
+  >
+    <UserCardLarge
+      actionText="Incoming Call"
+      onClick={[Function]}
+      profileImage="ent-placeholder.png"
+      relatedProfileImage="ent-placeholder.png"
+      relatedUserName="Totally related caller"
+      style={
+        Object {
+          "marginBottom": 60,
+        }
+      }
+      title=""
+      userName="Korben"
+    />
+    <div
+      className="incomingcallnotice-buttons"
+    >
+      <AnswerCallButton
+        ghost={false}
+        onClick={[MockFunction]}
+        size="medium"
+      />
+      <DeclineCallButton
+        ghost={true}
+        onClick={[MockFunction]}
+        showLabel={true}
+      />
+    </div>
+    <audio
+      autoPlay="autoplay"
+      loop="loop"
+    >
+      <source
+        src="ringtone.mp3"
+        type="audio/mpeg"
+      />
+      Sorry, your browser does audio for playing ringtones.
+    </audio>
+  </div>
+</div>
+`;
+
+exports[`IncomingCallNotice matches the snapshot w/o a profile image 1`] = `
+<div
+  className="incomingcallnotice-wrap"
+>
+  <div
+    className="incomingcallnotice-dimmer"
+  />
+  <div
+    className="incomingcallnotice-content"
+    data-testid="incoming-call-notice"
+  >
+    <UserCardLarge
+      actionText="Incoming Call"
+      onClick={[Function]}
+      profileImage=""
+      style={
+        Object {
+          "marginBottom": 60,
+        }
+      }
+      title=""
+      userName="Korben"
+    />
+    <div
+      className="incomingcallnotice-buttons"
+    >
+      <AnswerCallButton
+        ghost={false}
+        onClick={[MockFunction]}
+        size="medium"
+      />
+      <DeclineCallButton
+        ghost={true}
+        onClick={[MockFunction]}
+        showLabel={true}
+      />
+    </div>
+    <audio
+      autoPlay="autoplay"
+      loop="loop"
+    >
+      <source
+        src="ringtone.mp3"
+        type="audio/mpeg"
+      />
+      Sorry, your browser does audio for playing ringtones.
+    </audio>
+  </div>
+</div>
+`;

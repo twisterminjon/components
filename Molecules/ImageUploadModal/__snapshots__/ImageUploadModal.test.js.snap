@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageUploadModal matches the snapshot 1`] = `
+<div
+  className="imageuploadmodal-dimmer-screen"
+  data-testid="page-pic-upload"
+>
+  <div
+    className="imageuploadmodal-wrap"
+  >
+    <div
+      className="imageuploadmodal-header"
+    >
+      <span
+        className="imageuploadmodal-text"
+      >
+        Provide photo
+      </span>
+      <button
+        className="button-reset imageuploadmodal-close"
+        data-testid="button-close-upload"
+        onClick={[MockFunction]}
+      >
+        <IconTimes
+          color="var(--base__body_fg)"
+          size={20}
+        />
+      </button>
+    </div>
+    <div
+      className="imageuploadmodal-content"
+    >
+      <FileSelect
+        onClose={[MockFunction]}
+        onRejected={[Function]}
+        onSelected={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;

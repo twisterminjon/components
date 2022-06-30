@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventsPendingList matches the snapshot 1`] = `
+<EventsPendingList
+  events={Array []}
+  loadingEvent={null}
+  loadingEvents={Array []}
+  onClick={[MockFunction]}
+>
+  <div
+    className="eventspendinglist-container"
+  />
+</EventsPendingList>
+`;

@@ -1,0 +1,84 @@
+.messageattachmentthumbnail {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  overflow: hidden;
+  min-width: 180px;
+  min-height: 75px;
+
+  font-family: var(--font-message-page--message-bubble-family);
+  font-size: var(--font-message-page--message-bubble-size);
+  font-weight: var(--font-message-page--message-bubble-weight);
+
+  cursor: pointer;
+}
+
+.messageattachmentthumbnail--received {
+  margin: 8px;
+}
+
+.messageattachmentthumbnail img {
+  max-width: 100%;
+  object-fit: cover;
+  height: 240px;
+}
+
+.messageattachmentthumbnail img:before {
+  content: ' ';
+  display: block;
+
+  background: repeating-linear-gradient(
+    45deg,
+    var(--messagepage__received_bg),
+    var(--messagepage__received_bg) 10px,
+    var(--messagepage__sent_bg) 10px,
+    var(--messagepage__sent_bg) 20px
+  );
+
+  position: absolute;
+  top: -10px;
+  left: 0;
+  height: calc(100% + 10px);
+  width: 100%;
+}
+
+.messageattachmentthumbnail img:after {
+  content: '💔 Image not found';
+  display: block;
+
+  font-size: 16px;
+  text-align: center;
+  padding: 10px 0px;
+  color: var(--messagepage__received_fg);
+
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 100%;
+}
+
+.messagethumbnail-timestamp {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  line-height: 18px;
+  left: 15px;
+  padding: 0 7px;
+  border-radius: 10px;
+  background-color: rgba(92, 92, 92, 0.6);
+}
+
+.messagethumbnail-timestamp-text {
+  font-size: 12px;
+  color: var(--font_color_light);
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.messagethumbnail-loader {
+  z-index: 0 !important;
+  margin-left: 5px !important;
+}

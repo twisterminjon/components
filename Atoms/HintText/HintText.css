@@ -1,0 +1,7 @@
+.hinttext {
+  font-size: 0.8rem;
+  color: var(--misc__subtle__text_color);
+  white-space: nowrap;
+  margin-right: 10px;
+  overflow: hidden;
+}

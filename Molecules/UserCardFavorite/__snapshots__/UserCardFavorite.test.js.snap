@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserCardFavorite matches the snapshot 1`] = `
+<Fragment>
+  <button
+    className="usercardfavorite "
+    data-testid="button-favorite-Mung Bean"
+    disabled={false}
+    onClick={[MockFunction]}
+    style={Object {}}
+  >
+    <div
+      className="usercardfavorite-avatar-container"
+    >
+      <Avatar
+        className="usercardfavorite-avatar-hover"
+        dimmed={false}
+        displayName={null}
+        imgUrl=""
+        loading={false}
+        size={32}
+        style={Object {}}
+      />
+      <StatusBubble
+        className="usercardfavorite-status"
+        status="available"
+        style={Object {}}
+      />
+    </div>
+    <span
+      className="usercardfavorite-name"
+    >
+      Mung Bean
+    </span>
+  </button>
+</Fragment>
+`;
+
+exports[`UserCardFavorite matches the snapshot with useMenu true 1`] = `
+<div
+  className="usercardfavorite-wrap "
+  data-testid="fav-Mung Bean"
+  style={Object {}}
+>
+  <FavoriteCardMenu
+    className=""
+    disableCall={false}
+    disableMessages={true}
+    onCall={[MockFunction]}
+    onMessage={[MockFunction]}
+    style={Object {}}
+    testidLabel="Mung Bean"
+  />
+  <button
+    className="usercardfavorite "
+    data-testid="button-favorite-Mung Bean"
+    disabled={false}
+    onClick={[MockFunction]}
+    style={Object {}}
+  >
+    <div
+      className="usercardfavorite-avatar-container"
+    >
+      <Avatar
+        className="usercardfavorite-avatar-hover"
+        dimmed={false}
+        displayName={null}
+        imgUrl=""
+        loading={false}
+        size={32}
+        style={Object {}}
+      />
+      <StatusBubble
+        className="usercardfavorite-status"
+        status="available"
+        style={Object {}}
+      />
+    </div>
+    <span
+      className="usercardfavorite-name"
+    >
+      Mung Bean
+    </span>
+  </button>
+</div>
+`;

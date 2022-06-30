@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AssessmentCompleted matches the snapshot 1`] = `
+<div
+  className="assessment-wrap"
+  data-testid="assessment-completed"
+>
+  <div
+    className="assessment-column"
+  >
+    <AssessmentBanner
+      title="Title"
+    />
+    <div
+      className="assessment-info"
+    >
+      <div
+        className="assessment-info-content"
+      >
+        <h2
+          data-testid="assessment-completed-title"
+        >
+          Thanks :)
+        </h2>
+        <p
+          data-testid="assessment-completed-body"
+        >
+          Would you like to submit the assessment?
+        </p>
+      </div>
+      <div>
+        <Button
+          data-testid="assessment-completed-approve"
+          disabled={true}
+          fluid={true}
+          loading={true}
+          onClick={[MockFunction]}
+          style={Object {}}
+          type="submit"
+        >
+          Yes
+        </Button>
+        <ButtonGhost
+          className="assessment-info-cancel"
+          data-testid="assessment-completed-cancel"
+          disabled={true}
+          fluid={true}
+          loading={false}
+          onClick={[MockFunction]}
+          red={false}
+          style={Object {}}
+        >
+          Go back
+        </ButtonGhost>
+      </div>
+    </div>
+  </div>
+</div>
+`;

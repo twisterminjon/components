@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotificationBadge matches the snapshot 1`] = `
+<div
+  className="notificationbadge"
+  style={Object {}}
+>
+  <span
+    className="notificationbadge-notification"
+    data-testid="notificationbadge"
+  >
+    12
+  </span>
+</div>
+`;

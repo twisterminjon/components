@@ -1,0 +1,17 @@
+.callmanager-socket {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+  height: 200px;
+  width: 560px;
+  opacity: 0.6;
+  pointer-events: none;
+  overflow: hidden;
+
+  z-index: 100;
+}
+
+.callmanager-socket-pre {
+  height: 100%;
+}

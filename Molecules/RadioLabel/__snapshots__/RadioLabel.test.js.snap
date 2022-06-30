@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioLabel matches the snapshot 1`] = `
+<RadioLabel
+  isChecked={true}
+  onClick={[MockFunction]}
+  wrapperClass=""
+>
+  <div
+    className="radiolabel-container"
+    onClick={[Function]}
+  >
+    <Radio
+      isChecked={true}
+      onClick={[MockFunction]}
+    >
+      <div
+        className="radio-container"
+        onClick={[Function]}
+      >
+        <div
+          className="radio-content"
+        >
+          <div
+            className="radio-checked"
+          />
+        </div>
+      </div>
+    </Radio>
+    <div
+      className="radiolabel-content"
+    >
+      <span
+        style={
+          Object {
+            "color": "white",
+          }
+        }
+      >
+        Option 1
+      </span>
+    </div>
+  </div>
+</RadioLabel>
+`;

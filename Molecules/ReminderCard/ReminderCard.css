@@ -1,0 +1,96 @@
+.remindercard-button {
+  position: relative;
+  width: 375px;
+  min-height: 122px;
+
+  word-break: break-word;
+
+  /* Remove button style */
+  text-decoration: none;
+  border: none;
+  outline: none;
+
+  margin: 5px;
+  padding: 0;
+}
+
+.remindercard-button:focus {
+  outline: 2px solid var(--reminders__card_hover_bg);
+  outline-offset: 1px;
+}
+
+.remindercard-container {
+  position: relative;
+
+  background-color: var(--reminders__card_bg);
+  width: 100%;
+  min-height: inherit;
+
+  padding: 20px 16px;
+  color: var(--reminders__card_fg);
+  transition: 250ms ease-in;
+  font-family: var(--font-stack);
+}
+
+.remindercard--interactive:hover {
+  background-color: var(--reminders__card_hover_bg);
+  transition: 250ms ease-out;
+}
+
+.remindercard-banner {
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  margin-bottom: 10px;
+}
+
+.remindercard-banner p:first-of-type {
+  font-size: 19px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.remindercard-icon {
+  margin-right: 16px;
+}
+
+.remindercard-content {
+  margin-left: 34px;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.remindercard-time {
+  top: 16px;
+  right: 16px;
+  font-size: 12px;
+  font-weight: 300;
+  flex: 1;
+  text-align: right;
+}
+
+.remindercard-flag {
+  position: absolute;
+  height: 100%;
+  width: 2px;
+  background-color: transparent;
+  z-index: 2;
+}
+
+.remindercard-flag--warn {
+  position: absolute;
+  height: 100%;
+  width: 2px;
+  background-color: yellow;
+  z-index: 2;
+}
+
+.remindercard-flag--expired {
+  position: absolute;
+  height: 100%;
+  width: 2px;
+  background-color: red;
+  z-index: 2;
+}

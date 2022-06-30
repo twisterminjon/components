@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MuteAudioButton matches the snapshot 1`] = `
+<div
+  className="muteaudiobutton-wrap"
+  style={Object {}}
+>
+  <CallButton
+    color="#002862"
+    dimmed={false}
+    disabled={false}
+    ghost={true}
+    ghostOpacity={0.6}
+    name="mute-audio"
+    onClick={[MockFunction]}
+    size="medium"
+  >
+    <IconMicrophone
+      color="black"
+    />
+  </CallButton>
+  <CallButtonLabel
+    text="Mute Audio"
+  />
+</div>
+`;

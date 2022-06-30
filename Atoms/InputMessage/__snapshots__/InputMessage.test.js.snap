@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputMessage matches the snapshot 1`] = `
+<span
+  className="inputmessage"
+  data-testid="input-message"
+>
+  Klingon
+</span>
+`;

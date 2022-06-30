@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AssessmentBanner matches the snapshot 1`] = `
+<div
+  className="assessment-banner"
+>
+  <div
+    className="assessment-banner-icon"
+  >
+    <IconsPatient
+      className=""
+      name="survey"
+      style={Object {}}
+    />
+  </div>
+  <h4
+    className="assessment-banner-title"
+    data-testid="assessment-banner-title"
+  >
+    Radiation visit follow up
+  </h4>
+</div>
+`;

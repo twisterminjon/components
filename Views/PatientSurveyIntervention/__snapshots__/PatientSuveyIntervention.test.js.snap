@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PatientSurveyIntervention matches the snapshot for populated interventions 1`] = `
+<div
+  className="patientsurveyintervention-wrap"
+>
+  <div
+    className="patientsurveyintervention"
+  >
+    <div
+      className="patientsurveyintervention-header"
+    >
+      <Avatar
+        className="patientsurveyintervention-patientavatar"
+        data-testid="patientsurveyintervention-patientavatar"
+        dimmed={false}
+        displayName={null}
+        imgUrl="https://some-image-url.com"
+        loading={false}
+        size="small"
+        style={Object {}}
+      />
+       
+      <span
+        className="patientsurveyintervention-patientname"
+        data-testid="patientsurveyintervention-patientname"
+      >
+        Sally Fields
+      </span>
+      <div
+        className="patientsurveyintervention-title"
+      >
+        Intervention Required
+      </div>
+      <div>
+        <span>
+          Assessment Date:
+        </span>
+        <span
+          className="patientsurveyintervention-date"
+          data-testid="patientsurveyintervention-date"
+        >
+          2020-03-10
+        </span>
+      </div>
+    </div>
+    <Interventions
+      canMessage={false}
+      interventions={
+        Array [
+          Object {
+            "answer": "I don't know!",
+            "answerId": 0,
+            "question": "What is the meaning of life?",
+          },
+          Object {
+            "answer": "Not sure.",
+            "answerId": 1,
+            "question": "What came first, the chicken or the egg?",
+          },
+        ]
+      }
+      onResolve={[MockFunction]}
+      onSendMessage={[MockFunction]}
+    />
+  </div>
+</div>
+`;
+
+exports[`PatientSurveyIntervention matches the snapshot for populated interventions with canMessage set to false 1`] = `
+<div
+  className="patientsurveyintervention-wrap"
+>
+  <div
+    className="patientsurveyintervention"
+  >
+    <div
+      className="patientsurveyintervention-header"
+    >
+      <Avatar
+        className="patientsurveyintervention-patientavatar"
+        data-testid="patientsurveyintervention-patientavatar"
+        dimmed={false}
+        displayName={null}
+        imgUrl="https://some-image-url.com"
+        loading={false}
+        size="small"
+        style={Object {}}
+      />
+       
+      <span
+        className="patientsurveyintervention-patientname"
+        data-testid="patientsurveyintervention-patientname"
+      >
+        Sally Fields
+      </span>
+      <div
+        className="patientsurveyintervention-title"
+      >
+        Intervention Required
+      </div>
+      <div>
+        <span>
+          Assessment Date:
+        </span>
+        <span
+          className="patientsurveyintervention-date"
+          data-testid="patientsurveyintervention-date"
+        >
+          2020-03-10
+        </span>
+      </div>
+    </div>
+    <Interventions
+      canMessage={false}
+      interventions={
+        Array [
+          Object {
+            "answer": "I don't know!",
+            "answerId": 0,
+            "question": "What is the meaning of life?",
+          },
+          Object {
+            "answer": "Not sure.",
+            "answerId": 1,
+            "question": "What came first, the chicken or the egg?",
+          },
+        ]
+      }
+      onResolve={[MockFunction]}
+      onSendMessage={[MockFunction]}
+    />
+  </div>
+</div>
+`;
+
+exports[`PatientSurveyIntervention matches the snapshot for unpopulated interventions 1`] = `
+<div
+  className="patientsurveyintervention-wrap"
+>
+  <div
+    className="patientsurveyintervention"
+  >
+    <div
+      className="patientsurveyintervention-header"
+    >
+      <Avatar
+        className="patientsurveyintervention-patientavatar"
+        data-testid="patientsurveyintervention-patientavatar"
+        dimmed={false}
+        displayName={null}
+        imgUrl="https://some-image-url.com"
+        loading={false}
+        size="small"
+        style={Object {}}
+      />
+       
+      <span
+        className="patientsurveyintervention-patientname"
+        data-testid="patientsurveyintervention-patientname"
+      >
+        Jane Dane
+      </span>
+      <div
+        className="patientsurveyintervention-title"
+      >
+        Intervention Required
+      </div>
+      <div>
+        <span>
+          Assessment Date:
+        </span>
+        <span
+          className="patientsurveyintervention-date"
+          data-testid="patientsurveyintervention-date"
+        >
+          2020-01-20
+        </span>
+      </div>
+    </div>
+    <Interventions
+      canMessage={false}
+      interventions={Array []}
+      onResolve={[MockFunction]}
+      onSendMessage={[MockFunction]}
+    />
+  </div>
+</div>
+`;

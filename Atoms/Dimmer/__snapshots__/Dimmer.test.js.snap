@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dimmer matches the snapshot 1`] = `
+<div
+  className="dimmer dimmer--positive dimmer--show"
+  style={Object {}}
+/>
+`;

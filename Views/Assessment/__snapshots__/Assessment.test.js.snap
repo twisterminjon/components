@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Assessment matches the snapshot 1`] = `
+<div
+  className="assessment-wrap"
+>
+  <DocTitle
+    title="Assessment"
+  />
+  <div
+    className="assessment-content"
+  >
+    <ReminderCard
+      age="3w"
+      className=""
+      customMessage="Treatment followup"
+      groupToMeetId={null}
+      key="6"
+      message={null}
+      onOpen={[Function]}
+      patientMayInitiate={true}
+      staffToMeetId={null}
+      status={false}
+      style={Object {}}
+      type="survey"
+    />
+    <ReminderCard
+      age="3d"
+      className=""
+      customMessage="Virus recovery and maintenance"
+      groupToMeetId={null}
+      key="3"
+      message={null}
+      onOpen={[Function]}
+      patientMayInitiate={true}
+      staffToMeetId={null}
+      status={true}
+      style={Object {}}
+      type="survey"
+    />
+    <ReminderCard
+      age="1d"
+      className=""
+      customMessage="Radiation visit follow up"
+      groupToMeetId={null}
+      key="7"
+      message={null}
+      onOpen={[Function]}
+      patientMayInitiate={true}
+      staffToMeetId={null}
+      status={false}
+      style={Object {}}
+      type="survey"
+    />
+  </div>
+</div>
+`;

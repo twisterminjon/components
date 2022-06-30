@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalToast matches the snapshot 1`] = `
+<Fragment>
+  <div
+    className="modaltoast-dimmer"
+  />
+  <div
+    className="modaltoast-wrap modaltoast--show"
+    data-testid="modaltoast"
+  >
+    <div
+      className="modaltoast"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`ModalToast matches the snapshot with a Header, Text, Button 1`] = `
+<Fragment>
+  <div
+    className="modaltoast-dimmer"
+  />
+  <div
+    className="modaltoast-wrap modaltoast--show"
+    data-testid="modaltoast"
+  >
+    <div
+      className="modaltoast"
+    >
+      <ModalToastHeader
+        title="Title"
+      />
+      <ModalToastText>
+        some text within a paragraph
+      </ModalToastText>
+      <ModalToastButton
+        buttonLabel="close"
+        fluid={true}
+        onClick={[MockFunction]}
+      />
+      <ModalToastButton
+        fluid={true}
+        isGhostButton={true}
+        onClick={[MockFunction]}
+      />
+    </div>
+  </div>
+</Fragment>
+`;

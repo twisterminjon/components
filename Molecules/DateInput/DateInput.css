@@ -1,0 +1,62 @@
+.react-datepicker-wrapper {
+  width: 100%;
+  max-width: 600px;
+}
+
+.dateinput-wrapper {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+.dateinput-label-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  max-width: 600px;
+}
+
+.react-datepicker__input-container {
+  width: 100%;
+}
+
+.dateinput {
+  flex: 1 0 auto;
+
+  height: 38px;
+
+  width: 100%;
+  max-width: 600px;
+  margin: 0;
+  padding: 14px 10px;
+  line-height: 17px;
+
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+
+  color: var(--black);
+  background-color: var(--white);
+
+  outline: 0;
+
+  /* To match semantic inputs */
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  transition: border-color 0.1s ease, -webkit-box-shadow 0.1s ease;
+  transition: box-shadow 0.1s ease, border-color 0.1s ease;
+  transition: box-shadow 0.1s ease, border-color 0.1s ease, -webkit-box-shadow 0.1s ease;
+  box-shadow: none;
+  border-radius: 0.28571429rem;
+}
+
+.dateinput::placeholder {
+  color: #9b9b9b;
+}
+
+.dateinput--has-error {
+  /* To match semantic */
+  background-color: #fff6f6;
+  border-color: #e0b4b4;
+  color: #9f3a38;
+  box-shadow: none;
+}

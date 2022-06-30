@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GroupDisplay matches the snapshot 1`] = `
+<div
+  className="groupdisplay-wrap"
+>
+  <DocTitle
+    title="Group Call"
+  />
+  <div
+    className="groupdisplay-content"
+  >
+    <GroupHeader
+      name="some group"
+      onClick={[MockFunction]}
+    />
+    <div
+      className="groupdisplay-list"
+    >
+      <UserList
+        canCall={true}
+        canMessage={true}
+        loading={false}
+        onCall={[Function]}
+        onMessage={[Function]}
+        onPageNumberChange={[MockFunction]}
+        pageNumber={0}
+        userList={
+          Array [
+            Object {
+              "displayName": "first last",
+              "favorite": false,
+              "id": "2",
+              "overallStatus": "available",
+              "profileImage": null,
+            },
+            Object {
+              "displayName": "first ",
+              "favorite": false,
+              "id": "3",
+              "overallStatus": "busy",
+              "profileImage": "www.projectified/image.png",
+            },
+            Object {
+              "displayName": " last",
+              "favorite": false,
+              "id": "4",
+              "overallStatus": "offline",
+              "profileImage": null,
+            },
+          ]
+        }
+      />
+      <div
+        style={
+          Object {
+            "height": "var(--bottom-whitespace-v1)",
+          }
+        }
+      />
+    </div>
+    <GroupFooter
+      disabled={false}
+      onClick={[MockFunction]}
+    />
+  </div>
+</div>
+`;
+
+exports[`GroupDisplay matches the snapshot when loading 1`] = `
+<div
+  className="groupdisplay-wrap"
+>
+  <DocTitle
+    title="Group Call"
+  />
+  <div
+    className="groupdisplay-content"
+  >
+    <GroupHeader
+      name="some group"
+      onClick={[MockFunction]}
+    />
+    <div
+      className="groupdisplay-list"
+    >
+      <UserList
+        canMessage={true}
+        loading={false}
+        onCall={[Function]}
+        onMessage={[Function]}
+        onPageNumberChange={[MockFunction]}
+        pageNumber={0}
+        userList={
+          Array [
+            Object {
+              "displayName": "first last",
+              "favorite": false,
+              "id": "2",
+              "overallStatus": "available",
+              "profileImage": null,
+            },
+            Object {
+              "displayName": "first ",
+              "favorite": false,
+              "id": "3",
+              "overallStatus": "busy",
+              "profileImage": "www.projectified/image.png",
+            },
+            Object {
+              "displayName": " last",
+              "favorite": false,
+              "id": "4",
+              "overallStatus": "offline",
+              "profileImage": null,
+            },
+          ]
+        }
+      />
+      <div
+        style={
+          Object {
+            "height": "var(--bottom-whitespace-v1)",
+          }
+        }
+      />
+    </div>
+    <GroupFooter
+      disabled={true}
+      onClick={[MockFunction]}
+    />
+  </div>
+</div>
+`;
+
+exports[`GroupDisplay matches the snapshot when not available 1`] = `
+<div
+  className="groupdisplay-wrap"
+>
+  <DocTitle
+    title="Group Call"
+  />
+  <div
+    className="groupdisplay-content"
+  >
+    <GroupHeader
+      name="some group"
+      onClick={[MockFunction]}
+    />
+    <div
+      className="groupdisplay-list"
+    >
+      <UserList
+        canCall={true}
+        canMessage={true}
+        loading={false}
+        onCall={[Function]}
+        onMessage={[Function]}
+        onPageNumberChange={[MockFunction]}
+        pageNumber={0}
+        userList={
+          Array [
+            Object {
+              "displayName": "first last",
+              "favorite": false,
+              "id": "2",
+              "overallStatus": "available",
+              "profileImage": null,
+            },
+            Object {
+              "displayName": "first ",
+              "favorite": false,
+              "id": "3",
+              "overallStatus": "busy",
+              "profileImage": "www.projectified/image.png",
+            },
+            Object {
+              "displayName": " last",
+              "favorite": false,
+              "id": "4",
+              "overallStatus": "offline",
+              "profileImage": null,
+            },
+          ]
+        }
+      />
+      <div
+        style={
+          Object {
+            "height": "var(--bottom-whitespace-v1)",
+          }
+        }
+      />
+    </div>
+    <GroupFooter
+      disabled={true}
+      onClick={[MockFunction]}
+    />
+  </div>
+</div>
+`;
+
+exports[`GroupDisplay matches the snapshot with no users 1`] = `
+<div
+  className="groupdisplay-wrap"
+>
+  <DocTitle
+    title="Group Call"
+  />
+  <div
+    className="groupdisplay-content"
+  >
+    <GroupHeader
+      name="some group"
+      onClick={[MockFunction]}
+    />
+    <div
+      className="groupdisplay-list"
+    >
+      <UserList
+        canMessage={true}
+        loading={false}
+        onCall={[Function]}
+        onMessage={[Function]}
+        onPageNumberChange={[MockFunction]}
+        pageNumber={0}
+        userList={Array []}
+      />
+      <div
+        style={
+          Object {
+            "height": "var(--bottom-whitespace-v1)",
+          }
+        }
+      />
+    </div>
+    <GroupFooter
+      disabled={true}
+      onClick={[MockFunction]}
+    />
+  </div>
+</div>
+`;

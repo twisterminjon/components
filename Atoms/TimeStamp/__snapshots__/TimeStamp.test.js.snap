@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TimeStamp matches the snapshot for sent 1`] = `
+<span
+  className="timestamp  "
+  style={Object {}}
+>
+  an hour ago
+</span>
+`;

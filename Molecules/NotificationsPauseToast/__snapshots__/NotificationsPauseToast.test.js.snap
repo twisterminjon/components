@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotificationsPauseToast matches the snapshot 1`] = `
+<ModalToast
+  show={true}
+>
+  <Formik
+    enableReinitialize={false}
+    initialValues={
+      Object {
+        "endMoment": null,
+        "startMoment": null,
+      }
+    }
+    isInitialValid={false}
+    onSubmit={[Function]}
+    validate={[Function]}
+    validateOnBlur={true}
+    validateOnChange={true}
+  >
+    <Component />
+  </Formik>
+</ModalToast>
+`;
+
+exports[`NotificationsPauseToast matches the snapshot when hidden 1`] = `
+<ModalToast
+  show={false}
+>
+  <Formik
+    enableReinitialize={false}
+    initialValues={
+      Object {
+        "endMoment": null,
+        "startMoment": null,
+      }
+    }
+    isInitialValid={false}
+    onSubmit={[Function]}
+    validate={[Function]}
+    validateOnBlur={true}
+    validateOnChange={true}
+  >
+    <Component />
+  </Formik>
+</ModalToast>
+`;

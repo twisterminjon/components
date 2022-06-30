@@ -1,0 +1,14 @@
+.editbuttonicon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 15px;
+  width: 15px;
+
+  border-radius: 11px;
+  border: 1px solid var(--button__edit_settings_fg);
+
+  color: var(--button__edit_settings_fg);
+  background-color: var(--button_edit_settings_bg);
+}

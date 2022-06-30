@@ -1,0 +1,28 @@
+.backtocall-button {
+  display: flex;
+  align-items: center;
+
+  padding: 6px 8px;
+  background: transparent;
+  color: var(--brandcolor);
+
+  font-size: 23px;
+
+  border: none;
+  outline: none;
+
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.backtocall-button:hover {
+  box-shadow: 0 0 4px 2px var(--button_color_pressed);
+}
+
+.backtocall-button:focus {
+  box-shadow: 0 0 4px 2px var(--button_color_pressed);
+}
+
+.backtocall-text {
+  margin-left: 10px;
+}

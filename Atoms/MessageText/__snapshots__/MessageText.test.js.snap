@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessageText matches the snapshot for received 1`] = `
+<div
+  className="messagetext messagetext--received "
+  onClick={[Function]}
+  style={Object {}}
+>
+  <p
+    className="messagetext-content"
+  >
+    <Linkify
+      disabled={false}
+      text="a message"
+    />
+  </p>
+  <div
+    className="messagetext-timestamp"
+  >
+    <span
+      className="messagetext-timestamp-text"
+    >
+      1:30 PM
+    </span>
+  </div>
+</div>
+`;
+
+exports[`MessageText matches the snapshot for sent 1`] = `
+<div
+  className="messagetext messagetext--received "
+  onClick={[Function]}
+  style={Object {}}
+>
+  <p
+    className="messagetext-content"
+  >
+    <Linkify
+      disabled={false}
+      text="a message"
+    />
+  </p>
+  <div
+    className="messagetext-timestamp"
+  >
+    <span
+      className="messagetext-timestamp-text"
+    >
+      1:30 PM
+    </span>
+  </div>
+</div>
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BackToCallButton matches the snapshot 1`] = `
+<button
+  className="backtocall-button"
+  onClick={[MockFunction]}
+>
+  <IconChevronLeft
+    color="var(--brandcolor)"
+  />
+  <span
+    className="backtocall-text"
+  >
+    Back to Call
+  </span>
+</button>
+`;

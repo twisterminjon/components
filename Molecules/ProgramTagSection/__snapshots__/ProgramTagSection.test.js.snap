@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgramTagSection matches the snapshot 1`] = `
+<Fragment>
+  <EnrollProgramToast
+    onClose={[Function]}
+    onEnroll={[Function]}
+    program={
+      Object {
+        "id": "",
+        "name": "",
+      }
+    }
+    show={false}
+  />
+  <div
+    className="programtagsection-wrapper "
+    style={Object {}}
+  >
+    <SelectSideBar
+      list={
+        Array [
+          Object {
+            "id": "2",
+            "name": "Y-Wing",
+          },
+        ]
+      }
+      onCancel={[Function]}
+      onSelect={[Function]}
+      show={false}
+      title="Ships"
+    />
+    <ProgramTagCloud
+      data-testid="tag-cloud-Ships"
+      loading={false}
+      onTagEdit={[Function]}
+      sectionStyle={Object {}}
+      tags={
+        Array [
+          Object {
+            "id": "4",
+            "program": Object {
+              "id": "0",
+              "isActive": true,
+              "name": "X-wing",
+            },
+          },
+          Object {
+            "id": "5",
+            "program": Object {
+              "id": "1",
+              "isActive": true,
+              "name": "Tie Fighter",
+            },
+          },
+        ]
+      }
+    />
+  </div>
+</Fragment>
+`;

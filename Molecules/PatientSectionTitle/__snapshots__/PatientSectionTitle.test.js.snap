@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PatientSectionTitle matches the snapshot when NOT showing the edit button 1`] = `
+<div
+  className="patientsectiontitle-wrap"
+  style={Object {}}
+>
+  <div
+    className="patientsectiontitle-row"
+  >
+    <div
+      className="patientsectiontitle-title"
+    >
+      <IconsPatient
+        className="patientsectiontitle-icon"
+        color="#92aad7"
+        name="info"
+        size={24}
+      />
+      <span
+        className="patientsectiontitle-text"
+      >
+        test text
+      </span>
+    </div>
+  </div>
+  <hr
+    className="patientsectiontitle-rule"
+  />
+</div>
+`;
+
+exports[`PatientSectionTitle matches the snapshot when showing the edit button 1`] = `
+<div
+  className="patientsectiontitle-wrap"
+  style={Object {}}
+>
+  <div
+    className="patientsectiontitle-row"
+  >
+    <div
+      className="patientsectiontitle-title"
+    >
+      <IconsPatient
+        className="patientsectiontitle-icon"
+        color="#92aad7"
+        name="info"
+        size={24}
+      />
+      <span
+        className="patientsectiontitle-text"
+      >
+        test text
+      </span>
+    </div>
+  </div>
+  <hr
+    className="patientsectiontitle-rule"
+  />
+</div>
+`;

@@ -1,0 +1,58 @@
+.youarebusynotice-wrap {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: var(--z-callnotice);
+}
+
+.youarebusynotice-dimmer {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 21;
+
+  background-color: var(--call_declined_color);
+}
+
+.youarebusynotice-content {
+  position: absolute;
+  z-index: 22;
+}
+
+.youarebusynotice-message span {
+  display: block;
+  text-align: center;
+  color: var(--white);
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.youarebusynotice-message span:last-child {
+  margin-top: 30px;
+  margin-bottom: 60px;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.youarebusynotice-buttons {
+  position: relative;
+  width: 218px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.youarebusynotice-buttons-center {
+  justify-content: space-around;
+  /* Note sure why the margin is required but it won't center without it */
+  margin: 0 auto;
+}

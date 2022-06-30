@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageToast it matches the snapshot when hidden 1`] = `
+<ModalToast
+  show={false}
+>
+  <Stack
+    className="imagetoast"
+    gap={32}
+    style={Object {}}
+  >
+    <Button
+      data-testid="image-toast-choose"
+      fluid={true}
+      onClick={[MockFunction]}
+      style={Object {}}
+      type="submit"
+    >
+      Choose photo
+    </Button>
+    <Button
+      data-testid="image-toast-remove"
+      disabled={false}
+      fluid={true}
+      loading={false}
+      onClick={[MockFunction]}
+      style={Object {}}
+      type="submit"
+    >
+      Remove photo
+    </Button>
+    <ButtonGhost
+      className=""
+      data-testid="image-toast-close"
+      fluid={true}
+      onClick={[MockFunction]}
+      red={false}
+      style={Object {}}
+    >
+      Close
+    </ButtonGhost>
+  </Stack>
+</ModalToast>
+`;
+
+exports[`ImageToast it matches the snapshot when loading 1`] = `
+<ModalToast
+  show={true}
+>
+  <Stack
+    className="imagetoast"
+    gap={32}
+    style={Object {}}
+  >
+    <Button
+      data-testid="image-toast-choose"
+      fluid={true}
+      onClick={[MockFunction]}
+      style={Object {}}
+      type="submit"
+    >
+      Choose photo
+    </Button>
+    <Button
+      data-testid="image-toast-remove"
+      disabled={true}
+      fluid={true}
+      loading={true}
+      onClick={[MockFunction]}
+      style={Object {}}
+      type="submit"
+    >
+      Remove photo
+    </Button>
+    <ButtonGhost
+      className=""
+      data-testid="image-toast-close"
+      fluid={true}
+      onClick={[MockFunction]}
+      red={false}
+      style={Object {}}
+    >
+      Close
+    </ButtonGhost>
+  </Stack>
+</ModalToast>
+`;
+
+exports[`ImageToast it matches the snapshot when shown 1`] = `
+<ModalToast
+  show={true}
+>
+  <Stack
+    className="imagetoast"
+    gap={32}
+    style={Object {}}
+  >
+    <Button
+      data-testid="image-toast-choose"
+      fluid={true}
+      onClick={[MockFunction]}
+      style={Object {}}
+      type="submit"
+    >
+      Choose photo
+    </Button>
+    <Button
+      data-testid="image-toast-remove"
+      disabled={false}
+      fluid={true}
+      loading={false}
+      onClick={[MockFunction]}
+      style={Object {}}
+      type="submit"
+    >
+      Remove photo
+    </Button>
+    <ButtonGhost
+      className=""
+      data-testid="image-toast-close"
+      fluid={true}
+      onClick={[MockFunction]}
+      red={false}
+      style={Object {}}
+    >
+      Close
+    </ButtonGhost>
+  </Stack>
+</ModalToast>
+`;

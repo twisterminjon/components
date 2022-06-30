@@ -1,0 +1,186 @@
+.messagebanner {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  height: var(--message-banner-height);
+
+  border: none;
+  border-bottom: 1px solid var(--misc__card__border_color);
+
+  background-color: transparent;
+}
+
+.messagebanner-button {
+  display: flex;
+  align-items: center;
+  height: 100%;
+
+  /* override button background and border */
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.messagebanner-button:disabled {
+  cursor: default;
+}
+
+.messagebanner-button:hover:not([disabled]) {
+  background-color: var(--button_color_hover);
+}
+
+.messagebanner-button:focus:not([disabled]) {
+  outline: 1px solid var(--brandcolor);
+  outline-offset: -4px;
+}
+
+.messagebanner-button:active:not([disabled]) {
+  transform: scale(1.02);
+}
+
+/* avatar button */
+.messagebanner-avatar-button {
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+}
+
+.messagebanner-avatar-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+
+  justify-content: center;
+
+  width: 68px;
+}
+
+.messagebanner-call-button {
+  flex: 1;
+  min-width: 0;
+  justify-content: flex-start;
+}
+
+.messagebanner-label {
+  display: flex;
+  margin: 2px 11px 0 8px;
+  padding: 0;
+
+  font-size: var(--font-base-body--size);
+  font-weight: normal;
+  line-height: normal;
+  text-align: left;
+
+  color: var(--base__body_fg);
+  cursor: inherit;
+
+  /* the nowrap is causing the flex to expand the full width, couldn't get it to stop and have more important items at the moment. */
+  /* white-space: nowrap; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.messagebanner-call-icon {
+  height: 26px;
+  width: 26px;
+  cursor: inherit;
+}
+
+.messagebanner-adduser-button {
+  justify-content: center;
+  width: 68px;
+}
+
+/* Message Avatars */
+.messageavatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 34px;
+  height: 34px;
+
+  border-radius: 50%;
+  border: 2px solid var(--white);
+
+  background-color: var(--brandcolor);
+}
+
+.messageavatar--accent {
+  background-color: var(--brandcolor_accent);
+}
+
+/*-------------------------------------------------------------------------*/
+/* Message Banner for Named Groups */
+/*-------------------------------------------------------------------------*/
+.messagebannernamedgroup-text-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+  min-width: 0; /* don't let flex push entire component wider */
+
+  height: 100%;
+
+  margin-top: 30px;
+  font-size: var(--font-base-body--size);
+
+  color: var(--base__body_fg);
+  cursor: default;
+}
+
+.messagebannernamedgroup-text-content span {
+  margin: 0;
+}
+
+.messagebannernamedgroup-text-content span:first-of-type {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.messagebannernamedgroup-text-content span:last-of-type {
+  font-size: var(--font-base-body--size-small);
+}
+
+/* Override default styles of SemanticUI.Popup*/
+.messagebannernamedgroup-member-wrap {
+  top: -15px !important;
+  border-radius: 4px !important;
+  padding: 0 !important;
+  background-color: var(--brandcolor_medium_dark) !important;
+}
+
+/* Override default styles of SemanticUI.Popup.Arrow*/
+.messagebannernamedgroup-member-wrap::before {
+  background-color: var(--brandcolor_medium_dark) !important;
+}
+
+.messagebannernamedgroup-member-list {
+  display: flex;
+  flex-direction: column;
+  max-height: 50vh;
+  width: 300px;
+  overflow-y: auto;
+  max-width: 400px;
+  padding: 26px;
+}
+
+.messagebannernamedgroup-member-list span {
+  color: var(--base__body_fg);
+  font-size: var(--font-base-body--size);
+
+  margin-bottom: 10px;
+}
+
+.messagebannernamedgroup-member-list h6 {
+  margin: 0 0 10px 0;
+
+  color: var(--base__body_fg);
+  font-size: var(--font-base-body--size-medium);
+}

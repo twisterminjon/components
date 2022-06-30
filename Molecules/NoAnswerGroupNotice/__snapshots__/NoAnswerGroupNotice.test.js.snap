@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NoAnswerGroupNotice matches the snapshot 1`] = `
+<div
+  className="noanswergroupnotice-wrap"
+>
+  <div
+    className="noanswergroupnotice-dimmer"
+  />
+  <div
+    className="noanswergroupnotice-content"
+  >
+    <div>
+      <span
+        className="noanswergroupnotice-notice "
+      >
+        No one was available
+      </span>
+      <span
+        className="noanswergroupnotice-notice"
+      >
+        to answer your call.
+      </span>
+      <span
+        className="noanswergroupnotice-notice"
+      >
+        Would you like to retry?
+      </span>
+    </div>
+    <div
+      className="noanswergroupnotice-buttons noanswergroupnotice-buttons-center"
+    >
+      <CancelCallButton
+        ghost={true}
+        onClick={[MockFunction]}
+      />
+      <RetryCallButton
+        onClick={[MockFunction]}
+        showLabel={true}
+        wrapStyle={Object {}}
+      />
+    </div>
+  </div>
+</div>
+`;

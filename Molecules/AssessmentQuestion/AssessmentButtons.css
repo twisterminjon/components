@@ -1,0 +1,12 @@
+.assessment-buttons {
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  background: var(--assessment__bg);
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.assessment-buttons-previous {
+  margin-top: 10px !important;
+}

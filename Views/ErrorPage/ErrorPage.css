@@ -1,0 +1,101 @@
+.errorpage-wrap {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: calc(var(--z-callnotice) + 1);
+}
+
+.errorpage-logo {
+  width: 100px;
+}
+
+.errorpage-content {
+  letter-spacing: 1px;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  position: absolute;
+  color: var(--white);
+}
+
+.errorpage-title {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.errorpage-message {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.errorpage-text {
+  color: #ccc;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.errorpage-list {
+  padding-left: 20px;
+}
+
+.errorpage-list-item {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.errorpage-error-button {
+  position: fixed;
+  bottom: 20px;
+  left: 50vw;
+  right: 50vw;
+
+  font-weight: 300;
+  font-size: 10px;
+  text-align: center;
+  white-space: nowrap;
+
+  color: #607396;
+  background-color: transparent;
+
+  border: none;
+  padding: 2px 4px;
+  outline: none;
+}
+
+.errorpage-error-message {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 60px;
+
+  overflow-y: scroll;
+
+  background-color: var(--brandcolor_dark);
+  opacity: 0.95;
+  font-weight: 300;
+  padding: 10px;
+  border-radius: 6px;
+  z-index: calc(var(--z-callnotice) + 2);
+}
+
+.errorpage-error--show {
+  visibility: visible;
+}
+
+.errorpage-error--hide {
+  visibility: hidden;
+}
+
+.projectpowered-logo {
+  position: fixed;
+  bottom: 35px;
+  left: 49vw;
+  width: 100px;
+}

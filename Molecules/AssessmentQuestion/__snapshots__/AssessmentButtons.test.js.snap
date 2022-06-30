@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AssessmentButtons matches the snapshot 1`] = `
+<div
+  className="assessment-buttons"
+>
+  <Button
+    data-testid="assessment-question-move-forward"
+    disabled={true}
+    fluid={true}
+    loading={true}
+    onClick={[MockFunction]}
+    style={Object {}}
+    type="submit"
+  >
+    Next
+  </Button>
+  <ButtonGhost
+    className="assessment-buttons-previous"
+    data-testid="assessment-question-previous"
+    disabled={true}
+    fluid={true}
+    loading={false}
+    onClick={[MockFunction]}
+    red={false}
+    style={Object {}}
+  >
+    Go back
+  </ButtonGhost>
+</div>
+`;

@@ -1,0 +1,33 @@
+.fileselect-wrap {
+  color: var(--grays_3);
+  background-color: var(--grays_0_1);
+
+  font-size: var(--font-base-body--size-medium);
+  font-weight: var(--font-base--regular);
+
+  width: 100%;
+  height: 100%;
+
+  border: 2px dashed var(--grays_1);
+}
+
+.fileselect-target {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+
+  padding: 24px;
+}
+
+.fileselect-target p {
+  text-align: center;
+}
+
+.fileselect-target-warning {
+  color: var(--accent_color);
+  font-size: var(--font-base-body--size);
+}

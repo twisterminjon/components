@@ -1,0 +1,63 @@
+.messageatt {
+  display: inline-block;
+  font-family: var(--font-message-page--message-bubble-family);
+  font-size: var(--font-message-page--message-bubble-size);
+  font-weight: var(--font-message-page--message-bubble-weight);
+
+  padding: 5px 8px;
+
+  white-space: pre-wrap;
+  cursor: pointer;
+}
+
+.messageatt--sent {
+  background-color: var(--messagepage__sent_file_bg);
+  color: var(--messagepage__sent_fg);
+  border-bottom: 1px solid var(--messagepage__sent_border);
+}
+
+.messageatt--received {
+  background-color: var(--messagepage__received_file_bg);
+  color: var(--messagepage__received_fg);
+  border-bottom: 1px solid var(--messagepage__received_border);
+}
+
+.messageatt-content {
+  margin-bottom: 0;
+  padding: 5px 0;
+}
+
+.messageatt-content span {
+  margin-right: 60px;
+}
+
+.messageatt-timestamp {
+  transition: max-height 0.4s ease-out;
+  max-height: 0;
+}
+
+.messageatt-timestamp--show {
+  max-height: 50px;
+}
+
+.messageatt-timestamp-text {
+  font-size: 12px;
+  color: var(--messagepage__timestamp_fg);
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.messageatt-filename {
+  color: var(--messagepage__sent_fg);
+}
+
+.messageatt-filename p {
+  padding: 5px 0;
+  font-size: var(--font-message-page--message-bubble-size);
+  margin: 0 10px;
+}
+
+.messageatt-loader {
+  z-index: 0 !important;
+  margin-left: 5px !important;
+}

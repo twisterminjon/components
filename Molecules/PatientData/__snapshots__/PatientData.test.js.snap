@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PatientData matches the snapshot 1`] = `
+<div
+  className="patientdata-wrap "
+  style={Object {}}
+>
+  <span
+    className="patientdata-title"
+    data-testid="ro-read-only-test-label"
+  >
+    test
+    <p
+      className="patientdata-alert-message"
+      data-testid="ro-read-only-test-alert"
+    />
+  </span>
+  <span
+    className="patientdata-data"
+    data-testid="ro-read-only-test-value"
+  >
+    test text
+  </span>
+</div>
+`;

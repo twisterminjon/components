@@ -1,0 +1,65 @@
+.modaltoast-wrap {
+  /* This required to handle the height animation, w/o the padding on the content will show  */
+  position: fixed;
+  width: 375px;
+  height: 0;
+  overflow-y: hidden;
+
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+
+  transition: height 200ms ease-out;
+  z-index: var(--z-modal);
+}
+
+.modaltoast-dimmer {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.75);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  z-index: calc(var(--z-modal) - 1);
+}
+
+.modaltoast {
+  position: relative;
+  color: white;
+
+  width: 375px;
+  padding: 16px 16px 30px 16px;
+
+  background: var(--toastmodal_bg);
+
+  border-bottom-left-radius: 38px;
+  border-bottom-right-radius: 38px;
+}
+
+.modaltoast--show {
+  height: 100%;
+  transition: height 200ms ease-in;
+  overflow: visible;
+}
+
+.modaltoastheader h3 {
+  color: var(--white);
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 15px !important;
+}
+
+.modaltoasttext {
+  width: 100%;
+  text-align: center;
+  white-space: pre-wrap;
+  color: var(--brandcolor);
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 15px !important;
+}
+
+.modaltoastbutton {
+  margin-bottom: 5px !important;
+}

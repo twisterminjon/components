@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoSmallAddCaller matches the snapshot 1`] = `
+<Fragment>
+  <div
+    className="videosmall-wrap"
+  >
+    <div
+      className="videosmall-video-wrap videosmall-video-placeholder "
+    >
+      <div
+        className="videosmall-dimmer "
+      />
+      <span
+        className="videosmall-add-caller-label"
+      >
+        Inviting
+      </span>
+      <span
+        className="videosmall-add-caller-label"
+      >
+        Werner Von Braun
+      </span>
+    </div>
+  </div>
+</Fragment>
+`;

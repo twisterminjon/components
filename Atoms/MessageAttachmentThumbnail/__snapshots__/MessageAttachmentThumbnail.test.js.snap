@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessageAttachmentThumbnail matches the snapshot 1`] = `
+<div
+  className="messageattachmentthumbnail messageattachmentthumbnail--received"
+  onClick={[MockFunction]}
+  style={Object {}}
+>
+  <img
+    alt="attachment"
+    src="https://www.fillmurray.com/800/1200"
+  />
+  <div
+    className="messagethumbnail-timestamp"
+  >
+    <span
+      className="messagethumbnail-timestamp-text"
+    >
+      1:30 PM
+    </span>
+    <Loader
+      className="messagethumbnail-loader"
+      inline={true}
+      inverted={true}
+      size="mini"
+    />
+  </div>
+</div>
+`;
+
+exports[`MessageAttachmentThumbnail matches the snapshot for sending 1`] = `
+<div
+  className="messageattachmentthumbnail"
+  onClick={[MockFunction]}
+  style={Object {}}
+>
+  <img
+    alt="attachment"
+    src="https://www.fillmurray.com/800/1200"
+  />
+  <div
+    className="messagethumbnail-timestamp"
+  >
+    <span
+      className="messagethumbnail-timestamp-text"
+    >
+      1:30 PM
+    </span>
+    <Loader
+      active={true}
+      className="messagethumbnail-loader"
+      inline={true}
+      inverted={true}
+      size="mini"
+    />
+  </div>
+</div>
+`;

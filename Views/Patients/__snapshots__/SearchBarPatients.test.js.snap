@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBarPatients matches the snapshot 1`] = `
+<div
+  className="patients-searchbar-wrap undefined"
+>
+  <SearchBar
+    className=""
+    focusOnMount={true}
+    onChange={[MockFunction]}
+    style={Object {}}
+    value="searchTerm"
+  />
+  <AddButton
+    className="patients-addbutton"
+    data-testid="patient-add"
+    onClick={[MockFunction]}
+  />
+</div>
+`;

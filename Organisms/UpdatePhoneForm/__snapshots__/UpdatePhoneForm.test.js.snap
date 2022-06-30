@@ -1,0 +1,297 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UpdatePhoneForm matches the snapshot 1`] = `
+<Modal
+  basic={true}
+  centered={false}
+  closeOnDimmerClick={true}
+  closeOnDocumentClick={false}
+  dimmer={true}
+  eventPool="Modal"
+  onClose={[Function]}
+  open={true}
+  size="tiny"
+>
+  <div
+    className="updatephoneform"
+    data-testid="updatephoneform"
+  >
+    <h1
+      data-testid="updatephoneform-title"
+    >
+      Update Phone Number
+    </h1>
+    <ModalContent>
+      <ModalDescription>
+        <div
+          className="updatephoneform-input"
+        >
+          <PhoneInput
+            alertMessage=""
+            data-testid="updatephoneform-input"
+            disabled={false}
+            displayOnly={false}
+            errorMessage=""
+            hasError={false}
+            hintMessage=""
+            hintText=""
+            key="update-phone-input"
+            label="Phone Number"
+            name="phone"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onKeyPress={[Function]}
+            onValueInit={[Function]}
+            placeholder=""
+            required={false}
+            value="+17272622331"
+          />
+        </div>
+      </ModalDescription>
+      <ModalActions>
+        <Button
+          className="updatephoneform-button"
+          data-testid="updatephoneform-button-continue"
+          disabled={true}
+          fluid={true}
+          loading={false}
+          onClick={[Function]}
+          size="big"
+          style={Object {}}
+          type="submit"
+        >
+          Continue
+        </Button>
+        <ButtonGhost
+          className="updatephoneform-button"
+          data-testid="updatephoneform-button-cancel"
+          fluid={true}
+          onClick={[Function]}
+          red={false}
+          size="big"
+          style={Object {}}
+        >
+          Cancel
+        </ButtonGhost>
+      </ModalActions>
+    </ModalContent>
+  </div>
+</Modal>
+`;
+
+exports[`UpdatePhoneForm matches the snapshot when getting phone 1`] = `
+<Modal
+  basic={true}
+  centered={false}
+  closeOnDimmerClick={true}
+  closeOnDocumentClick={false}
+  dimmer={true}
+  eventPool="Modal"
+  onClose={[Function]}
+  open={true}
+  size="tiny"
+>
+  <div
+    className="updatephoneform"
+    data-testid="updatephoneform"
+  >
+    <h1
+      data-testid="updatephoneform-title"
+    >
+      Update Phone Number
+    </h1>
+    <ModalContent>
+      <ModalDescription>
+        <SpinnerDots
+          className="updatephoneform-loader"
+          style={Object {}}
+        />
+      </ModalDescription>
+      <ModalActions>
+        <Button
+          className="updatephoneform-button"
+          data-testid="updatephoneform-button-continue"
+          disabled={true}
+          fluid={true}
+          loading={false}
+          onClick={[Function]}
+          size="big"
+          style={Object {}}
+          type="submit"
+        >
+          Continue
+        </Button>
+        <ButtonGhost
+          className="updatephoneform-button"
+          data-testid="updatephoneform-button-cancel"
+          fluid={true}
+          onClick={[Function]}
+          red={false}
+          size="big"
+          style={Object {}}
+        >
+          Cancel
+        </ButtonGhost>
+      </ModalActions>
+    </ModalContent>
+  </div>
+</Modal>
+`;
+
+exports[`UpdatePhoneForm matches the snapshot when hidden 1`] = `
+<Modal
+  basic={true}
+  centered={false}
+  closeOnDimmerClick={true}
+  closeOnDocumentClick={false}
+  dimmer={true}
+  eventPool="Modal"
+  onClose={[Function]}
+  open={false}
+  size="tiny"
+>
+  <div
+    className="updatephoneform"
+    data-testid="updatephoneform"
+  >
+    <h1
+      data-testid="updatephoneform-title"
+    >
+      Update Phone Number
+    </h1>
+    <ModalContent>
+      <ModalDescription>
+        <div
+          className="updatephoneform-input"
+        >
+          <PhoneInput
+            alertMessage=""
+            data-testid="updatephoneform-input"
+            disabled={false}
+            displayOnly={false}
+            errorMessage=""
+            hasError={false}
+            hintMessage=""
+            hintText=""
+            key="update-phone-input"
+            label="Phone Number"
+            name="phone"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onKeyPress={[Function]}
+            onValueInit={[Function]}
+            placeholder=""
+            required={false}
+            value="+17272622331"
+          />
+        </div>
+      </ModalDescription>
+      <ModalActions>
+        <Button
+          className="updatephoneform-button"
+          data-testid="updatephoneform-button-continue"
+          disabled={true}
+          fluid={true}
+          loading={false}
+          onClick={[Function]}
+          size="big"
+          style={Object {}}
+          type="submit"
+        >
+          Continue
+        </Button>
+        <ButtonGhost
+          className="updatephoneform-button"
+          data-testid="updatephoneform-button-cancel"
+          fluid={true}
+          onClick={[Function]}
+          red={false}
+          size="big"
+          style={Object {}}
+        >
+          Cancel
+        </ButtonGhost>
+      </ModalActions>
+    </ModalContent>
+  </div>
+</Modal>
+`;
+
+exports[`UpdatePhoneForm matches the snapshot when saving phone 1`] = `
+<Modal
+  basic={true}
+  centered={false}
+  closeOnDimmerClick={true}
+  closeOnDocumentClick={false}
+  dimmer={true}
+  eventPool="Modal"
+  onClose={[Function]}
+  open={true}
+  size="tiny"
+>
+  <div
+    className="updatephoneform"
+    data-testid="updatephoneform"
+  >
+    <h1
+      data-testid="updatephoneform-title"
+    >
+      Update Phone Number
+    </h1>
+    <ModalContent>
+      <ModalDescription>
+        <div
+          className="updatephoneform-input"
+        >
+          <PhoneInput
+            alertMessage=""
+            data-testid="updatephoneform-input"
+            disabled={false}
+            displayOnly={false}
+            errorMessage=""
+            hasError={false}
+            hintMessage=""
+            hintText=""
+            key="update-phone-input"
+            label="Phone Number"
+            name="phone"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onKeyPress={[Function]}
+            onValueInit={[Function]}
+            placeholder=""
+            required={false}
+            value="+17272622331"
+          />
+        </div>
+      </ModalDescription>
+      <ModalActions>
+        <Button
+          className="updatephoneform-button"
+          data-testid="updatephoneform-button-continue"
+          disabled={true}
+          fluid={true}
+          loading={true}
+          onClick={[Function]}
+          size="big"
+          style={Object {}}
+          type="submit"
+        >
+          Continue
+        </Button>
+        <ButtonGhost
+          className="updatephoneform-button"
+          data-testid="updatephoneform-button-cancel"
+          fluid={true}
+          onClick={[Function]}
+          red={false}
+          size="big"
+          style={Object {}}
+        >
+          Cancel
+        </ButtonGhost>
+      </ModalActions>
+    </ModalContent>
+  </div>
+</Modal>
+`;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonIcon matches the snapshot 1`] = `
+<button
+  className="ui icon button "
+  content="label"
+  onBlur={[Function]}
+  onClick={[MockFunction]}
+  onFocus={[Function]}
+  onMouseDown={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  style={
+    Object {
+      "backgroundColor": "transparent",
+      "border": "1px solid rgba(0,0,0,0)",
+      "color": "var(--brandcolor)",
+    }
+  }
+/>
+`;

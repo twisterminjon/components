@@ -1,0 +1,48 @@
+.favbar-wrap {
+  position: fixed;
+  top: var(--header-height);
+  width: 100%;
+  height: var(--favbar-height);
+  z-index: 10;
+  background-color: var(--favbar_bg);
+  display: flex;
+  align-items: center;
+}
+
+.favbar-placeholder {
+  color: var(--favbar__placeholder_fg);
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.favbar-arrow-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: 0 6px;
+  display: flex;
+  align-items: center;
+}
+
+.favbar-arrow-left-container {
+  left: 0;
+}
+
+.favbar-arrow-right-container {
+  right: 0;
+}
+
+.favbar-favs {
+  display: flex;
+  align-items: flex-start;
+  padding: 0 40px;
+}
+
+.favbar--row {
+  display: flex;
+  flex-direction: row;
+}
+
+.favbar--arrow-padding {
+  padding-left: 44px;
+}

@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProfileImageUploadModal matches the snapshot for showOptions 1`] = `
+<div
+  className="profileimageuploadmodal-dimmer-screen"
+  data-testid="page-pic-upload"
+>
+  <div
+    className="profileimageuploadmodal-wrap"
+  >
+    <div
+      className="profileimageuploadmodal-header"
+    >
+      <span
+        className="profileimageuploadmodal-text"
+      >
+        Add profile picture
+      </span>
+      <button
+        className="button-reset profileimageuploadmodal-close"
+        data-testid="button-close-upload"
+        onClick={[MockFunction]}
+      >
+        <IconTimes
+          color="var(--base__body_fg)"
+          size={20}
+        />
+      </button>
+    </div>
+    <div
+      className="profileimageuploadmodal-content"
+    >
+      <FileSelect
+        onClose={[MockFunction]}
+        onRejected={[Function]}
+        onSelected={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ProfileImageUploadModal matches the snapshot when hidden 1`] = `
+<div
+  className="profileimageuploadmodal-dimmer-screen"
+  data-testid="page-pic-upload"
+>
+  <div
+    className="profileimageuploadmodal-wrap"
+  >
+    <div
+      className="profileimageuploadmodal-header"
+    >
+      <span
+        className="profileimageuploadmodal-text"
+      >
+        Add profile picture
+      </span>
+      <button
+        className="button-reset profileimageuploadmodal-close"
+        data-testid="button-close-upload"
+        onClick={[MockFunction]}
+      >
+        <IconTimes
+          color="var(--base__body_fg)"
+          size={20}
+        />
+      </button>
+    </div>
+    <div
+      className="profileimageuploadmodal-content"
+    >
+      <FileSelect
+        onClose={[MockFunction]}
+        onRejected={[Function]}
+        onSelected={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ProfileImageUploadModal matches the snapshot when shown 1`] = `
+<div
+  className="profileimageuploadmodal-dimmer-screen"
+  data-testid="page-pic-upload"
+>
+  <div
+    className="profileimageuploadmodal-wrap"
+  >
+    <div
+      className="profileimageuploadmodal-header"
+    >
+      <span
+        className="profileimageuploadmodal-text"
+      >
+        Add profile picture
+      </span>
+      <button
+        className="button-reset profileimageuploadmodal-close"
+        data-testid="button-close-upload"
+        onClick={[MockFunction]}
+      >
+        <IconTimes
+          color="var(--base__body_fg)"
+          size={20}
+        />
+      </button>
+    </div>
+    <div
+      className="profileimageuploadmodal-content"
+    >
+      <FileSelect
+        onClose={[MockFunction]}
+        onRejected={[Function]}
+        onSelected={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;

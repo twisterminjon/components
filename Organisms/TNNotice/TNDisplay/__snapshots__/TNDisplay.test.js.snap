@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TNDisplay matches the snapshot when would be shown on menu 1`] = `
+<div
+  className="tndisplay"
+  data-testid="tndisplay"
+>
+  <h1>
+    Terms & Notices
+  </h1>
+  <p>
+    Terms & Notices text
+  </p>
+  <div
+    className="tndisplay-controls"
+  >
+    <div
+      className="tndisplay-btn"
+    >
+      <TextButton
+        className=""
+        content="Disagree"
+        data-testid="tndisplay-disagree-button"
+        fluid={true}
+        onClick={[MockFunction]}
+        style={Object {}}
+      />
+    </div>
+    <div
+      className="tndisplay-btn"
+    >
+      <Button
+        data-testid="tndisplay-agree-button"
+        disabled={false}
+        fluid={true}
+        loading={false}
+        name="agree"
+        onClick={[MockFunction]}
+        style={Object {}}
+        type="submit"
+      >
+        Return
+      </Button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TNDisplay matches the snapshot when would be shown on welcome/update 1`] = `
+<div
+  className="tndisplay"
+  data-testid="tndisplay"
+>
+  <h1>
+    Terms & Notices
+  </h1>
+  <p>
+    Terms & Notices text
+  </p>
+  <div
+    className="tndisplay-controls"
+  >
+    <div
+      className="tndisplay-btn"
+    >
+      <TextButton
+        className=""
+        content="Disagree"
+        data-testid="tndisplay-disagree-button"
+        fluid={true}
+        onClick={[MockFunction]}
+        style={Object {}}
+      />
+    </div>
+    <div
+      className="tndisplay-btn"
+    >
+      <Button
+        data-testid="tndisplay-agree-button"
+        disabled={false}
+        fluid={true}
+        loading={false}
+        name="agree"
+        onClick={[MockFunction]}
+        style={Object {}}
+        type="submit"
+      >
+        Agree
+      </Button>
+    </div>
+  </div>
+</div>
+`;

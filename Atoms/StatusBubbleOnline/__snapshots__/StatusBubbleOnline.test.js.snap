@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatusBubbleOnline matches the snapshot - always show 1`] = `
+<div
+  className="statusbubbleonline statusbubbleonline--online"
+  style={Object {}}
+/>
+`;
+
+exports[`StatusBubbleOnline matches the snapshot - offline 1`] = `
+<div
+  className="statusbubbleonline statusbubbleonline--offline"
+  style={Object {}}
+/>
+`;
+
+exports[`StatusBubbleOnline matches the snapshot - online 1`] = `
+<div
+  className="statusbubbleonline statusbubbleonline--hide"
+  style={Object {}}
+/>
+`;

@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectSideBar matches the snapshot 1`] = `
+<div>
+  <div
+    className="selectsidebar-panel"
+  />
+  <div
+    className="selectsidebar-wrap"
+  >
+    <div
+      className="select-side-bar-menu"
+    >
+      <SectionTitle
+        buttonClassName=""
+        className=""
+        hint=""
+        label="CLOSE"
+        onButtonClick={[MockFunction]}
+        style={
+          Object {
+            "marginBottom": 10,
+          }
+        }
+        title="Help me"
+      />
+      <Input
+        data-testid="sidebar-search-input"
+        fluid={true}
+        onChange={[Function]}
+        placeholder="Search..."
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="selectsidebar-list"
+    >
+      <ul>
+        <li
+          className="select-side-bar--item"
+          data-testid="select-item-X-wing"
+          key="0"
+          onClick={[Function]}
+        >
+          X-wing
+        </li>
+        <li
+          className="select-side-bar--item"
+          data-testid="select-item-Tie Fighter"
+          key="1"
+          onClick={[Function]}
+        >
+          Tie Fighter
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

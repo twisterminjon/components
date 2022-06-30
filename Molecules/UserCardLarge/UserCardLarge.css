@@ -1,0 +1,30 @@
+.usercardlarge {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 230px;
+  width: 100%;
+}
+
+.usercardlarge-avatar {
+  margin-bottom: 32px;
+}
+
+.usercardlarge-action {
+  color: var(--brandcolor);
+  font-size: 16px;
+  margin-bottom: 18px;
+}
+
+.usercardlarge-name {
+  color: var(--white);
+  font-size: 36px;
+  margin-bottom: 18px;
+}
+
+.usercardlarge-title {
+  color: var(--white);
+  font-size: 24px;
+}

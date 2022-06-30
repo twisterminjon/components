@@ -1,0 +1,77 @@
+.toastmessage {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+  top: 0;
+
+  z-index: var(--z-network-message);
+}
+
+.toastmessage-dimmer {
+  position: fixed;
+  top: var(--network-message-height);
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+
+  z-index: var(--z-network-message);
+}
+
+.toastmessage--error {
+  background-color: var(--network_message__error);
+}
+
+.toastmessage--warning {
+  background-color: var(--network_message__warning);
+}
+
+.toastmessage--info {
+  background-color: var(--network_message__info);
+}
+
+.toastmessage--show {
+  height: var(--network-message-height);
+  transition: height 200ms ease-out;
+}
+
+.toastmessage--hide {
+  height: 0;
+  transition: height 200ms ease-in;
+}
+
+.toastmessage-dimmer--show {
+  height: 100%;
+  transition-delay: 100ms;
+}
+
+.toastmessage-dimmer--hide {
+  top: 0;
+  height: 0;
+}
+
+.toastmessage-button-wrap {
+  position: absolute;
+  right: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: var(--network-message-height);
+  width: var(--network-message-height);
+
+  cursor: pointer;
+
+  /* clear button styles */
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.toastmessage-close-icon {
+  width: 16px;
+}

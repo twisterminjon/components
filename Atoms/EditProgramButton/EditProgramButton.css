@@ -1,0 +1,26 @@
+.editprogrambutton-button {
+  position: relative;
+  background-color: transparent;
+  color: var(--white);
+  border-radius: 4px;
+  border: none;
+  outline: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.editprogrambutton-button:hover {
+  background-color: var(--button_color_hover);
+}
+
+.editprogrambutton-button:active {
+  background-color: var(--button_color_pressed);
+}
+
+.editprogrambutton-button:disabled,
+.editprogrambutton-button[disabled] {
+  color: var(--button_color_disabled);
+  background-color: transparent;
+}

@@ -1,0 +1,46 @@
+.tnnotice {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: var(--termsandnotices_bg);
+  z-index: var(--z-terms-and-notices);
+}
+
+.tnnotice h1 {
+  text-align: center;
+  color: var(--termsandnotices_fg);
+  font-size: var(--font-base-headline--size);
+  font-weight: var(--font-base--bold);
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.tnnotice-content {
+  width: 100%;
+  max-width: 400px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tnnotice p {
+  text-align: center;
+  color: var(--termsandnotices_fg);
+  font-size: var(--font-base-body--size);
+  padding: 20px;
+}
+
+.tnnotice-controls {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+}

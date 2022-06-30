@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextQuestion matches the snapshot 1`] = `
+<div
+  className="assessment-text-answer"
+>
+  <TextArea
+    as="textarea"
+    className="assessment-text"
+    data-testid="assessment-text"
+    maxLength={475}
+    onChange={[Function]}
+    rows={8}
+    value=""
+  />
+  <CharacterCounter
+    maxLength={475}
+    style={
+      Object {
+        "marginTop": 6,
+      }
+    }
+    text=""
+  />
+</div>
+`;

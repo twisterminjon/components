@@ -1,0 +1,50 @@
+.unauthorizedpage-wrap {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: calc(var(--z-callnotice) + 1);
+}
+
+.unauthorizedpage-logo {
+  width: 100px;
+}
+
+.unauthorizedpage-content {
+  letter-spacing: 1px;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  position: absolute;
+  color: var(--white);
+}
+
+.unauthorizedpage-title {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.unauthorizedpage-message {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.unauthorizedpage-text {
+  color: #ccc;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.unauthorizedpage-list {
+  padding-left: 20px;
+}
+
+.unauthorizedpage-list-item {
+  font-weight: 300;
+  font-size: 12px;
+}

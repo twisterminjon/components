@@ -1,0 +1,45 @@
+.menuitem {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  font-size: 16px;
+  font-weight: 300 !important;
+  font-family: var(--font-stack);
+  height: 44px;
+  width: 100%;
+
+  color: var(--menu__item_fg);
+  background-color: var(--menu__item_bg);
+
+  padding: 0 15px 0 20px;
+  text-align: left;
+  cursor: pointer;
+
+  /* remove button styles */
+  text-transform: none;
+  text-shadow: none;
+  font-weight: 700;
+  line-height: 1em;
+  font-style: normal;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+.menuitem:hover {
+  background-color: var(--menu__item_hover_bg);
+}
+
+.menuitem:focus {
+  background-color: var(--menu__item_hover_bg);
+}
+
+.menuitem:active {
+  background-color: var(--menu__item_active_bg);
+}
+
+.menuitem-label {
+  flex: 1;
+}

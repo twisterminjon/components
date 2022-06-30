@@ -1,0 +1,13 @@
+.selectpane-item {
+  color: var(--selectpane_fg);
+  font-weight: bold;
+  font-size: 18px;
+  padding: 18px 0 18px 2.5rem;
+  width: 100%;
+}
+
+.selectpane-item:hover {
+  color: var(--selectpane_bg);
+  background-color: var(--selectpane_fg);
+  cursor: pointer;
+}

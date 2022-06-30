@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextAreaInput matches the snapshot 1`] = `
+<div
+  className="textareainput-wrapper  "
+  style={Object {}}
+>
+  <div
+    className="textareainput-label-wrapper"
+  >
+    <InputLabel
+      htmlFor="test-item-input"
+      id="test-item-label"
+      label="Klingon"
+    />
+  </div>
+  <TextInputFieldArea
+    aria-describedby="test-item-hint"
+    aria-labelledby="test-item-label"
+    className=""
+    hasError={false}
+    id="test-item-input"
+    name="test-item"
+    onChange={[Function]}
+    style={Object {}}
+    value="Worf"
+  />
+  <InputMessage
+    message="It is busted"
+    show={false}
+  />
+</div>
+`;

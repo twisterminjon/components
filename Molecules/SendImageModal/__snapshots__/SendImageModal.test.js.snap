@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SendImageModal matches the snapshot when hidden 1`] = `
+<div
+  className="sendimagemodal-dimmer-screen"
+  data-testid="send-image-modal"
+>
+  <div
+    className="sendimagemodal-wrap"
+  >
+    <div
+      className="sendimagemodal-header"
+    >
+      <span
+        className="sendimagemodal-text"
+      >
+        Crop Image
+      </span>
+      <button
+        className="button-reset sendimagemodal-close"
+        data-testid="button-close-send-image"
+        onClick={[MockFunction]}
+      >
+        <IconTimes
+          color="var(--base__body_fg)"
+          size={20}
+        />
+      </button>
+    </div>
+    <div
+      className="sendimagemodal-content"
+    />
+    <div
+      className="sendimagemodal-footer"
+    >
+      <Button
+        data-testid="send-image"
+        disabled={true}
+        fluid={true}
+        onClick={[Function]}
+        style={Object {}}
+        type="submit"
+      >
+        Send
+      </Button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SendImageModal matches the snapshot when shown 1`] = `
+<div
+  className="sendimagemodal-dimmer-screen sendimagemodal-visible"
+  data-testid="send-image-modal"
+>
+  <div
+    className="sendimagemodal-wrap"
+  >
+    <div
+      className="sendimagemodal-header"
+    >
+      <span
+        className="sendimagemodal-text"
+      >
+        Crop Image
+      </span>
+      <button
+        className="button-reset sendimagemodal-close"
+        data-testid="button-close-send-image"
+        onClick={[MockFunction]}
+      >
+        <IconTimes
+          color="var(--base__body_fg)"
+          size={20}
+        />
+      </button>
+    </div>
+    <div
+      className="sendimagemodal-content"
+    />
+    <div
+      className="sendimagemodal-footer"
+    >
+      <Button
+        data-testid="send-image"
+        disabled={true}
+        fluid={true}
+        onClick={[Function]}
+        style={Object {}}
+        type="submit"
+      >
+        Send
+      </Button>
+    </div>
+  </div>
+</div>
+`;

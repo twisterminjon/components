@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CaregiverAccessCode matches the snapshot 1`] = `
+<div
+  className="caregiveraccesscode"
+  style={Object {}}
+>
+  <div
+    className="caregiveraccesscode--col"
+  >
+    <p>
+      Login Key
+    </p>
+    <div
+      className="caregiveraccesscode-code"
+    >
+      <span
+        className=""
+      >
+        12345
+      </span>
+    </div>
+  </div>
+  <div>
+    <ButtonGhost
+      className=""
+      fluid={false}
+      loading={false}
+      onClick={[MockFunction]}
+      red={false}
+      style={Object {}}
+    >
+      New Code
+    </ButtonGhost>
+  </div>
+</div>
+`;
+
+exports[`CaregiverAccessCode matches the snapshot when code is null 1`] = `
+<div
+  className="caregiveraccesscode"
+  style={Object {}}
+>
+  <div
+    className="caregiveraccesscode--col"
+  >
+    <p>
+      Login Key
+    </p>
+    <div
+      className="caregiveraccesscode-code"
+    >
+      <span
+        className="patientaccesscode--strike"
+      >
+        XXXXX
+      </span>
+      <span
+        className="caregiveraccesscode-expired"
+      >
+        expired
+      </span>
+    </div>
+  </div>
+  <div>
+    <ButtonGhost
+      className=""
+      fluid={false}
+      loading={false}
+      onClick={[MockFunction]}
+      red={false}
+      style={Object {}}
+    >
+      New Code
+    </ButtonGhost>
+  </div>
+</div>
+`;
+
+exports[`CaregiverAccessCode matches the snapshot when expired 1`] = `
+<div
+  className="caregiveraccesscode"
+  style={Object {}}
+>
+  <div
+    className="caregiveraccesscode--col"
+  >
+    <p>
+      Login Key
+    </p>
+    <div
+      className="caregiveraccesscode-code"
+    >
+      <span
+        className="patientaccesscode--strike"
+      >
+        XXXXX
+      </span>
+      <span
+        className="caregiveraccesscode-expired"
+      >
+        expired
+      </span>
+    </div>
+  </div>
+  <div>
+    <ButtonGhost
+      className=""
+      fluid={false}
+      loading={false}
+      onClick={[MockFunction]}
+      red={false}
+      style={Object {}}
+    >
+      New Code
+    </ButtonGhost>
+  </div>
+</div>
+`;
+
+exports[`CaregiverAccessCode matches the snapshot when loading 1`] = `
+<div
+  className="caregiveraccesscode"
+  style={Object {}}
+>
+  <div
+    className="caregiveraccesscode--col"
+  >
+    <p>
+      Login Key
+    </p>
+    <div
+      className="caregiveraccesscode-code"
+    >
+      <span
+        className=""
+      >
+        12345
+      </span>
+    </div>
+  </div>
+  <div>
+    <ButtonGhost
+      className=""
+      fluid={false}
+      loading={true}
+      onClick={[MockFunction]}
+      red={false}
+      style={Object {}}
+    >
+      New Code
+    </ButtonGhost>
+  </div>
+</div>
+`;

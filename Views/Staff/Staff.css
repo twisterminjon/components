@@ -1,0 +1,14 @@
+.staff {
+  height: 100%;
+  background-color: var(--staffpage_bg);
+  padding-top: var(--searchbar-height);
+}
+
+.staff-searchbar {
+  position: absolute;
+  top: var(--header-height);
+}
+
+.staff-list {
+  height: calc(100% - var(--header-height));
+}

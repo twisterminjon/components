@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AnswerCallButton matches the snapshot 1`] = `
+<div
+  className="answercallbutton-wrap"
+>
+  <CallButton
+    color="#8FFF23"
+    dimmed={false}
+    disabled={false}
+    ghost={false}
+    ghostOpacity={0}
+    name="answer-call"
+    onClick={[MockFunction]}
+    size="medium"
+  >
+    <IconAnswerCall
+      className=""
+      color="black"
+      style={Object {}}
+    />
+  </CallButton>
+  <CallButtonLabel
+    text="Accept"
+  />
+</div>
+`;

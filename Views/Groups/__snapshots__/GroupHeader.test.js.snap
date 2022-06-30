@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GroupHeader matches the snapshot 1`] = `
+<div
+  className="groupheader-wrap"
+>
+  <button
+    className="groupheader-backbutton-container"
+    onClick={[MockFunction]}
+  >
+    <IconChevronLeft
+      color="var(--grouppage__header_fg)"
+    />
+  </button>
+  <div
+    className="groupheader-groupname-container"
+  >
+    <span
+      className="groupheader-groupname"
+    >
+      Rheumatism therapy
+    </span>
+  </div>
+</div>
+`;

@@ -1,0 +1,24 @@
+.attachments-handler {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--messagepage_bg);
+
+  z-index: var(--z-message-image-view);
+  visibility: hidden;
+  transform: scale(0.9);
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.attachments-handler-visible {
+  visibility: visible;
+  transform: scale(1);
+  opacity: 1;
+}

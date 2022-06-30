@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgramTag matches the snapshot 1`] = `
+<div
+  className="programtag programtag--fluid   "
+  data-testid="programtag-Legit"
+  style={Object {}}
+>
+  <div
+    className="programtag-checkboxcontainer"
+  >
+    <IconSquareOpenSmall
+      color="var(--checkbox__icon_enabled_fg)"
+      style={
+        Object {
+          "display": "block",
+        }
+      }
+    />
+  </div>
+  <div
+    className="programtag-textcontainer"
+  >
+    <span
+      data-testid="programtag-Legit-text"
+    >
+      Legit
+    </span>
+  </div>
+  <EditProgramButton
+    className="programtag-button"
+    data-testid="programtag-Legit-edit-button"
+    disabled={false}
+    onClick={[Function]}
+  />
+</div>
+`;
+
+exports[`ProgramTag matches the snapshot when inActive 1`] = `
+<div
+  className="programtag programtag--fluid programtag--inactive  "
+  data-testid="programtag-Legit"
+  style={Object {}}
+>
+  <div
+    className="programtag-checkboxcontainer"
+  >
+    <IconSquareOpenSmall
+      color="var(--checkbox__icon_disabled_fg)"
+      style={
+        Object {
+          "display": "block",
+        }
+      }
+    />
+  </div>
+  <div
+    className="programtag-textcontainer"
+  >
+    <span
+      data-testid="programtag-Legit-text"
+    >
+      Legit
+    </span>
+  </div>
+  <EditProgramButton
+    className="programtag-button"
+    data-testid="programtag-Legit-edit-button"
+    disabled={false}
+    onClick={[Function]}
+  />
+</div>
+`;

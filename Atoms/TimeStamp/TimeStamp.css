@@ -1,0 +1,12 @@
+.timestamp {
+  font-size: 12px;
+  color: var(--messagepage__usercardthread_read_fg);
+  padding: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.timestamp--right {
+  margin-left: auto;
+}

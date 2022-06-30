@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TagSection matches the snapshot 1`] = `
+<Fragment>
+  <ModalYesNo
+    defaultIsConfirm={false}
+    icon="delete"
+    message="Clicking Yes will remove the item."
+    onNo={[Function]}
+    onYes={[Function]}
+    show={false}
+    title="Do you want to remove '\\"?"
+  />
+  <ModalYesNo
+    defaultIsConfirm={true}
+    icon="question"
+    message="Clicking Yes will add the item."
+    onNo={[Function]}
+    onYes={[Function]}
+    show={false}
+    title="Do you want to add '\\"?"
+  />
+  <div
+    className="tag-section-wrapper "
+    style={Object {}}
+  >
+    <SelectSideBar
+      list={
+        Array [
+          Object {
+            "id": "2",
+            "name": "Y-Wing",
+          },
+        ]
+      }
+      loading={false}
+      onCancel={[Function]}
+      onSelect={[Function]}
+      show={false}
+      title="Ships"
+    />
+    <TagCloud
+      TagView={[Function]}
+      data-testid="tag-cloud-Ships"
+      loading={false}
+      onTagDelete={[Function]}
+      sectionStyle={Object {}}
+      tags={
+        Array [
+          Object {
+            "id": "1",
+            "isActive": true,
+            "name": "Tie Fighter",
+          },
+          Object {
+            "id": "0",
+            "isActive": true,
+            "name": "X-wing",
+          },
+        ]
+      }
+      vertical={true}
+    />
+  </div>
+</Fragment>
+`;

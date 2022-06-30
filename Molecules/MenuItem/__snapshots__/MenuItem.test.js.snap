@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuItem matches the snapshot 1`] = `
+<button
+  className="menuitem"
+  data-testid="button-menu-test"
+  onClick={[MockFunction]}
+  style={Object {}}
+>
+  <span
+    className="menuitem-label"
+  >
+    test
+  </span>
+</button>
+`;

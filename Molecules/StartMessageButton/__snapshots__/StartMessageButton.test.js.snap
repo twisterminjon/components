@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StartMessageButton matches the snapshot with no type 1`] = `
+<div
+  className="startmessagebutton-wrap"
+>
+  <CallButton
+    color="var(--brandcolor)"
+    dimmed={false}
+    disabled={false}
+    ghost={false}
+    ghostOpacity={0}
+    name="start-message"
+    onClick={[MockFunction]}
+    size="small"
+  >
+    <IconMessage
+      className=""
+      color="black"
+      size={29}
+      style={
+        Object {
+          "transform": "scale(0.7)",
+        }
+      }
+    />
+  </CallButton>
+</div>
+`;
+
+exports[`StartMessageButton matches the snapshot with type="ondemand" 1`] = `
+<div
+  className="startmessagebutton-wrap"
+>
+  <CallButton
+    color="var(--brandcolor)"
+    dimmed={false}
+    disabled={false}
+    ghost={false}
+    ghostOpacity={0}
+    name="start-message"
+    onClick={[MockFunction]}
+    size="small"
+  >
+    <IconMessage
+      className=""
+      color="black"
+      size={29}
+      style={
+        Object {
+          "transform": "scale(0.7)",
+        }
+      }
+    />
+  </CallButton>
+</div>
+`;
+
+exports[`StartMessageButton matches the snapshot with type="secure" 1`] = `
+<div
+  className="startmessagebutton-wrap"
+>
+  <CallButton
+    color="var(--brandcolor)"
+    dimmed={false}
+    disabled={false}
+    ghost={false}
+    ghostOpacity={0}
+    name="start-message"
+    onClick={[MockFunction]}
+    size="small"
+  >
+    <IconMessage
+      className=""
+      color="black"
+      size={29}
+      style={
+        Object {
+          "transform": "scale(0.7)",
+        }
+      }
+    />
+  </CallButton>
+</div>
+`;

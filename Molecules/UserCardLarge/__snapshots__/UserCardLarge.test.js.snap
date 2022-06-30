@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserCardLarge matches the snapshot w/ a profile image 1`] = `
+<div
+  className="usercardlarge"
+  onClick={[MockFunction]}
+>
+  <Avatar
+    className="usercardlarge-avatar"
+    dimmed={false}
+    displayName={null}
+    imgUrl="ent-placeholder.png"
+    loading={false}
+    size={110}
+    style={Object {}}
+  />
+  <span
+    className="usercardlarge-action"
+  >
+    Bean fest
+  </span>
+  <p
+    className="usercardlarge-name"
+  >
+    Mung Bean
+  </p>
+  <span
+    className="usercardlarge-title"
+  >
+    Head Munger
+  </span>
+</div>
+`;
+
+exports[`UserCardLarge matches the snapshot w/ a related user 1`] = `
+<div
+  className="usercardlarge"
+  onClick={[MockFunction]}
+>
+  <AvatarRelated
+    className="usercardlarge-avatar"
+    primaryDisplayName="Mung Bean"
+    primaryImage="ent-placeholder.png"
+    secondaryDisplayName="Totally Related User"
+    secondaryImage="ent-placeholder.png"
+    style={Object {}}
+  />
+  <span
+    className="usercardlarge-action"
+  >
+    Bean fest
+  </span>
+  <p
+    className="usercardlarge-name"
+  >
+    Mung Bean
+  </p>
+  <span
+    className="usercardlarge-title"
+  >
+    Head Munger
+  </span>
+</div>
+`;
+
+exports[`UserCardLarge matches the snapshot w/o a profile image 1`] = `
+<div
+  className="usercardlarge"
+  onClick={[MockFunction]}
+>
+  <Avatar
+    className="usercardlarge-avatar"
+    dimmed={false}
+    displayName={null}
+    imgUrl=""
+    loading={false}
+    size={110}
+    style={Object {}}
+  />
+  <span
+    className="usercardlarge-action"
+  >
+    Bean fest
+  </span>
+  <p
+    className="usercardlarge-name"
+  >
+    Mung Bean
+  </p>
+  <span
+    className="usercardlarge-title"
+  >
+    Head Munger
+  </span>
+</div>
+`;

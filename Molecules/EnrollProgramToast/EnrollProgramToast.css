@@ -1,0 +1,51 @@
+.enrollprogramtoast-container {
+  padding: 20px 30px;
+}
+
+.enrollprogramtoast-title {
+  font-size: 20px;
+  font-weight: 300;
+  color: var(--toastmodal_text_primary_fg);
+}
+
+.enrollprogramtoast-content {
+  padding: 40px 0;
+}
+
+.enrollprogramtoast-nowwrapper {
+  padding: 20px 0;
+}
+.enrollprogramtoast-datepickercontainer {
+  position: relative;
+  width: 100%;
+}
+
+.enrollprogramtoast-footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.enrollprogramtoast-buttonwrapper {
+  flex: 1;
+  width: 100%;
+}
+
+.enrollprogramtoast-button {
+  flex-grow: 1;
+}
+
+.enrollprogramtoast-save {
+  padding-left: 16px;
+}
+
+.enrollprogramtoast-now {
+  font-size: 18px;
+  color: var(--program_toast_text);
+}
+
+.enrollprogramtoast-header {
+  font-size: 22px;
+  color: var(--program_toast_text);
+}

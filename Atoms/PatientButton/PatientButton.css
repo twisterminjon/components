@@ -1,0 +1,77 @@
+.patientbutton-button {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+
+  /* width: 54px; */
+  padding: 0 6px;
+  height: 22px;
+  font-size: 14px;
+  font-weight: 300;
+
+  color: var(--brandcolor);
+  background-color: transparent;
+  border: 1px solid var(--brandcolor);
+
+  box-shadow: 0 1px 3px var(--patientpage__patientbutton_shadow_1), 0 1px 2px var(--patientpage__patientbutton_shadow_2);
+  outline: none;
+}
+
+.patientbutton-button:focus {
+  background-color: var(--brandcolor_dark);
+}
+
+.patientbutton-button::disabled {
+  color: var(--brandcolor_dark);
+  border: 1px solid var(--brandcolor_dark);
+}
+
+.patientbutton-button[disabled] {
+  color: var(--brandcolor_dark);
+  border: 1px solid var(--brandcolor_dark);
+}
+
+.patientbutton-button:hover {
+  background-color: var(--brandcolor_dark);
+}
+
+.patientbutton-down {
+  transform: scale(0.95);
+}
+
+.patientbutton-loading {
+  color: var(--brandcolor_dark);
+  background-color: var(--brandcolor_dark);
+}
+
+.patientbutton-loading:before {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 50%;
+  margin: -0.64285714em 0 0 -0.64285714em;
+  width: 1.28571429em;
+  height: 1.28571429em;
+  border-radius: 500rem;
+  border: 0.2em solid var(--brandcolor);
+}
+
+.patientbutton-loading:after {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 50%;
+  margin: -0.64285714em 0 0 -0.64285714em;
+  width: 1.28571429em;
+  height: 1.28571429em;
+  animation: button-spin 0.6s linear;
+  animation-iteration-count: infinite;
+  border-radius: 500rem;
+  border-color: var(--white) transparent transparent;
+  border-style: solid;
+  border-width: 0.2em;
+  box-shadow: 0 0 0 1px transparent;
+}

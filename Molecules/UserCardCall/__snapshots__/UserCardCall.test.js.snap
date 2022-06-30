@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserCardCall matches the snapshot with just call button 1`] = `
+<div
+  className="usercardcall"
+  data-testid="list-item-Mung Bean"
+>
+  <FavButtonContainer
+    data-testid="favorite-Mung Bean"
+    filled={false}
+    style={
+      Object {
+        "margin": "0 26px",
+      }
+    }
+    userId="1"
+  />
+  <div
+    style={
+      Object {
+        "marginRight": "14px",
+      }
+    }
+  >
+    <UserAvatar
+      data-testid="avatar-Mung Bean"
+      profileImage="http://some.url.com/picture"
+      size={32}
+      status="available"
+    />
+  </div>
+  <div
+    className="usercardcall-label-container"
+  >
+    <span
+      className="usercardcall-label"
+    >
+      Mung Bean
+    </span>
+  </div>
+  <DialButton
+    data-testid="call-Mung Bean"
+    ghost={false}
+    onClick={[MockFunction]}
+    status="available"
+    style={
+      Object {
+        "marginRight": 14,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`UserCardCall matches the snapshot with just the message button 1`] = `
+<div
+  className="usercardcall"
+  data-testid="list-item-Mung Bean"
+>
+  <FavButtonContainer
+    data-testid="favorite-Mung Bean"
+    filled={false}
+    style={
+      Object {
+        "margin": "0 26px",
+      }
+    }
+    userId="1"
+  />
+  <div
+    style={
+      Object {
+        "marginRight": "14px",
+      }
+    }
+  >
+    <UserAvatar
+      data-testid="avatar-Mung Bean"
+      profileImage="http://some.url.com/picture"
+      size={32}
+      status="available"
+    />
+  </div>
+  <div
+    className="usercardcall-label-container"
+  >
+    <span
+      className="usercardcall-label"
+    >
+      Mung Bean
+    </span>
+  </div>
+  <StartMessageButton
+    data-testid="secure-message-Mung Bean"
+    dimmed={false}
+    disabled={false}
+    ghost={false}
+    onClick={[MockFunction]}
+    style={
+      Object {
+        "marginRight": 14,
+      }
+    }
+    type="secure"
+  />
+</div>
+`;

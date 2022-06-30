@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UnauthorizedPage matches the snapshot  1`] = `
+<div
+  className="unauthorizedpage-wrap"
+>
+  <DocTitle
+    title="Not Authorized"
+  />
+  <Dimmer
+    backgroundColor="positive"
+    className=""
+    show={true}
+    style={Object {}}
+  />
+  <div
+    className="unauthorizedpage-content"
+  >
+    <h1
+      className="unauthorizedpage-title"
+    >
+      You are not allowed to access this page.
+    </h1>
+    <h2
+      className="unauthorizedpage-message"
+    >
+      You may need to contact your administrator to have your account setup.
+    </h2>
+    <h3
+      className="unauthorizedpage-text"
+    >
+      In the meantime, you can...
+    </h3>
+    <ul
+      className="unauthorizedpage-list"
+    >
+      <li
+        className="unauthorizedpage-list-item"
+      >
+        Go to the 
+        <Link
+          to="/app/dashboard"
+        >
+          dashboard
+        </Link>
+      </li>
+      <li
+        className="unauthorizedpage-list-item"
+      >
+        Go to our 
+        <a
+          href="https://projectified/support/"
+        >
+          support
+        </a>
+         page
+      </li>
+    </ul>
+  </div>
+  <ProjectPowered
+    className="projectpowered-logo"
+    logoColor="#fff"
+    taglineColor="#9c9c9c"
+  />
+</div>
+`;

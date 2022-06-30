@@ -1,0 +1,9 @@
+.favbutton-button {
+  border: none;
+  background: transparent;
+  outline: none;
+}
+
+.favbutton-button:hover {
+  transform: scale(1.1);
+}

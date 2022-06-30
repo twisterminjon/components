@@ -1,0 +1,9 @@
+.iconsnavbar {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  fill: currentColor;
+
+  min-width: 37px;
+  min-height: 26px;
+}

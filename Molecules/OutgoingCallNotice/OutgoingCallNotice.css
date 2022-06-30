@@ -1,0 +1,64 @@
+.outgoingcallnotice-wrap {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: var(--z-callnotice);
+}
+
+.outgoingcallnotice-dimmer {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 21;
+
+  background-color: var(--call_incoming_color);
+}
+
+.outgoingcallnotice-content {
+  position: absolute;
+  z-index: 22;
+}
+
+.outgoingcallnotice-buttons {
+  position: relative;
+  width: 218px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.outgoingcallnotice-buttons-center {
+  justify-content: space-around;
+  /* Note sure why the margin is required but it won't center without it */
+  margin: 0 auto;
+}
+
+.outgoingcallnotice-buttons-spaced {
+  justify-content: space-between;
+  /* Note sure why the margin is required but it won't center without it */
+  margin: 0 auto;
+}
+
+.outgoingcallnotice-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 218px;
+  height: 290px;
+}
+
+.outgoingcallnotice-placeholder p {
+  font-size: var(--font-base-body--size);
+  color: var(--brandcolor);
+}

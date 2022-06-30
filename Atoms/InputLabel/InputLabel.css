@@ -1,0 +1,10 @@
+.inputlabel {
+  font-size: '14px';
+  font-weight: 300;
+  max-width: '100%';
+  display: 'block';
+  margin: '1rem 0 2px 4px';
+  text-transform: uppercase;
+  background-color: transparent;
+  color: var(--white);
+}

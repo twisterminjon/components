@@ -1,0 +1,632 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThreadList matches the snapshot 1`] = `
+<div>
+  <div
+    className="searchbar-wrap"
+    data-testid="search-bar"
+    style={Object {}}
+  >
+    <div
+      className="searchbar-search"
+    >
+      <div
+        className="searchbar-icon-wrap"
+      >
+        <svg
+          fillRule="evenodd"
+          height="14"
+          style={Object {}}
+          viewBox="0 0 20 20"
+          width="14"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            fill="var(--searchbar__icon_fg)"
+          >
+            <path
+              d="M19.7280055,17.2912801 L15.8331894,13.3971292 C15.6573952,13.2213651 15.4190966,13.1237184 15.1690783,13.1237184 L14.532313,13.1237184 C15.6105168,11.7449468 16.2511887,10.0107411 16.2511887,8.12420662 C16.2511887,3.63636364 12.6142039,0 8.12559434,0 C3.63698477,0 0,3.63636364 0,8.12420662 C0,12.6120496 3.63698477,16.2484132 8.12559434,16.2484132 C10.0124511,16.2484132 11.746953,15.6078508 13.1259601,14.5298311 L13.1259601,15.1664876 C13.1259601,15.4164632 13.2236235,15.6547212 13.3994176,15.8304853 L17.2942337,19.7246363 C17.6614481,20.0917879 18.2552415,20.0917879 18.6185493,19.7246363 L19.724099,18.6192755 C20.0913133,18.2521238 20.0913133,17.6584318 19.7280055,17.2912801 Z M8.12559434,13.1237184 C5.36367357,13.1237184 3.12522859,10.8895616 3.12522859,8.12420662 C3.12522859,5.36275754 5.35976704,3.12469485 8.12559434,3.12469485 C10.8875151,3.12469485 13.1259601,5.35885167 13.1259601,8.12420662 C13.1259601,10.8856557 10.8914216,13.1237184 8.12559434,13.1237184 Z"
+            />
+             
+          </g>
+        </svg>
+      </div>
+      <input
+        className="searchbar-input"
+        defaultValue=""
+        onChange={[Function]}
+        placeholder="Search"
+        type="text"
+      />
+    </div>
+  </div>
+  <div
+    className="messagelist-list"
+    data-testid="message-list"
+  >
+    <div
+      className="messagelistaccordion-wrap"
+    >
+      <div
+        className="messagelistaccordion"
+        data-testid="message-list-accordion-messages"
+        style={Object {}}
+      >
+        <span>
+          Messages
+        </span>
+        <button
+          className="ui medium button button-custom"
+          data-testid="message-list-add-group"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseDown={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          style={
+            Object {
+              "backgroundColor": "var(--button_color)",
+              "color": "var(--dark_black)",
+              "fontSize": "12px !important",
+            }
+          }
+          type="submit"
+        >
+          Add Group
+        </button>
+      </div>
+      <div
+        className="messagelistaccordion-content"
+        data-testid="message-list-messages-content"
+      >
+        <button
+          className="messagelistcard-wrap"
+          data-testid="message-card-Christina Robinson, Paul Jason, RN"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          style={
+            Object {
+              "backgroundColor": "transparent",
+            }
+          }
+        >
+          <div
+            className="messagelistcard"
+          >
+            <div
+              className="messagelistcard-left"
+            >
+              <div
+                className="messageavatar"
+              >
+                <svg
+                  className=""
+                  height="18"
+                  style={Object {}}
+                  viewBox="0 0 25 18"
+                  width="25"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7.5 8.854c2.418 0 4.375-1.98 4.375-4.427C11.875 1.98 9.918 0 7.5 0S3.125 1.98 3.125 4.427c0 2.447 1.957 4.427 4.375 4.427zm3 1.265h-.324c-.813.395-1.715.632-2.676.632-.96 0-1.86-.237-2.676-.632H4.5c-2.484 0-4.5 2.04-4.5 4.554v1.138c0 1.047.84 1.897 1.875 1.897h11.25c1.035 0 1.875-.85 1.875-1.897v-1.138c0-2.514-2.016-4.554-4.5-4.554zm8.25-1.265c2.07 0 3.75-1.7 3.75-3.794 0-2.095-1.68-3.795-3.75-3.795-2.07 0-3.75 1.7-3.75 3.795 0 2.094 1.68 3.794 3.75 3.794zm1.875 1.265h-.148c-.543.19-1.118.316-1.727.316-.61 0-1.184-.126-1.727-.316h-.148c-.797 0-1.531.233-2.176.609.953 1.04 1.551 2.419 1.551 3.945v1.517c0 .087-.02.17-.023.253h6.898c1.035 0 1.875-.85 1.875-1.897 0-2.447-1.957-4.427-4.375-4.427z"
+                    fill="var(--brandcolor_light)"
+                    fillRule="evenodd"
+                  />
+                </svg>
+              </div>
+              <span
+                className="messagelistcard-status messagelistcard-status--read"
+              >
+                read
+              </span>
+            </div>
+            <div
+              className="messagelistcard-info"
+            >
+              <p
+                className="messagelistcard-label messagelistcard--unread"
+                data-testid="message-card-name-Christina Robinson, Paul Jason, RN"
+              >
+                Christina Robinson, Paul Jason, RN
+              </p>
+              <div
+                className="messagelistcard-message"
+              >
+                <div
+                  className="messagelistcard-draft-bullet"
+                />
+                <p
+                  className="messagelistcard-snippet messagelistcard--unread"
+                  data-testid="message-card-snippet-Christina Robinson, Paul Jason, RN"
+                >
+                  Yo 🦄
+                </p>
+              </div>
+            </div>
+          </div>
+          <span
+            className="timestamp  messagelistcard-time messagelistcard--unread"
+            style={Object {}}
+          >
+            an hour ago
+          </span>
+        </button>
+        <button
+          className="messagelistcard-wrap"
+          data-testid="message-card-Jennifer Reyes"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          style={
+            Object {
+              "backgroundColor": "transparent",
+            }
+          }
+        >
+          <div
+            className="messagelistcard"
+          >
+            <div
+              className="messagelistcard-left"
+            >
+              <div
+                className="avatar"
+                style={
+                  Object {
+                    "height": "32px",
+                    "lineHeight": "32px",
+                    "width": "32px",
+                  }
+                }
+              >
+                <span>
+                  J
+                </span>
+              </div>
+              <span
+                className="messagelistcard-status"
+              >
+                sent
+              </span>
+            </div>
+            <div
+              className="messagelistcard-info"
+            >
+              <p
+                className="messagelistcard-label messagelistcard--unread"
+                data-testid="message-card-name-Jennifer Reyes"
+              >
+                Jennifer Reyes
+              </p>
+              <div
+                className="messagelistcard-message"
+              >
+                <span
+                  className="messagelistcard-draft-text"
+                >
+                  Draft:
+                </span>
+                <p
+                  className="messagelistcard-snippet messagelistcard--unread"
+                  data-testid="message-card-snippet-Jennifer Reyes"
+                >
+                  hi jen
+                </p>
+              </div>
+            </div>
+          </div>
+          <span
+            className="timestamp  messagelistcard-time messagelistcard--unread"
+            style={Object {}}
+          >
+            an hour ago
+          </span>
+        </button>
+        <button
+          className="messagelistcard-wrap"
+          data-testid="message-card-Agnes Rogers, MD"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          style={
+            Object {
+              "backgroundColor": "transparent",
+            }
+          }
+        >
+          <div
+            className="messagelistcard"
+          >
+            <div
+              className="messagelistcard-left"
+            >
+              <div
+                className="avatar"
+                style={
+                  Object {
+                    "height": "32px",
+                    "lineHeight": "32px",
+                    "width": "32px",
+                  }
+                }
+              >
+                <img
+                  alt="user avatar"
+                  src="https://www.fillmurray.com/200/200"
+                  style={
+                    Object {
+                      "height": "32px",
+                      "lineHeight": "32px",
+                      "width": "32px",
+                    }
+                  }
+                />
+              </div>
+              <span
+                className="messagelistcard-status"
+              >
+                sent
+              </span>
+            </div>
+            <div
+              className="messagelistcard-info"
+            >
+              <p
+                className="messagelistcard-label "
+                data-testid="message-card-name-Agnes Rogers, MD"
+              >
+                Agnes Rogers, MD
+              </p>
+              <div
+                className="messagelistcard-message"
+              >
+                <p
+                  className="messagelistcard-snippet "
+                  data-testid="message-card-snippet-Agnes Rogers, MD"
+                >
+                  Howdy
+                </p>
+              </div>
+            </div>
+          </div>
+          <span
+            className="timestamp  messagelistcard-time "
+            style={Object {}}
+          >
+            an hour ago
+          </span>
+        </button>
+        <button
+          className="messagelistcard-wrap"
+          data-testid="message-card-Bill, Ted"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          style={
+            Object {
+              "backgroundColor": "transparent",
+            }
+          }
+        >
+          <div
+            className="messagelistcard"
+          >
+            <div
+              className="messagelistcard-left"
+            >
+              <div
+                className="messageavatar"
+              >
+                <svg
+                  className=""
+                  height="18"
+                  style={Object {}}
+                  viewBox="0 0 25 18"
+                  width="25"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7.5 8.854c2.418 0 4.375-1.98 4.375-4.427C11.875 1.98 9.918 0 7.5 0S3.125 1.98 3.125 4.427c0 2.447 1.957 4.427 4.375 4.427zm3 1.265h-.324c-.813.395-1.715.632-2.676.632-.96 0-1.86-.237-2.676-.632H4.5c-2.484 0-4.5 2.04-4.5 4.554v1.138c0 1.047.84 1.897 1.875 1.897h11.25c1.035 0 1.875-.85 1.875-1.897v-1.138c0-2.514-2.016-4.554-4.5-4.554zm8.25-1.265c2.07 0 3.75-1.7 3.75-3.794 0-2.095-1.68-3.795-3.75-3.795-2.07 0-3.75 1.7-3.75 3.795 0 2.094 1.68 3.794 3.75 3.794zm1.875 1.265h-.148c-.543.19-1.118.316-1.727.316-.61 0-1.184-.126-1.727-.316h-.148c-.797 0-1.531.233-2.176.609.953 1.04 1.551 2.419 1.551 3.945v1.517c0 .087-.02.17-.023.253h6.898c1.035 0 1.875-.85 1.875-1.897 0-2.447-1.957-4.427-4.375-4.427z"
+                    fill="var(--brandcolor_light)"
+                    fillRule="evenodd"
+                  />
+                </svg>
+              </div>
+              <span
+                className="messagelistcard-status messagelistcard-status--read"
+              >
+                read
+              </span>
+            </div>
+            <div
+              className="messagelistcard-info"
+            >
+              <p
+                className="messagelistcard-label "
+                data-testid="message-card-name-Bill, Ted"
+              >
+                Bill, Ted
+              </p>
+              <div
+                className="messagelistcard-message"
+              >
+                <span
+                  className="messagelistcard-draft-text"
+                >
+                  Draft:
+                </span>
+                <p
+                  className="messagelistcard-snippet "
+                  data-testid="message-card-snippet-Bill, Ted"
+                >
+                  Whats Up?
+                </p>
+              </div>
+            </div>
+          </div>
+          <span
+            className="timestamp  messagelistcard-time "
+            style={Object {}}
+          >
+            an hour ago
+          </span>
+        </button>
+        <button
+          className="messagelistcard-wrap"
+          data-testid="message-card-Batgirl, Batboy"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          style={
+            Object {
+              "backgroundColor": "transparent",
+            }
+          }
+        >
+          <div
+            className="messagelistcard"
+          >
+            <div
+              className="messagelistcard-left"
+            >
+              <div
+                className="messageavatar"
+              >
+                <svg
+                  className=""
+                  height="18"
+                  style={Object {}}
+                  viewBox="0 0 25 18"
+                  width="25"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7.5 8.854c2.418 0 4.375-1.98 4.375-4.427C11.875 1.98 9.918 0 7.5 0S3.125 1.98 3.125 4.427c0 2.447 1.957 4.427 4.375 4.427zm3 1.265h-.324c-.813.395-1.715.632-2.676.632-.96 0-1.86-.237-2.676-.632H4.5c-2.484 0-4.5 2.04-4.5 4.554v1.138c0 1.047.84 1.897 1.875 1.897h11.25c1.035 0 1.875-.85 1.875-1.897v-1.138c0-2.514-2.016-4.554-4.5-4.554zm8.25-1.265c2.07 0 3.75-1.7 3.75-3.794 0-2.095-1.68-3.795-3.75-3.795-2.07 0-3.75 1.7-3.75 3.795 0 2.094 1.68 3.794 3.75 3.794zm1.875 1.265h-.148c-.543.19-1.118.316-1.727.316-.61 0-1.184-.126-1.727-.316h-.148c-.797 0-1.531.233-2.176.609.953 1.04 1.551 2.419 1.551 3.945v1.517c0 .087-.02.17-.023.253h6.898c1.035 0 1.875-.85 1.875-1.897 0-2.447-1.957-4.427-4.375-4.427z"
+                    fill="var(--brandcolor_light)"
+                    fillRule="evenodd"
+                  />
+                </svg>
+              </div>
+              <span
+                className="messagelistcard-status"
+              >
+                sent
+              </span>
+            </div>
+            <div
+              className="messagelistcard-info"
+            >
+              <p
+                className="messagelistcard-label "
+                data-testid="message-card-name-Batgirl, Batboy"
+              >
+                Batgirl, Batboy
+              </p>
+              <div
+                className="messagelistcard-message"
+              >
+                <span
+                  className="messagelistcard-draft-text"
+                >
+                  Draft:
+                </span>
+                <p
+                  className="messagelistcard-snippet "
+                  data-testid="message-card-snippet-Batgirl, Batboy"
+                >
+                  did you see that crazy thing 🦄
+                </p>
+              </div>
+            </div>
+          </div>
+          <span
+            className="timestamp  messagelistcard-time "
+            style={Object {}}
+          >
+            an hour ago
+          </span>
+        </button>
+        <button
+          className="messagelistcard-wrap"
+          data-testid="message-card-Dr Strange, MD"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          style={
+            Object {
+              "backgroundColor": "transparent",
+            }
+          }
+        >
+          <div
+            className="messagelistcard"
+          >
+            <div
+              className="messagelistcard-left"
+            >
+              <div
+                className="avatar"
+                style={
+                  Object {
+                    "height": "32px",
+                    "lineHeight": "32px",
+                    "width": "32px",
+                  }
+                }
+              >
+                <img
+                  alt="user avatar"
+                  src="https://www.fillmurray.com/100/100"
+                  style={
+                    Object {
+                      "height": "32px",
+                      "lineHeight": "32px",
+                      "width": "32px",
+                    }
+                  }
+                />
+              </div>
+              <span
+                className="messagelistcard-status"
+              >
+                sent
+              </span>
+            </div>
+            <div
+              className="messagelistcard-info"
+            >
+              <p
+                className="messagelistcard-label "
+                data-testid="message-card-name-Dr Strange, MD"
+              >
+                Dr Strange, MD
+              </p>
+              <div
+                className="messagelistcard-message"
+              >
+                <p
+                  className="messagelistcard-snippet "
+                  data-testid="message-card-snippet-Dr Strange, MD"
+                >
+                  I'm the best
+                </p>
+              </div>
+            </div>
+          </div>
+          <span
+            className="timestamp  messagelistcard-time "
+            style={Object {}}
+          >
+            an hour ago
+          </span>
+        </button>
+        <button
+          className="messagelistcard-wrap"
+          data-testid="message-card-The D-List"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          style={
+            Object {
+              "backgroundColor": "transparent",
+            }
+          }
+        >
+          <div
+            className="messagelistcard"
+          >
+            <div
+              className="messagelistcard-left"
+            >
+              <div
+                className="messageavatar messageavatar--accent"
+              >
+                <svg
+                  className=""
+                  height="16"
+                  style={Object {}}
+                  viewBox="0 0 24 16"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g
+                    fill="var(--brandcolor)"
+                    fillRule="evenodd"
+                    transform="translate(1 1)"
+                  >
+                    <path
+                      d="M3.291 7.094c1.21 0 2.195-.984 2.195-2.195 0-1.21-.984-2.194-2.195-2.194-1.21 0-2.194.984-2.194 2.194s.984 2.195 2.194 2.195zm15.36 0c1.21 0 2.195-.984 2.195-2.195 0-1.21-.984-2.194-2.195-2.194-1.21 0-2.194.984-2.194 2.194s.984 2.195 2.194 2.195zM19.75 8.19h-2.195c-.603 0-1.148.243-1.546.638 1.382.757 2.362 2.125 2.575 3.75h2.263c.607 0 1.097-.49 1.097-1.097v-1.097c0-1.21-.984-2.194-2.194-2.194zm-8.778 0c2.123 0 3.84-1.718 3.84-3.84S13.094.51 10.971.51c-2.122 0-3.84 1.718-3.84 3.84s1.718 3.84 3.84 3.84zm2.634 1.097h-.285c-.713.343-1.505.549-2.349.549-.843 0-1.632-.206-2.348-.549h-.285c-2.18 0-3.95 1.77-3.95 3.95v.987c0 .909.738 1.646 1.646 1.646h9.875c.908 0 1.645-.737 1.645-1.646v-.987c0-2.18-1.769-3.95-3.95-3.95zm-7.67-.46c-.398-.394-.943-.637-1.546-.637H2.194C.984 8.19 0 9.175 0 10.385v1.097c0 .607.49 1.097 1.097 1.097h2.26c.216-1.625 1.196-2.993 2.578-3.75z"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <span
+                className="messagelistcard-status messagelistcard-status--read"
+              >
+                read
+              </span>
+            </div>
+            <div
+              className="messagelistcard-info"
+            >
+              <p
+                className="messagelistcard-label "
+                data-testid="message-card-name-The D-List"
+              >
+                The D-List
+              </p>
+              <div
+                className="messagelistcard-message"
+              >
+                <span
+                  className="messagelistcard-draft-text"
+                >
+                  Draft:
+                </span>
+                <p
+                  className="messagelistcard-snippet "
+                  data-testid="message-card-snippet-The D-List"
+                >
+                  Go Cal!
+                </p>
+              </div>
+            </div>
+          </div>
+          <span
+            className="timestamp  messagelistcard-time "
+            style={Object {}}
+          >
+            an hour ago
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      className="messagelist-loader"
+    >
+      <div
+        className="ui basic segment"
+        style={Object {}}
+      >
+        <div
+          className="ui inverted dimmer"
+          onClick={[Function]}
+        >
+          <div
+            className="content"
+          >
+            <div
+              className="ui indeterminate inverted text loader"
+            >
+              Loading
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

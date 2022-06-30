@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MuteVideoButton matches the snapshot 1`] = `
+<div
+  className="mutevideobutton-wrap"
+>
+  <CallButton
+    color="#002862"
+    dimmed={false}
+    disabled={false}
+    ghost={true}
+    ghostOpacity={0.6}
+    name="mute-video"
+    onClick={[MockFunction]}
+    size="medium"
+  >
+    <IconVideoCamera
+      color="black"
+    />
+  </CallButton>
+  <CallButtonLabel
+    text="Mute Video"
+  />
+</div>
+`;

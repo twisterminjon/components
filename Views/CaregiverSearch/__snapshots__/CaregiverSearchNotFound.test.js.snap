@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CaregiverSearchNotFound matches the snapshot 1`] = `
+<div
+  className="caregiversearchnotfound"
+  style={Object {}}
+>
+  <p>
+    We couldn’t find a Caregiver with that phone number.
+  </p>
+  <Button
+    as="button"
+    className="brand-button"
+    data-testid="add-caregiver"
+    inverted={true}
+    onClick={[MockFunction]}
+  >
+    Create a Caregiver with that number?
+  </Button>
+</div>
+`;

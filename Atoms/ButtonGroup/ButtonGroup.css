@@ -1,0 +1,25 @@
+.buttongroup {
+  position: relative;
+  display: flex;
+}
+
+.buttongroup-button {
+  height: 40px;
+  font-size: var(--font-base-body--size-medium) !important;
+  padding-top: 7px !important;
+  padding-bottom: 7px !important;
+}
+
+.buttongroup--left {
+  display: inline-block !important;
+  margin: 0 !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.buttongroup--right {
+  display: inline-block !important;
+  margin: 0 !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}

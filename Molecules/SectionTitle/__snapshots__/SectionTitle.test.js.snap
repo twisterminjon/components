@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SectionTitle matches the snapshot 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <div
+    className="sectiontitle-wrap"
+  >
+    <TitleText
+      className="sectiontitle-text"
+      style={Object {}}
+      title="Help me"
+    />
+    <HintText
+      hint=""
+      rightAlign={false}
+    />
+  </div>
+  <hr
+    className="sectiontitle-rule"
+  />
+</div>
+`;

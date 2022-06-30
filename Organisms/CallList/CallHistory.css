@@ -1,0 +1,24 @@
+.callhistory {
+  position: relative;
+  height: calc(100% - (var(--header-height)));
+
+  width: 100%;
+}
+
+.callhistory-list {
+  height: calc(100% - var(--searchbar-height));
+
+  overflow-y: auto;
+}
+
+.callhistory-list > button:last-of-type {
+  margin-bottom: 60px;
+}
+
+.callhistory-loader {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 200px;
+  margin: 0 auto;
+}

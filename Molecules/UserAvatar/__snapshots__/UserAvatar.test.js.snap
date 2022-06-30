@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserAvatar matches the snapshot 1`] = `
+<div
+  className="useravatar-container"
+>
+  <Avatar
+    className=""
+    dimmed={false}
+    displayName={null}
+    imgUrl="https://www.fillmurray.com/60/60"
+    loading={false}
+    size={24}
+    style={Object {}}
+  />
+  <StatusBubble
+    className="useravatar-statusbubble"
+    status="available"
+    style={Object {}}
+  />
+</div>
+`;

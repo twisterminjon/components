@@ -1,0 +1,76 @@
+.messagelist-list {
+  min-width: var(--message-sidebar-width);
+  max-width: var(--message-sidebar-width);
+  height: calc(100% - var(--searchbar-height));
+
+  overflow-y: scroll;
+
+  border-right: 1px solid var(--misc__card__border_color);
+}
+
+.messagelist-list {
+  height: calc(100% - var(--message-banner-height));
+  overflow-y: auto;
+}
+
+.messagelist-messagesempty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: var(--brandcolor);
+  font-weight: 300;
+}
+
+.messagelist-messagesempty-title {
+  font-size: 24px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.messagelist-messagesempty-text {
+  max-width: 400px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.messagelist-add-button-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 18px;
+  width: 18px;
+
+  border-radius: 9px;
+
+  background-color: var(--brandcolor);
+}
+
+.messagelist-add-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--messagepage_bg);
+
+  height: 60px;
+  width: 60px;
+}
+
+.messagelist-add-button:hover {
+  background-color: var(--button_color_hover);
+}
+
+.messagelist-add-button:focus {
+  background-color: var(--button_color_hover);
+}
+
+.messagelist-add-button:active {
+  transform: scale(1.01);
+}
+
+.messagelist-loader .ui.inverted.dimmer {
+  background-color: var(--messagepage_bg);
+}

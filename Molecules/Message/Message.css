@@ -1,0 +1,85 @@
+.message {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 0 58px 0 14px;
+}
+
+.message-content {
+  /* display: flex;
+  flex-direction: row; */
+  border-radius: var(--message-border-radius);
+  overflow: hidden;
+}
+
+.message--sent {
+  background-color: var(--messagepage__sent_bg);
+  border: 1px solid var(--messagepage__sent_border);
+  border-bottom-right-radius: 0;
+}
+
+.message--received {
+  background-color: var(--messagepage__received_bg);
+  border: 1px solid var(--messagepage__received_border);
+  border-bottom-left-radius: 0;
+}
+
+.message--received .message-file {
+  background-color: var(--messagepage__received_file_bg);
+}
+
+.message-flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.message-flex-container-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.message--own {
+  align-items: flex-end;
+  padding: 0 10px 0 106px;
+}
+
+.message-author {
+  color: var(--font_color_light);
+  font-size: var(--font-message-page--author-size);
+  font-weight: var(--font-base--bold);
+  letter-spacing: -0.34px;
+  padding: 3px 8px;
+}
+
+.message-avatar {
+  display: flex;
+}
+
+.message-retry {
+  max-height: 0;
+  opacity: 0;
+  transition: all 200ms ease-out;
+}
+
+.message-retry-visible {
+  padding-top: 5px;
+  max-height: 40px;
+  opacity: 1;
+}
+
+.message-retry-button {
+  background-color: transparent;
+  color: var(--button_negative_bg);
+  border-radius: 8px;
+  border-top-right-radius: 0;
+  padding: 7px;
+  border: 1px solid var(--button_negative_bg);
+  outline: none;
+}
+
+.message-retry-button:active {
+  transform: scale(1.02);
+}
+.message-retry-button:hover {
+  transform: scale(1.02);
+}

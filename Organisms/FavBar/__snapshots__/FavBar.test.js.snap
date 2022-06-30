@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FavBar matches the snapshot when loading 1`] = `
+<div
+  className="favbar-wrap favbar--row favbar--arrow-padding"
+>
+  <FavBarLoader />
+</div>
+`;
+
+exports[`FavBar matches the snapshot with NO users 1`] = `
+<div
+  className="favbar-wrap favbar--row"
+>
+  <UserCardFavoritePlaceholder />
+  <span
+    className="favbar-placeholder"
+  >
+    Start adding favorites by selecting users in the search or group lists.
+  </span>
+</div>
+`;
+
+exports[`FavBar matches the snapshot with messages enabled 1`] = `
+<div
+  className="favbar-wrap"
+  data-testid="favbar"
+>
+  <div
+    className="favbar-favs"
+  />
+</div>
+`;
+
+exports[`FavBar matches the snapshot with users 1`] = `
+<div
+  className="favbar-wrap"
+  data-testid="favbar"
+>
+  <div
+    className="favbar-favs"
+  />
+</div>
+`;

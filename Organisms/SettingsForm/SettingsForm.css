@@ -1,0 +1,47 @@
+.settingsform {
+  padding: 16px;
+  background-color: var(--menu__bg);
+}
+
+.settingsform h1 {
+  font-size: var(--font-base-headline--size);
+  font-weight: var(--font-base--bold);
+}
+
+.settingsform-label {
+  font-size: var(--font-base-body--size);
+  font-weight: var(--font-base--regular);
+}
+
+.settingsform-volume-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--font-base-body--size);
+}
+
+.settingsform-units-section {
+  margin: 45px 0;
+}
+
+.settingsform-units-hint {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-around;
+  font-size: var(--font-base-body--size-small);
+  font-weight: var(--font-base--regular);
+}
+
+.settingsform-units-hint span:first-of-type {
+  margin-right: 20px;
+}
+
+.ui.basic.modal > .settingsform-header {
+  font-weight: bold;
+  font-size: 22px;
+  padding-bottom: 0.5rem;
+}
+
+.ui.modal .actions > .button.settingsform-button {
+  width: 100%;
+  margin: 160px 0 0 0;
+}

@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu Menu matches the snapshot 1`] = `
+<SidebarPushable>
+  <Sidebar
+    animation="overlay"
+    as={[Function]}
+    data-testid="app-menu"
+    direction="right"
+    inverted={true}
+    onHide={[Function]}
+    target={
+      Object {
+        "current": Document {
+          "location": Location {
+            "assign": [Function],
+            "hash": "",
+            "host": "localhost",
+            "hostname": "localhost",
+            "href": "http://localhost/",
+            "origin": "http://localhost",
+            "pathname": "/",
+            "port": "",
+            "protocol": "http:",
+            "reload": [Function],
+            "replace": [Function],
+            "search": "",
+            "toString": [Function],
+          },
+        },
+      }
+    }
+    vertical={true}
+    visible={true}
+    width="wide"
+  >
+    <div
+      className="app-menu"
+    >
+      <div
+        className="menu-banner"
+      >
+        <ButtonIcon
+          className="menu-close-button"
+          data-testid="button-close-menu"
+          onClick={[MockFunction]}
+          style={Object {}}
+        >
+          <IconTimes
+            color="white"
+            size={16}
+          />
+        </ButtonIcon>
+        <ProfilePicEdit
+          className="menu-profile-pic"
+          disabled={false}
+          onClick={[Function]}
+          profileImage=""
+          style={Object {}}
+        />
+        <div>
+          <Text
+            as="p"
+            className="menu-user-name"
+            color="light"
+          >
+             
+          </Text>
+          <Text
+            as="p"
+            className="menu-user-last-login"
+            data-testid="user-last-login"
+            size="tiny"
+          >
+            Last Login 
+          </Text>
+        </div>
+      </div>
+      <MenuItem
+        className="menu-calls"
+        count={null}
+        label="Calls"
+        loading={false}
+        onClick={[Function]}
+        style={Object {}}
+      />
+      <MenuItem
+        className=""
+        count={null}
+        label="Notifications"
+        loading={false}
+        onClick={[Function]}
+        style={Object {}}
+      />
+      <MenuItem
+        className=""
+        count={null}
+        label="Announcements"
+        loading={false}
+        onClick={[Function]}
+        style={Object {}}
+      />
+      <MenuItem
+        className=""
+        count={null}
+        label="Settings"
+        loading={false}
+        onClick={[Function]}
+        style={Object {}}
+      />
+      <MenuItem
+        className=""
+        count={null}
+        label="Update Password"
+        loading={false}
+        onClick={[Function]}
+        style={Object {}}
+      />
+      <MenuItem
+        className=""
+        count={null}
+        label="Update Phone Number"
+        loading={false}
+        onClick={[Function]}
+        style={Object {}}
+      />
+      <div
+        className="menu-rule"
+      />
+      <MenuItem
+        className=""
+        count={null}
+        label="Sign Out"
+        loading={false}
+        onClick={[Function]}
+        style={Object {}}
+      />
+      <div
+        className="menu-logo"
+      >
+        <FiveTaps
+          onFiveTaps={[Function]}
+        >
+          <ProjectPowered
+            logoColor="var(--brandcolor)"
+            taglineColor="#9c9c9c"
+          />
+        </FiveTaps>
+      </div>
+    </div>
+  </Sidebar>
+  <SidebarPusher
+    dimmed={true}
+    style={
+      Object {
+        "height": "100%",
+      }
+    }
+  >
+    App
+  </SidebarPusher>
+</SidebarPushable>
+`;

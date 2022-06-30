@@ -1,0 +1,50 @@
+.selectsidebar-panel {
+  position: fixed;
+  z-index: 9;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--call_incoming_color);
+  opacity: 0.9;
+}
+
+.selectsidebar-wrap {
+  position: fixed;
+  background-color: var(--white);
+  z-index: var(--z-callnotice);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 375px;
+
+  padding: 10px;
+}
+
+.select-side-bar-menu {
+  margin-bottom: 10px;
+}
+
+.selectsidebar-list {
+  position: relative;
+  height: calc(100vh - 88px);
+  overflow-y: scroll;
+}
+
+.select-side-bar--item {
+  list-style-type: none;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  padding-left: 8px;
+  user-select: none;
+
+  /* handle wrapping of long names */
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.select-side-bar--item:hover {
+  color: var(--brandcolor_dark);
+  background-color: var(--brandcolor);
+}

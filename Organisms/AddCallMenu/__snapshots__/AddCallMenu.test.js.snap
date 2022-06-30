@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddCallMenu matches the snapshot 1`] = `
+<ModalToast
+  data-testid="add-to-call-modal"
+  show={true}
+>
+  <div
+    className="addcallmenu"
+  >
+    <h3
+      data-testid="confirm-title"
+    >
+      Add someone to the call?
+    </h3>
+    <div
+      className="addcallmenu-buttons"
+    >
+      <AddToCallButton
+        data-testid="add-staff"
+        onClick={[MockFunction]}
+      >
+        Staff Member
+      </AddToCallButton>
+      <AddToCallButton
+        data-testid="add-caregiver"
+        disabled={false}
+        onClick={[MockFunction]}
+      >
+        Caregiver
+      </AddToCallButton>
+      <AddToCallButton
+        data-testid="add-interpreter"
+        onClick={[MockFunction]}
+      >
+        Interpreter
+      </AddToCallButton>
+    </div>
+    <div
+      className="addcallmenu-back--row"
+    >
+      <BackToCallButton
+        data-testid="go-back"
+        onClick={[MockFunction]}
+      />
+    </div>
+  </div>
+</ModalToast>
+`;

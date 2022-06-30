@@ -1,0 +1,726 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventActionToast matches the snapshot 1`] = `
+<EventActionToast
+  date="2018-04-23"
+  markedDate="2018-04-23"
+  minDate="2018-04-23"
+  onCancel={[MockFunction]}
+  onComplete={[MockFunction]}
+  onSave={[MockFunction]}
+  show={true}
+>
+  <ModalToast
+    show={true}
+  >
+    <div
+      className="modaltoast-dimmer"
+    />
+    <div
+      className="modaltoast-wrap modaltoast--show"
+      data-testid="modaltoast"
+    >
+      <div
+        className="modaltoast"
+      >
+        <div
+          className="eventactiontoast-container"
+        >
+          <div>
+            <span
+              className="eventactiontoast-title"
+            >
+              What would you like to do ?
+            </span>
+          </div>
+          <div
+            className="eventactiontoast-content"
+          >
+            <ButtonGhost
+              className=""
+              data-testid="button-mark-complete"
+              fluid={true}
+              onClick={[MockFunction]}
+              red={false}
+            >
+              <Button
+                as="button"
+                className="buttonghost  "
+                data-testid="button-mark-complete"
+                fluid={true}
+                inverted={true}
+                onClick={[MockFunction]}
+              >
+                <Ref
+                  innerRef={
+                    Object {
+                      "current": <button
+                        class="ui fluid inverted button buttonghost  "
+                        data-testid="button-mark-complete"
+                      >
+                        Mark Complete
+                      </button>,
+                    }
+                  }
+                >
+                  <RefFindNode
+                    innerRef={
+                      Object {
+                        "current": <button
+                          class="ui fluid inverted button buttonghost  "
+                          data-testid="button-mark-complete"
+                        >
+                          Mark Complete
+                        </button>,
+                      }
+                    }
+                  >
+                    <button
+                      className="ui fluid inverted button buttonghost  "
+                      data-testid="button-mark-complete"
+                      onClick={[Function]}
+                    >
+                      Mark Complete
+                    </button>
+                  </RefFindNode>
+                </Ref>
+              </Button>
+            </ButtonGhost>
+            <div
+              className="eventactiontoast-datecontainer"
+            >
+              <InputLabel
+                htmlFor="reschedule-date"
+                id="reschedule-date-label"
+                label="Reschedule"
+              >
+                <label
+                  className="inputlabel"
+                  data-testid="input-label"
+                >
+                  Reschedule
+                </label>
+              </InputLabel>
+              <DateInput
+                className=""
+                displayOnly={false}
+                errorMessage=""
+                hasError={false}
+                hintText=""
+                initialDate={2018-04-23T00:00:00.000Z}
+                label=""
+                minDate={2020-01-02T22:20:47.455Z}
+                name="reschedule-date"
+                onChange={[Function]}
+                placeholder=""
+                style={Object {}}
+                value={2018-04-23T00:00:00.000Z}
+              >
+                <div
+                  className="dateinput-wrapper "
+                  style={Object {}}
+                >
+                  <div
+                    className="dateinput-label-wrapper"
+                  >
+                    <InputLabel
+                      data-testid="reschedule-date-label"
+                      htmlFor="reschedule-date-input"
+                      id="reschedule-date-label"
+                      label=""
+                      style={
+                        Object {
+                          "color": "white",
+                        }
+                      }
+                    >
+                      <label
+                        className="inputlabel"
+                        data-testid="input-label"
+                      />
+                    </InputLabel>
+                    <HintText
+                      hint=""
+                      id="reschedule-date-hint"
+                      rightAlign={true}
+                    >
+                      <span
+                        className="hinttext"
+                        id="reschedule-date-hint"
+                        style={
+                          Object {
+                            "marginLeft": "auto",
+                          }
+                        }
+                      />
+                    </HintText>
+                  </div>
+                  <DatePicker
+                    allowSameDay={false}
+                    aria-labelledby="reschedule-date-label"
+                    customInput={
+                      <DateInputControl
+                        hasError={false}
+                        id="reschedule-date-input"
+                        inputPlaceholder=""
+                        name="reschedule-date"
+                        style={
+                          Object {
+                            "width": "100%",
+                          }
+                        }
+                      />
+                    }
+                    dateFormat="MM/dd/yyyy"
+                    dateFormatCalendar="LLLL yyyy"
+                    disabled={false}
+                    disabledKeyboardNavigation={false}
+                    dropdownMode="select"
+                    id="reschedule-date-input"
+                    initialDate={2018-04-23T00:00:00.000Z}
+                    inlineFocusSelectedMonth={false}
+                    isClearable={true}
+                    minDate={2020-01-02T22:20:47.455Z}
+                    monthsShown={1}
+                    name="reschedule-date"
+                    nextMonthButtonLabel="Next month"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onClickOutside={[Function]}
+                    onFocus={[Function]}
+                    onInputClick={[Function]}
+                    onInputError={[Function]}
+                    onKeyDown={[Function]}
+                    onMonthChange={[Function]}
+                    onSelect={[Function]}
+                    onYearChange={[Function]}
+                    preventOpenOnFocus={false}
+                    previousMonthButtonLabel="Previous Month"
+                    readOnly={false}
+                    renderDayContents={[Function]}
+                    selected={2018-04-23T04:00:00.000Z}
+                    shouldCloseOnSelect={true}
+                    showMonthDropdown={true}
+                    showMonthYearPicker={false}
+                    showTimeInput={false}
+                    showTimeSelect={false}
+                    showYearDropdown={true}
+                    strictParsing={false}
+                    timeCaption="Time"
+                    timeInputLabel="Time"
+                    timeIntervals={30}
+                    withPortal={false}
+                  >
+                    <PopperComponent
+                      hidePopper={true}
+                      popperComponent={null}
+                      popperModifiers={
+                        Object {
+                          "preventOverflow": Object {
+                            "boundariesElement": "viewport",
+                            "enabled": true,
+                            "escapeWithReference": true,
+                          },
+                        }
+                      }
+                      popperPlacement="bottom-start"
+                      popperProps={Object {}}
+                      targetComponent={
+                        <div
+                          className="react-datepicker__input-container"
+                        >
+                          <DateInputControl
+                            className=""
+                            disabled={false}
+                            hasError={false}
+                            id="reschedule-date-input"
+                            inputPlaceholder=""
+                            name="reschedule-date"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            onClick={[Function]}
+                            onFocus={[Function]}
+                            onKeyDown={[Function]}
+                            readOnly={false}
+                            style={
+                              Object {
+                                "width": "100%",
+                              }
+                            }
+                            value="04/23/2018"
+                          />
+                          <button
+                            className="react-datepicker__close-icon"
+                            onClick={[Function]}
+                            tabIndex={-1}
+                            type="button"
+                          />
+                        </div>
+                      }
+                    >
+                      <Manager>
+                        <Reference>
+                          <InnerReference
+                            setReferenceNode={[Function]}
+                          >
+                            <div
+                              className="react-datepicker-wrapper"
+                            >
+                              <div
+                                className="react-datepicker__input-container"
+                              >
+                                <DateInputControl
+                                  className=""
+                                  disabled={false}
+                                  hasError={false}
+                                  id="reschedule-date-input"
+                                  inputPlaceholder=""
+                                  name="reschedule-date"
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  onClick={[Function]}
+                                  onFocus={[Function]}
+                                  onKeyDown={[Function]}
+                                  readOnly={false}
+                                  style={
+                                    Object {
+                                      "width": "100%",
+                                    }
+                                  }
+                                  value="04/23/2018"
+                                >
+                                  <input
+                                    className="dateinput "
+                                    data-testid="reschedule-date-input"
+                                    id="reschedule-date-input"
+                                    onBlur={[Function]}
+                                    onChange={[Function]}
+                                    onClick={[Function]}
+                                    onFocus={[Function]}
+                                    onKeyDown={[Function]}
+                                    placeholder=""
+                                    type="text"
+                                    value="04/23/2018"
+                                  />
+                                </DateInputControl>
+                                <button
+                                  className="react-datepicker__close-icon"
+                                  onClick={[Function]}
+                                  tabIndex={-1}
+                                  type="button"
+                                />
+                              </div>
+                            </div>
+                          </InnerReference>
+                        </Reference>
+                      </Manager>
+                    </PopperComponent>
+                  </DatePicker>
+                  <InputMessage
+                    message=""
+                    show={false}
+                  />
+                </div>
+              </DateInput>
+            </div>
+            <div
+              className="eventactiontoast-datecontainer"
+            >
+              <TimeAmPmInput
+                errorMessage=""
+                hasError={false}
+                hintMessage=""
+                hintText=""
+                label=""
+                name="reschedule-time"
+                onChange={[Function]}
+                placeholder=""
+                required={false}
+                value=""
+              >
+                <div
+                  className="timeampminput-wrapper undefined"
+                  data-testid=""
+                >
+                  <div
+                    className="timeampminput-label-wrapper"
+                  >
+                    <InputLabel
+                      htmlFor="reschedule-time-input"
+                      id="reschedule-time-label"
+                      label=""
+                    >
+                      <label
+                        className="inputlabel"
+                        data-testid="input-label"
+                      />
+                    </InputLabel>
+                    <HintText
+                      hint=""
+                      id="reschedule-time-hint"
+                      rightAlign={true}
+                    >
+                      <span
+                        className="hinttext"
+                        id="reschedule-time-hint"
+                        style={
+                          Object {
+                            "marginLeft": "auto",
+                          }
+                        }
+                      />
+                    </HintText>
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "position": "relative",
+                      }
+                    }
+                  >
+                    <TimeInput
+                      aria-describedby="reschedule-time-hint"
+                      aria-labelledby="reschedule-time-label"
+                      disableMinute={false}
+                      fluid={true}
+                      icon="time"
+                      iconPosition="left"
+                      id="reschedule-time-input"
+                      inline={false}
+                      localization="en"
+                      name="reschedule-time"
+                      onChange={[Function]}
+                      placeholder=""
+                      style={Object {}}
+                      timeFormat="24"
+                      value=""
+                    >
+                      <InputView
+                        animation="scale"
+                        aria-describedby="reschedule-time-hint"
+                        aria-labelledby="reschedule-time-label"
+                        clearIcon="remove"
+                        clearable={false}
+                        closeOnMouseLeave={true}
+                        closePopup={[Function]}
+                        duration={200}
+                        fluid={true}
+                        icon="time"
+                        iconPosition="left"
+                        id="reschedule-time-input"
+                        inline={false}
+                        localization="en"
+                        name="reschedule-time"
+                        onChange={[Function]}
+                        onMount={[Function]}
+                        openPopup={[Function]}
+                        placeholder=""
+                        popupIsClosed={true}
+                        renderPicker={[Function]}
+                        style={Object {}}
+                        tabIndex="0"
+                        value=""
+                      >
+                        <FormInputWithRef
+                          aria-describedby="reschedule-time-hint"
+                          aria-labelledby="reschedule-time-label"
+                          clearIcon="remove"
+                          clearable={false}
+                          fluid={true}
+                          icon="time"
+                          iconPosition="left"
+                          id="reschedule-time-input"
+                          innerRef={[Function]}
+                          localization="en"
+                          name="reschedule-time"
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onClear={[Function]}
+                          onFocus={[Function]}
+                          onMouseEnter={[Function]}
+                          placeholder=""
+                          style={Object {}}
+                          tabIndex="0"
+                          value=""
+                        >
+                          <FormInput
+                            aria-describedby="reschedule-time-hint"
+                            aria-labelledby="reschedule-time-label"
+                            as={[Function]}
+                            control={[Function]}
+                            fluid={true}
+                            icon={true}
+                            iconPosition="left"
+                            id="reschedule-time-input"
+                            localization="en"
+                            name="reschedule-time"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            onClick={[Function]}
+                            onFocus={[Function]}
+                            onMouseEnter={[Function]}
+                            placeholder=""
+                            style={Object {}}
+                            tabIndex="0"
+                          >
+                            <FormField
+                              aria-describedby="reschedule-time-hint"
+                              aria-labelledby="reschedule-time-label"
+                              control={[Function]}
+                              fluid={true}
+                              icon={true}
+                              iconPosition="left"
+                              id="reschedule-time-input"
+                              localization="en"
+                              name="reschedule-time"
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              onClick={[Function]}
+                              onFocus={[Function]}
+                              onMouseEnter={[Function]}
+                              placeholder=""
+                              style={Object {}}
+                              tabIndex="0"
+                            >
+                              <div
+                                className="field"
+                              >
+                                <Input
+                                  aria-describedby="reschedule-time-hint"
+                                  aria-labelledby="reschedule-time-label"
+                                  fluid={true}
+                                  icon={true}
+                                  iconPosition="left"
+                                  id="reschedule-time-input"
+                                  localization="en"
+                                  name="reschedule-time"
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  onClick={[Function]}
+                                  onFocus={[Function]}
+                                  onMouseEnter={[Function]}
+                                  placeholder=""
+                                  style={Object {}}
+                                  tabIndex="0"
+                                  type="text"
+                                >
+                                  <div
+                                    className="ui fluid left icon input"
+                                    localization="en"
+                                    style={Object {}}
+                                  >
+                                    <Icon
+                                      as="i"
+                                      key=".0"
+                                      name="time"
+                                    >
+                                      <i
+                                        aria-hidden="true"
+                                        className="time icon"
+                                        onClick={[Function]}
+                                      />
+                                    </Icon>
+                                    <input
+                                      aria-describedby="reschedule-time-hint"
+                                      aria-labelledby="reschedule-time-label"
+                                      id="reschedule-time-input"
+                                      key=".1"
+                                      name="reschedule-time"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onClick={[Function]}
+                                      onFocus={[Function]}
+                                      onMouseEnter={[Function]}
+                                      placeholder=""
+                                      tabIndex="0"
+                                      type="text"
+                                      value=""
+                                    />
+                                  </div>
+                                </Input>
+                              </div>
+                            </FormField>
+                          </FormInput>
+                        </FormInputWithRef>
+                        <Transition
+                          animation="scale"
+                          duration={200}
+                          mountOnShow={true}
+                          onComplete={[Function]}
+                          transitionOnMount={false}
+                          unmountOnHide={true}
+                          visible={false}
+                        />
+                      </InputView>
+                    </TimeInput>
+                  </div>
+                  <InputMessage
+                    message=""
+                    show={false}
+                  />
+                </div>
+              </TimeAmPmInput>
+            </div>
+          </div>
+          <div
+            className="eventactiontoast-footer"
+          >
+            <div
+              className="eventactiontoast-buttonwrapper"
+            >
+              <ButtonGhost
+                className=""
+                data-testid="button-cancel"
+                fluid={true}
+                onClick={[MockFunction]}
+                red={false}
+                style={
+                  Object {
+                    "height": "100%",
+                  }
+                }
+              >
+                <Button
+                  as="button"
+                  className="buttonghost  "
+                  data-testid="button-cancel"
+                  fluid={true}
+                  inverted={true}
+                  onClick={[MockFunction]}
+                  style={
+                    Object {
+                      "height": "100%",
+                    }
+                  }
+                >
+                  <Ref
+                    innerRef={
+                      Object {
+                        "current": <button
+                          class="ui fluid inverted button buttonghost  "
+                          data-testid="button-cancel"
+                          style="height: 100%;"
+                        >
+                          Cancel
+                        </button>,
+                      }
+                    }
+                  >
+                    <RefFindNode
+                      innerRef={
+                        Object {
+                          "current": <button
+                            class="ui fluid inverted button buttonghost  "
+                            data-testid="button-cancel"
+                            style="height: 100%;"
+                          >
+                            Cancel
+                          </button>,
+                        }
+                      }
+                    >
+                      <button
+                        className="ui fluid inverted button buttonghost  "
+                        data-testid="button-cancel"
+                        onClick={[Function]}
+                        style={
+                          Object {
+                            "height": "100%",
+                          }
+                        }
+                      >
+                        Cancel
+                      </button>
+                    </RefFindNode>
+                  </Ref>
+                </Button>
+              </ButtonGhost>
+            </div>
+            <div
+              className="eventactiontoast-buttonwrapper eventactiontoast-save"
+            >
+              <Button
+                data-testid="button-save"
+                fluid={true}
+                onClick={[Function]}
+                style={Object {}}
+                type="submit"
+              >
+                <Button
+                  as="button"
+                  className="button-custom"
+                  data-testid="button-save"
+                  fluid={true}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "var(--button_color)",
+                      "color": "var(--dark_black)",
+                    }
+                  }
+                  type="submit"
+                >
+                  <Ref
+                    innerRef={
+                      Object {
+                        "current": <button
+                          class="ui fluid button button-custom"
+                          data-testid="button-save"
+                          type="submit"
+                        >
+                          Save
+                        </button>,
+                      }
+                    }
+                  >
+                    <RefFindNode
+                      innerRef={
+                        Object {
+                          "current": <button
+                            class="ui fluid button button-custom"
+                            data-testid="button-save"
+                            type="submit"
+                          >
+                            Save
+                          </button>,
+                        }
+                      }
+                    >
+                      <button
+                        className="ui fluid button button-custom"
+                        data-testid="button-save"
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseEnter={[Function]}
+                        onMouseLeave={[Function]}
+                        onMouseUp={[Function]}
+                        style={
+                          Object {
+                            "backgroundColor": "var(--button_color)",
+                            "color": "var(--dark_black)",
+                          }
+                        }
+                        type="submit"
+                      >
+                        Save
+                      </button>
+                    </RefFindNode>
+                  </Ref>
+                </Button>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ModalToast>
+</EventActionToast>
+`;

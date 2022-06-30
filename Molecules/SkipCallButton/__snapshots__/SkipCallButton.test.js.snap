@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SkipCallButton matches the snapshot 1`] = `
+<div
+  className="skipcallbutton-wrap"
+>
+  <CallButton
+    color="#92aad7"
+    data-testid="button-skip-call"
+    dimmed={false}
+    disabled={false}
+    ghost={false}
+    ghostOpacity={0}
+    name="skip-call"
+    onClick={[MockFunction]}
+    size="medium"
+  >
+    <IconSkipCall />
+  </CallButton>
+  <CallButtonLabel
+    text="Skip To Next"
+  />
+</div>
+`;

@@ -1,0 +1,292 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReminderCard matches the snapshot 1`] = `
+<button
+  className="remindercard-button"
+  data-testid="reminder-card-visit"
+  disabled={false}
+  onClick={[MockFunction]}
+  style={Object {}}
+>
+  <div
+    className="remindercard-flag"
+  />
+  <div
+    className="remindercard-container  remindercard--interactive"
+  >
+    <div
+      className="remindercard-banner"
+    >
+      <IconsPatient
+        className="remindercard-icon"
+        name="visit"
+        style={Object {}}
+      />
+      <p
+        style={
+          Object {
+            "color": "white",
+          }
+        }
+      >
+        Virtual Visit
+      </p>
+      <p
+        className="remindercard-time"
+      >
+        1d ago
+      </p>
+    </div>
+    <div
+      className="remindercard-content"
+    >
+      <p>
+        You have a Virtual Visit scheduled.
+      </p>
+    </div>
+  </div>
+</button>
+`;
+
+exports[`ReminderCard matches the snapshot for careteam 1`] = `
+<button
+  className="remindercard-button"
+  data-testid="reminder-card-careteam"
+  disabled={false}
+  onClick={[MockFunction]}
+  style={Object {}}
+>
+  <div
+    className="remindercard-flag"
+  />
+  <div
+    className="remindercard-container  remindercard--interactive"
+  >
+    <div
+      className="remindercard-banner"
+    >
+      <IconsPatient
+        className="remindercard-icon"
+        name="careteam"
+        style={Object {}}
+      />
+      <p
+        style={
+          Object {
+            "color": "white",
+          }
+        }
+      >
+        Care Team
+      </p>
+      <p
+        className="remindercard-time"
+      >
+        1d ago
+      </p>
+    </div>
+    <div
+      className="remindercard-content"
+    >
+      <p>
+        Please contact your Care Team
+      </p>
+    </div>
+  </div>
+</button>
+`;
+
+exports[`ReminderCard matches the snapshot for flag=expired 1`] = `
+<button
+  className="remindercard-button"
+  data-testid="reminder-card-visit"
+  disabled={false}
+  onClick={[MockFunction]}
+  style={Object {}}
+>
+  <div
+    className="remindercard-flag remindercard-flag--expired"
+  />
+  <div
+    className="remindercard-container  remindercard--interactive"
+  >
+    <div
+      className="remindercard-banner"
+    >
+      <IconsPatient
+        className="remindercard-icon"
+        name="visit"
+        style={Object {}}
+      />
+      <p
+        style={
+          Object {
+            "color": "white",
+          }
+        }
+      >
+        Virtual Visit
+      </p>
+      <p
+        className="remindercard-time"
+      >
+        1d ago
+      </p>
+    </div>
+    <div
+      className="remindercard-content"
+    >
+      <p>
+        You have a Virtual Visit scheduled.
+      </p>
+    </div>
+  </div>
+</button>
+`;
+
+exports[`ReminderCard matches the snapshot for flag=warn 1`] = `
+<button
+  className="remindercard-button"
+  data-testid="reminder-card-visit"
+  disabled={false}
+  onClick={[MockFunction]}
+  style={Object {}}
+>
+  <div
+    className="remindercard-flag remindercard-flag--warn"
+  />
+  <div
+    className="remindercard-container  remindercard--interactive"
+  >
+    <div
+      className="remindercard-banner"
+    >
+      <IconsPatient
+        className="remindercard-icon"
+        name="visit"
+        style={Object {}}
+      />
+      <p
+        style={
+          Object {
+            "color": "white",
+          }
+        }
+      >
+        Virtual Visit
+      </p>
+      <p
+        className="remindercard-time"
+      >
+        1d ago
+      </p>
+    </div>
+    <div
+      className="remindercard-content"
+    >
+      <p>
+        You have a Virtual Visit scheduled.
+      </p>
+    </div>
+  </div>
+</button>
+`;
+
+exports[`ReminderCard matches the snapshot for message 1`] = `
+<button
+  className="remindercard-button"
+  data-testid="reminder-card-message"
+  disabled={false}
+  onClick={[MockFunction]}
+  style={Object {}}
+>
+  <div
+    className="remindercard-flag"
+  />
+  <div
+    className="remindercard-container  remindercard--interactive"
+  >
+    <div
+      className="remindercard-banner"
+    >
+      <IconsPatient
+        className="remindercard-icon"
+        name="message"
+        style={Object {}}
+      />
+      <p
+        style={
+          Object {
+            "color": "white",
+          }
+        }
+      >
+        Message
+      </p>
+      <p
+        className="remindercard-time"
+      >
+        1d ago
+      </p>
+    </div>
+    <div
+      className="remindercard-content"
+    >
+      <p>
+        You have a new message
+      </p>
+    </div>
+  </div>
+</button>
+`;
+
+exports[`ReminderCard matches the snapshot for survey 1`] = `
+<button
+  className="remindercard-button"
+  data-testid="reminder-card-survey"
+  disabled={false}
+  onClick={[MockFunction]}
+  style={Object {}}
+>
+  <div
+    className="remindercard-flag"
+  />
+  <div
+    className="remindercard-container  remindercard--interactive"
+  >
+    <div
+      className="remindercard-banner"
+    >
+      <IconsPatient
+        className="remindercard-icon"
+        name="survey"
+        style={Object {}}
+      />
+      <p
+        style={
+          Object {
+            "color": "white",
+          }
+        }
+      >
+        Assessment
+      </p>
+      <p
+        className="remindercard-time"
+      >
+        1d ago
+      </p>
+    </div>
+    <div
+      className="remindercard-content"
+    >
+      <p>
+        <Linkify
+          disabled={true}
+          text="You have a new survey"
+        />
+      </p>
+    </div>
+  </div>
+</button>
+`;

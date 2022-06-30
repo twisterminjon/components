@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CaregiverResults matches the snapshot when loading 1`] = `
+<div
+  className="caregiverresults-loader center"
+>
+  <SpinnerDots
+    className=""
+    style={Object {}}
+  />
+  <p>
+    Searching for caregiver
+  </p>
+</div>
+`;
+
+exports[`CaregiverResults matches the snapshot with caregivers 1`] = `
+<div
+  className="caregiverresults"
+  data-testid="caregiver-results"
+>
+  <ul>
+    <UserCardCaregiver
+      canCall={false}
+      canMessage={false}
+      canOdm={false}
+      dialStatus="offline"
+      displayName="Sally Supersonic"
+      favorite={false}
+      isActive={true}
+      key="2001"
+      loading={false}
+      onClick={[Function]}
+      onMenu={[Function]}
+      onMessage={[Function]}
+      onOdm={[Function]}
+      phone="5554443232"
+      profileImage="https://www.fillmurray.com/100/100"
+      sendProgramEvents={false}
+      showMenuButton={false}
+      status=""
+    />
+    <UserCardCaregiver
+      canCall={false}
+      canMessage={false}
+      canOdm={false}
+      dialStatus="offline"
+      displayName="Ursala Ursina"
+      favorite={false}
+      isActive={true}
+      key="2002"
+      loading={false}
+      onClick={[Function]}
+      onMenu={[Function]}
+      onMessage={[Function]}
+      onOdm={[Function]}
+      phone="3332225555"
+      profileImage="https://www.fillmurray.com/200/200"
+      sendProgramEvents={false}
+      showMenuButton={false}
+      status=""
+    />
+    <UserCardCaregiver
+      canCall={false}
+      canMessage={false}
+      canOdm={false}
+      dialStatus="offline"
+      displayName="Tamara Tollingworth"
+      favorite={false}
+      isActive={true}
+      key="2003"
+      loading={false}
+      onClick={[Function]}
+      onMenu={[Function]}
+      onMessage={[Function]}
+      onOdm={[Function]}
+      phone="5557778888"
+      profileImage="https://www.fillmurray.com/500/500"
+      sendProgramEvents={false}
+      showMenuButton={false}
+      status=""
+    />
+    <UserCardCaregiver
+      canCall={false}
+      canMessage={false}
+      canOdm={false}
+      dialStatus="offline"
+      displayName="Babs Bobsalot"
+      favorite={false}
+      isActive={true}
+      key="2004"
+      loading={false}
+      onClick={[Function]}
+      onMenu={[Function]}
+      onMessage={[Function]}
+      onOdm={[Function]}
+      phone="444333222"
+      profileImage="https://www.fillmurray.com/100/100"
+      sendProgramEvents={false}
+      showMenuButton={false}
+      status=""
+    />
+  </ul>
+</div>
+`;
+
+exports[`CaregiverResults matches the snapshot with no caregivers found 1`] = `
+<div
+  className="caregiverresults"
+  data-testid="caregiver-results"
+>
+  <ul />
+</div>
+`;

@@ -1,0 +1,580 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NamedGroupEditor matches the snapshot 1`] = `
+<div
+  className="namedgroupeditor"
+>
+  <div
+    className="namedgroupeditor-window"
+  >
+    <div
+      className="namedgroupeditor-header"
+    >
+      <div
+        className="namedgroupeditor--row namedgroupeditor--align-center"
+      >
+        <h3>
+          Create a new message group
+        </h3>
+        <ButtonIcon
+          className=""
+          onClick={[MockFunction]}
+          style={Object {}}
+        >
+          <IconTimes
+            color="var(--white)"
+            size={25}
+          />
+        </ButtonIcon>
+      </div>
+      <div
+        className="namedgroupeditor--row namedgroupeditor--align-top"
+      >
+        <TextInput
+          alertMessage=""
+          autoFocus={true}
+          className=""
+          data-testid="named-group-name-input"
+          displayOnly={false}
+          errorMessage=""
+          hasError={false}
+          hintMessage=""
+          hintText=""
+          label="Group Name"
+          maxLength="30"
+          name=""
+          onChange={[Function]}
+          onKeyPress={[Function]}
+          placeholder="Enter a name for the group..."
+          required={false}
+          style={
+            Object {
+              "marginRight": 16,
+            }
+          }
+          type="text"
+          value=""
+        />
+        <div
+          className="namedgroupeditor-button"
+        >
+          <Button
+            data-testid="named-group-button-save"
+            disabled={false}
+            fluid={false}
+            loading={false}
+            onClick={[Function]}
+            style={
+              Object {
+                "height": 34,
+              }
+            }
+            type="submit"
+          >
+            Save
+          </Button>
+        </div>
+      </div>
+      <TagUserInput
+        className=""
+        errorMessage=""
+        hasError={false}
+        onRemove={[Function]}
+        onSearch={[Function]}
+        style={
+          Object {
+            "marginTop": 16,
+          }
+        }
+        users={
+          Array [
+            Object {
+              "displayName": "Agnes Rogers, MD",
+              "id": "3",
+              "overallStatus": "available",
+              "profileImage": "https://www.fillmurray.com/200/200",
+            },
+          ]
+        }
+        value=""
+      />
+    </div>
+    <div
+      className="namedgroupeditor-list"
+      id="namedgroupeditor-list"
+    >
+      <InfiniteScroll
+        dataLength={7}
+        hasMore={true}
+        loading={false}
+        next={[Function]}
+        scrollableTarget="namedgroupeditor-list"
+      >
+        <UserCardSimple
+          className=""
+          hideStatus={true}
+          key="9"
+          onClick={[Function]}
+          profileImage="https://www.fillmurray.com/400/400"
+          selected={false}
+          size="medium"
+          style={Object {}}
+          userName="David McGinnis, MD"
+        />
+        <UserCardSimple
+          className=""
+          hideStatus={true}
+          key="4"
+          onClick={[Function]}
+          profileImage="https://www.fillmurray.com/600/600"
+          selected={false}
+          size="medium"
+          style={Object {}}
+          userName="David Smith, MD"
+        />
+        <UserCardSimple
+          className=""
+          hideStatus={true}
+          key="8"
+          onClick={[Function]}
+          profileImage="https://www.fillmurray.com/500/500"
+          selected={false}
+          size="medium"
+          style={Object {}}
+          userName="Jennifer Reyes"
+        />
+        <UserCardSimple
+          className=""
+          hideStatus={true}
+          key="6"
+          onClick={[Function]}
+          profileImage="https://www.fillmurray.com/700/700"
+          selected={false}
+          size="medium"
+          style={Object {}}
+          userName="Paul Jason, RN"
+        />
+        <UserCardSimple
+          className=""
+          hideStatus={true}
+          key="5"
+          onClick={[Function]}
+          profileImage="https://www.fillmurray.com/800/800"
+          selected={false}
+          size="medium"
+          style={Object {}}
+          userName="Rosalyn Stratton, RN"
+        />
+        <UserCardSimple
+          className=""
+          hideStatus={true}
+          key="10"
+          onClick={[Function]}
+          profileImage="https://www.fillmurray.com/200/200"
+          selected={false}
+          size="medium"
+          style={Object {}}
+          userName="Sherry Jackson, MD"
+        />
+        <UserCardSimple
+          className=""
+          hideStatus={true}
+          key="7"
+          onClick={[Function]}
+          profileImage="https://www.fillmurray.com/450/450"
+          selected={false}
+          size="medium"
+          style={Object {}}
+          userName="Tony Hunter"
+        />
+      </InfiniteScroll>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NamedGroupEditor matches the snapshot in edit mode 1`] = `
+<div
+  className="namedgroupeditor"
+>
+  <div
+    className="namedgroupeditor-window"
+  >
+    <div
+      className="namedgroupeditor-header"
+    >
+      <div
+        className="namedgroupeditor--row namedgroupeditor--align-center"
+      >
+        <h3>
+          Edit message group
+        </h3>
+        <ButtonIcon
+          className=""
+          onClick={[MockFunction]}
+          style={Object {}}
+        >
+          <IconTimes
+            color="var(--white)"
+            size={25}
+          />
+        </ButtonIcon>
+      </div>
+      <div
+        className="namedgroupeditor--row namedgroupeditor--align-top"
+      >
+        <TextInput
+          alertMessage=""
+          autoFocus={true}
+          className=""
+          data-testid="named-group-name-input"
+          displayOnly={false}
+          errorMessage=""
+          hasError={false}
+          hintMessage=""
+          hintText=""
+          label="Group Name"
+          maxLength="30"
+          name=""
+          onChange={[Function]}
+          onKeyPress={[Function]}
+          placeholder="Enter a name for the group..."
+          required={false}
+          style={
+            Object {
+              "marginRight": 16,
+            }
+          }
+          type="text"
+          value=""
+        />
+        <div
+          className="namedgroupeditor-button"
+        >
+          <Button
+            data-testid="named-group-button-save"
+            disabled={false}
+            fluid={false}
+            loading={false}
+            onClick={[Function]}
+            style={
+              Object {
+                "height": 34,
+              }
+            }
+            type="submit"
+          >
+            Update
+          </Button>
+        </div>
+      </div>
+      <TagUserInput
+        className=""
+        errorMessage=""
+        hasError={false}
+        onRemove={[Function]}
+        onSearch={[Function]}
+        style={
+          Object {
+            "marginTop": 16,
+          }
+        }
+        users={
+          Array [
+            Object {
+              "displayName": "Agnes Rogers, MD",
+              "id": "3",
+              "overallStatus": "available",
+              "profileImage": "https://www.fillmurray.com/200/200",
+            },
+          ]
+        }
+        value=""
+      />
+    </div>
+    <div
+      className="namedgroupeditor-list"
+      id="namedgroupeditor-list"
+    >
+      <InfiniteScroll
+        dataLength={7}
+        hasMore={true}
+        loading={false}
+        next={[Function]}
+        scrollableTarget="namedgroupeditor-list"
+      >
+        <UserCardSimple
+          className=""
+          hideStatus={true}
+          key="9"
+          onClick={[Function]}
+          profileImage="https://www.fillmurray.com/400/400"
+          selected={false}
+          size="medium"
+          style={Object {}}
+          userName="David McGinnis, MD"
+        />
+        <UserCardSimple
+          className=""
+          hideStatus={true}
+          key="4"
+          onClick={[Function]}
+          profileImage="https://www.fillmurray.com/600/600"
+          selected={false}
+          size="medium"
+          style={Object {}}
+          userName="David Smith, MD"
+        />
+        <UserCardSimple
+          className=""
+          hideStatus={true}
+          key="8"
+          onClick={[Function]}
+          profileImage="https://www.fillmurray.com/500/500"
+          selected={false}
+          size="medium"
+          style={Object {}}
+          userName="Jennifer Reyes"
+        />
+        <UserCardSimple
+          className=""
+          hideStatus={true}
+          key="6"
+          onClick={[Function]}
+          profileImage="https://www.fillmurray.com/700/700"
+          selected={false}
+          size="medium"
+          style={Object {}}
+          userName="Paul Jason, RN"
+        />
+        <UserCardSimple
+          className=""
+          hideStatus={true}
+          key="5"
+          onClick={[Function]}
+          profileImage="https://www.fillmurray.com/800/800"
+          selected={false}
+          size="medium"
+          style={Object {}}
+          userName="Rosalyn Stratton, RN"
+        />
+        <UserCardSimple
+          className=""
+          hideStatus={true}
+          key="10"
+          onClick={[Function]}
+          profileImage="https://www.fillmurray.com/200/200"
+          selected={false}
+          size="medium"
+          style={Object {}}
+          userName="Sherry Jackson, MD"
+        />
+        <UserCardSimple
+          className=""
+          hideStatus={true}
+          key="7"
+          onClick={[Function]}
+          profileImage="https://www.fillmurray.com/450/450"
+          selected={false}
+          size="medium"
+          style={Object {}}
+          userName="Tony Hunter"
+        />
+      </InfiniteScroll>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NamedGroupEditor matches the snapshot when loading 1`] = `
+<div
+  className="namedgroupeditor"
+>
+  <div
+    className="namedgroupeditor-window"
+  >
+    <div
+      className="namedgroupeditor-header"
+    >
+      <div
+        className="namedgroupeditor--row namedgroupeditor--align-center"
+      >
+        <h3>
+          Edit message group
+        </h3>
+        <ButtonIcon
+          className=""
+          onClick={[MockFunction]}
+          style={Object {}}
+        >
+          <IconTimes
+            color="var(--white)"
+            size={25}
+          />
+        </ButtonIcon>
+      </div>
+      <div
+        className="namedgroupeditor--row namedgroupeditor--align-top"
+      >
+        <TextInput
+          alertMessage=""
+          autoFocus={true}
+          className=""
+          data-testid="named-group-name-input"
+          displayOnly={false}
+          errorMessage=""
+          hasError={false}
+          hintMessage=""
+          hintText=""
+          label="Group Name"
+          maxLength="30"
+          name=""
+          onChange={[Function]}
+          onKeyPress={[Function]}
+          placeholder="Enter a name for the group..."
+          required={false}
+          style={
+            Object {
+              "marginRight": 16,
+            }
+          }
+          type="text"
+          value=""
+        />
+        <div
+          className="namedgroupeditor-button"
+        >
+          <Button
+            data-testid="named-group-button-save"
+            disabled={true}
+            fluid={false}
+            loading={true}
+            onClick={[Function]}
+            style={
+              Object {
+                "height": 34,
+              }
+            }
+            type="submit"
+          >
+            Update
+          </Button>
+        </div>
+      </div>
+      <TagUserInput
+        className=""
+        errorMessage=""
+        hasError={false}
+        onRemove={[Function]}
+        onSearch={[Function]}
+        style={
+          Object {
+            "marginTop": 16,
+          }
+        }
+        users={
+          Array [
+            Object {
+              "displayName": "Agnes Rogers, MD",
+              "id": "3",
+              "overallStatus": "available",
+              "profileImage": "https://www.fillmurray.com/200/200",
+            },
+          ]
+        }
+        value=""
+      />
+    </div>
+    <div
+      className="namedgroupeditor-list"
+      id="namedgroupeditor-list"
+    >
+      <InfiniteScroll
+        dataLength={7}
+        hasMore={false}
+        loading={true}
+        next={[Function]}
+        scrollableTarget="namedgroupeditor-list"
+      >
+        <UserCardSimple
+          className=""
+          hideStatus={true}
+          key="9"
+          onClick={[Function]}
+          profileImage="https://www.fillmurray.com/400/400"
+          selected={false}
+          size="medium"
+          style={Object {}}
+          userName="David McGinnis, MD"
+        />
+        <UserCardSimple
+          className=""
+          hideStatus={true}
+          key="4"
+          onClick={[Function]}
+          profileImage="https://www.fillmurray.com/600/600"
+          selected={false}
+          size="medium"
+          style={Object {}}
+          userName="David Smith, MD"
+        />
+        <UserCardSimple
+          className=""
+          hideStatus={true}
+          key="8"
+          onClick={[Function]}
+          profileImage="https://www.fillmurray.com/500/500"
+          selected={false}
+          size="medium"
+          style={Object {}}
+          userName="Jennifer Reyes"
+        />
+        <UserCardSimple
+          className=""
+          hideStatus={true}
+          key="6"
+          onClick={[Function]}
+          profileImage="https://www.fillmurray.com/700/700"
+          selected={false}
+          size="medium"
+          style={Object {}}
+          userName="Paul Jason, RN"
+        />
+        <UserCardSimple
+          className=""
+          hideStatus={true}
+          key="5"
+          onClick={[Function]}
+          profileImage="https://www.fillmurray.com/800/800"
+          selected={false}
+          size="medium"
+          style={Object {}}
+          userName="Rosalyn Stratton, RN"
+        />
+        <UserCardSimple
+          className=""
+          hideStatus={true}
+          key="10"
+          onClick={[Function]}
+          profileImage="https://www.fillmurray.com/200/200"
+          selected={false}
+          size="medium"
+          style={Object {}}
+          userName="Sherry Jackson, MD"
+        />
+        <UserCardSimple
+          className=""
+          hideStatus={true}
+          key="7"
+          onClick={[Function]}
+          profileImage="https://www.fillmurray.com/450/450"
+          selected={false}
+          size="medium"
+          style={Object {}}
+          userName="Tony Hunter"
+        />
+      </InfiniteScroll>
+    </div>
+  </div>
+</div>
+`;

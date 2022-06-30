@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AnnouncementList AnnouncementList matches the snapshot 1`] = `
+<div
+  className="announcementlist"
+  data-testid="announcement-list"
+>
+  <AnnouncementBanner
+    className=""
+    navigation="times"
+    onNavigate={[MockFunction]}
+    style={Object {}}
+    text="Announcements"
+  />
+  <ul
+    className="stack announcementlist-list "
+  >
+    <AnnouncementCard
+      className=""
+      content="Lydia Duluth arrived at Innovation City, planning to stay a few days at most. At heart she was a..."
+      key="1"
+      loading={false}
+      onClose={[Function]}
+      onView={[Function]}
+      read={false}
+      style={Object {}}
+      time="5mins ago"
+    />
+    <AnnouncementCard
+      className=""
+      content="Not for humans. I suspect you are remembering your original ocean home.
+
+This didn’t seem..."
+      key="2"
+      loading={false}
+      onClose={[Function]}
+      onView={[Function]}
+      read={true}
+      style={Object {}}
+      time="5mins ago"
+    />
+    <AnnouncementCard
+      className=""
+      content="The colony was a research station for BioInovation, the interstellar biotechnology company..."
+      key="3"
+      loading={false}
+      onClose={[Function]}
+      onView={[Function]}
+      read={false}
+      style={Object {}}
+      time="5mins ago"
+    />
+    <div
+      style={
+        Object {
+          "minHeight": "var(--bottom-whitespace-v1)",
+        }
+      }
+    />
+  </ul>
+</div>
+`;

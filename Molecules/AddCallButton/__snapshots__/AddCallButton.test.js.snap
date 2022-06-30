@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddCallButton matches the snapshot with a label 1`] = `
+<div
+  className="addcallbutton-wrap "
+  style={Object {}}
+>
+  <AddCallMenu
+    enableCaregivers={true}
+    enableInterpreters={false}
+    onAddCaregiver={[Function]}
+    onAddInterpreter={[Function]}
+    onAddStaff={[Function]}
+    onBack={[Function]}
+    show={false}
+  />
+  <ModalToast
+    data-testid="maximum-reached-modal"
+    show={false}
+  >
+    <div
+      className="modalalert"
+    >
+      <ModalToastHeader
+        className="modalalert"
+        title="'Sorry, the call is currently full. You can add someone after a caller has left'"
+      />
+      <ModalToastButton
+        fluid={true}
+        onClick={[Function]}
+      />
+    </div>
+  </ModalToast>
+  <div
+    className="addcallbutton-button "
+  >
+    <CallButton
+      color="#002862"
+      data-testid="button-add-call"
+      dimmed={false}
+      disabled={false}
+      ghost={true}
+      ghostOpacity={0.6}
+      name="add-call"
+      onClick={[Function]}
+      size="medium"
+    >
+      <IconPlus
+        className=""
+        color="black"
+        size={25}
+        style={Object {}}
+      />
+    </CallButton>
+    <CallButtonLabel
+      text="Add Call"
+    />
+  </div>
+</div>
+`;
+
+exports[`AddCallButton matches the snapshot with out a label 1`] = `
+<div
+  className="addcallbutton-wrap "
+  style={Object {}}
+>
+  <AddCallMenu
+    enableCaregivers={true}
+    enableInterpreters={false}
+    onAddCaregiver={[Function]}
+    onAddInterpreter={[Function]}
+    onAddStaff={[Function]}
+    onBack={[Function]}
+    show={false}
+  />
+  <ModalToast
+    data-testid="maximum-reached-modal"
+    show={false}
+  >
+    <div
+      className="modalalert"
+    >
+      <ModalToastHeader
+        className="modalalert"
+        title="'Sorry, the call is currently full. You can add someone after a caller has left'"
+      />
+      <ModalToastButton
+        fluid={true}
+        onClick={[Function]}
+      />
+    </div>
+  </ModalToast>
+  <div
+    className="addcallbutton-button "
+  >
+    <CallButton
+      color="#002862"
+      data-testid="button-add-call"
+      dimmed={false}
+      disabled={false}
+      ghost={true}
+      ghostOpacity={0.6}
+      name="add-call"
+      onClick={[Function]}
+      size="medium"
+    >
+      <IconPlus
+        className=""
+        color="black"
+        size={25}
+        style={Object {}}
+      />
+    </CallButton>
+  </div>
+</div>
+`;

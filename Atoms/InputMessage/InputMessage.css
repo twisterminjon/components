@@ -1,0 +1,11 @@
+.inputmessage {
+  display: block;
+  margin: 4px 0 4px 4px;
+
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--error);
+  letter-spacing: 0.5px;
+
+  max-width: 100%;
+}

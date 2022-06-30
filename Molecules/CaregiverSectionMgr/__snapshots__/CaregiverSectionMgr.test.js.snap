@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CaregiverSectionMgr matches the snapshot 1`] = `
+<Fragment>
+  <CaregiverMenu
+    canAccessCode={true}
+    onCancel={[Function]}
+    onChangeSendOptions={[Function]}
+    onEdit={[Function]}
+    onResend={[Function]}
+    onUnassign={[Function]}
+    resendLoading={false}
+    sendProgramEvents={false}
+    show={false}
+    user={null}
+  />
+  <ModalYesNoToast
+    confirmButtonText="Remove"
+    defaultIsConfirm={false}
+    flip={false}
+    message="They will no longer receive messages or calls on behalf of Paul Pollson."
+    onConfirm={[Function]}
+    onReject={[Function]}
+    rejectButtonText="Keep"
+    show={false}
+    title="Do you want to remove  as a Caregiver?"
+  />
+  <div
+    className=""
+    style={Object {}}
+  >
+    <CaregiverSectionList
+      canCall={false}
+      canMessage={true}
+      canOdm={true}
+      caregivers={
+        Array [
+          Object {
+            "id": "2001",
+            "sendProgramEvents": true,
+            "user": Object {
+              "displayName": "Sally Supersonic",
+              "email": "sally@mailinator.com",
+              "id": "19",
+              "isActive": true,
+              "overallStatus": "available",
+              "phone": "5554443232",
+              "profileImage": "https://www.fillmurray.com/100/100",
+            },
+          },
+          Object {
+            "id": "2003",
+            "sendProgramEvents": true,
+            "user": Object {
+              "displayName": "Ursala Ursina",
+              "email": "ursula@mailinator.com",
+              "id": "21",
+              "isActive": true,
+              "overallStatus": "busy",
+              "phone": "3332225555",
+              "profileImage": "https://www.fillmurray.com/200/200",
+            },
+          },
+        ]
+      }
+      loadingId=""
+      onCall={[MockFunction]}
+      onMenu={[Function]}
+      onMessage={[MockFunction]}
+      onOdm={[MockFunction]}
+      patientUser={
+        Object {
+          "accessCode": Object {
+            "code": "54321",
+            "id": "43",
+            "isExpired": false,
+          },
+          "displayName": "Louis Lane",
+          "email": "lois@dailyplanet.com",
+          "id": "1",
+          "patient": Object {
+            "contactType": "BOTH",
+            "dateOfBirth": "2018-01-01",
+            "enrollments": Array [
+              Object {
+                "id": "13",
+                "program": Object {
+                  "id": "1",
+                  "isActive": true,
+                  "name": "Fantastic Four",
+                },
+              },
+              Object {
+                "id": "24",
+                "program": Object {
+                  "id": "3",
+                  "isActive": false,
+                  "name": "Justice League of America",
+                },
+              },
+            ],
+            "id": "2",
+            "identifier": "123456789",
+            "language": Object {
+              "name": "French",
+            },
+            "ssnLast4": "0555",
+            "zipCode": "15201",
+          },
+          "phone": "9545551212",
+          "profileImage": "",
+          "roles": Array [
+            Object {
+              "id": "1",
+              "isActive": true,
+              "name": "The Avengers",
+            },
+            Object {
+              "id": "5",
+              "isActive": false,
+              "name": "Crime Syndicate of America",
+            },
+          ],
+          "vitalsReadings": Array [
+            Object {
+              "id": "5",
+              "measuredAt": "2020-04-01T01:36:50",
+              "vitals": Array [
+                Object {
+                  "id": "13",
+                  "isIntervention": true,
+                  "units": "lbs",
+                  "value": 120,
+                  "vital": Object {
+                    "id": "1",
+                    "name": "Weight",
+                  },
+                },
+                Object {
+                  "id": "14",
+                  "isIntervention": true,
+                  "units": "mmHg",
+                  "value": 90,
+                  "vital": Object {
+                    "id": "2",
+                    "name": "Blood Pressure (Systolic)",
+                  },
+                },
+                Object {
+                  "id": "15",
+                  "isIntervention": false,
+                  "units": "mmHg",
+                  "value": 75,
+                  "vital": Object {
+                    "id": "3",
+                    "name": "Blood Pressure (Diastolic)",
+                  },
+                },
+                Object {
+                  "id": "16",
+                  "isIntervention": false,
+                  "units": "percentage",
+                  "value": 80,
+                  "vital": Object {
+                    "id": "4",
+                    "name": "Oxygen Level",
+                  },
+                },
+                Object {
+                  "id": "17",
+                  "isIntervention": true,
+                  "units": "bpm",
+                  "value": 62,
+                  "vital": Object {
+                    "id": "5",
+                    "name": "Heart Rate",
+                  },
+                },
+                Object {
+                  "id": "18",
+                  "isIntervention": true,
+                  "units": "celsius",
+                  "value": 39.1,
+                  "vital": Object {
+                    "id": "6",
+                    "name": "Body Temperature",
+                  },
+                },
+                Object {
+                  "id": "19",
+                  "isIntervention": false,
+                  "units": "mmol/L",
+                  "value": 4.2,
+                  "vital": Object {
+                    "id": "7",
+                    "name": "Glucose Concentration",
+                  },
+                },
+              ],
+            },
+          ],
+        }
+      }
+    />
+  </div>
+</Fragment>
+`;

@@ -1,0 +1,53 @@
+.eventcard-container {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 3px;
+  border-radius: 4px;
+  background-color: var(--program_events_bg);
+  min-height: 60px;
+  cursor: pointer;
+}
+
+.eventcard-container-disabled {
+  pointer-events: none;
+}
+
+.eventcard-content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.eventcard-label {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.eventcard-dimmer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--program_bg_loading);
+  pointer-events: none;
+}
+
+.eventcard-icon {
+  width: 45px;
+  display: flex;
+  align-items: center;
+}
+
+.eventcard-text {
+  font-size: 18px;
+  color: var(--text_default);
+}

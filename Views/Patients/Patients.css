@@ -1,0 +1,37 @@
+.patients-wrap {
+  position: relative;
+  height: calc(100vh - (var(--header-height) + var(--searchbar-height)));
+
+  overflow: hidden;
+  display: flex;
+}
+
+.patients-content {
+  height: calc(100vh - (var(--header-height) + var(--searchbar-height)));
+  flex-shrink: 0;
+
+  overflow: hidden;
+
+  display: flex;
+}
+
+/* For the searchbar */
+.patients-searchbar-wrap {
+  position: relative;
+  width: 100%;
+}
+
+.patients-addbutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  top: calc(var(--searchbar-height) / 2 - 17px);
+  right: 36px;
+  width: 34px;
+  height: 34px;
+
+  background-color: var(--patientpage__button_bg) !important;
+  padding: 0 !important;
+}

@@ -1,0 +1,9 @@
+.useravatar-container {
+  position: relative;
+}
+
+.useravatar-statusbubble {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

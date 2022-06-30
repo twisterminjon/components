@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CaregiverSectionList matches the snapshot 1`] = `
+<ul
+  className="caregiversectionlist"
+  data-testid="caregivers"
+>
+  <UserCardCaregiver
+    canCall={true}
+    canMessage={true}
+    canOdm={true}
+    dialStatus="available"
+    displayName="Sally Supersonic"
+    favorite={false}
+    isActive={true}
+    key="2001"
+    loading={false}
+    onCall={[Function]}
+    onClick={[Function]}
+    onMenu={[Function]}
+    onMessage={[Function]}
+    onOdm={[Function]}
+    phone=""
+    profileImage="https://www.fillmurray.com/100/100"
+    sendProgramEvents={true}
+    showMenuButton={true}
+    status="available"
+  />
+  <UserCardCaregiver
+    canCall={true}
+    canMessage={true}
+    canOdm={true}
+    dialStatus="busy"
+    displayName="Ursala Ursina"
+    favorite={false}
+    isActive={true}
+    key="2003"
+    loading={false}
+    onCall={[Function]}
+    onClick={[Function]}
+    onMenu={[Function]}
+    onMessage={[Function]}
+    onOdm={[Function]}
+    phone=""
+    profileImage="https://www.fillmurray.com/200/200"
+    sendProgramEvents={true}
+    showMenuButton={true}
+    status="busy"
+  />
+</ul>
+`;

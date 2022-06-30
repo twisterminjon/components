@@ -1,0 +1,146 @@
+.videosmall-wrap-placeholder {
+  background-color: #1b1c1d;
+  opacity: 0.98;
+}
+
+.videosmall-wrap {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.videosmall-video-wrap {
+  position: relative;
+  width: 120px;
+  height: 90px;
+  z-index: 11;
+  border: 1px solid var(--white);
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: var(--brandcolor_dark);
+  margin-bottom: 6px;
+}
+
+.videosmall-video-wrap::after {
+  content: '';
+  background-image: url('../../../Images/user-placeholder.png');
+  background-size: cover;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.videosmall-video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.videosmall-name {
+  line-height: 18px;
+  height: 18px;
+  font-size: 14px;
+  color: var(--white);
+  background-color: rgba(0, 40, 98, 0.5);
+  border-radius: 9px;
+  padding: 0 8px;
+}
+
+.videosmall--shadow {
+  box-shadow: 0 0px 38px rgba(0, 0, 0, 0.3), 0 8px 12px rgba(0, 0, 0, 0.22);
+}
+
+.videosmall--mirror {
+  transform: scaleX(-1);
+}
+
+.videosmall-debug-text {
+  position: absolute;
+  top: 5px;
+  font-size: 12px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  overflow: auto;
+  z-index: 50;
+  text-align: left;
+  padding-left: 4px;
+}
+
+.videosmall-video-placeholder {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.videosmall-add-caller-label {
+  color: white;
+  font-weight: 300;
+  z-index: 30;
+  text-align: center;
+}
+
+.videosmall-dimmer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--brandcolor_dark);
+  opacity: 0.2;
+  z-index: 20;
+}
+
+.videosmall-dimmer--declined {
+  background-color: var(--call_declined_color);
+  opacity: initial;
+}
+
+.videosmall-placeholder-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 120px;
+  height: 90px;
+  background-color: var(--brandcolor_dark);
+  z-index: 30;
+}
+
+.videosmall-placeholder {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.videosmall-placholder-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 6px;
+  height: 14px;
+  z-index: 1;
+}
+
+.videosmall-placholder-icon-audio {
+  width: 14px;
+  position: absolute;
+  bottom: 10px;
+  left: 6px;
+  height: 14px;
+  z-index: 1;
+  background-color: initial;
+}
+
+.videosmall-button {
+  border: none;
+  background: transparent;
+  outline: none;
+}

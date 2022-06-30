@@ -1,0 +1,21 @@
+.searchresults {
+  height: 100%;
+  /* subtract header/searchbar/counter */
+  height: calc(100% - (60px + var(--searchbar-height) + 33px));
+}
+
+.searchresults-counter {
+  display: flex;
+  align-items: center;
+
+  height: 33px;
+  padding-left: 24px;
+
+  font-weight: 300;
+  color: var(--black);
+  background-color: #92aad7;
+}
+
+.searchresults-counter--bold {
+  font-weight: 700;
+}

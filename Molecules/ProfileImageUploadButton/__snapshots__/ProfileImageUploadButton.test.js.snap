@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageUploadButton matches the snapshot 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <Popup
+    content="Edit profile pic"
+    disabled={false}
+    eventsEnabled={true}
+    on={
+      Array [
+        "click",
+        "hover",
+      ]
+    }
+    pinned={false}
+    popperModifiers={Array []}
+    position="bottom left"
+    trigger={
+      <button
+        className="profileimageuploadbutton"
+        data-testid="button-edit-profile-image"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <IconPencil
+          color="var(--brandcolor_dark)"
+          size={16}
+        />
+      </button>
+    }
+  />
+</div>
+`;
+
+exports[`ImageUploadButton matches the snapshot when loading 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <Popup
+    content="Edit profile pic"
+    disabled={false}
+    eventsEnabled={true}
+    on={
+      Array [
+        "click",
+        "hover",
+      ]
+    }
+    pinned={false}
+    popperModifiers={Array []}
+    position="bottom left"
+    trigger={
+      <button
+        className="profileimageuploadbutton button-spinner"
+        data-testid="button-edit-profile-image"
+        disabled={true}
+        onClick={[Function]}
+      >
+        <IconPencil
+          color="var(--brandcolor_dark)"
+          size={16}
+        />
+      </button>
+    }
+  />
+</div>
+`;

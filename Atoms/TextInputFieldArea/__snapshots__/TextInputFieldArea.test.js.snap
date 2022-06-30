@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextInputFieldArea matches the snapshot 1`] = `
+<TextArea
+  as="textarea"
+  className="textinputfieldarea "
+  error="textinputfieldarea"
+  rows={3}
+  style={Object {}}
+  value="Message on line 1"
+/>
+`;

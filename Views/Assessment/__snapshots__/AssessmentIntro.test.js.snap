@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AssessmentIntro matches the snapshot 1`] = `
+<div
+  className="assessment-wrap"
+  data-testid="assessment-intro"
+>
+  <div
+    className="assessment-column"
+  >
+    <AssessmentBanner
+      title="Title"
+    />
+    <div
+      className="assessment-info"
+    >
+      <div
+        className="assessment-info-content"
+      >
+        <p
+          data-testid="assessment-intro-description"
+        >
+          <Linkify
+            disabled={false}
+            text="Description"
+          />
+        </p>
+        <p
+          data-testid="assessment-to-complete"
+        >
+           
+          This assessment will take approximately 10 mins to complete.
+        </p>
+        <p
+          data-testid="assessment-intro-complete-by"
+        >
+           Please complete by 
+          MM-DD-YYYY
+        </p>
+      </div>
+      <div>
+        <Button
+          data-testid="assessment-intro-start-button"
+          disabled={false}
+          fluid={true}
+          loading={false}
+          onClick={[MockFunction]}
+          style={Object {}}
+          type="submit"
+        >
+          Start Assessment
+        </Button>
+        <ButtonGhost
+          className="assessment-info-cancel"
+          data-testid="assessment-intro-cancel-button"
+          disabled={false}
+          fluid={true}
+          onClick={[MockFunction]}
+          red={false}
+          style={Object {}}
+        >
+          Cancel
+        </ButtonGhost>
+      </div>
+    </div>
+  </div>
+</div>
+`;

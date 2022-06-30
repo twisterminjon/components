@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PatientButton matches the snapshot 1`] = `
+<button
+  className="patientbutton-button   "
+  disabled={false}
+  onClick={[MockFunction]}
+  onMouseDown={[Function]}
+  onMouseUp={[Function]}
+  style={Object {}}
+  type="button"
+>
+  <span>
+    button
+  </span>
+</button>
+`;
+
+exports[`PatientButton matches the snapshot when loading 1`] = `
+<button
+  className="patientbutton-button   patientbutton-loading"
+  disabled={true}
+  onClick={[MockFunction]}
+  onMouseDown={[Function]}
+  onMouseUp={[Function]}
+  style={Object {}}
+  type="button"
+>
+  <span>
+    button
+  </span>
+</button>
+`;

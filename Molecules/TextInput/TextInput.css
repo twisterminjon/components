@@ -1,0 +1,12 @@
+.textinput-wrapper {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+.textinput-label-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}

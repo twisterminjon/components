@@ -1,0 +1,26 @@
+.videocontrols {
+  position: fixed;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  background-color: transparent;
+  overflow: hidden;
+  z-index: var(--z-video-controls);
+}
+
+.videocontrols-show {
+  /* 10px have been added for the hover shadow so it doesn't get clipped */
+  height: 120px;
+  transition: height 0.25s ease-in;
+}
+
+.videocontrols-hide {
+  height: 0;
+  transition: height 0.25s ease-in;
+}

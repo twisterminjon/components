@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AnnouncementCard matches the snapshot 1`] = `
+<li
+  className="announcementcard"
+  data-testid="announcement-Lydia Dulu"
+  style={Object {}}
+>
+  <div
+    className="announcementcard-header"
+  >
+    <span>
+      1min ago
+    </span>
+    <button
+      className="button-reset announcementcard-close"
+      data-testid="button-close"
+      disabled={false}
+      onClick={[MockFunction]}
+    >
+      <IconTimes
+        color="var(--brandcolor)"
+        size={16}
+      />
+    </button>
+  </div>
+  <button
+    className="button-reset announcementcard-content"
+    data-testid="button-view"
+    disabled={false}
+    onClick={[MockFunction]}
+  >
+    <p>
+      <Linkify
+        disabled={true}
+        text="Lydia Duluth arrived at Innovation City, planning to stay a few days at most. At heart she was a..."
+      />
+    </p>
+  </button>
+  <div
+    className="announcementcard-hover-target"
+  />
+</li>
+`;
+
+exports[`AnnouncementCard matches the snapshot when read 1`] = `
+<li
+  className="announcementcard  announcementcard--read"
+  data-testid="announcement-Lydia Dulu"
+  style={Object {}}
+>
+  <div
+    className="announcementcard-header"
+  >
+    <span>
+      1min ago
+    </span>
+    <button
+      className="button-reset announcementcard-close"
+      data-testid="button-close"
+      disabled={false}
+      onClick={[MockFunction]}
+    >
+      <IconTimes
+        color="var(--brandcolor)"
+        size={16}
+      />
+    </button>
+  </div>
+  <button
+    className="button-reset announcementcard-content"
+    data-testid="button-view"
+    disabled={false}
+    onClick={[MockFunction]}
+  >
+    <p>
+      <Linkify
+        disabled={true}
+        text="Lydia Duluth arrived at Innovation City, planning to stay a few days at most. At heart she was a..."
+      />
+    </p>
+  </button>
+  <div
+    className="announcementcard-hover-target"
+  />
+</li>
+`;

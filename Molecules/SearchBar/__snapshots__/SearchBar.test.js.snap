@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar matches the snapshot 1`] = `
+<div
+  className="searchbar-wrap"
+  data-testid="search-bar"
+  style={Object {}}
+>
+  <div
+    className="searchbar-search"
+  >
+    <div
+      className="searchbar-icon-wrap"
+    >
+      <IconSearch
+        color="var(--searchbar__icon_fg)"
+      />
+    </div>
+    <input
+      className="searchbar-input"
+      defaultValue="search term"
+      onChange={[Function]}
+      placeholder="Search"
+      type="text"
+    />
+  </div>
+</div>
+`;

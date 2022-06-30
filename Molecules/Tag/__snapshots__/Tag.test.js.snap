@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tag matches the snapshot 1`] = `
+<div
+  className="tag   "
+  data-testid="tag-Legit"
+  style={Object {}}
+>
+  <ContentView
+    id="1"
+    inactive={false}
+    label="Legit"
+    onDelete={[MockFunction]}
+  />
+</div>
+`;

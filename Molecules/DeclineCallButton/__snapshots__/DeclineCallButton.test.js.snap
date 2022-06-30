@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeclineCallButton matches the snapshot 1`] = `
+<div
+  className="declinecallbutton-wrap"
+>
+  <CallButton
+    color="#ff4d4d"
+    dimmed={false}
+    disabled={false}
+    ghost={false}
+    ghostOpacity={0}
+    name="decline-call"
+    onClick={[MockFunction]}
+    size="medium"
+  >
+    <IconDeclineCall
+      color="black"
+    />
+  </CallButton>
+  <CallButtonLabel
+    text="Decline"
+  />
+</div>
+`;

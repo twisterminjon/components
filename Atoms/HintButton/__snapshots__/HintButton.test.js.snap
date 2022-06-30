@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HintButton matches the snapshot 1`] = `
+<Popup
+  content="default wait time is 30 seconds"
+  disabled={false}
+  eventsEnabled={true}
+  on={
+    Array [
+      "click",
+      "hover",
+    ]
+  }
+  pinned={false}
+  popperModifiers={Array []}
+  position="top left"
+  trigger={
+    <Icon
+      as="i"
+      circular={true}
+      data-testid="input-hint-button"
+      fitted={true}
+      name="question"
+      size="small"
+    />
+  }
+/>
+`;

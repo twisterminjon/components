@@ -1,0 +1,84 @@
+.errorcallnotice-wrap {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: var(--z-callnotice);
+}
+
+.errorcallnotice-dimmer {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 21;
+
+  background-color: var(--call_declined_color);
+}
+
+.errorcallnotice-content {
+  position: absolute;
+  z-index: 22;
+}
+
+.errorcallnotice-buttons {
+  position: relative;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.errorcallnotice-buttons-center {
+  justify-content: space-around;
+  /* Note sure why the margin is required but it won't center without it */
+  margin: 0 auto;
+}
+
+.errorcallnotice-buttons-spaced {
+  justify-content: space-between;
+  /* Note sure why the margin is required but it won't center without it */
+  margin: 0 auto;
+}
+
+.errorcallnotice-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 300px;
+  height: 290px;
+}
+
+.errorcallnotice-placeholder p {
+  font-size: var(--font-base-body--size);
+  color: var(--brandcolor);
+}
+
+.errorcallnotice-calldetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 300px;
+  height: 400px;
+}
+
+.errorcallnotice-calldetails p {
+  font-size: var(--font-base-body--size-medium);
+  color: var(--white);
+  text-align: center;
+}
+
+.errorcallnotice-calldetails-main {
+  font-size: var(--font-base-body--size-xlarge) !important;
+}

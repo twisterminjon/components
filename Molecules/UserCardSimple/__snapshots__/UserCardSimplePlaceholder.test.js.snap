@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserCardSimplePlaceholder matches the snapshot 1`] = `
+<div>
+  <div
+    className="usercardsimple usercardsimple-ph undefined"
+    key="0s"
+    style={
+      Object {
+        "animationDelay": "0s",
+        "paddingLeft": 24,
+      }
+    }
+  >
+    <div
+      className="usercardsimple-ph-avatar"
+    />
+    <div
+      className="usercardsimple-ph-text"
+    />
+  </div>
+  <div
+    className="usercardsimple usercardsimple-ph undefined"
+    key="0.5s"
+    style={
+      Object {
+        "animationDelay": "0.5s",
+        "paddingLeft": 24,
+      }
+    }
+  >
+    <div
+      className="usercardsimple-ph-avatar"
+    />
+    <div
+      className="usercardsimple-ph-text"
+    />
+  </div>
+  <div
+    className="usercardsimple usercardsimple-ph undefined"
+    key="1s"
+    style={
+      Object {
+        "animationDelay": "1s",
+        "paddingLeft": 24,
+      }
+    }
+  >
+    <div
+      className="usercardsimple-ph-avatar"
+    />
+    <div
+      className="usercardsimple-ph-text"
+    />
+  </div>
+  <div
+    className="usercardsimple usercardsimple-ph undefined"
+    key="1.5s"
+    style={
+      Object {
+        "animationDelay": "1.5s",
+        "paddingLeft": 24,
+      }
+    }
+  >
+    <div
+      className="usercardsimple-ph-avatar"
+    />
+    <div
+      className="usercardsimple-ph-text"
+    />
+  </div>
+  <div
+    className="usercardsimple usercardsimple-ph undefined"
+    key="2s"
+    style={
+      Object {
+        "animationDelay": "2s",
+        "paddingLeft": 24,
+      }
+    }
+  >
+    <div
+      className="usercardsimple-ph-avatar"
+    />
+    <div
+      className="usercardsimple-ph-text"
+    />
+  </div>
+  <div
+    className="usercardsimple usercardsimple-ph undefined"
+    key="2.5s"
+    style={
+      Object {
+        "animationDelay": "2.5s",
+        "paddingLeft": 24,
+      }
+    }
+  >
+    <div
+      className="usercardsimple-ph-avatar"
+    />
+    <div
+      className="usercardsimple-ph-text"
+    />
+  </div>
+  <div
+    className="usercardsimple usercardsimple-ph undefined"
+    key="3s"
+    style={
+      Object {
+        "animationDelay": "3s",
+        "paddingLeft": 24,
+      }
+    }
+  >
+    <div
+      className="usercardsimple-ph-avatar"
+    />
+    <div
+      className="usercardsimple-ph-text"
+    />
+  </div>
+  <div
+    className="usercardsimple usercardsimple-ph undefined"
+    key="3.5s"
+    style={
+      Object {
+        "animationDelay": "3.5s",
+        "paddingLeft": 24,
+      }
+    }
+  >
+    <div
+      className="usercardsimple-ph-avatar"
+    />
+    <div
+      className="usercardsimple-ph-text"
+    />
+  </div>
+  <div
+    className="usercardsimple usercardsimple-ph undefined"
+    key="4s"
+    style={
+      Object {
+        "animationDelay": "4s",
+        "paddingLeft": 24,
+      }
+    }
+  >
+    <div
+      className="usercardsimple-ph-avatar"
+    />
+    <div
+      className="usercardsimple-ph-text"
+    />
+  </div>
+  <div
+    className="usercardsimple usercardsimple-ph undefined"
+    key="4.5s"
+    style={
+      Object {
+        "animationDelay": "4.5s",
+        "paddingLeft": 24,
+      }
+    }
+  >
+    <div
+      className="usercardsimple-ph-avatar"
+    />
+    <div
+      className="usercardsimple-ph-text"
+    />
+  </div>
+</div>
+`;

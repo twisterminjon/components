@@ -1,0 +1,55 @@
+.wrap {
+  position: relative;
+  --selector-height: 34px;
+}
+
+.select {
+  position: absolute;
+  width: 100%;
+  height: var(--selector-height);
+  white-space: nowrap;
+
+  cursor: pointer;
+
+  opacity: 0; /* hide the select show the div shows */
+}
+
+.select::-ms-expand {
+  display: none;
+}
+
+.select option {
+  font-weight: normal;
+}
+
+.display {
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  padding: 0 16px;
+  height: var(--selector-height);
+  white-space: nowrap;
+
+  background-color: var(--bg-light-overlay-solid);
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.downArrow {
+  margin-left: 0.5rem;
+  width: 0.6rem;
+  height: 0.6rem;
+}
+
+select:focus + .display {
+  background-color: var(--lightgrey);
+}
+
+span.countryText {
+  font-size: var(--font-size-small);
+  padding-left: 10px;
+}

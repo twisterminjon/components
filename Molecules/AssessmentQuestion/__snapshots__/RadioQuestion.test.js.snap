@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioQuestion matches the snapshot 1`] = `
+<div>
+  <RadioButton
+    checked={false}
+    data-testid="assessment-data-0"
+    id={0}
+    key="0"
+    name="Suspendisse convallis dui ac dolor luctus, nec volutpat neque accumsan"
+    onChangeHandler={[Function]}
+  />
+  <RadioButton
+    checked={false}
+    data-testid="assessment-data-1"
+    id={1}
+    key="1"
+    name="Quisque nec lacinia purus, ut faucibus dolor"
+    onChangeHandler={[Function]}
+  />
+  <RadioButton
+    checked={false}
+    data-testid="assessment-data-2"
+    id={2}
+    key="2"
+    name="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    onChangeHandler={[Function]}
+  />
+</div>
+`;

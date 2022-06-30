@@ -1,0 +1,11 @@
+.dropdown-list {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+.dropdown-list-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}

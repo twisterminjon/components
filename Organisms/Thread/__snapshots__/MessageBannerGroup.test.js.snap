@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessageBannerGroup matches the snapshot 1`] = `
+<div
+  className="messagebanner "
+  data-testid="message-banner"
+  style={Object {}}
+>
+  <div
+    className="messagebanner-avatar-wrap"
+  >
+    <GroupAvatar
+      className=""
+      style={Object {}}
+    />
+  </div>
+  <span
+    className="messagebanner-label"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    test
+  </span>
+  <button
+    className="messagebanner-button messagebanner-adduser-button"
+    data-testid="add-user"
+    onClick={[MockFunction]}
+  >
+    <IconAddUser
+      className=""
+      color="var(--button_primary_bg)"
+      size="34"
+      style={Object {}}
+    />
+  </button>
+</div>
+`;

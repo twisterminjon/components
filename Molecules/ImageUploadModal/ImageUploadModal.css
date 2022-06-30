@@ -1,0 +1,68 @@
+.imageuploadmodal-dimmer-screen {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--misc__dimmer_bg);
+
+  z-index: var(--image-upload-modal);
+}
+
+.imageuploadmodal-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--grays_0_1);
+
+  width: 428px;
+  padding: 30px;
+}
+
+.imageuploadmodal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.imageuploadmodal-content {
+  height: 528px;
+}
+
+.imageuploadmodal-text {
+  color: var(--base__body_fg);
+  font-size: var(--font-base-body--size-xlarge);
+  font-weight: var(--font-base--bold);
+}
+
+.imageuploadmodal-close {
+  height: 42px;
+  width: 42px;
+
+  background-color: transparent;
+  border-radius: 4px;
+}
+
+.imageuploadmodal-close:hover {
+  background-color: var(--button_color_hover);
+}
+
+.imageuploadmodal-close:focus {
+  outline: 1px solid var(--button_color_hover);
+}
+
+@media screen and (max-width: 375px) {
+  .imageuploadmodal-header {
+    padding: 0 30px;
+  }
+}

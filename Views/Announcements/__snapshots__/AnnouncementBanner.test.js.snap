@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AnnouncementBanner AnnouncementBanner matches the snapshot 1`] = `
+<div
+  className="announcementbanner"
+>
+  <h1>
+    im a banner!
+  </h1>
+</div>
+`;

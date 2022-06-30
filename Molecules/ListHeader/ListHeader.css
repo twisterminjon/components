@@ -1,0 +1,16 @@
+.listheader-container {
+  width: 100%;
+}
+
+.listheader-titlecontainer {
+  width: 100%;
+  background-color: var(--program_bg);
+  display: flex;
+  padding: 25px 14px 11px 14px;
+  border-bottom: 1px solid var(--program_events_border);
+}
+
+.listheader-title {
+  font-size: 16px;
+  color: var(--white);
+}

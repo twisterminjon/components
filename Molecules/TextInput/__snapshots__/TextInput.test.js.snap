@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextInput applies the correct type to the input 1`] = `
+<div
+  className="textinput-wrapper "
+  style={Object {}}
+>
+  <div
+    className="textinput-label-wrapper"
+  >
+    <InputLabel
+      data-testid="input-user-label"
+      htmlFor="user-input"
+      id="user-label"
+      label="Klingon"
+    />
+    <HintText
+      data-testid="input-user-hint"
+      hint=""
+      id="user-hint"
+      rightAlign={true}
+    />
+  </div>
+  <ForwardRef
+    aria-describedby="user-hint"
+    aria-labelledby="user-label"
+    data-testid="input-user-input"
+    hasError={false}
+    id="user-input"
+    name="user"
+    onChange={[Function]}
+    onKeyPress={[Function]}
+    placeholder="Star Trek"
+    type="tel"
+    value="Worf"
+  />
+  <InputMessage
+    data-testid="input-user-validation-message"
+    message="It is busted"
+    show={false}
+  />
+</div>
+`;
+
+exports[`TextInput matches the snapshot 1`] = `
+<div
+  className="textinput-wrapper "
+  style={Object {}}
+>
+  <div
+    className="textinput-label-wrapper"
+  >
+    <InputLabel
+      data-testid="input-user-label"
+      htmlFor="user-input"
+      id="user-label"
+      label="Klingon"
+    />
+    <HintText
+      data-testid="input-user-hint"
+      hint=""
+      id="user-hint"
+      rightAlign={true}
+    />
+  </div>
+  <ForwardRef
+    aria-describedby="user-hint"
+    aria-labelledby="user-label"
+    data-testid="input-user-input"
+    hasError={false}
+    id="user-input"
+    name="user"
+    onChange={[Function]}
+    onKeyPress={[Function]}
+    placeholder="Star Trek"
+    type="text"
+    value="Worf"
+  />
+  <InputMessage
+    data-testid="input-user-validation-message"
+    message="It is busted"
+    show={false}
+  />
+</div>
+`;

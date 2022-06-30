@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserCardSimple matches the snapshot 1`] = `
+<button
+  className="usercardsimple-button usercardsimple-button--medium "
+  onClick={[MockFunction]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Object {
+      "backgroundColor": "transparent",
+    }
+  }
+>
+  <div
+    className="usercardsimple"
+    data-testid="list-item-Mung Bean"
+  >
+    <div
+      className="usercardsimple-avatar usercardsimple-avatar--medium"
+      style={
+        Object {
+          "marginRight": 14,
+        }
+      }
+    >
+      <Avatar
+        className=""
+        dimmed={false}
+        displayName={null}
+        imgUrl="http://some.url.com/picture"
+        loading={false}
+        size={45}
+        style={Object {}}
+      />
+      <StatusBubble
+        className="usercardsimple-status usercardsimple-status--medium"
+        status="available"
+        style={Object {}}
+      />
+    </div>
+    <span
+      className="usercardsimple-label usercardsimple-label--medium"
+    >
+      Mung Bean
+    </span>
+  </div>
+</button>
+`;

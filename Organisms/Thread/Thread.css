@@ -1,0 +1,315 @@
+.messagethread-wrap {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: calc(100% - var(--message-banner-height));
+  max-width: 800px;
+  margin: 0 auto;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.messagethread-wrap::-webkit-scrollbar {
+  width: 0;
+}
+
+.messagethread-typer {
+  position: relative;
+  background-color: #111;
+  width: 100%;
+
+  padding: 0 10px 10px 10px;
+  border-top: 1px solid #324157;
+}
+
+.messagethread-start {
+  color: var(--misc__subtle__text_color);
+  font-size: 12px;
+  line-height: 12px;
+
+  text-align: center;
+
+  margin: 30px 10px;
+  /* This is !important because f'ing semantic overrides the p:first-child :( */
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+.messagethread-start::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 1px;
+  vertical-align: middle;
+  margin-right: 8px;
+  background-color: var(--misc__subtle__text_color);
+}
+
+.messagethread-start::after {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 1px;
+  vertical-align: middle;
+  margin-left: 8px;
+  background-color: var(--misc__subtle__text_color);
+}
+
+/* Following are for the placeholder */
+.messagethread-ph {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  overflow-y: scroll;
+
+  width: 100%;
+  max-width: 800px;
+  margin: 10px auto;
+  height: 1000px;
+
+  border: none;
+
+  animation: shimmer 2s infinite;
+}
+
+.messagethread-ph-messages {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  animation: shimmer 2s infinite;
+  margin: 10px auto;
+}
+
+.messagethread-ph-received-message {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  flex-shrink: 0;
+
+  margin-right: 100px;
+  margin-bottom: 40px;
+}
+
+.messagethread-ph-received {
+  display: flex;
+  justify-content: flex-start;
+  align-items: top;
+  flex-shrink: 0;
+
+  width: 100%;
+}
+
+.messagethread-ph-avatar {
+  height: 28px;
+  width: 28px;
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 50%;
+  margin: 0 10px;
+
+  flex-shrink: 0;
+}
+
+.messagethread-ph-received-text {
+  height: 40px;
+  width: 100%;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.08);
+
+  margin-bottom: 4px;
+}
+
+.messagethread-ph-received-time {
+  height: 12px;
+  width: 48px;
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 4px;
+}
+
+.messagethread-ph-sent {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+
+  align-items: flex-end;
+  width: 300px;
+
+  margin: 0 10px 40px auto;
+}
+
+.messagethread-ph-sent-text {
+  height: 40px;
+  width: 100%;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.08);
+
+  margin-bottom: 4px;
+}
+
+.messagethread-ph-sent-time {
+  height: 12px;
+  width: 48px;
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 4px;
+}
+
+/* Add User classes */
+.messagethreadadduser {
+  width: 100%;
+  background-color: var(--messagepage_bg);
+
+  z-index: calc(var(--z-header) + 1);
+}
+
+.messagethreadadduser-results {
+  height: calc(100% - (var(--searchbar-height) + var(--accordion-height) + 60px)); /* 60px is the banner height */
+  overflow-y: auto;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.messagethreadaddgroup-results {
+  height: calc(100% - 60px); /* 60px is the banner height */
+  overflow-y: auto;
+  padding-bottom: 60px;
+}
+
+/* Add by group classes */
+.messagethreadaddgroup {
+  display: none;
+}
+
+.messagethreadaddgroup--visible {
+  display: initial;
+}
+
+.messagethreadaddgroup-banner {
+  color: var(--base__body_fg);
+  background-color: var(--brandcolor_accent);
+
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+
+  overflow: hidden;
+  height: 60px;
+  width: 100%;
+
+  padding-left: 16px;
+
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 250ms ease-in-out, transform 150ms ease;
+}
+
+.messagethreadaddgroup-banner:hover {
+  background-color: var(--button_color_hover);
+}
+
+.messagethreadaddgroup-banner:focus {
+  outline: 1px solid var(--brandcolor_verydark);
+  outline-offset: -4px;
+}
+
+.messagethreadaddgroup-banner:active {
+  transform: scale(1.01);
+}
+
+.messagethreadaddgroup-banner span {
+  flex: 1;
+  text-align: center;
+  font-size: var(--font-base-body--size-huge);
+  font-weight: 500;
+
+  padding-left: 16px;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.messagethreadadduserconfirm-title {
+  font-size: var(--font-base-body--size-large);
+}
+
+.newmessages-popup {
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  align-items: center;
+  top: 5px;
+  border: none;
+  outline: none;
+  background-color: var(--messagepage__newmessages_bg);
+  border-radius: 4px;
+  padding: 8px 18px;
+  transition: all 150ms ease-in;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.newmessages-popup-shown {
+  opacity: 1;
+  visibility: visible;
+}
+
+.newmessages-popup:active {
+  background-color: var(--messagepage__newmessages_active_bg);
+}
+
+.newmessages-popup:hover {
+  transform: scale(1.03);
+}
+
+.newmessages-text {
+  font-size: 14px;
+  color: var(--font_color);
+  padding-right: 10px;
+}
+
+.newmessages-line {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  transition: all 0.5s;
+  opacity: 1;
+  visibility: visible;
+}
+
+.newmessages-line--hidden {
+  padding: 0;
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.messagethread-loader {
+  z-index: 1;
+  top: 4px;
+}
+
+.messagethread-scroll-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+
+}
+.messagethread-scroll-content {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.messagethread-scroll {
+  display: flex;
+  flex-direction: column-reverse
+}
+

@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OutgoingAudioCallNotice matches the snapshot with skip call showing 1`] = `
+<div
+  className="outgoingaudiocallnotice-wrap"
+>
+  <div
+    className="outgoingaudiocallnotice-dimmer"
+  />
+  <div
+    className="outgoingaudiocallnotice-content"
+    data-testid="outgoing-audio-call-notice"
+  >
+    <div
+      className="outgoingaudiocallnotice-calldetails"
+    >
+      <div
+        style={
+          Object {
+            "height": 300,
+            "marginBottom": 10,
+          }
+        }
+      >
+        <UserCardLarge
+          actionText="Calling..."
+          onClick={[Function]}
+          profileImage=""
+          title="title"
+          userName="Korben"
+        />
+      </div>
+      <div
+        className="outgoingaudiocallnotice-placeholder"
+      >
+        <p
+          className="outgoingaudiocallnotice-calldetails-main"
+        >
+          Your audio call is in progress.
+        </p>
+        <p
+          className="outgoingaudiocallnotice-calldetails-text"
+        >
+          When connected, you can join the call on your phone.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

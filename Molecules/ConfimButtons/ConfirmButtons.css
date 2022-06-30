@@ -1,0 +1,7 @@
+.confirm-buttons {
+  display: flex;
+  justify-content: flex-end;
+  padding: 40px 0;
+
+  max-width: 600px;
+}

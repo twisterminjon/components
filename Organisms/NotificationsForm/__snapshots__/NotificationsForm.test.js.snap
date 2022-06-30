@@ -1,0 +1,237 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotificationsForm matches the snapshot 1`] = `
+<div
+  className="notificationsform"
+  data-testid="notificationsform"
+>
+  <div
+    className="notificationsform-title notificationsform-section"
+  >
+    Notifications
+  </div>
+  <hr />
+  <div
+    className="notificationsform-section"
+  >
+    <p>
+      Pause your notifications.
+    </p>
+    <p>
+      When your notifications are paused other users will be notified that you are unavailable.
+    </p>
+  </div>
+  <hr />
+  <div>
+    <MenuItem
+      className=""
+      count={null}
+      data-testid="notificationsform-menu-item-Until I turn off"
+      key="0"
+      label="Until I turn off"
+      loading={false}
+      name="until-off"
+      onClick={[Function]}
+      style={Object {}}
+    />
+    <MenuItem
+      className=""
+      count={null}
+      data-testid="notificationsform-menu-item-30 minutes"
+      key="1"
+      label="30 minutes"
+      loading={false}
+      name="30-minutes"
+      onClick={[Function]}
+      style={Object {}}
+    />
+    <MenuItem
+      className=""
+      count={null}
+      data-testid="notificationsform-menu-item-1 hour"
+      key="2"
+      label="1 hour"
+      loading={false}
+      name="1-hour"
+      onClick={[Function]}
+      style={Object {}}
+    />
+    <MenuItem
+      className=""
+      count={null}
+      data-testid="notificationsform-menu-item-2 hours"
+      key="3"
+      label="2 hours"
+      loading={false}
+      name="2-hours"
+      onClick={[Function]}
+      style={Object {}}
+    />
+    <MenuItem
+      className=""
+      count={null}
+      data-testid="notificationsform-menu-item-4 hours"
+      key="4"
+      label="4 hours"
+      loading={false}
+      name="4-hours"
+      onClick={[Function]}
+      style={Object {}}
+    />
+    <MenuItem
+      className=""
+      count={null}
+      data-testid="notificationsform-menu-item-Until tomorrow"
+      key="5"
+      label="Until tomorrow"
+      loading={false}
+      name="until-tomorrow"
+      onClick={[Function]}
+      style={Object {}}
+    />
+    <MenuItem
+      className=""
+      count={null}
+      data-testid="notificationsform-menu-item-Custom"
+      key="6"
+      label="Custom"
+      loading={false}
+      name="custom"
+      onClick={[Function]}
+      style={Object {}}
+    />
+  </div>
+  <div
+    className="notificationsform-section notificationsform-section--last"
+  >
+    <Button
+      data-testid="notificationsform-close-button"
+      fluid={true}
+      onClick={[MockFunction]}
+      size="big"
+      style={Object {}}
+      type="submit"
+    >
+      Close
+    </Button>
+  </div>
+</div>
+`;
+
+exports[`NotificationsForm matches the snapshot when hidden 1`] = `
+<div
+  className="notificationsform"
+  data-testid="notificationsform"
+>
+  <div
+    className="notificationsform-title notificationsform-section"
+  >
+    Notifications
+  </div>
+  <hr />
+  <div
+    className="notificationsform-section"
+  >
+    <p>
+      Pause your notifications.
+    </p>
+    <p>
+      When your notifications are paused other users will be notified that you are unavailable.
+    </p>
+  </div>
+  <hr />
+  <div>
+    <MenuItem
+      className=""
+      count={null}
+      data-testid="notificationsform-menu-item-Until I turn off"
+      key="0"
+      label="Until I turn off"
+      loading={false}
+      name="until-off"
+      onClick={[Function]}
+      style={Object {}}
+    />
+    <MenuItem
+      className=""
+      count={null}
+      data-testid="notificationsform-menu-item-30 minutes"
+      key="1"
+      label="30 minutes"
+      loading={false}
+      name="30-minutes"
+      onClick={[Function]}
+      style={Object {}}
+    />
+    <MenuItem
+      className=""
+      count={null}
+      data-testid="notificationsform-menu-item-1 hour"
+      key="2"
+      label="1 hour"
+      loading={false}
+      name="1-hour"
+      onClick={[Function]}
+      style={Object {}}
+    />
+    <MenuItem
+      className=""
+      count={null}
+      data-testid="notificationsform-menu-item-2 hours"
+      key="3"
+      label="2 hours"
+      loading={false}
+      name="2-hours"
+      onClick={[Function]}
+      style={Object {}}
+    />
+    <MenuItem
+      className=""
+      count={null}
+      data-testid="notificationsform-menu-item-4 hours"
+      key="4"
+      label="4 hours"
+      loading={false}
+      name="4-hours"
+      onClick={[Function]}
+      style={Object {}}
+    />
+    <MenuItem
+      className=""
+      count={null}
+      data-testid="notificationsform-menu-item-Until tomorrow"
+      key="5"
+      label="Until tomorrow"
+      loading={false}
+      name="until-tomorrow"
+      onClick={[Function]}
+      style={Object {}}
+    />
+    <MenuItem
+      className=""
+      count={null}
+      data-testid="notificationsform-menu-item-Custom"
+      key="6"
+      label="Custom"
+      loading={false}
+      name="custom"
+      onClick={[Function]}
+      style={Object {}}
+    />
+  </div>
+  <div
+    className="notificationsform-section notificationsform-section--last"
+  >
+    <Button
+      data-testid="notificationsform-close-button"
+      fluid={true}
+      onClick={[MockFunction]}
+      size="big"
+      style={Object {}}
+      type="submit"
+    >
+      Close
+    </Button>
+  </div>
+</div>
+`;

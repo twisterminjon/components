@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DateSelector accepts alternative date format 1`] = `
+<div
+  className="dateselector"
+>
+  <DateInput
+    className=""
+    displayOnly={false}
+    errorMessage=""
+    hasError={false}
+    hintText=""
+    isClearable={false}
+    label=""
+    maxDate={2019-05-07T10:20:30.000Z}
+    minDate={2019-04-07T10:20:30.000Z}
+    name="singledatepicker-139999999.86"
+    onChange={[Function]}
+    placeholder="Enter date"
+    style={Object {}}
+    value={2020-03-09T10:48:59.000Z}
+  />
+</div>
+`;
+
+exports[`DateSelector accepts arbitrary number of months 1`] = `
+<div
+  className="dateselector"
+>
+  <DateInput
+    className=""
+    displayOnly={false}
+    errorMessage=""
+    hasError={false}
+    hintText=""
+    isClearable={false}
+    label=""
+    maxDate={2019-08-07T10:20:30.000Z}
+    minDate={2019-04-07T10:20:30.000Z}
+    name="singledatepicker-139999999.86"
+    onChange={[Function]}
+    placeholder="Enter date"
+    style={Object {}}
+    value={2020-03-09T10:48:59.000Z}
+  />
+</div>
+`;
+
+exports[`DateSelector accepts date format 1`] = `
+<div
+  className="dateselector"
+>
+  <DateInput
+    className=""
+    displayOnly={false}
+    errorMessage=""
+    hasError={false}
+    hintText=""
+    isClearable={false}
+    label=""
+    maxDate={2019-05-07T10:20:30.000Z}
+    minDate={2019-04-07T10:20:30.000Z}
+    name="singledatepicker-139999999.86"
+    onChange={[Function]}
+    placeholder="Enter date"
+    style={Object {}}
+    value={2020-03-09T10:48:59.000Z}
+  />
+</div>
+`;
+
+exports[`DateSelector accepts dayjs default value 1`] = `
+<div
+  className="dateselector"
+>
+  <DateInput
+    className=""
+    displayOnly={false}
+    errorMessage=""
+    hasError={false}
+    hintText=""
+    isClearable={false}
+    label=""
+    maxDate={2019-05-07T10:20:30.000Z}
+    minDate={2019-04-07T10:20:30.000Z}
+    name="singledatepicker-139999999.86"
+    onChange={[Function]}
+    placeholder="Enter date"
+    style={Object {}}
+    value={2020-03-09T10:48:59.000Z}
+  />
+</div>
+`;
+
+exports[`DateSelector accepts minimal props 1`] = `
+<div
+  className="dateselector"
+>
+  <DateInput
+    className=""
+    displayOnly={false}
+    errorMessage=""
+    hasError={false}
+    hintText=""
+    isClearable={false}
+    label=""
+    maxDate={2019-05-07T10:20:30.000Z}
+    minDate={2019-04-07T10:20:30.000Z}
+    name="singledatepicker-139999999.86"
+    onChange={[Function]}
+    placeholder="Enter date"
+    style={Object {}}
+    value={null}
+  />
+</div>
+`;
+
+exports[`DateSelector accepts string default value 1`] = `
+<div
+  className="dateselector"
+>
+  <DateInput
+    className=""
+    displayOnly={false}
+    errorMessage=""
+    hasError={false}
+    hintText=""
+    isClearable={false}
+    label=""
+    maxDate={2019-05-07T10:20:30.000Z}
+    minDate={2019-04-07T10:20:30.000Z}
+    name="singledatepicker-139999999.86"
+    onChange={[Function]}
+    placeholder="Enter date"
+    style={Object {}}
+    value={2020-03-09T10:48:59.000Z}
+  />
+</div>
+`;
+
+exports[`DateSelector appends to body 1`] = `
+<div
+  className="dateselector"
+>
+  <DateInput
+    className=""
+    displayOnly={false}
+    errorMessage=""
+    hasError={false}
+    hintText=""
+    isClearable={false}
+    label=""
+    maxDate={2019-05-07T10:20:30.000Z}
+    minDate={2019-04-07T10:20:30.000Z}
+    name="singledatepicker-139999999.86"
+    onChange={[Function]}
+    placeholder="Enter date"
+    style={Object {}}
+    value={2020-03-09T10:48:59.000Z}
+  />
+</div>
+`;
+
+exports[`DateSelector appends to parent component 1`] = `
+<div
+  className="dateselector"
+>
+  <DateInput
+    className=""
+    displayOnly={false}
+    errorMessage=""
+    hasError={false}
+    hintText=""
+    isClearable={false}
+    label=""
+    maxDate={2019-05-07T10:20:30.000Z}
+    minDate={2019-04-07T10:20:30.000Z}
+    name="singledatepicker-139999999.86"
+    onChange={[Function]}
+    placeholder="Enter date"
+    style={Object {}}
+    value={2020-03-09T10:48:59.000Z}
+  />
+</div>
+`;

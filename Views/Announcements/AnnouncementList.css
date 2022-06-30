@@ -1,0 +1,30 @@
+.announcementlist {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - (var(--header-height)));
+
+  margin: 0;
+
+  width: 100%;
+  color: white;
+}
+
+.announcementlist-loader {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 200px;
+  margin: 0 auto;
+}
+
+.announcementlist-list {
+  flex: 1;
+  position: relative;
+  align-items: center;
+
+  overflow-y: scroll;
+
+  padding-top: 16px;
+  margin-bottom: 0;
+}

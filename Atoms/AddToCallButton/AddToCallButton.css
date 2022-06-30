@@ -1,0 +1,20 @@
+.addtocall-button {
+  height: 85px;
+  width: 165px;
+  margin: 0 !important;
+  font-size: 16px !important;
+  color: var(--button_primary_fg) !important;
+  background: var(--button_primary_bg) !important;
+}
+
+.addtocall-button:hover {
+  background: var(--button_primary_hover_bg) !important;
+}
+
+.addtocall-button:focus {
+  box-shadow: 0 0 4px 2px var(--button_primary_focus_bg) !important;
+}
+
+.addtocall-button:active {
+  background: var(--button_primary_active_bg) !important;
+}

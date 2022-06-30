@@ -1,0 +1,51 @@
+.usercardfavorite-wrap {
+  position: relative;
+}
+
+/* We are using pure css to control the width of the menu here because React isn't handling
+the event bubbling on mouseover well enough.
+(We originally used the mouseenter and mouseleave to set state and control the width,
+but when the mouse moves really fast, the mouseleave doesn't always fire, leaving the menu displayed.) */
+.usercardfavorite-wrap:hover .favoritecardmenu {
+  width: 116px;
+}
+
+.usercardfavorite {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 116px;
+  padding: 0px 8px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.usercardfavorite-avatar-container {
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.usercardfavorite-name {
+  font-size: 14px;
+  text-align: center;
+
+  max-height: 34px;
+  max-width: 112px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.usercardfavorite-status {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+/* This might seem like an odd name but it used to apply a hover
+   only when the fav button is NOT disabled */
+.usercardfavorite-avatar-hover:hover {
+  box-shadow: 0 4px 26px rgba(0, 0, 0, 0.55), 0 4px 16px rgba(0, 0, 0, 0.52);
+}

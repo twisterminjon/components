@@ -1,0 +1,210 @@
+.addcallbutton-wrap {
+  position: relative;
+}
+
+.addcallbutton-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.addcallbutton-menu {
+  position: absolute;
+  background-color: var(--white);
+  border-radius: 4px;
+  margin-right: 20px;
+
+  top: 12px;
+  right: 58px;
+  box-shadow: 0 2px 3px 0 rgba(34, 36, 38, 0.15);
+
+  z-index: 1000;
+}
+
+.addcallbutton-menu:after {
+  content: '';
+  position: absolute;
+
+  height: 0;
+  width: 0;
+  top: 10px;
+  right: -16px;
+  border: 8px solid transparent;
+  border-left-color: var(--white);
+}
+
+.addcallbutton-menu--hide {
+  display: none;
+}
+
+.addcallbutton-menu--show {
+  display: static;
+}
+
+.addcallbutton-option {
+  padding: 8px 16px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.addcallbutton-option:hover {
+  background-color: #eee;
+}
+
+.addcallbutton-option-label {
+  margin-left: 8px;
+  pointer-events: none;
+  font-weight: 500;
+}
+
+/* ******************************* */
+/* Menu */
+/* ******************************* */
+
+.addcallbuttonmenu-wrap {
+  /* This required to handle the height animation, w/o the padding on the content will show  */
+  position: fixed;
+  width: 375px;
+  height: 0;
+  overflow-y: hidden;
+
+  top: 0;
+  left: 50%;
+  margin-left: -179px;
+
+  transition: height 200ms ease-out;
+  z-index: var(--z-modal);
+}
+
+.addcallbuttonmenu-dimmer {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.75);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  z-index: calc(var(--z-modal) - 1);
+}
+
+.addcallbuttonmenu {
+  position: relative;
+  color: white;
+
+  width: 375px;
+  padding: 16px;
+
+  background: var(--brandcolor_verydark);
+
+  border-bottom-left-radius: 38px;
+  border-bottom-right-radius: 38px;
+}
+
+.addcallbuttonmenu--show {
+  height: 429px;
+  transition: height 200ms ease-in;
+}
+
+.addcallbuttonmenu h3 {
+  color: var(--white);
+  font-size: 20px;
+  font-weight: 300;
+  margin: 44px 0 16px 0;
+
+  text-align: center;
+}
+
+.addcallbuttonmenu-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  grid-row-gap: 10px;
+
+  margin: 48px 0 0;
+}
+
+.addcallbuttonmenu button:first-of-type {
+  margin-right: 10px;
+}
+
+.addcallbuttonmenu-back--row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addcallbuttonmenu-back {
+  display: flex;
+  align-items: center;
+
+  margin-top: 46px;
+  padding: 6px 8px;
+  background: transparent;
+  color: var(--brandcolor);
+
+  font-size: 23px;
+
+  border: none;
+  outline: none;
+
+  cursor: pointer;
+}
+
+.addcallbuttonmenu-back:hover {
+  box-shadow: 0 0 4px 2px var(--button_color_pressed);
+}
+
+.addcallbuttonmenu-back:focus {
+  box-shadow: 0 0 4px 2px var(--button_color_pressed);
+}
+
+/* Override semantic styles */
+.addcallbuttonmenu-button {
+  height: 85px;
+  width: 165px;
+  margin: 0 !important;
+
+  color: var(--black) !important;
+  background: var(--brandcolor) !important;
+}
+
+.addcallbuttonmenu-button:hover {
+  background: var(--button_color_hover) !important;
+}
+
+.addcallbuttonmenu-button:focus {
+  box-shadow: 0 0 4px 2px var(--button_color_pressed) !important;
+}
+
+.addcallbuttonmenu-button:active {
+  background: var(--button_color_pressed) !important;
+}
+
+.ui.inverted.button.addcallbuttonmenu-button {
+  color: var(--brandcolor) !important;
+  background: none !important;
+  box-shadow: 0 0 0 2px var(--brandcolor) inset !important;
+}
+
+.ui.inverted.button.addcallbuttonmenu-button:hover {
+  background: var(--brandcolor_trans_25) !important;
+}
+
+.ui.inverted.button.addcallbuttonmenu-button:focus {
+  background: var(--brandcolor_trans_25) !important;
+}
+
+.ui.inverted.button.addcallbuttonmenu-button:hover:active {
+  background: var(--brandcolor_trans_50) !important;
+}
+
+/** Modal showing alert */
+
+.modalalert h3 {
+  height: 150px;
+  padding: 30px 30px 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}

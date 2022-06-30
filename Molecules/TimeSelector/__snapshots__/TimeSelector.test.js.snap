@@ -1,0 +1,261 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TimeSelector Uses 12 hours 1`] = `
+<div
+  className="timeselector"
+>
+  <Picker
+    addon={[Function]}
+    align={Object {}}
+    allowEmpty={true}
+    className=""
+    clearIcon={
+      <span
+        className="timeselector--clear-icon"
+      >
+        <IconDeclineCall
+          color="rgba(0,0,0,0.75)"
+          size={12}
+        />
+      </span>
+    }
+    clearText="clear"
+    defaultOpen={false}
+    defaultOpenValue={2019-04-07T10:20:30.000Z}
+    defaultValue={null}
+    disabledHours={[Function]}
+    disabledMinutes={[Function]}
+    disabledSeconds={[Function]}
+    focusOnOpen={false}
+    format="h:mm a"
+    hideDisabledOptions={false}
+    inputClassName=""
+    inputReadOnly={true}
+    onAmPmChange={[Function]}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onClose={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onOpen={[Function]}
+    placeholder="Enter time"
+    placement="bottomLeft"
+    popupClassName=""
+    popupStyle={Object {}}
+    prefixCls="rc-time-picker"
+    showHour={true}
+    showMinute={true}
+    showSecond={false}
+    style={Object {}}
+    use12Hours={true}
+  />
+</div>
+`;
+
+exports[`TimeSelector Uses 24 hours 1`] = `
+<div
+  className="timeselector"
+>
+  <Picker
+    addon={[Function]}
+    align={Object {}}
+    allowEmpty={true}
+    className=""
+    clearIcon={
+      <span
+        className="timeselector--clear-icon"
+      >
+        <IconDeclineCall
+          color="rgba(0,0,0,0.75)"
+          size={12}
+        />
+      </span>
+    }
+    clearText="clear"
+    defaultOpen={false}
+    defaultOpenValue={2019-04-07T10:20:30.000Z}
+    defaultValue={null}
+    disabledHours={[Function]}
+    disabledMinutes={[Function]}
+    disabledSeconds={[Function]}
+    focusOnOpen={false}
+    format="h:mm a"
+    hideDisabledOptions={false}
+    inputClassName=""
+    inputReadOnly={true}
+    onAmPmChange={[Function]}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onClose={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onOpen={[Function]}
+    placeholder="Enter time"
+    placement="bottomLeft"
+    popupClassName=""
+    popupStyle={Object {}}
+    prefixCls="rc-time-picker"
+    showHour={true}
+    showMinute={true}
+    showSecond={false}
+    style={Object {}}
+    use12Hours={false}
+  />
+</div>
+`;
+
+exports[`TimeSelector Uses custom placeholder value 1`] = `
+<div
+  className="timeselector"
+>
+  <Picker
+    addon={[Function]}
+    align={Object {}}
+    allowEmpty={true}
+    className=""
+    clearIcon={
+      <span
+        className="timeselector--clear-icon"
+      >
+        <IconDeclineCall
+          color="rgba(0,0,0,0.75)"
+          size={12}
+        />
+      </span>
+    }
+    clearText="clear"
+    defaultOpen={false}
+    defaultOpenValue={2019-04-07T10:20:30.000Z}
+    defaultValue={null}
+    disabledHours={[Function]}
+    disabledMinutes={[Function]}
+    disabledSeconds={[Function]}
+    focusOnOpen={false}
+    format="h:mm a"
+    hideDisabledOptions={false}
+    inputClassName=""
+    inputReadOnly={true}
+    onAmPmChange={[Function]}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onClose={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onOpen={[Function]}
+    placeholder="Some custom placeholder value"
+    placement="bottomLeft"
+    popupClassName=""
+    popupStyle={Object {}}
+    prefixCls="rc-time-picker"
+    showHour={true}
+    showMinute={true}
+    showSecond={false}
+    style={Object {}}
+    use12Hours={true}
+  />
+</div>
+`;
+
+exports[`TimeSelector accepts dayjs default value 1`] = `
+<div
+  className="timeselector"
+>
+  <Picker
+    addon={[Function]}
+    align={Object {}}
+    allowEmpty={true}
+    className=""
+    clearIcon={
+      <span
+        className="timeselector--clear-icon"
+      >
+        <IconDeclineCall
+          color="rgba(0,0,0,0.75)"
+          size={12}
+        />
+      </span>
+    }
+    clearText="clear"
+    defaultOpen={false}
+    defaultOpenValue={2020-03-09T10:48:59.000Z}
+    defaultValue={2020-03-09T10:48:59.000Z}
+    disabledHours={[Function]}
+    disabledMinutes={[Function]}
+    disabledSeconds={[Function]}
+    focusOnOpen={false}
+    format="h:mm a"
+    hideDisabledOptions={false}
+    inputClassName=""
+    inputReadOnly={true}
+    onAmPmChange={[Function]}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onClose={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onOpen={[Function]}
+    placeholder="Enter time"
+    placement="bottomLeft"
+    popupClassName=""
+    popupStyle={Object {}}
+    prefixCls="rc-time-picker"
+    showHour={true}
+    showMinute={true}
+    showSecond={false}
+    style={Object {}}
+    use12Hours={true}
+  />
+</div>
+`;
+
+exports[`TimeSelector accepts minimal props 1`] = `
+<div
+  className="timeselector"
+>
+  <Picker
+    addon={[Function]}
+    align={Object {}}
+    allowEmpty={true}
+    className=""
+    clearIcon={
+      <span
+        className="timeselector--clear-icon"
+      >
+        <IconDeclineCall
+          color="rgba(0,0,0,0.75)"
+          size={12}
+        />
+      </span>
+    }
+    clearText="clear"
+    defaultOpen={false}
+    defaultOpenValue={2019-04-07T10:20:30.000Z}
+    defaultValue={null}
+    disabledHours={[Function]}
+    disabledMinutes={[Function]}
+    disabledSeconds={[Function]}
+    focusOnOpen={false}
+    format="h:mm a"
+    hideDisabledOptions={false}
+    inputClassName=""
+    inputReadOnly={true}
+    onAmPmChange={[Function]}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onClose={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onOpen={[Function]}
+    placeholder="Enter time"
+    placement="bottomLeft"
+    popupClassName=""
+    popupStyle={Object {}}
+    prefixCls="rc-time-picker"
+    showHour={true}
+    showMinute={true}
+    showSecond={false}
+    style={Object {}}
+    use12Hours={true}
+  />
+</div>
+`;

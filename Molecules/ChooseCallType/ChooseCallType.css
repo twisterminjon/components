@@ -1,0 +1,43 @@
+.choosecalltype-wrap {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: var(--z-callnotice);
+}
+
+.choosecalltype-dimmer {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 21;
+
+  background-color: var(--call_incoming_color);
+}
+
+.choosecalltype-content {
+  position: absolute;
+  z-index: 22;
+}
+
+.choosecalltype-buttons {
+  flex-direction: column;
+  height: 200px;
+  width: 240px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.choosecalltype-buttons .ui.button {
+  font-size: var(--font-base-body--size-medium);
+}

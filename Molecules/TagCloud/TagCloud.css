@@ -1,0 +1,12 @@
+.tagcloud {
+  position: relative;
+  list-style-type: none;
+}
+
+.tagcloud--vertical {
+  /* display: block; */
+}
+
+.tagcloud--disabled {
+  pointer-events: none;
+}

@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextAreaInput matches the snapshot 1`] = `
+<div
+  className="tagusers"
+  data-testid="user-list"
+  style={Object {}}
+>
+  <TagUser
+    className="tagusers-tag"
+    displayName="Agnes Rogers, MD"
+    key="3"
+    onClick={[Function]}
+    profileImage="https://www.fillmurray.com/200/200"
+    style={Object {}}
+  />
+  <TagUser
+    className="tagusers-tag"
+    displayName="David McGinnis, MD"
+    key="9"
+    onClick={[Function]}
+    profileImage="https://www.fillmurray.com/400/400"
+    style={Object {}}
+  />
+  <TagUser
+    className="tagusers-tag"
+    displayName="David Smith, MD"
+    key="4"
+    onClick={[Function]}
+    profileImage="https://www.fillmurray.com/600/600"
+    style={Object {}}
+  />
+  <TagUser
+    className="tagusers-tag"
+    displayName="Jennifer Reyes"
+    key="8"
+    onClick={[Function]}
+    profileImage="https://www.fillmurray.com/500/500"
+    style={Object {}}
+  />
+  <TagUser
+    className="tagusers-tag"
+    displayName="Paul Jason, RN"
+    key="6"
+    onClick={[Function]}
+    profileImage="https://www.fillmurray.com/700/700"
+    style={Object {}}
+  />
+  <TagUser
+    className="tagusers-tag"
+    displayName="Rosalyn Stratton, RN"
+    key="5"
+    onClick={[Function]}
+    profileImage="https://www.fillmurray.com/800/800"
+    style={Object {}}
+  />
+  <TagUser
+    className="tagusers-tag"
+    displayName="Sherry Jackson, MD"
+    key="10"
+    onClick={[Function]}
+    profileImage="https://www.fillmurray.com/200/200"
+    style={Object {}}
+  />
+  <TagUser
+    className="tagusers-tag"
+    displayName="Tony Hunter"
+    key="7"
+    onClick={[Function]}
+    profileImage="https://www.fillmurray.com/450/450"
+    style={Object {}}
+  />
+</div>
+`;

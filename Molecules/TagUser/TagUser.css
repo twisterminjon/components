@@ -1,0 +1,50 @@
+.taguser {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  flex-shrink: 1;
+  padding-right: 3px;
+  padding-bottom: 3px;
+
+  height: 32px;
+
+  background-color: var(--brandcolor_dark);
+  border-radius: 4px;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+
+.taguser-name {
+  flex-shrink: 1;
+  padding-left: 8px;
+  font-size: 16px;
+  font-weight: var(--font-base--regular);
+  color: var(--font_color_light);
+}
+
+.taguser-button:hover {
+  background-color: var(--button_color_hover);
+}
+
+.taguser-button:focus {
+  outline: 1px solid var(--button_color_hover);
+  outline-offset: -4px;
+}
+
+.taguser-button:active {
+  transform: scale(0.95);
+}
+
+.tagusers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  width: 100%;
+}
+
+.tagusers-tag {
+  margin-right: 4px;
+  margin-bottom: 4px;
+}

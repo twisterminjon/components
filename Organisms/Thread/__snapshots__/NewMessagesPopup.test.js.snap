@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewMessagesPopup matches the snapshot when loading 1`] = `
+<button
+  className="newmessages-popup newmessages-popup-shown button-spinner"
+  data-testid="button-new-messages-visible"
+  disabled={true}
+  onClick={[Function]}
+>
+  <span
+    className="newmessages-text"
+  >
+    New Messages
+  </span>
+  <IconArrowUp
+    color="black"
+  />
+</button>
+`;
+
+exports[`NewMessagesPopup matches the snapshot when not shown 1`] = `
+<button
+  className="newmessages-popup"
+  data-testid="button-new-messages-hidden"
+  disabled={false}
+  onClick={[Function]}
+>
+  <span
+    className="newmessages-text"
+  >
+    New Messages
+  </span>
+  <IconArrowUp
+    color="black"
+  />
+</button>
+`;
+
+exports[`NewMessagesPopup matches the snapshot when shown 1`] = `
+<button
+  className="newmessages-popup newmessages-popup-shown"
+  data-testid="button-new-messages-visible"
+  disabled={false}
+  onClick={[Function]}
+>
+  <span
+    className="newmessages-text"
+  >
+    New Messages
+  </span>
+  <IconArrowUp
+    color="black"
+  />
+</button>
+`;

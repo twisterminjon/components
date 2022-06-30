@@ -1,0 +1,66 @@
+.usercardcall {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 66px;
+  width: 100%;
+
+  border-right: 1px solid var(--usercard_border);
+  border-bottom: 1px solid var(--usercard_border);
+  border-left: 1px solid var(--usercard_border);
+
+  background-color: var(--usercard_bg);
+}
+
+.usercardcall-label-container {
+  margin: 0;
+  padding: 0;
+  flex: 1;
+  position: relative;
+}
+
+.usercardcall-label {
+  font-size: 12;
+  font-weight: 300;
+  color: var(--white);
+}
+
+.usercardcall-label-dimmed {
+  color: var(--usercard_dimmed_fg);
+}
+
+/* Following are for the placeholder */
+.usercardcall-ph-avatar {
+  height: 45px;
+  width: 45px;
+  background-color: var(--usercard_ph_bg);
+  border-radius: 50%;
+  margin-right: 14px;
+  margin-left: 20px;
+}
+
+.usercardcall-ph-text {
+  height: 18px;
+  width: 100px;
+  border-radius: 9px;
+  background-color: var(--usercard_ph_bg);
+}
+
+.usercardcall-ph {
+  animation: usercardcall-shimmer 2s infinite;
+}
+
+@keyframes usercardcall-shimmer {
+  from {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

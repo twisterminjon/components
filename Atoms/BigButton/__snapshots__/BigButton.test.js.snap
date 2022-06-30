@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BigButton matches the snapshot 1`] = `
+<button
+  aria-label="test"
+  className="bigbutton-button"
+  onClick={[MockFunction]}
+>
+  button label
+</button>
+`;

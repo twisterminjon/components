@@ -1,0 +1,29 @@
+.dimmer {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.dimmer--hide {
+  opacity: 0;
+  transition: opacity 100ms ease-in;
+}
+
+.dimmer--show {
+  opacity: 1;
+  transition: opacity 100ms ease-out;
+}
+
+.dimmer--black {
+  background-color: var(--misc__dimmer_bg);
+}
+
+.dimmer--positive {
+  background-color: var(--misc__dimmer_bg_positive);
+}
+
+.dimmer--negative {
+  background-color: var(--misc__dimmer_bg_negative);
+}

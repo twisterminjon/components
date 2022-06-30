@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TimeAmPmInput matches the snapshot 1`] = `
+<div
+  className="timeampminput-wrapper undefined"
+  data-testid="Klingon"
+>
+  <div
+    className="timeampminput-label-wrapper"
+  >
+    <InputLabel
+      htmlFor="-input"
+      id="-label"
+      label="Klingon"
+    />
+    <HintText
+      hint=""
+      id="-hint"
+      rightAlign={true}
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "position": "relative",
+      }
+    }
+  >
+    <TimeInput
+      aria-describedby="-hint"
+      aria-labelledby="-label"
+      disableMinute={false}
+      fluid={true}
+      icon="time"
+      iconPosition="left"
+      id="-input"
+      inline={false}
+      localization="en"
+      name=""
+      onChange={[Function]}
+      placeholder="Star Trek"
+      style={Object {}}
+      timeFormat="24"
+      value="Worf"
+    />
+  </div>
+  <InputMessage
+    message="It is busted"
+    show={false}
+  />
+</div>
+`;

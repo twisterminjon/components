@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Message matches the snapshot 1`] = `
+<div
+  className="message"
+  style={Object {}}
+>
+  <div
+    className="message-flex-container"
+  >
+    <div
+      className="message-content message--received"
+    >
+      <div
+        className="message-avatar"
+      >
+        <div
+          className="avatar"
+          style={
+            Object {
+              "height": "24px",
+              "lineHeight": "24px",
+              "width": "24px",
+            }
+          }
+        >
+          <span>
+            t
+          </span>
+        </div>
+        <span
+          className="message-author"
+        >
+          test
+        </span>
+      </div>
+      <div
+        className="message-flex-container-column"
+      >
+        <div
+          className="messagetext messagetext--received "
+          onClick={[Function]}
+          style={Object {}}
+        >
+          <p
+            className="messagetext-content"
+          >
+            test message
+          </p>
+          <div
+            className="messagetext-timestamp"
+          >
+            <span
+              className="messagetext-timestamp-text"
+            >
+              1:30 PM
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="message-retry"
+  >
+    <button
+      className="message-retry-button"
+      disabled={false}
+      onClick={[Function]}
+    >
+      Send Failed. Retry?
+    </button>
+  </div>
+</div>
+`;

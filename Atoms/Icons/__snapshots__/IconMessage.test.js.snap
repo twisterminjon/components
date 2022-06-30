@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IconMessage matches the snapshot 1`] = `
+<svg
+  className=""
+  fillRule="evenodd"
+  height={36}
+  style={Object {}}
+  viewBox="0 0 24 19"
+  width={36}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <g
+    fill="red"
+  >
+    <path
+      d="M24,12c0-5.1-5.37-9.23-12-9.23S0,6.9,0,12a7.83,7.83,0,0,0,2.19,5.31A13.24,13.24,0,0,1,.13,20.45.46.46,0,0,0,0,21a.45.45,0,0,0,.42.28,10.21,10.21,0,0,0,5.12-1.44A14.75,14.75,0,0,0,12,21.23C18.63,21.23,24,17.1,24,12Z"
+      transform="translate(0 -2.77)"
+    />
+  </g>
+</svg>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LogoBar matches the snapshot 1`] = `
+<div
+  className="logobar-wrap"
+>
+  <EnterpriseLogo
+    imgUrl=""
+  />
+</div>
+`;

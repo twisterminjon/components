@@ -1,0 +1,15 @@
+.sectiontitle-wrap {
+  display: flex;
+  align-items: baseline;
+  overflow: hidden;
+}
+
+.sectiontitle-text {
+  color: var(--brandcolor);
+}
+
+.sectiontitle-rule {
+  border: 0;
+  height: 2px;
+  background: var(--brandcolor);
+}

@@ -1,0 +1,16 @@
+.searchclosebutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: var(--searchbar-height);
+  width: var(--searchbar-height);
+
+  background: transparent;
+  outline: none;
+  border: none;
+}
+
+.searchclosebutton:hover {
+  transform: scale(1.1);
+}

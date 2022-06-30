@@ -1,0 +1,150 @@
+.messagetyper-wrap {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--messagepage_bg);
+}
+
+.messagetyper-hint {
+  color: #848484;
+  font-size: 11px;
+  font-weight: 700;
+  margin-left: 4px;
+}
+
+.messagetyper-max-length {
+  color: var(--accent_color);
+  font-size: var(--font-base-body--size);
+  font-weight: var(--font-base--regular);
+  line-height: 37px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.messagetyper-info {
+  color: var(--grays_2);
+  font-size: 16px;
+  font-weight: 500;
+  margin: 6px 0 6px 4px;
+}
+
+.messagetyper {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.messagetyper-input {
+  flex: 1;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 12px 8px;
+  max-height: 50vh;
+
+  outline: none;
+  border: none;
+
+  box-shadow: inset 0px 0px 34px -10px rgba(0, 0, 0, 0.3);
+
+  border-radius: 4px;
+}
+
+.messagetyper-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+
+  background-color: var(--brandcolor);
+  border: none;
+
+  padding-left: 4px;
+  margin-left: 10px;
+
+  border-radius: 50%;
+  outline: none;
+
+  height: 36px;
+  width: 36px;
+}
+
+.messagetyper-button:disabled,
+.messagetyper-button:disabled:hover {
+  background-color: var(--button_color_disabled_bg);
+  color: var(--button_color_disabled);
+}
+
+.messagetyper-button-attach {
+  margin-right: 10px;
+}
+
+.messagetyper-button:hover {
+  background-color: var(--button_color_hover);
+}
+
+.messagetyper-button:focus {
+  background-color: var(--button_color_hover);
+}
+
+.messagetyper-button:active {
+  background-color: var(--button_color_pressed);
+}
+
+.messagetyper-notice {
+  width: 100%;
+  /* background-color: var(--grays_3); */
+  color: var(--grays_3);
+
+  padding: 6px 14px;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.messagetyper-hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  padding: 0 8px;
+
+  opacity: 0.95;
+
+  background-color: var(--messagepage__sent_bg);
+  /* background-color: red; */
+  border: 4px solid var(--messagepage_drag_hover_border);
+  /* border: 4px solid blue; */
+  color: var(--messagepage_drag_hover_fg);
+
+  font-size: 20px;
+  font-weight: 700;
+
+  cursor: default;
+}
+
+.messagetyper-hover span {
+  line-height: 30px;
+
+  user-select: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.messagetyper-hover-close:after {
+  content: 'X';
+
+  position: absolute;
+  top: 0;
+  right: 4px;
+
+  color: var(--white);
+  font-size: 12px;
+}

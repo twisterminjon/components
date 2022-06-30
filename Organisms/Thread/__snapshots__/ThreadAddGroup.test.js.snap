@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThreadAddGroup matches the snapshot 1`] = `
+<div
+  className="messagethreadadduser"
+>
+  <DocTitle
+    title="Add Member"
+  />
+  <Banner
+    onSelect={[MockFunction]}
+  />
+  <div
+    className="messagethreadaddgroup-results"
+    id="messagethreadaddgroup-results"
+  >
+    <InfiniteScroll
+      dataLength={3}
+      hasMore={true}
+      loading={false}
+      next={[Function]}
+      scrollableTarget="messagethreadaddgroup-results"
+    >
+      <AccordionTab
+        className=""
+        direction="down"
+        inverted={false}
+        key="6"
+        label="Cardiology"
+        onActivate={[Function]}
+        style={Object {}}
+      />
+      <AccordionTab
+        className=""
+        direction="down"
+        inverted={false}
+        key="4"
+        label="ED Charge Nurses"
+        onActivate={[Function]}
+        style={Object {}}
+      />
+      <AccordionTab
+        className=""
+        direction="down"
+        inverted={false}
+        key="5"
+        label="ED Technicians"
+        onActivate={[Function]}
+        style={Object {}}
+      />
+    </InfiniteScroll>
+  </div>
+</div>
+`;
+
+exports[`ThreadAddGroup matches the snapshot when group users are loading 1`] = `
+<div
+  className="messagethreadadduser"
+>
+  <DocTitle
+    title="Add Member"
+  />
+  <Banner
+    onSelect={[MockFunction]}
+  />
+  <div
+    className="messagethreadaddgroup-results"
+    id="messagethreadaddgroup-results"
+  >
+    <div
+      style={
+        Object {
+          "bottom": 0,
+          "position": "absolute",
+          "textAlign": "center",
+          "width": "100%",
+        }
+      }
+    >
+      <SpinnerDots
+        className=""
+        style={
+          Object {
+            "display": "inline-block",
+          }
+        }
+      />
+    </div>
+    <InfiniteScroll
+      dataLength={3}
+      hasMore={true}
+      loading={false}
+      next={[Function]}
+      scrollableTarget="messagethreadaddgroup-results"
+    >
+      <AccordionTab
+        className=""
+        direction="down"
+        inverted={false}
+        key="6"
+        label="Cardiology"
+        onActivate={[Function]}
+        style={Object {}}
+      />
+      <AccordionTab
+        className=""
+        direction="down"
+        inverted={false}
+        key="4"
+        label="ED Charge Nurses"
+        onActivate={[Function]}
+        style={Object {}}
+      />
+      <AccordionTab
+        className=""
+        direction="down"
+        inverted={false}
+        key="5"
+        label="ED Technicians"
+        onActivate={[Function]}
+        style={Object {}}
+      />
+    </InfiniteScroll>
+  </div>
+</div>
+`;
+
+exports[`ThreadAddGroup matches the snapshot when groups are loading 1`] = `
+<div
+  className="messagethreadadduser"
+>
+  <DocTitle
+    title="Add Member"
+  />
+  <Banner
+    onSelect={[MockFunction]}
+  />
+  <div
+    className="messagethreadaddgroup-results"
+    id="messagethreadaddgroup-results"
+  >
+    <div
+      style={
+        Object {
+          "bottom": 0,
+          "position": "absolute",
+          "textAlign": "center",
+          "width": "100%",
+        }
+      }
+    >
+      <SpinnerDots
+        className=""
+        style={
+          Object {
+            "display": "inline-block",
+          }
+        }
+      />
+    </div>
+    <InfiniteScroll
+      dataLength={3}
+      hasMore={false}
+      loading={true}
+      next={[Function]}
+      scrollableTarget="messagethreadaddgroup-results"
+    >
+      <AccordionTab
+        className=""
+        direction="down"
+        inverted={false}
+        key="6"
+        label="Cardiology"
+        onActivate={[Function]}
+        style={Object {}}
+      />
+      <AccordionTab
+        className=""
+        direction="down"
+        inverted={false}
+        key="4"
+        label="ED Charge Nurses"
+        onActivate={[Function]}
+        style={Object {}}
+      />
+      <AccordionTab
+        className=""
+        direction="down"
+        inverted={false}
+        key="5"
+        label="ED Technicians"
+        onActivate={[Function]}
+        style={Object {}}
+      />
+    </InfiniteScroll>
+  </div>
+</div>
+`;

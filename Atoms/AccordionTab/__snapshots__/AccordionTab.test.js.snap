@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccordionTab matches the snapshot 1`] = `
+<button
+  className="accordiontab"
+  data-testid="accordion-polka"
+  onClick={[MockFunction]}
+  style={Object {}}
+>
+  <span>
+    polka
+  </span>
+  <IconChevronLeft
+    color="var(--appheader__nav__button_fg)"
+    style={
+      Object {
+        "marginRight": 16,
+      }
+    }
+  />
+</button>
+`;
+
+exports[`AccordionTab matches the snapshot when inverted 1`] = `
+<button
+  className="accordiontab accordiontab--dark"
+  data-testid="accordion-polka"
+  onClick={[MockFunction]}
+  style={Object {}}
+>
+  <span>
+    polka
+  </span>
+  <IconChevronLeft
+    color="var(--appheader_bg)"
+    style={
+      Object {
+        "marginRight": 16,
+      }
+    }
+  />
+</button>
+`;

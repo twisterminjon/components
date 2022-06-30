@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SettingsForm matches the snapshot 1`] = `
+<Modal
+  basic={true}
+  centered={false}
+  closeOnDimmerClick={true}
+  closeOnDocumentClick={false}
+  dimmer={true}
+  eventPool="Modal"
+  onClose={[Function]}
+  open={true}
+  size="tiny"
+>
+  <div
+    className="settingsform"
+  >
+    <h1>
+      Settings
+    </h1>
+    <ModalContent>
+      <ModalDescription>
+        <Slider
+          className=""
+          fluid={false}
+          label="Ring Volume"
+          max={100}
+          min={0}
+          onChange={[Function]}
+          style={Object {}}
+          type="range"
+          value={50}
+        />
+        <div
+          className="settingsform-volume-label"
+        >
+          <span>
+            off
+          </span>
+          <span>
+            loud
+          </span>
+        </div>
+        <div
+          className="settingsform-units-section"
+        >
+          <span
+            className="sr-only"
+            data-testid="units-value=imperial"
+          >
+            unit type is imperial
+          </span>
+          <h2
+            className="settingsform-label"
+          >
+            Units
+          </h2>
+          <ButtonGroup
+            active="1"
+            buttonOneLabel="Imperial"
+            buttonOneOnClick={[Function]}
+            buttonTwoLabel="Metric"
+            buttonTwoOnClick={[Function]}
+            className=""
+            loading={false}
+            style={Object {}}
+          />
+          <div
+            className="settingsform-units-hint"
+          >
+            <span>
+              (Fahrenheit, pounds)
+            </span>
+            <span>
+              (Celsius, kilograms)
+            </span>
+          </div>
+        </div>
+      </ModalDescription>
+      <ModalActions>
+        <Button
+          className="settingsform-button"
+          fluid={true}
+          onClick={[Function]}
+          size="big"
+          style={Object {}}
+          type="submit"
+        >
+          Close
+        </Button>
+      </ModalActions>
+    </ModalContent>
+  </div>
+</Modal>
+`;
+
+exports[`SettingsForm matches the snapshot when hidden 1`] = `
+<Modal
+  basic={true}
+  centered={false}
+  closeOnDimmerClick={true}
+  closeOnDocumentClick={false}
+  dimmer={true}
+  eventPool="Modal"
+  onClose={[Function]}
+  open={false}
+  size="tiny"
+>
+  <div
+    className="settingsform"
+  >
+    <h1>
+      Settings
+    </h1>
+    <ModalContent>
+      <ModalDescription>
+        <Slider
+          className=""
+          fluid={false}
+          label="Ring Volume"
+          max={100}
+          min={0}
+          onChange={[Function]}
+          style={Object {}}
+          type="range"
+          value={50}
+        />
+        <div
+          className="settingsform-volume-label"
+        >
+          <span>
+            off
+          </span>
+          <span>
+            loud
+          </span>
+        </div>
+        <div
+          className="settingsform-units-section"
+        >
+          <span
+            className="sr-only"
+            data-testid="units-value=imperial"
+          >
+            unit type is imperial
+          </span>
+          <h2
+            className="settingsform-label"
+          >
+            Units
+          </h2>
+          <ButtonGroup
+            active="1"
+            buttonOneLabel="Imperial"
+            buttonOneOnClick={[Function]}
+            buttonTwoLabel="Metric"
+            buttonTwoOnClick={[Function]}
+            className=""
+            loading={false}
+            style={Object {}}
+          />
+          <div
+            className="settingsform-units-hint"
+          >
+            <span>
+              (Fahrenheit, pounds)
+            </span>
+            <span>
+              (Celsius, kilograms)
+            </span>
+          </div>
+        </div>
+      </ModalDescription>
+      <ModalActions>
+        <Button
+          className="settingsform-button"
+          fluid={true}
+          onClick={[Function]}
+          size="big"
+          style={Object {}}
+          type="submit"
+        >
+          Close
+        </Button>
+      </ModalActions>
+    </ModalContent>
+  </div>
+</Modal>
+`;

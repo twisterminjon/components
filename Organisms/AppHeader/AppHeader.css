@@ -1,0 +1,73 @@
+.appheader {
+  position: relative;
+  height: var(--header-height);
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+
+  background-color: var(--white);
+
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  z-index: var(--z-header);
+}
+
+.appheader-logo-position {
+  flex: 1;
+  justify-content: flex-start;
+}
+
+.appheader-logo-size {
+  height: 41px;
+  margin-left: 14px;
+}
+
+.appheader-avatar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: var(--header-height);
+  width: 70px;
+  cursor: pointer;
+
+  text-transform: none;
+  text-shadow: none;
+  font-weight: 700;
+  line-height: 1em;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.appheader-avatar:hover {
+  background-color: var(--brandcolor_trans_25);
+}
+
+.appheader-avatar:focus {
+  box-shadow: inset 0px 0px 2px 0px #000000;
+}
+
+.appheader-message-bubble {
+  /* Need important here to override the cascade from the status bubble */
+  position: absolute !important;
+  top: 9px;
+  right: 9px;
+}
+
+@media only screen and (max-width: 475px) {
+  .appheader-logo-size {
+    height: 21px;
+    width: 63px;
+    min-width: 63px;
+    max-width: 63px;
+  }
+
+  .appheader-calls {
+    display: none;
+  }
+}

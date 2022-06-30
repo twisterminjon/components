@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessageSystem matches the snapshot for GROUP_CREATED 1`] = `
+<div
+  className="messagesystem"
+  data-testid="system-message-user-added"
+  style={Object {}}
+>
+  <div
+    className="messagesystem-common messagesystem-left-bubble messagesystem-bubble--bright"
+  >
+    <span
+      className="messagesystem-message"
+    >
+      this is a test
+    </span>
+  </div>
+</div>
+`;
+
+exports[`MessageSystem matches the snapshot for INTERVENTION_COMPLETE 1`] = `
+<div
+  className="messagesystem"
+  data-testid="system-message-user-added"
+  style={Object {}}
+>
+  <div
+    className="messagesystem-common messagesystem-left-bubble messagesystem-bubble--accent"
+  >
+    <span
+      className="messagesystem-message"
+    >
+      this is a test
+    </span>
+  </div>
+</div>
+`;
+
+exports[`MessageSystem matches the snapshot for INTERVENTION_RESOLVE 1`] = `
+<div
+  className="messagesystem"
+  data-testid="system-message-user-added"
+  style={Object {}}
+>
+  <div
+    className="messagesystem-common messagesystem-left-bubble messagesystem-bubble--bright"
+  >
+    <span
+      className="messagesystem-message"
+    >
+      this is a test
+    </span>
+  </div>
+</div>
+`;
+
+exports[`MessageSystem matches the snapshot for INTERVENTION_STARTED 1`] = `
+<div
+  className="messagesystem"
+  data-testid="system-message-user-added"
+  style={Object {}}
+>
+  <div
+    className="messagesystem-common messagesystem-left-bubble messagesystem-bubble--bright"
+  >
+    <span
+      className="messagesystem-message"
+    >
+      this is a test
+    </span>
+  </div>
+</div>
+`;
+
+exports[`MessageSystem matches the snapshot for UNREAD_LINE 1`] = `
+<div
+  className="messagesystem"
+  data-testid="system-message-user-added"
+  style={Object {}}
+>
+  <div
+    className="messagesystem-common messagesystem-right"
+  >
+    <span
+      className="messagesystem-message"
+    >
+      this is a test
+    </span>
+  </div>
+</div>
+`;
+
+exports[`MessageSystem matches the snapshot for USER_ADDED 1`] = `
+<div
+  className="messagesystem"
+  data-testid="system-message-user-added"
+  style={Object {}}
+>
+  <div
+    className="messagesystem-common messagesystem-left-bubble messagesystem-bubble--bright"
+  >
+    <span
+      className="messagesystem-message"
+    >
+      this is a test
+    </span>
+  </div>
+</div>
+`;

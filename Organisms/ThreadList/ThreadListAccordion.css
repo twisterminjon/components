@@ -1,0 +1,75 @@
+.messagelistaccordion {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+
+  overflow: hidden;
+  height: 60px;
+  width: 100%;
+
+  padding-left: 16px;
+
+  background-color: var(--messagepage_bg);
+
+  border-bottom: solid 1px var(--brandcolor);
+  text-decoration: none;
+  cursor: default; /* don't show a text cursor */
+  transition: background-color 250ms ease-in-out, transform 150ms ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.messagelistaccordion span {
+  flex: 1;
+
+  color: var(--button_color_hover);
+
+  text-align: left;
+  font-family: var(--font-message-page);
+  font-size: var(--font-base-body--size);
+  font-weight: 500;
+
+  padding: 8px 12px;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.messagelistaccordion-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--messagepage_bg);
+
+  height: 60px;
+  width: 60px;
+}
+
+.messagelistaccordion-button:hover {
+  background-color: var(--button_color_hover);
+}
+
+.messagelistaccordion-button:focus {
+  background-color: var(--button_color_hover);
+}
+
+.messagelistaccordion-button:active {
+  transform: scale(1.01);
+}
+
+.messagelistaccordion-content {
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+.messagelistaccordion--hide {
+  height: 0;
+  padding-bottom: 0;
+}
+
+.messagelistaccordion .button-custom {
+  font-size: 16px !important;
+}

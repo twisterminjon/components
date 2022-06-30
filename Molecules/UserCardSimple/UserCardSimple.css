@@ -1,0 +1,116 @@
+.usercardsimple-button {
+  height: 79px;
+  width: 100%;
+  padding-left: 26px;
+
+  border: none;
+  border-top: 1px solid var(--misc__card__border_color);
+  border-bottom: 1px solid var(--misc__card__border_color);
+
+  background-color: transparent;
+  outline: none;
+}
+
+.usercardsimple-button:focus {
+  outline: 1px solid var(--button_color_hover);
+  outline-offset: -4px;
+}
+
+.usercardsimple-flag-container {
+  position: absolute;
+  right: 0;
+  margin-right: 5px;
+}
+
+.usercardsimple-button:active {
+  transform: scale(1.01);
+}
+
+.usercardsimple-button--small {
+  height: 60px;
+}
+
+.usercardsimple {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  height: 100%;
+  width: 100%;
+}
+
+.usercardsimple-label {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: left;
+  color: var(--white);
+
+  cursor: default;
+}
+
+.usercardsimple-label--small {
+  font-size: 14px;
+}
+
+.usercardsimple-avatar {
+  height: 45px;
+  display: block;
+  position: relative;
+}
+
+.usercardsimple-avatar--small {
+  height: 36px;
+}
+
+.usercardsimple-status {
+  position: absolute;
+}
+
+.usercardsimple-status--medium {
+  right: 2px;
+  bottom: 2px;
+}
+
+.usercardsimple-status--small {
+  /* Strange, react is doing something odd w/ where it puts the selector in the
+     <style> tags so this doesn't have the correct specificty */
+  right: 0;
+  bottom: 0;
+}
+
+/* Following are for the placeholder */
+.usercardsimple-ph-avatar {
+  height: 45px;
+  width: 45px;
+  background-color: var(--patientpage__placeholder);
+  border-radius: 50%;
+  margin-right: 14px;
+}
+
+.usercardsimple-ph-text {
+  height: 18px;
+  width: 100px;
+  border-radius: 9px;
+  background-color: var(--patientpage__placeholder);
+}
+
+.usercardsimple-ph {
+  animation: usercardsimple-shimmer 2s infinite;
+}
+
+@keyframes usercardsimple-shimmer {
+  from {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

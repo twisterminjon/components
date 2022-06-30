@@ -1,0 +1,482 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PatientMonitor matches the snapshot for imperial 1`] = `
+<div
+  className="patientmonitor"
+  style={Object {}}
+>
+  <AccordionTab
+    className=""
+    data-testid="button-back"
+    direction="times"
+    fluid={true}
+    inverted={true}
+    label="Monitoring"
+    onActivate={[MockFunction]}
+    style={Object {}}
+  >
+    Monitoring
+  </AccordionTab>
+  <RenderContent
+    loading={false}
+    onRequest={[Function]}
+    readings={
+      Array [
+        Object {
+          "id": "5",
+          "measuredAt": "2020-04-01T01:36:50",
+          "vitals": Array [
+            Object {
+              "id": "13",
+              "isIntervention": true,
+              "units": "lbs",
+              "value": 120,
+              "vital": Object {
+                "id": "1",
+                "name": "Weight",
+              },
+            },
+            Object {
+              "id": "14",
+              "isIntervention": true,
+              "units": "mmHg",
+              "value": 90,
+              "vital": Object {
+                "id": "2",
+                "name": "Blood Pressure (Systolic)",
+              },
+            },
+            Object {
+              "id": "15",
+              "isIntervention": false,
+              "units": "mmHg",
+              "value": 75,
+              "vital": Object {
+                "id": "3",
+                "name": "Blood Pressure (Diastolic)",
+              },
+            },
+            Object {
+              "id": "16",
+              "isIntervention": false,
+              "units": "percentage",
+              "value": 80,
+              "vital": Object {
+                "id": "4",
+                "name": "Oxygen Level",
+              },
+            },
+            Object {
+              "id": "17",
+              "isIntervention": true,
+              "units": "bpm",
+              "value": 62,
+              "vital": Object {
+                "id": "5",
+                "name": "Heart Rate",
+              },
+            },
+            Object {
+              "id": "18",
+              "isIntervention": true,
+              "units": "celsius",
+              "value": 39.1,
+              "vital": Object {
+                "id": "6",
+                "name": "Body Temperature",
+              },
+            },
+            Object {
+              "id": "19",
+              "isIntervention": false,
+              "units": "mmol/L",
+              "value": 4.2,
+              "vital": Object {
+                "id": "7",
+                "name": "Glucose Concentration",
+              },
+            },
+          ],
+        },
+      ]
+    }
+    requesting={false}
+    units="imperial"
+    user={null}
+  />
+  <ModalRequestReadingToast
+    onCancel={[Function]}
+    onRequest={[Function]}
+    show={false}
+  />
+</div>
+`;
+
+exports[`PatientMonitor matches the snapshot for metric 1`] = `
+<div
+  className="patientmonitor"
+  style={Object {}}
+>
+  <AccordionTab
+    className=""
+    data-testid="button-back"
+    direction="times"
+    fluid={true}
+    inverted={true}
+    label="Monitoring"
+    onActivate={[MockFunction]}
+    style={Object {}}
+  >
+    Monitoring
+  </AccordionTab>
+  <RenderContent
+    loading={false}
+    onRequest={[Function]}
+    readings={
+      Array [
+        Object {
+          "id": "5",
+          "measuredAt": "2020-04-01T01:36:50",
+          "vitals": Array [
+            Object {
+              "id": "13",
+              "isIntervention": true,
+              "units": "lbs",
+              "value": 120,
+              "vital": Object {
+                "id": "1",
+                "name": "Weight",
+              },
+            },
+            Object {
+              "id": "14",
+              "isIntervention": true,
+              "units": "mmHg",
+              "value": 90,
+              "vital": Object {
+                "id": "2",
+                "name": "Blood Pressure (Systolic)",
+              },
+            },
+            Object {
+              "id": "15",
+              "isIntervention": false,
+              "units": "mmHg",
+              "value": 75,
+              "vital": Object {
+                "id": "3",
+                "name": "Blood Pressure (Diastolic)",
+              },
+            },
+            Object {
+              "id": "16",
+              "isIntervention": false,
+              "units": "percentage",
+              "value": 80,
+              "vital": Object {
+                "id": "4",
+                "name": "Oxygen Level",
+              },
+            },
+            Object {
+              "id": "17",
+              "isIntervention": true,
+              "units": "bpm",
+              "value": 62,
+              "vital": Object {
+                "id": "5",
+                "name": "Heart Rate",
+              },
+            },
+            Object {
+              "id": "18",
+              "isIntervention": true,
+              "units": "celsius",
+              "value": 39.1,
+              "vital": Object {
+                "id": "6",
+                "name": "Body Temperature",
+              },
+            },
+            Object {
+              "id": "19",
+              "isIntervention": false,
+              "units": "mmol/L",
+              "value": 4.2,
+              "vital": Object {
+                "id": "7",
+                "name": "Glucose Concentration",
+              },
+            },
+          ],
+        },
+      ]
+    }
+    requesting={false}
+    units="metric"
+    user={null}
+  />
+  <ModalRequestReadingToast
+    onCancel={[Function]}
+    onRequest={[Function]}
+    show={false}
+  />
+</div>
+`;
+
+exports[`PatientMonitor matches the snapshot when loading 1`] = `
+<div
+  className="patientmonitor"
+  style={Object {}}
+>
+  <AccordionTab
+    className=""
+    data-testid="button-back"
+    direction="times"
+    fluid={true}
+    inverted={true}
+    label="Monitoring"
+    onActivate={[MockFunction]}
+    style={Object {}}
+  >
+    Monitoring
+  </AccordionTab>
+  <RenderContent
+    loading={true}
+    onRequest={[Function]}
+    readings={
+      Array [
+        Object {
+          "id": "5",
+          "measuredAt": "2020-04-01T01:36:50",
+          "vitals": Array [
+            Object {
+              "id": "13",
+              "isIntervention": true,
+              "units": "lbs",
+              "value": 120,
+              "vital": Object {
+                "id": "1",
+                "name": "Weight",
+              },
+            },
+            Object {
+              "id": "14",
+              "isIntervention": true,
+              "units": "mmHg",
+              "value": 90,
+              "vital": Object {
+                "id": "2",
+                "name": "Blood Pressure (Systolic)",
+              },
+            },
+            Object {
+              "id": "15",
+              "isIntervention": false,
+              "units": "mmHg",
+              "value": 75,
+              "vital": Object {
+                "id": "3",
+                "name": "Blood Pressure (Diastolic)",
+              },
+            },
+            Object {
+              "id": "16",
+              "isIntervention": false,
+              "units": "percentage",
+              "value": 80,
+              "vital": Object {
+                "id": "4",
+                "name": "Oxygen Level",
+              },
+            },
+            Object {
+              "id": "17",
+              "isIntervention": true,
+              "units": "bpm",
+              "value": 62,
+              "vital": Object {
+                "id": "5",
+                "name": "Heart Rate",
+              },
+            },
+            Object {
+              "id": "18",
+              "isIntervention": true,
+              "units": "celsius",
+              "value": 39.1,
+              "vital": Object {
+                "id": "6",
+                "name": "Body Temperature",
+              },
+            },
+            Object {
+              "id": "19",
+              "isIntervention": false,
+              "units": "mmol/L",
+              "value": 4.2,
+              "vital": Object {
+                "id": "7",
+                "name": "Glucose Concentration",
+              },
+            },
+          ],
+        },
+      ]
+    }
+    requesting={false}
+    units="imperial"
+    user={null}
+  />
+  <ModalRequestReadingToast
+    onCancel={[Function]}
+    onRequest={[Function]}
+    show={false}
+  />
+</div>
+`;
+
+exports[`PatientMonitor matches the snapshot when no readings 1`] = `
+<div
+  className="patientmonitor"
+  style={Object {}}
+>
+  <AccordionTab
+    className=""
+    data-testid="button-back"
+    direction="times"
+    fluid={true}
+    inverted={true}
+    label="Monitoring"
+    onActivate={[MockFunction]}
+    style={Object {}}
+  >
+    Monitoring
+  </AccordionTab>
+  <RenderContent
+    loading={true}
+    onRequest={[Function]}
+    readings={Array []}
+    requesting={false}
+    units="imperial"
+    user={null}
+  />
+  <ModalRequestReadingToast
+    onCancel={[Function]}
+    onRequest={[Function]}
+    show={false}
+  />
+</div>
+`;
+
+exports[`PatientMonitor matches the snapshot when requesting 1`] = `
+<div
+  className="patientmonitor"
+  style={Object {}}
+>
+  <AccordionTab
+    className=""
+    data-testid="button-back"
+    direction="times"
+    fluid={true}
+    inverted={true}
+    label="Monitoring"
+    onActivate={[MockFunction]}
+    style={Object {}}
+  >
+    Monitoring
+  </AccordionTab>
+  <RenderContent
+    loading={false}
+    onRequest={[Function]}
+    readings={
+      Array [
+        Object {
+          "id": "5",
+          "measuredAt": "2020-04-01T01:36:50",
+          "vitals": Array [
+            Object {
+              "id": "13",
+              "isIntervention": true,
+              "units": "lbs",
+              "value": 120,
+              "vital": Object {
+                "id": "1",
+                "name": "Weight",
+              },
+            },
+            Object {
+              "id": "14",
+              "isIntervention": true,
+              "units": "mmHg",
+              "value": 90,
+              "vital": Object {
+                "id": "2",
+                "name": "Blood Pressure (Systolic)",
+              },
+            },
+            Object {
+              "id": "15",
+              "isIntervention": false,
+              "units": "mmHg",
+              "value": 75,
+              "vital": Object {
+                "id": "3",
+                "name": "Blood Pressure (Diastolic)",
+              },
+            },
+            Object {
+              "id": "16",
+              "isIntervention": false,
+              "units": "percentage",
+              "value": 80,
+              "vital": Object {
+                "id": "4",
+                "name": "Oxygen Level",
+              },
+            },
+            Object {
+              "id": "17",
+              "isIntervention": true,
+              "units": "bpm",
+              "value": 62,
+              "vital": Object {
+                "id": "5",
+                "name": "Heart Rate",
+              },
+            },
+            Object {
+              "id": "18",
+              "isIntervention": true,
+              "units": "celsius",
+              "value": 39.1,
+              "vital": Object {
+                "id": "6",
+                "name": "Body Temperature",
+              },
+            },
+            Object {
+              "id": "19",
+              "isIntervention": false,
+              "units": "mmol/L",
+              "value": 4.2,
+              "vital": Object {
+                "id": "7",
+                "name": "Glucose Concentration",
+              },
+            },
+          ],
+        },
+      ]
+    }
+    requesting={true}
+    units="imperial"
+    user={null}
+  />
+  <ModalRequestReadingToast
+    onCancel={[Function]}
+    onRequest={[Function]}
+    show={false}
+  />
+</div>
+`;

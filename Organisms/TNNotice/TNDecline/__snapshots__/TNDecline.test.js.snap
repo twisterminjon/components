@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TNDecline matches the snapshot 1`] = `
+<div
+  className="tndecline"
+  data-testid="tndecline"
+>
+  <div
+    className="tndecline-content"
+  >
+    <h1
+      className="tndecline-title"
+    >
+      Provider Portal
+    </h1>
+    <p>
+      You must agree to the Terms & Notices to continue using the Provider Portal application.
+    </p>
+    <IconDocuments
+      color="white"
+      size={150}
+      style={Object {}}
+    />
+    <p>
+      If you have questions or need help please feel free to contact your service provider for options.
+    </p>
+  </div>
+  <div
+    className="tndecline-controls"
+  >
+    <TextButton
+      className=""
+      content="Close Provider Portal"
+      fluid={true}
+      name="close"
+      onClick={[MockFunction]}
+      style={
+        Object {
+          "marginBottom": "10px",
+        }
+      }
+    />
+    <Button
+      data-testid="tn-agree-button"
+      fluid={true}
+      name="return"
+      onClick={[MockFunction]}
+      style={Object {}}
+      type="submit"
+    >
+      Return
+    </Button>
+  </div>
+</div>
+`;

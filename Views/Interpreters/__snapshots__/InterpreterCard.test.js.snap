@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InterpreterCard matches the snapshot 1`] = `
+<button
+  className="button-reset interpreter-card"
+  data-testid="interpreter-card-English"
+  disabled={false}
+  onClick={[MockFunction]}
+>
+  English
+</button>
+`;

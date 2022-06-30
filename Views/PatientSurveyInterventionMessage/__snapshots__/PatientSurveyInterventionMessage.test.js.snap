@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PatientSurveyInterventionMessage matches the snapshot 1`] = `
+<div
+  className="patientsurveyinterventionmessage-wrap"
+>
+  <form
+    className="patientsurveyinterventionmessage"
+    onSubmit={[Function]}
+  >
+    <div
+      className="patientsurveyinterventionmessage-header"
+    >
+      <Avatar
+        className="patientsurveyinterventionmessage-patientavatar"
+        data-testid="patientsurveyinterventionmessage-patientavatar"
+        dimmed={false}
+        displayName={null}
+        imgUrl="https://some-image-url.com"
+        loading={false}
+        size="small"
+        style={Object {}}
+      />
+       
+      <span
+        className="patientsurveyinterventionmessage-patientname"
+        data-testid="patientsurveyinterventionmessage-patientname"
+      >
+        Sally Fields
+      </span>
+    </div>
+    <div
+      className="patientsurveyinterventionmessage-message-wrap"
+    >
+      <TextAreaInput
+        className=""
+        data-testid="patientsurveyinterventionmessage-message"
+        errorMessage=""
+        hasError={false}
+        hintText=""
+        label="Message"
+        loading={false}
+        maxLength={1024}
+        name="patientsurveyinterventionmessage-message"
+        onChange={[Function]}
+        required={false}
+        style={Object {}}
+        value="
+Test survey question
+
+Hi, Sally Fields, just following up on your answer of \\"Test survey answer.\\"
+
+"
+      />
+    </div>
+    <div
+      className="patientsurveyinterventionmessage-buttonswrap"
+    >
+      <Button
+        className="patientsurveyinterventionmessage-send"
+        data-testid="patientsurveyinterventionmessage-send"
+        disabled={true}
+        fluid={false}
+        onClick={[Function]}
+        style={Object {}}
+        type="submit"
+      >
+        Send
+      </Button>
+    </div>
+  </form>
+</div>
+`;

@@ -1,0 +1,25 @@
+.linkify_link, .linkify_link:visited {
+  color: var(--brandcolor_accent_alt) !important;
+  text-decoration: none;
+}
+
+.linkify_link:hover {
+  text-decoration: underline;
+}
+
+
+.linkify_link-disabled:hover {
+  text-decoration: none;
+}
+
+/**
+   * FE0E is for choosing a style of the symbol
+   * Wihtout it it will render as an emoji
+   */
+.linkify_link::after {
+  content: '\00a0➡\FE0E';
+}
+
+.linkify_link.linkify_link-phone::after {
+  content: '\00a0✆\FE0E';
+}

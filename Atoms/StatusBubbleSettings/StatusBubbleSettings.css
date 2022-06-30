@@ -1,0 +1,30 @@
+.statusbubblesettings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 15px;
+  width: 15px;
+
+  border-radius: 11px;
+  border: 1px solid var(--white);
+
+  color: var(--white);
+  background-color: var(--statusbubble_offline);
+}
+
+.statusbubble--available {
+  background-color: var(--statusbubble_available);
+}
+
+.statusbubble--busy {
+  background-color: var(--statusbubble_busy);
+}
+
+.statusbubble--away {
+  background-color: var(--statusbubble_away);
+}
+
+.statusbubble--offline {
+  background-color: var(--statusbubble_offline);
+}

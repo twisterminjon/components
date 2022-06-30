@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThreadListAccordion matches the snapshot 1`] = `
+<div
+  className="messagelistaccordion-wrap"
+>
+  <div
+    className="messagelistaccordion"
+    data-testid="message-list-accordion-polka"
+    style={Object {}}
+  >
+    <span>
+      polka
+    </span>
+    <Button
+      data-testid="message-list-add-group"
+      fluid={false}
+      onClick={[MockFunction]}
+      size="medium"
+      style={
+        Object {
+          "fontSize": "12px !important",
+        }
+      }
+      type="submit"
+    >
+      Add Group
+    </Button>
+  </div>
+  <div
+    className="messagelistaccordion-content"
+    data-testid="message-list-polka-content"
+  >
+    <p>
+      test
+    </p>
+  </div>
+</div>
+`;

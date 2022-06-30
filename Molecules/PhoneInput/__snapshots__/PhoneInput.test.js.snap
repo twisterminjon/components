@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PhoneInput matches the snapshot 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="label"
+  >
+    <InputLabel
+      data-testid="phone-label"
+      htmlFor="phone-input"
+      id="phone-label"
+      label="Klingon"
+    />
+    <HintText
+      data-testid="phone-hint"
+      hint=""
+      id="phone-hint"
+      rightAlign={true}
+    />
+  </div>
+  <InputPhoneBase
+    aria-describedby="phone-hint"
+    aria-labelledby="phone-label"
+    className="ui input fluid content"
+    disabled={false}
+    id="phone-input"
+    inputClassName="input"
+    name="phone"
+    onBlur={[Function]}
+    onChange={[MockFunction]}
+    onKeyPress={[Function]}
+    placeholder="Star Trek"
+    selectStyles={null}
+    value="+79123456789"
+  />
+  <InputMessage
+    data-testid="phone-validation-message"
+    message="It is busted"
+    show={false}
+  />
+</div>
+`;

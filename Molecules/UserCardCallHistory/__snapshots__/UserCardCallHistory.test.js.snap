@@ -1,0 +1,245 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserCardCallHistory matches the snapshot for incoming 1`] = `
+<div
+  className="usercardcallhistory-wrap"
+  style={Object {}}
+>
+  <div
+    className="usercardcallhistory"
+    data-testid="call-card-The Scarlet Witch"
+  >
+    <div
+      className="usercardcallhistory-avatar "
+      style={
+        Object {
+          "marginRight": 14,
+        }
+      }
+    >
+      <UserAvatar
+        profileImage="https://www.fillmurray.com/500/500"
+        size="medium"
+        status="available"
+      />
+    </div>
+    <div
+      className="column usercardhistory-info"
+    >
+      <span
+        className="usercardcallhistory-label"
+      >
+        The Scarlet Witch
+      </span>
+      <div
+        className="usercardhistory-details-row"
+      >
+        <CallType
+          className=""
+          dimmed={false}
+          missed={false}
+          style={
+            Object {
+              "marginRight": 16,
+            }
+          }
+          type="INCOMING"
+        />
+        <span
+          className="usercardcallhistory-details"
+        >
+          01/28/2020
+        </span>
+      </div>
+    </div>
+    <DialButton
+      data-testid="usercardcallhistory-dial-The Scarlet Witch"
+      onClick={[MockFunction]}
+      status="available"
+      style={
+        Object {
+          "marginRight": 16,
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`UserCardCallHistory matches the snapshot for outgoing 1`] = `
+<div
+  className="usercardcallhistory-wrap"
+  style={Object {}}
+>
+  <div
+    className="usercardcallhistory"
+    data-testid="call-card-The Scarlet Witch"
+  >
+    <div
+      className="usercardcallhistory-avatar "
+      style={
+        Object {
+          "marginRight": 14,
+        }
+      }
+    >
+      <UserAvatar
+        profileImage="https://www.fillmurray.com/500/500"
+        size="medium"
+        status="available"
+      />
+    </div>
+    <div
+      className="column usercardhistory-info"
+    >
+      <span
+        className="usercardcallhistory-label"
+      >
+        The Scarlet Witch
+      </span>
+      <div
+        className="usercardhistory-details-row"
+      >
+        <CallType
+          className=""
+          dimmed={false}
+          missed={false}
+          style={
+            Object {
+              "marginRight": 16,
+            }
+          }
+          type="OUTGOING"
+        />
+        <span
+          className="usercardcallhistory-details"
+        >
+          01/28/2020
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`UserCardCallHistory matches the snapshot when canDial is false 1`] = `
+<div
+  className="usercardcallhistory-wrap"
+  style={Object {}}
+>
+  <div
+    className="usercardcallhistory"
+    data-testid="call-card-The Scarlet Witch"
+  >
+    <div
+      className="usercardcallhistory-avatar "
+      style={
+        Object {
+          "marginRight": 14,
+        }
+      }
+    >
+      <UserAvatar
+        profileImage="https://www.fillmurray.com/500/500"
+        size="medium"
+        status="available"
+      />
+    </div>
+    <div
+      className="column usercardhistory-info"
+    >
+      <span
+        className="usercardcallhistory-label"
+      >
+        The Scarlet Witch
+      </span>
+      <div
+        className="usercardhistory-details-row"
+      >
+        <CallType
+          className=""
+          dimmed={false}
+          missed={false}
+          style={
+            Object {
+              "marginRight": 16,
+            }
+          }
+          type="INCOMING"
+        />
+        <span
+          className="usercardcallhistory-details"
+        >
+          01/28/2020
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`UserCardCallHistory matches the snapshot when missed 1`] = `
+<div
+  className="usercardcallhistory-wrap"
+  style={Object {}}
+>
+  <div
+    className="usercardcallhistory"
+    data-testid="call-card-The Scarlet Witch"
+  >
+    <div
+      className="usercardcallhistory-avatar "
+      style={
+        Object {
+          "marginRight": 14,
+        }
+      }
+    >
+      <UserAvatar
+        profileImage="https://www.fillmurray.com/500/500"
+        size="medium"
+        status="available"
+      />
+    </div>
+    <div
+      className="column usercardhistory-info"
+    >
+      <span
+        className="usercardcallhistory-label  usercardcallhistory--missed"
+      >
+        The Scarlet Witch
+      </span>
+      <div
+        className="usercardhistory-details-row"
+      >
+        <CallType
+          className=""
+          dimmed={false}
+          missed={true}
+          style={
+            Object {
+              "marginRight": 16,
+            }
+          }
+          type="INCOMING"
+        />
+        <span
+          className="usercardcallhistory-details  usercardcallhistory--missed"
+        >
+          01/28/2020
+        </span>
+      </div>
+    </div>
+    <DialButton
+      data-testid="usercardcallhistory-dial-The Scarlet Witch"
+      onClick={[MockFunction]}
+      status="available"
+      style={
+        Object {
+          "marginRight": 16,
+        }
+      }
+    />
+  </div>
+</div>
+`;

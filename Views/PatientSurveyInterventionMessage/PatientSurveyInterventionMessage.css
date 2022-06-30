@@ -1,0 +1,57 @@
+.patientsurveyinterventionmessage-wrap {
+  height: calc(100vh - (var(--header-height) + var(--searchbar-height)));
+  overflow: auto;
+  width: 100%;
+  color: var(--font_color_light);
+  text-align: center;
+}
+
+.patientsurveyinterventionmessage {
+  background-color: var(--patientsurveyintervention_bg);
+  width: 375px;
+  max-width: 375px;
+  height: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.patientsurveyinterventionmessage-header {
+  height: 72px;
+  background-color: var(--patientsuveryintervention_section_bg);
+  margin-bottom: 20px;
+  padding: 16px;
+}
+
+.patientsurveyinterventionmessage-patientavatar {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.patientsurveyinterventionmessage-patientname {
+  vertical-align: middle;
+  margin-left: 16px;
+}
+
+.patientsurveyinterventionmessage-message-wrap {
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.patientsurveyinterventionmessage-message-wrap .textareainput-wrapper,
+.patientsurveyinterventionmessage-message-wrap .textinputfieldarea {
+  height: 100%;
+}
+
+.patientsurveyinterventionmessage-buttonswrap {
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.patientsurveyinterventionmessage-send {
+  width: 100% !important;
+  height: 44px !important;
+  display: inline-block !important;
+  border-radius: 4px !important;
+  vertical-align: middle !important;
+}

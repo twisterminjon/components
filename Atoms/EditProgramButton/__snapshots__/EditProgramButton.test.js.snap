@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditProgramButton EditProgramButton matches the snapshot 1`] = `
+<button
+  className="editprogrambutton-button "
+  disabled={false}
+  onClick={[MockFunction]}
+>
+  <IconPencil
+    color="var(--white)"
+    size={14}
+    style={
+      Object {
+        "display": "block",
+      }
+    }
+  />
+</button>
+`;

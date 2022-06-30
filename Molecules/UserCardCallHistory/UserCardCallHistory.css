@@ -1,0 +1,80 @@
+.usercardcallhistory-wrap {
+  position: relative;
+  height: 79px;
+  width: 100%;
+  padding-left: 26px;
+
+  border: none;
+  border-top: 1px solid var(--misc__card__border_color);
+  border-bottom: 1px solid var(--misc__card__border_color);
+
+  background-color: transparent;
+  outline: none;
+}
+
+.usercardcallhistory-wrap:hover {
+  background-color: var(--misc__item_hover);
+}
+
+.usercardcallhistory {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  height: 100%;
+  width: 100%;
+}
+
+.usercardhistory-info {
+  flex: 1;
+  min-width: 0; /* The min-width 0 is needed to keep the flex 1 from expanding past the end of the screen */
+  margin-right: 16px;
+}
+
+.usercardhistory-details-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin-top: 6px;
+}
+
+.usercardcallhistory-label,
+.usercardcallhistory-details {
+  margin: 0;
+  padding: 0;
+  font-size: var(--font-base-body--size-medium);
+  font-weight: 300;
+  text-align: left;
+  color: var(--text_default);
+
+  cursor: default;
+}
+
+.usercardcallhistory-label {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.usercardcallhistory-details {
+  font-size: var(--font-base-body--size-small);
+  color: var(--text_default);
+
+  cursor: default;
+}
+
+.usercardcallhistory--unavailable {
+  color: var(--text_dimmed);
+}
+
+.usercardcallhistory--missed {
+  color: var(--text_negative);
+}
+
+.usercardcallhistory-avatar {
+  /* height: 45px; */
+  display: block;
+  position: relative;
+}

@@ -1,0 +1,82 @@
+/* Customize the label (the radioinput) */
+.radioinput {
+  display: inline-block;
+  position: relative;
+
+  height: 22px;
+  line-height: 22px;
+
+  padding-left: 35px;
+  margin: 0;
+
+  cursor: pointer;
+  font-size: var(--font-base-body--size);
+  font-weight: var(--font-base--regular);
+
+  user-select: none;
+
+  color: var(--base__body_fg);
+}
+
+/* Hide the browser's default radio button */
+.radioinput input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom radio button */
+.radioinput-check-mark {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  height: 22px;
+  width: 22px;
+
+  background-color: var(--radio_bg);
+  border: 1px solid var(--radio_border);
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.radioinput:hover input ~ .radioinput-check-mark {
+  background-color: var(--button_color_hover);
+}
+
+.radioinput:focus input ~ .radioinput-check-mark {
+  border: 1px solid red;
+}
+
+.radioinput:focus + label:before {
+  outline: 1px solid red;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.radioinput-check-mark:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radioinput input:checked ~ .radioinput-check-mark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radioinput .radioinput-check-mark:after {
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: var(--radio_checked);
+}
+
+.radioinput--full-width {
+  display: block;
+}

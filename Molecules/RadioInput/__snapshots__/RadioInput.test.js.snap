@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioInput matches the snapshot 1`] = `
+<RadioInput
+  checked={false}
+  className=""
+  fluid={false}
+  label="radio1"
+  name="radio1"
+  onChange={[MockFunction]}
+  style={Object {}}
+  value="radio1"
+>
+  <label
+    className="radioinput"
+    style={Object {}}
+  >
+    radio1
+    <input
+      checked={false}
+      name="radio1"
+      onChange={[MockFunction]}
+      type="radio"
+      value="radio1"
+    />
+    <span
+      className="radioinput-check-mark"
+    />
+  </label>
+</RadioInput>
+`;

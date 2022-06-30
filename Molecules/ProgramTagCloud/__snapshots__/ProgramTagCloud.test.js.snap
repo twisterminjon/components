@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgramTagCloud matches the snapshot 1`] = `
+<ul
+  className="programtagcloud"
+>
+  <ProgramTag
+    className=""
+    enrollmentId="4"
+    id="0"
+    inActive={false}
+    isComplete={false}
+    key="4"
+    label="X-men"
+    loading={false}
+    onEdit={[Function]}
+    style={
+      Object {
+        "marginBottom": 6,
+        "marginRight": 0,
+      }
+    }
+    value={false}
+  />
+  <ProgramTag
+    className=""
+    enrollmentId="5"
+    id="1"
+    inActive={false}
+    isComplete={false}
+    key="5"
+    label="Fantastic Four"
+    loading={false}
+    onEdit={[Function]}
+    style={
+      Object {
+        "marginBottom": 6,
+        "marginRight": 0,
+      }
+    }
+    value={false}
+  />
+</ul>
+`;

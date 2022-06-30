@@ -1,0 +1,81 @@
+.patientheader-wrap {
+  position: relative;
+}
+
+.patientheader {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 133px;
+  width: 100%;
+}
+
+.patientheader-label-wrap {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 31px;
+
+  flex: 1;
+}
+
+.patientheader-do-not-contact {
+  color: var(--color_warn);
+}
+
+.patientheader-label {
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--white);
+}
+
+.patientheader-id {
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--brandcolor);
+}
+
+.patientheader-label--bottom-margin {
+  margin-bottom: 8px;
+}
+
+/* Following are for the placeholder */
+.patientheader-ph-avatar {
+  height: 90px;
+  width: 90px;
+  background-color: var(--patientpage__placeholder);
+  border-radius: 50%;
+  margin-left: 39px;
+}
+
+.patientheader-ph-text-1 {
+  height: 18px;
+  width: 100px;
+  border-radius: 9px;
+  margin-bottom: 8px;
+
+  background-color: var(--patientpage__placeholder);
+}
+
+.patientheader-ph-text-2 {
+  height: 14px;
+  width: 100px;
+  border-radius: 7px;
+  background-color: var(--patientpage__placeholder);
+}
+
+.patientheader-ph {
+  animation: shimmer 2s infinite;
+}
+
+.patientheader-do-not-contact {
+  color: var(--color_warn);
+}
+
+.patientheader-profile-pic-edit {
+  position: absolute;
+  top: 80px;
+  left: 108px;
+  width: 30px;
+}

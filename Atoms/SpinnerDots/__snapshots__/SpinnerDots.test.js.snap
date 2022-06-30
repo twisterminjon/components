@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SpinnerDots matches the snapshot 1`] = `
+<div
+  className="spinnerdots "
+  style={Object {}}
+>
+  <div
+    className="spinnerdots-bounce1"
+  />
+  <div
+    className="spinnerdots-bounce2"
+  />
+  <div
+    className="spinnerdots-bounce3"
+  />
+</div>
+`;

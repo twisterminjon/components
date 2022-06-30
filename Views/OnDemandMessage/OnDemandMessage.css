@@ -1,0 +1,86 @@
+.ondemandmessage-wrap {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 20px;
+
+  overflow-y: auto;
+}
+
+@media screen and (max-width: 1120px) {
+  .ondemandmessage-wrap {
+    margin: 20px;
+    width: 100%;
+  }
+}
+
+.ondemandmessage-title {
+  color: var(--white);
+  margin: 0;
+}
+
+.ondemandmessage-phi {
+  color: var(--brandcolor);
+  font-size: 16px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.ondemandmessage-button {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-shrink: 0;
+
+  background-color: var(--brandcolor);
+  border: none;
+
+  padding-left: 4px;
+  margin-left: auto;
+
+  border-radius: 50%;
+  outline: none;
+
+  height: 36px;
+  width: 36px;
+
+  /* margin-left: 10px; */
+}
+
+.ondemandmessage-button:hover {
+  background-color: var(--button_color_hover);
+}
+
+.ondemandmessage-button:active {
+  background-color: var(--button_color_pressed);
+}
+
+.ondemandmessage-button:disabled,
+.ondemandmessage-button[disabled] {
+  background-color: var(--button_color_disabled_bg);
+}
+
+.ondemandmessage-info {
+  color: var(--white);
+  font-size: 12px;
+  font-weight: 300;
+
+  margin-right: 6px;
+
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.ondemandmessage--row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.ondemandmessage--align-top {
+  align-items: flex-start;
+}

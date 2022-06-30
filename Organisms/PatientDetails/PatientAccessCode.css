@@ -1,0 +1,31 @@
+.patientaccesscode-wrap {
+  width: 100%;
+}
+
+.patientaccesscode {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+
+  color: var(--brandcolor);
+}
+
+.patientaccesscode > span:first-of-type {
+  font-size: 24px;
+  font-weight: 700;
+
+  /* margin-left: 16px; */
+
+  letter-spacing: 8px;
+}
+
+.patientaccesscode--strike {
+  text-decoration: line-through;
+}
+
+.patientaccesscode-expired {
+  font-size: 16px;
+  font-weight: 300;
+
+  margin-left: 16px;
+}

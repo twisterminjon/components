@@ -1,0 +1,16 @@
+.backToCallHeader-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--brandcolor_accent_dark);
+  height: 54px;
+}
+
+.backToCallHeader-title {
+  color: var(--white);
+  font-size: var(--font-base-body--size);
+  font-weight: var(--font-base--regular);
+  padding-left: 16px;
+  padding-top: 16px;
+}

@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventCard matches the snapshot 1`] = `
+<EventCard
+  date="11/11/2019"
+  label="Card title"
+  loading={false}
+  renderIcon={[Function]}
+  textClassName=""
+  wrapperClassName=""
+>
+  <div
+    className="eventcard-container"
+  >
+    <div
+      className="eventcard-content"
+    >
+      <div
+        className="eventcard-label"
+      >
+        <div
+          className="eventcard-icon"
+        />
+        <span
+          className="eventcard-text"
+        >
+          Card title
+        </span>
+      </div>
+      <span
+        className="eventcard-text"
+      >
+        11/11/2019
+      </span>
+    </div>
+  </div>
+</EventCard>
+`;

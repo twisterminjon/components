@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CallType matches snapshot for INCOMING 1`] = `
+<CallIncoming
+  className=""
+  color="var(--text_default)"
+  style={Object {}}
+/>
+`;
+
+exports[`CallType matches snapshot for outgoing 1`] = `
+<CallIncoming
+  className=""
+  color="var(--text_default)"
+  style={Object {}}
+/>
+`;
+
+exports[`CallType matches snapshot when dimmed 1`] = `
+<CallIncoming
+  className=""
+  color="var(--text_dimmed)"
+  style={Object {}}
+/>
+`;
+
+exports[`CallType matches snapshot when missed 1`] = `
+<CallIncoming
+  className=""
+  color="var(--text_negative)"
+  style={Object {}}
+/>
+`;

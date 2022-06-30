@@ -1,0 +1,278 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThreadAddUser matches the snapshot 1`] = `
+<div
+  className="messagethreadadduser"
+  data-testid="add-member-to-message"
+>
+  <DocTitle
+    title="Add Member"
+  />
+  <Banner
+    label="Back to search"
+    onSelect={[MockFunction]}
+  />
+  <AccordionTab
+    className=""
+    data-testid="select-from-group"
+    direction="right"
+    inverted={false}
+    label="Select from a suggested group"
+    onActivate={[MockFunction]}
+    style={Object {}}
+  />
+  <SearchBar
+    className=""
+    focusOnMount={true}
+    onChange={[Function]}
+    style={Object {}}
+    value=""
+  />
+  <div
+    className="messagethreadadduser-results"
+    data-testid="list-users-to-add"
+    id="list-users-to-add"
+  >
+    <InfiniteScroll
+      dataLength={7}
+      hasMore={true}
+      loading={false}
+      next={[Function]}
+      scrollableTarget="list-users-to-add"
+    >
+      <UserCardSimple
+        className=""
+        hideStatus={false}
+        key="9"
+        onClick={[Function]}
+        profileImage="https://www.fillmurray.com/1000/1000"
+        selected={false}
+        size="medium"
+        status="offline"
+        style={Object {}}
+        userName="David McGinnis, MD"
+      />
+      <UserCardSimple
+        className=""
+        hideStatus={false}
+        key="4"
+        onClick={[Function]}
+        profileImage="https://www.fillmurray.com/800/800"
+        selected={false}
+        size="medium"
+        status="available"
+        style={Object {}}
+        userName="David Smith, MD"
+      />
+      <UserCardSimple
+        className=""
+        hideStatus={false}
+        key="8"
+        onClick={[Function]}
+        profileImage="https://www.fillmurray.com/100/100"
+        selected={false}
+        size="medium"
+        status="offline"
+        style={Object {}}
+        userName="Jennifer Reyes"
+      />
+      <UserCardSimple
+        className=""
+        hideStatus={false}
+        key="6"
+        onClick={[Function]}
+        profileImage="https://www.fillmurray.com/600/600"
+        selected={false}
+        size="medium"
+        status="offline"
+        style={Object {}}
+        userName="Paul Jason, RN"
+      />
+      <UserCardSimple
+        className=""
+        hideStatus={false}
+        key="5"
+        onClick={[Function]}
+        profileImage="https://www.fillmurray.com/200/200"
+        selected={false}
+        size="medium"
+        status="offline"
+        style={Object {}}
+        userName="Rosalyn Stratton, RN"
+      />
+      <UserCardSimple
+        className=""
+        hideStatus={false}
+        key="10"
+        onClick={[Function]}
+        profileImage=""
+        selected={false}
+        size="medium"
+        status="offline"
+        style={Object {}}
+        userName="Sherry Jackson, MD"
+      />
+      <UserCardSimple
+        className=""
+        hideStatus={false}
+        key="7"
+        onClick={[Function]}
+        profileImage="https://www.fillmurray.com/400/400"
+        selected={false}
+        size="medium"
+        status="away"
+        style={Object {}}
+        userName="Tony Hunter"
+      />
+    </InfiniteScroll>
+  </div>
+</div>
+`;
+
+exports[`ThreadAddUser matches the snapshot when loading 1`] = `
+<div
+  className="messagethreadadduser"
+  data-testid="add-member-to-message"
+>
+  <DocTitle
+    title="Add Member"
+  />
+  <Banner
+    label="Back to search"
+    onSelect={[MockFunction]}
+  />
+  <AccordionTab
+    className=""
+    data-testid="select-from-group"
+    direction="right"
+    inverted={false}
+    label="Select from a suggested group"
+    onActivate={[MockFunction]}
+    style={Object {}}
+  />
+  <SearchBar
+    className=""
+    focusOnMount={true}
+    onChange={[Function]}
+    style={Object {}}
+    value=""
+  />
+  <div
+    style={
+      Object {
+        "bottom": 0,
+        "position": "absolute",
+        "textAlign": "center",
+        "width": "100%",
+      }
+    }
+  >
+    <SpinnerDots
+      className=""
+      style={
+        Object {
+          "display": "inline-block",
+        }
+      }
+    />
+  </div>
+  <div
+    className="messagethreadadduser-results"
+    data-testid="list-users-to-add"
+    id="list-users-to-add"
+  >
+    <InfiniteScroll
+      dataLength={7}
+      hasMore={false}
+      loading={true}
+      next={[Function]}
+      scrollableTarget="list-users-to-add"
+    >
+      <UserCardSimple
+        className=""
+        hideStatus={false}
+        key="9"
+        onClick={[Function]}
+        profileImage="https://www.fillmurray.com/1000/1000"
+        selected={false}
+        size="medium"
+        status="offline"
+        style={Object {}}
+        userName="David McGinnis, MD"
+      />
+      <UserCardSimple
+        className=""
+        hideStatus={false}
+        key="4"
+        onClick={[Function]}
+        profileImage="https://www.fillmurray.com/800/800"
+        selected={false}
+        size="medium"
+        status="available"
+        style={Object {}}
+        userName="David Smith, MD"
+      />
+      <UserCardSimple
+        className=""
+        hideStatus={false}
+        key="8"
+        onClick={[Function]}
+        profileImage="https://www.fillmurray.com/100/100"
+        selected={false}
+        size="medium"
+        status="offline"
+        style={Object {}}
+        userName="Jennifer Reyes"
+      />
+      <UserCardSimple
+        className=""
+        hideStatus={false}
+        key="6"
+        onClick={[Function]}
+        profileImage="https://www.fillmurray.com/600/600"
+        selected={false}
+        size="medium"
+        status="offline"
+        style={Object {}}
+        userName="Paul Jason, RN"
+      />
+      <UserCardSimple
+        className=""
+        hideStatus={false}
+        key="5"
+        onClick={[Function]}
+        profileImage="https://www.fillmurray.com/200/200"
+        selected={false}
+        size="medium"
+        status="offline"
+        style={Object {}}
+        userName="Rosalyn Stratton, RN"
+      />
+      <UserCardSimple
+        className=""
+        hideStatus={false}
+        key="10"
+        onClick={[Function]}
+        profileImage=""
+        selected={false}
+        size="medium"
+        status="offline"
+        style={Object {}}
+        userName="Sherry Jackson, MD"
+      />
+      <UserCardSimple
+        className=""
+        hideStatus={false}
+        key="7"
+        onClick={[Function]}
+        profileImage="https://www.fillmurray.com/400/400"
+        selected={false}
+        size="medium"
+        status="away"
+        style={Object {}}
+        userName="Tony Hunter"
+      />
+    </InfiniteScroll>
+  </div>
+</div>
+`;

@@ -1,0 +1,69 @@
+.mainloader-wrap {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  padding-top: 20vh;
+
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+  background-image: url('../../../Images//stock-dr.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  z-index: calc(var(--z-callnotice) + 1);
+}
+
+.mainloader-logo {
+  position: fixed;
+  bottom: 20px;
+  width: 125px;
+}
+
+.mainloader-content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  margin: 0 auto;
+  letter-spacing: 1px;
+  color: var(--white);
+}
+
+.mainloader-content p {
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 10px;
+
+  text-align: center;
+}
+
+.mainloader-warning {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  margin-top: 20px;
+  padding: 20px 10px;
+  width: 300px;
+
+  border: 1px solid var(--brandcolor);
+  background: var(--brandcolor_verydark);
+  border-radius: 4px;
+  opacity: 0;
+
+  transition: opacity 500ms ease-out;
+}
+
+.mainloader-warning--show {
+  opacity: 1;
+}

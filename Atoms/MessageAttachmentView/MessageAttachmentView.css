@@ -1,0 +1,52 @@
+.messageattachmentview {
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 16px;
+
+  flex: 1;
+}
+
+.messageattachmentview img {
+  position: relative;
+  height: 95%;
+  object-fit: contain;
+}
+
+.messageattachmentview img:before {
+  content: ' ';
+  display: block;
+
+  border-radius: 5px;
+  background: repeating-linear-gradient(
+    45deg,
+    var(--messagepage__received_bg),
+    var(--messagepage__received_bg) 10px,
+    var(--messagepage__sent_bg) 10px,
+    var(--messagepage__sent_bg) 20px
+  );
+
+  position: absolute;
+  top: -10px;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.messageattachmentview img:after {
+  content: '💔 Image not found';
+  display: block;
+
+  font-size: 16px;
+  text-align: center;
+  padding: 10px 0px;
+  color: var(--messagepage__received_fg);
+
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 100%;
+}

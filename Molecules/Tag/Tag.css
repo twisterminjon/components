@@ -1,0 +1,37 @@
+.tag {
+  display: inline-block;
+
+  border: none;
+  border-radius: 6px;
+
+  text-transform: uppercase;
+
+  background-color: var(--brandcolor_dark);
+  color: var(--white);
+
+  font-size: 14px;
+  line-height: 30px;
+
+  overflow: hidden;
+}
+
+.tag-text {
+  display: flex;
+  margin: 0 6px 0 8px;
+  word-break: break-word;
+}
+
+.tag--inactive {
+  color: var(--button_color_disabled);
+}
+
+.tag--fluid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tag-button {
+  height: 30px;
+  width: 30px;
+}

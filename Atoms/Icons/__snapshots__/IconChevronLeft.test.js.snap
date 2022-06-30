@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IconChevronLeft matches the snapshot 1`] = `
+<svg
+  height="21"
+  style={Object {}}
+  viewBox="0 0 15 27"
+  width="12"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <g
+    fill="red"
+  >
+    <polygon
+      fillRule="evenodd"
+      points="0 2.25 2.143 0 15 13.5 2.143 27 0 24.75 10.714 13.5"
+      transform="matrix(-1 0 0 1 15 0)"
+    />
+  </g>
+</svg>
+`;

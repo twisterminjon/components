@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalYesNo matches the snapshot 1`] = `
+<Modal
+  basic={true}
+  centered={true}
+  closeOnDimmerClick={false}
+  closeOnDocumentClick={false}
+  closeOnEscape={false}
+  dimmer={true}
+  eventPool="Modal"
+  open={true}
+  size="small"
+>
+  <Header
+    content="test"
+    icon="info"
+  />
+  <ModalContent>
+    <p>
+      message
+    </p>
+  </ModalContent>
+  <ModalActions>
+    <Button
+      as="button"
+      autoFocus={false}
+      basic={true}
+      color="red"
+      inverted={true}
+      onClick={[MockFunction]}
+    >
+      <Icon
+        as="i"
+        name="remove"
+      />
+       No
+    </Button>
+    <Button
+      as="button"
+      autoFocus={true}
+      color="blue"
+      inverted={true}
+      onClick={[MockFunction]}
+    >
+      <Icon
+        as="i"
+        name="checkmark"
+      />
+       Yes
+    </Button>
+  </ModalActions>
+</Modal>
+`;
